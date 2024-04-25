@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：2024-04-25 14:19:24
+# 客户端：Clash.Meta
+# 创建时间：2024-04-25 14:52:02
 # 使用模版：V2RaySE 默认模版
-# 节点数量：49
+# 节点数量：45
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -85,382 +86,354 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"欢迎订阅yui科技_10","type":"vmess","server":"38.54.247.125","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.99555130.xyz","network":"ws","ws-opts":{"path":"/path/1712403290706","headers":{"host":"www.99555130.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00236","type":"vless","server":"216.205.52.109","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00279","type":"vless","server":"104.18.177.197","port":2053,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"tg@juzibaipiaofreecodes","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00153","type":"vless","server":"104.16.56.181","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"US_分享日记_1","type":"vless","server":"167.68.5.90","port":8443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"US_youtube@资源分享师_55","type":"vless","server":"104.18.77.36","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"AE_分享日记","type":"vless","server":"94.140.0.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"RU_分享日记","type":"vless","server":"185.59.218.22","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"英国(yudou66.com+玉豆免费节点)_1","type":"vless","server":"91.193.59.37","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++RU00164","type":"vless","server":"185.176.24.140","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"美国(yudou66.com+玉豆免费节点)_1","type":"vless","server":"94.242.230.177","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"中国【付费推荐：https://jdyvip.link/】37","type":"vmess","server":"183.236.51.59","port":54100,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Youtube顺丰资源++US261","type":"vless","server":"162.159.134.222","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"科技网络 🇺🇸_19","type":"vmess","server":"137.175.13.218","port":37000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93599412.xyz","network":"ws","ws-opts":{"path":"/path/1713008965251","headers":{"host":"www.93599412.xyz"}}}
+  - {"name":"🇨🇳_CN_中国->🇭🇺_HU_匈牙利","type":"vmess","server":"mmhu82.micloud.buzz","port":46082,"cipher":"auto","uuid":"3bfbc47b-cb43-46ec-8036-ff83560a8b0e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmhu82.micloud.buzz"}}}
+  - {"name":"Youtube顺丰资源  US228","type":"vmess","server":"104.16.60.8","port":2082,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/afrhms16v.bestxray.buzz/linkws","headers":{"host":"worker-noisy-paper-fa00.hetoj18200.workers.dev"}}}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"vmess","server":"mmus37.micloud.buzz","port":46037,"cipher":"auto","uuid":"3bfbc47b-cb43-46ec-8036-ff83560a8b0e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmus37.micloud.buzz"}}}
+  - {"name":"科技网络 🇺🇸_35","type":"vmess","server":"137.175.2.253","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88016387.xyz","network":"ws","ws-opts":{"path":"/path/1712753281459","headers":{"host":"www.88016387.xyz"}}}
+  - {"name":"🇨🇳_CN_中国->🇩🇪_DE_德国","type":"vmess","server":"mmfi85.micloud.buzz","port":46085,"cipher":"auto","uuid":"3bfbc47b-cb43-46ec-8036-ff83560a8b0e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmfi85.micloud.buzz"}}}
+  - {"name":"科技网络 🇺🇸_41","type":"vmess","server":"69.80.226.245","port":31000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88202213.xyz","network":"ws","ws-opts":{"path":"/path/1712753281459","headers":{"host":"www.88202213.xyz"}}}
+  - {"name":"新加坡(yudou66.com+玉豆免费节点)","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"橘子公益CMCC08","type":"vless","server":"8.222.153.11","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"科技网络 🇺🇸_34","type":"vmess","server":"142.4.116.118","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.99555130.xyz","network":"ws","ws-opts":{"path":"/path/1713008965251","headers":{"host":"www.99555130.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00229","type":"vless","server":"104.17.31.112","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"美国(yudou66.com+玉豆免费节点)_2","type":"vless","server":"204.93.210.131","port":2096,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"telegram🇨🇳@wangcai_8/?ed=2048","headers":{"host":"a.ssll.gay"}}}
+  - {"name":"GB_分享日记","type":"vless","server":"94.247.142.245","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"US_youtube@资源分享师_202","type":"vless","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"ES_youtube@资源分享师_246","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"英国(yudou66.com+玉豆免费节点)_2","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++AE00137","type":"vless","server":"181.214.1.227","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_youtube@资源分享师_164","type":"vless","server":"172.67.68.17","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"科技网络 🇺🇸_46","type":"vmess","server":"38.14.121.110","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.51291807.xyz","network":"ws","ws-opts":{"path":"/path/1712753281459","headers":{"host":"www.51291807.xyz"}}}
-  - {"name":"科技网络 🇺🇸_153","type":"vmess","server":"38.14.101.235","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41912208.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.41912208.xyz"}}}
-  - {"name":"JP_分享日记","type":"vmess","server":"152.69.197.74","port":12345,"cipher":"auto","uuid":"b8a6bf58-485a-4046-b386-b3661bf65eff","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bb"}}
-  - {"name":"科技网络 🇺🇸_232","type":"vmess","server":"142.4.97.69","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.31033708.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.31033708.xyz"}}}
-  - {"name":"科技网络 🇺🇸_175","type":"vmess","server":"142.4.96.68","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.85830864.xyz","network":"ws","ws-opts":{"path":"/path/1712835355856","headers":{"host":"www.85830864.xyz"}}}
-  - {"name":"CA_分享日记","type":"vmess","server":"198.57.27.212","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83","type":"vmess","server":"104.207.143.93","port":43938,"cipher":"auto","uuid":"edfa4166-7eab-4fb8-b323-7882463e2ae0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164","type":"vmess","server":"162.251.62.115","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_5","type":"vmess","server":"38.11.49.55","port":38000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.30471929.xyz","network":"ws","ws-opts":{"path":"/path/1712925709557","headers":{"host":"www.30471929.xyz"}}}
-  - {"name":"US_youtube@资源分享师_234","type":"ss","server":"38.114.114.208","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165","type":"vmess","server":"bolder-metal-comma.glitch.me","port":80,"cipher":"auto","uuid":"83a5c82d-a047-418e-9ad9-6ce8c5aaba59","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess","headers":{"host":"slime-rhinestone-spy.glitch.me"}}}
-  - {"name":"US_youtube@资源分享师_220","type":"ss","server":"38.114.114.208","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_1","type":"ss","server":"38.75.137.42","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"美国+华盛顿Cogent通信公司","type":"ss","server":"38.75.136.108","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14","type":"vmess","server":"135.148.62.165","port":59988,"cipher":"auto","uuid":"cfd7a05c-82cf-436d-abce-8b2245b76472","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_43","type":"vmess","server":"38.174.162.112","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.78422888.xyz","network":"ws","ws-opts":{"path":"/path/1713008965251","headers":{"host":"www.78422888.xyz"}}}
-  - {"name":"US_分享日记_2","type":"ss","server":"38.114.114.208","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_3","type":"vmess","server":"207.148.10.248","port":47918,"cipher":"auto","uuid":"232aeb1e-7d67-4a91-9379-4da1f4917691","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_分享日记_4","type":"ss","server":"38.114.114.208","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"US_youtube@资源分享师_236","type":"ss","server":"38.114.114.208","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_5","type":"vmess","server":"149.28.228.215","port":22195,"cipher":"auto","uuid":"f865bc43-b129-443e-d00a-7d303b25c4a2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70","type":"vmess","server":"45.77.146.58","port":22131,"cipher":"auto","uuid":"ad42d586-dcd1-4629-d49b-a6f2d821ad39","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_youtube@资源分享师_196","type":"ss","server":"38.114.114.208","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7","type":"ss","server":"38.75.136.33","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12","type":"vmess","server":"38.75.137.27","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81","type":"vmess","server":"155.138.242.207","port":54316,"cipher":"auto","uuid":"67797c6a-e898-49bd-8f61-5fb1523ce0bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"科技网络 🇺🇸_16","type":"vmess","server":"38.173.198.236","port":36000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.87809684.xyz","network":"ws","ws-opts":{"path":"/path/1711281830353","headers":{"host":"www.87809684.xyz"}}}
-  - {"name":"US_youtube@资源分享师_232","type":"ss","server":"38.114.114.208","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_6","type":"ss","server":"38.114.114.208","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2","type":"vmess","server":"194.195.245.204","port":18100,"cipher":"chacha20-poly1305","uuid":"1d98567647cd11ee8469f23c93ff01cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_10","type":"vmess","server":"137.175.21.179","port":38000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.46039636.xyz","network":"ws","ws-opts":{"path":"/path/1713008965251","headers":{"host":"www.46039636.xyz"}}}
-  - {"name":"US_分享日记_7","type":"vmess","server":"45.76.18.197","port":20703,"cipher":"auto","uuid":"ae710bf3-229a-4f31-d990-971b831c8985","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122","type":"vmess","server":"149.28.226.202","port":37985,"cipher":"auto","uuid":"a36d5f0e-f529-4c83-9279-f4c4ce557031","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"DE_分享日记","type":"ss","server":"45.15.157.199","port":45346,"password":"wKmDInbrlOhZzjhh1WsvU7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150","type":"vmess","server":"129.146.126.171","port":46666,"cipher":"auto","uuid":"f0f067fe-8e6d-4d95-816b-601038fd5876","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/rongseven?ed=2048","headers":{"host":"us-phoenix-oracle-3e4543.ip1.shop"}}}
-  - {"name":"US_分享日记_8","type":"ss","server":"38.114.114.208","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"科技网络 🇺🇸_18","type":"vmess","server":"142.4.97.65","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.31033708.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.31033708.xyz"}}}
   - {"name":"CN_分享日记","type":"ss","server":"42.240.130.243","port":33237,"password":"0cf52016-ba98-319d-de8c-84dbfac9cccc","cipher":"none"}
-  - {"name":"科技网络 🇺🇸_37","type":"vmess","server":"38.33.19.71","port":37000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.59653884.xyz","network":"ws","ws-opts":{"path":"/path/1713008965251","headers":{"host":"www.59653884.xyz"}}}
-  - {"name":"科技网络 🇺🇸_15","type":"vmess","server":"137.175.13.217","port":37000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93599412.xyz","network":"ws","ws-opts":{"path":"/path/1712925709557","headers":{"host":"www.93599412.xyz"}}}
-  - {"name":"俄罗斯联邦【付费推荐：https://jdyvip.link/】13","type":"ss","server":"5.42.72.241","port":30482,"password":"2gUQ2cQTPtBGNjbCXKMKeH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_分享日记_9","type":"vmess","server":"140.82.2.34","port":23670,"cipher":"auto","uuid":"423f6443-f1e9-4e84-d895-a14badc59e88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_youtube@资源分享师_219","type":"ss","server":"38.114.114.208","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_10","type":"ss","server":"38.75.137.42","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_11","type":"vmess","server":"129.146.46.181","port":52408,"cipher":"auto","uuid":"a797ff7b-8161-40a6-d577-1b2c213b3885","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_youtube@资源分享师_248","type":"ss","server":"38.114.114.208","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"US_youtube@资源分享师_240","type":"ss","server":"38.114.114.208","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"Youtube顺丰资源++SC130","type":"vless","server":"154.85.99.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记_2","type":"vless","server":"89.116.180.161","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"美国(yudou66.com+玉豆免费节点)_3","type":"vless","server":"154.197.88.97","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"香港(yudou66.com+玉豆免费节点)","type":"vless","server":"18.167.194.154","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++US00155","type":"vless","server":"204.93.210.160","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"104.19.40.84","port":8880,"cipher":"auto","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/d/65dd503.TG.WangCai2.WangCai_8:107690","headers":{"host":"uk.moss.network"}}}
+  - {"name":"美国(yudou66.com+玉豆免费节点)_4","type":"vless","server":"147.78.140.5","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"MT_分享日记","type":"vless","server":"193.227.99.183","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"@JUZIBAIPIAO-CT","type":"vless","server":"188.42.145.95","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"UA_youtube@资源分享师_138","type":"vless","server":"45.80.111.213","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"TG频道:@hkaa0|中国","type":"vmess","server":"47.106.112.114","port":80,"cipher":"auto","uuid":"7c1d9869-ecac-4ca6-b7e7-ecb60f503078","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"47.106.112.114"}}}
+  - {"name":"Youtube顺丰资源++SC231","type":"vless","server":"45.133.247.80","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记_3","type":"vless","server":"14.102.229.66","port":2087,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -483,55 +456,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欢迎订阅yui科技_10
-      - 科技网络 🇺🇸_46
-      - 科技网络 🇺🇸_153
-      - JP_分享日记
-      - 科技网络 🇺🇸_232
-      - 科技网络 🇺🇸_175
-      - CA_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_83
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_164
-      - 科技网络 🇺🇸_5
-      - US_youtube@资源分享师_234
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_165
-      - US_youtube@资源分享师_220
+      - Youtube顺丰资源++US00236
+      - Youtube顺丰资源++US00279
+      - Youtube顺丰资源++US00153
       - US_分享日记_1
-      - 美国+华盛顿Cogent通信公司
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_14
-      - 科技网络 🇺🇸_43
-      - US_分享日记_2
-      - US_分享日记_3
-      - US_分享日记_4
-      - US_youtube@资源分享师_236
-      - US_分享日记_5
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_70
-      - US_youtube@资源分享师_196
-      - "US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》\r_7"
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_12
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_81
-      - 科技网络 🇺🇸_16
-      - US_youtube@资源分享师_232
-      - US_分享日记_6
-      - DE_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_2
-      - 科技网络 🇺🇸_10
-      - US_分享日记_7
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_122
-      - DE_分享日记
-      - US_南京撩妹私教一对一线下“永久陪跑”请加微信:txyz6234，学习搭讪GAME撩妹请订阅《閑哥情感TV（大叔撩妹）》_150
-      - US_分享日记_8
-      - 科技网络 🇺🇸_18
+      - US_youtube@资源分享师_55
+      - AE_分享日记
+      - RU_分享日记
+      - 英国(yudou66.com+玉豆免费节点)_1
+      - Youtube顺丰资源++RU00164
+      - 美国(yudou66.com+玉豆免费节点)_1
+      - 中国【付费推荐：https://jdyvip.link/】37
+      - Youtube顺丰资源++US261
+      - 科技网络 🇺🇸_19
+      - 🇨🇳_CN_中国->🇭🇺_HU_匈牙利
+      - Youtube顺丰资源  US228
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇺🇸_35
+      - 🇨🇳_CN_中国->🇩🇪_DE_德国
+      - 科技网络 🇺🇸_41
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - 橘子公益CMCC08
+      - 科技网络 🇺🇸_34
+      - Youtube顺丰资源++US00229
+      - 美国(yudou66.com+玉豆免费节点)_2
+      - GB_分享日记
+      - US_youtube@资源分享师_202
+      - ES_youtube@资源分享师_246
+      - 英国(yudou66.com+玉豆免费节点)_2
+      - Youtube顺丰资源++AE00137
+      - US_youtube@资源分享师_164
+      - 科技网络 🇺🇸_46
       - CN_分享日记
-      - 科技网络 🇺🇸_37
-      - 科技网络 🇺🇸_15
-      - 俄罗斯联邦【付费推荐：https://jdyvip.link/】13
-      - US_分享日记_9
-      - US_youtube@资源分享师_219
-      - US_分享日记_10
-      - US_分享日记_11
-      - US_youtube@资源分享师_248
-      - US_youtube@资源分享师_240
+      - Youtube顺丰资源++SC130
+      - US_分享日记_2
+      - 美国(yudou66.com+玉豆免费节点)_3
+      - 香港(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++US00155
+      - 美国 CloudFlare节点
+      - 美国(yudou66.com+玉豆免费节点)_4
+      - MT_分享日记
+      - '@JUZIBAIPIAO-CT'
+      - UA_youtube@资源分享师_138
       - TG频道:@hkaa0|中国
+      - Youtube顺丰资源++SC231
+      - US_分享日记_3
 
 rules:
 # 本地/局域网地址
