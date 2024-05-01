@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-04-28 19:01:46
+# 创建时间：2024-05-01 13:27:15
 # 使用模版：V2RaySE 默认模版
 # 节点数量：17
 ####################################
@@ -86,158 +86,158 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Youtube顺丰资源++UA00195","type":"vless","server":"45.80.111.198","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"RU_分享日记","type":"vless","server":"185.59.218.22","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"香港(yudou66.com+玉豆免费节点)","type":"vless","server":"18.167.194.154","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-官方优选","type":"vless","server":"104.18.184.26","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记","type":"vless","server":"156.238.19.66","port":443,"uuid":"38a2070d-a256-48f3-891b-c9b68b01c8f7","tls":true,"servername":"jd.wxgqlfx.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd.wxgqlfx.top"}}}
   - {"name":"英国(yudou66.com+玉豆免费节点)_1","type":"vless","server":"91.193.58.98","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"DE_分享日记","type":"vless","server":"77.37.33.242","port":8443,"uuid":"38a2070d-a256-48f3-891b-c9b68b01c8f7","tls":true,"servername":"jd.wxgqlfx.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd.wxgqlfx.top"}}}
-  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"202.81.231.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"ES_youtube@资源分享师_246","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"新加坡(yudou66.com+玉豆免费节点)","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"GB_分享日记","type":"vless","server":"217.163.76.59","port":443,"uuid":"38a2070d-a256-48f3-891b-c9b68b01c8f7","tls":true,"servername":"jd.wxgqlfx.top","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"jd.wxgqlfx.top"}}}
+  - {"name":"Youtube顺丰资源++NL00215","type":"vless","server":"45.131.211.116","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"US_youtube@资源分享师_202","type":"vless","server":"185.148.106.44","port":2083,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"Youtube顺丰资源  US228","type":"vmess","server":"104.16.60.8","port":2082,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/afrhms16v.bestxray.buzz/linkws","headers":{"host":"worker-noisy-paper-fa00.hetoj18200.workers.dev"}}}
-  - {"name":"@JUZIBAIPIAO-CMCC_1","type":"vless","server":"167.68.11.245","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
-  - {"name":"@JUZIBAIPIAO-CMCC_2","type":"vless","server":"185.148.104.163","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"TG@ZDYZ2+-官方优选","type":"vless","server":"visa.com.sg","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"ES_youtube@资源分享师_246","type":"vless","server":"185.18.250.185","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
   - {"name":"英国(yudou66.com+玉豆免费节点)_2","type":"vless","server":"31.22.116.134","port":2096,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Youtube顺丰资源++US00153","type":"vless","server":"104.16.56.181","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"新加坡(yudou66.com+玉豆免费节点)","type":"vless","server":"216.116.134.43","port":2053,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"202.81.231.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"@JUZIBAIPIAO-CT","type":"vless","server":"188.42.145.95","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00153","type":"vless","server":"104.16.56.181","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
+  - {"name":"@JUZIBAIPIAO-CMCC","type":"vless","server":"185.148.104.163","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++EE00206","type":"vless","server":"194.152.44.250","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记","type":"vless","server":"104.18.140.222","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"tg@juzibaipiaofreecodes","headers":{"host":"toujiediansigema.5112233.xyz"}}}
+  - {"name":"Youtube顺丰资源++US00229","type":"vless","server":"104.17.31.112","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,23 +260,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源++UA00195
+      - RU_分享日记
       - 香港(yudou66.com+玉豆免费节点)
-      - TG@ZDYZ2+-官方优选
-      - US_分享日记
       - 英国(yudou66.com+玉豆免费节点)_1
-      - DE_分享日记
-      - TG@ZDYZ2+-HK-Hong+Kong
-      - ES_youtube@资源分享师_246
-      - 新加坡(yudou66.com+玉豆免费节点)
-      - GB_分享日记
+      - Youtube顺丰资源++NL00215
       - US_youtube@资源分享师_202
       - Youtube顺丰资源  US228
-      - '@JUZIBAIPIAO-CMCC_1'
-      - '@JUZIBAIPIAO-CMCC_2'
+      - TG@ZDYZ2+-官方优选
+      - ES_youtube@资源分享师_246
       - 英国(yudou66.com+玉豆免费节点)_2
-      - Youtube顺丰资源++US00153
+      - 新加坡(yudou66.com+玉豆免费节点)
+      - TG@ZDYZ2+-HK-Hong+Kong
       - '@JUZIBAIPIAO-CT'
+      - Youtube顺丰资源++US00153
+      - '@JUZIBAIPIAO-CMCC'
+      - Youtube顺丰资源++EE00206
+      - US_分享日记
+      - Youtube顺丰资源++US00229
 
 rules:
 # 本地/局域网地址
