@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-06-24 21:35:31
+# 创建时间：2024-06-25 14:30:10
 # 使用模版：V2RaySE 默认模版
-# 节点数量：99
+# 节点数量：48
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,732 +86,375 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"US_分享日记_1","type":"vless","server":"185.148.107.101","port":443,"uuid":"10716279-b1ee-41d8-b63e-87782088305b","tls":true,"servername":"MamaNe-filTeRChI.pagEs.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"MamaNe-filTeRChI.pagEs.dev"}}}
-  - {"name":"@JUZIBAIPIAO-CT","type":"vless","server":"188.42.145.95","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
-  - {"name":"Youtube顺丰资源++US203","type":"vless","server":"185.148.104.129","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TG@ZDYZ2+-官方优选","type":"vless","server":"194.36.55.195","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"HK_youtube@资源分享师_79","type":"vless","server":"219.76.13.183","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"telegram🇨🇳 @wangcai_8 /?ed=2048","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"US_youtube@资源分享师_162","type":"vless","server":"45.159.216.241","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++US1532","type":"vless","server":"168.100.6.1","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++US00153","type":"vless","server":"167.68.11.247","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"AE_youtube@资源分享师_90","type":"vless","server":"94.140.0.186","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_84","type":"vless","server":"185.148.104.71","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_2","type":"vless","server":"147.185.161.192","port":443,"uuid":"10716279-b1ee-41d8-b63e-87782088305b","tls":true,"servername":"mAMaNe-FILTErChI.pAGES.deV","network":"ws","ws-opts":{"path":"/","headers":{"host":"mAMaNe-FILTErChI.pAGES.deV"}}}
-  - {"name":"Youtube顺丰资源++RU218","type":"vless","server":"193.9.49.232","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"科技网络 🇺🇸_227","type":"vmess","server":"38.33.53.11","port":38005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1717328421987","headers":{"host":"www.75357611.xyz"}}}
-  - {"name":"GB_youtube@资源分享师_220","type":"vless","server":"31.22.116.155","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"科技网络 🇺🇸_211","type":"vmess","server":"38.174.134.44","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1717328421987","headers":{"host":"www.59277446.xyz"}}}
-  - {"name":"US_分享日记_3","type":"vless","server":"45.159.219.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_4","type":"vless","server":"170.114.45.190","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"AU_youtube@资源分享师_99","type":"vless","server":"103.169.142.140","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"KZ_youtube@资源分享师_224","type":"vless","server":"185.176.26.57","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++ES121","type":"vless","server":"185.18.250.131","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++LU605","type":"vless","server":"188.42.145.226","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_5","type":"vless","server":"205.233.181.207","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"ES_分享日记","type":"vless","server":"185.18.250.52","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++GB130","type":"vless","server":"194.36.55.45","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"KZ_youtube@资源分享师_104","type":"vless","server":"185.176.26.216","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++SC231","type":"vless","server":"45.133.247.80","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"LU_youtube@资源分享师_250","type":"vless","server":"188.42.145.84","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"RU_youtube@资源分享师_252","type":"vless","server":"185.176.24.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++GB166","type":"vless","server":"31.22.116.198","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_51","type":"vless","server":"185.148.107.35","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++HK145","type":"vless","server":"219.76.13.183","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.ssll.gay","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.ssll.gay"}}}
-  - {"name":"Youtube顺丰资源++144","type":"vless","server":"154.197.121.253","port":443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
-  - {"name":"Youtube顺丰资源++US16","type":"vless","server":"185.148.105.209","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++AE168","type":"vless","server":"94.140.0.138","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"RU_youtube@资源分享师_231","type":"vless","server":"45.8.211.95","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_81","type":"vless","server":"147.185.161.198","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_6","type":"vless","server":"104.18.22.19","port":443,"uuid":"49aacdab-c9b9-4031-8e64-514e9cd72089","tls":true,"servername":"ShahANsHahi.paGEs.Dev","network":"ws","ws-opts":{"path":"/proxy_mtm-proxy_mtm-proxy_mtm?ed=2560","headers":{"host":"ShahANsHahi.paGEs.Dev"}}}
-  - {"name":"CR_分享日记","type":"vless","server":"190.93.245.219","port":443,"uuid":"10716279-b1ee-41d8-b63e-87782088305b","tls":true,"servername":"MamANE-FiltErcHI.paGes.DEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"MamANE-FiltErcHI.paGes.DEv"}}}
-  - {"name":"RU_youtube@资源分享师_39","type":"vless","server":"193.9.49.147","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"ZA_分享日记","type":"vless","server":"206.238.236.36","port":443,"uuid":"cfd0935c-8dda-4243-9622-dc2fe8f868c8","tls":true,"servername":"547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com","network":"ws","ws-opts":{"path":"/pasge.pages.dev/?ed","headers":{"host":"547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"}}}
-  - {"name":"Youtube顺丰资源++US62","type":"vless","server":"199.181.197.78","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"LU_youtube@资源分享师_284","type":"vless","server":"188.42.145.178","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++RU148","type":"vless","server":"185.176.24.186","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"FR_分享日记_1","type":"vless","server":"51.75.30.8","port":443,"uuid":"4ad7a8cf-bd7a-4da0-b862-c0b6f91ab583","tls":true,"servername":"fr.vpnbase.net","network":"ws","ws-opts":{"path":"/ssl","headers":{"host":"fr.vpnbase.net"}}}
+  - {"name":"GB_分享日记_1","type":"ss","server":"212.102.53.80","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"KR_分享日记","type":"vmess","server":"152.67.218.38","port":443,"cipher":"auto","uuid":"b5e9480a-b7aa-40a4-f9a7-5299b5e363b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"152.67.218.38"}}}
+  - {"name":"德国_youtube@资源分享师_127","type":"vless","server":"157.90.156.249","port":8080,"uuid":"91a2f4f8-47ea-44b6-b237-4ecc491d517c","tls":false,"network":"tcp"}
+  - {"name":"US_分享日记_1","type":"trojan","server":"172.233.121.184","port":443,"udp":true,"password":"71b93949-f068-4024-a4d2-9149649c0816","sni":"es-full.privateip.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"JP_分享日记","type":"ss","server":"154.47.20.240","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
   - {"name":"DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课","type":"vmess","server":"194.195.245.204","port":18100,"cipher":"chacha20-poly1305","uuid":"1d98567647cd11ee8469f23c93ff01cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"RU_youtube@资源分享师_118","type":"vless","server":"193.9.49.233","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_7","type":"vless","server":"185.148.105.250","port":443,"uuid":"10716279-b1ee-41d8-b63e-87782088305b","tls":true,"servername":"mamaNe-FiLtERchi.PaGEs.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"mamaNe-FiLtERchi.PaGEs.dEv"}}}
-  - {"name":"Youtube顺丰资源++US104","type":"vless","server":"216.116.134.16","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_8","type":"vless","server":"199.181.197.174","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++US2271","type":"vless","server":"45.159.218.181","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"RU_youtube@资源分享师_249","type":"vless","server":"193.9.49.56","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_9","type":"vless","server":"104.17.2.31","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"US_分享日记_10","type":"vless","server":"162.159.36.5","port":443,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"servername":"mmdv2.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"NL_分享日记","type":"vless","server":"31.14.17.77","port":443,"uuid":"c1f609d7-05db-4304-a4f8-0ba9d6fadca6","tls":true,"servername":"charlie.chawoshco.ir","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"charlie.chawoshco.ir"}}}
-  - {"name":"Youtube顺丰资源++US300","type":"vless","server":"45.159.216.227","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++LU232","type":"vless","server":"188.42.88.12","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++US125","type":"vless","server":"45.159.219.0","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++AU115","type":"vless","server":"103.169.142.104","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_220","type":"vless","server":"167.68.11.95","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"LU_分享日记","type":"vless","server":"188.42.88.241","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"RU_youtube@资源分享师_251","type":"vless","server":"185.59.218.139","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_13","type":"vless","server":"45.159.218.2","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++JP30","type":"vless","server":"43.153.181.217","port":443,"uuid":"770e8a1b-980e-474d-b583-2e4e98acb854","tls":true,"servername":"notls.11111111.eu.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"notls.11111111.eu.org"}}}
-  - {"name":"NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4","type":"vmess","server":"160.153.0.73","port":443,"cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"ark-recipe-3410.sihef23297.workers.dev"}}}
-  - {"name":"RU_youtube@资源分享师_247","type":"vless","server":"45.142.120.92","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"JP_youtube@资源分享师_31","type":"vless","server":"150.230.62.27","port":443,"uuid":"770e8a1b-980e-474d-b583-2e4e98acb854","tls":true,"servername":"notls.11111111.eu.org","network":"ws","ws-opts":{"path":"/proxyip=proxyip.aliyun.fxxk.dedyn.io","headers":{"host":"notls.11111111.eu.org"}}}
-  - {"name":"SC_分享日记","type":"vless","server":"45.133.247.14","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11","type":"vmess","server":"66.135.3.168","port":44990,"cipher":"auto","uuid":"88623615-0713-497a-9233-755a33cc7080","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5","type":"vmess","server":"162.251.62.115","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2","type":"ss","server":"212.102.53.195","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"GB_分享日记_2","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"DE_分享日记","type":"trojan","server":"de-full.privateip.net","port":443,"udp":true,"password":"bc52151d-c962-41da-a609-c9e9c42dc559","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"GB_分享日记_3","type":"trojan","server":"uk2-full.privateip.net","port":443,"udp":true,"password":"ac397198-6466-403f-987f-a86fc6fb153c","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"CA_分享日记","type":"trojan","server":"91.194.11.168","port":443,"udp":true,"password":"f159cb8d-8cb8-45ac-99f3-8f8838f355dd","sni":"ca-full.privateip.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"TG@ZDYZ2+-HK-Hong+Kong","type":"vless","server":"202.81.231.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"TG@ZDYZ2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CN_youtube@资源分享师_138","type":"vless","server":"39.172.116.144","port":35628,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🇺🇸_US_美国_1","type":"ss","server":"23.157.40.20","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
   - {"name":"hkaa0.shop|美国","type":"ss","server":"15.204.87.225","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"US_youtube@资源分享师_208","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"@JUZIBAIPIAO-CMCC","type":"vless","server":"185.148.104.163","port":443,"uuid":"e4e7b149-8bd8-4266-8cbb-0987604dbc87","tls":true,"servername":"toujiediansigema.5112233.xyz","network":"ws","ws-opts":{"path":"TG@juzibaipiao偷节点死吗","headers":{"host":"toujiediansigema.5112233.xyz"}}}
-  - {"name":"FR_分享日记_1","type":"ss","server":"149.202.82.172","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"FR_分享日记_2","type":"ss","server":"149.202.82.172","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"法国_YouTube面具人哈乐_54","type":"ss","server":"149.202.82.172","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"hkaa0.shop|法国","type":"ss","server":"149.202.82.172","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"US_分享日记_11","type":"vless","server":"108.165.216.6","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_12","type":"vless","server":"pardazeshvpn-tg18.pages.dev","port":443,"uuid":"bf7e1009-1574-44f7-86df-6cbecd338477","tls":true,"servername":"pardazeshvpn-tg18.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"pardazeshvpn-tg18.pages.dev"}}}
-  - {"name":"US_youtube@资源分享师_210","type":"vless","server":"185.148.104.109","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++GB193","type":"vless","server":"31.22.116.186","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"JP_youtube@资源分享师_24","type":"vless","server":"43.153.181.217","port":443,"uuid":"770e8a1b-980e-474d-b583-2e4e98acb854","tls":true,"servername":"notls.11111111.eu.org","network":"ws","ws-opts":{"path":"/proxyip=proxyip.multacom.fxxk.dedyn.io","headers":{"host":"notls.11111111.eu.org"}}}
-  - {"name":"美国(yudou66.com+玉豆免费节点)","type":"vless","server":"185.148.107.47","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"美国","type":"vless","server":"divide.footballlovernews.com","port":443,"uuid":"d15f5947-f95c-4cc4-b8e0-20219e4bc2d1","tls":true,"servername":"divide.footballlovernews.com","network":"ws","ws-opts":{"path":"/divide","headers":{"host":"divide.footballlovernews.com"}}}
-  - {"name":"Youtube顺丰资源++US68","type":"vless","server":"66.81.247.24","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CN_youtube@资源分享师_8","type":"vmess","server":"kr01.aikunapp.com","port":20006,"cipher":"auto","uuid":"6f6329eb-d40e-4552-9a8c-aa31afbace15","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_youtube@资源分享师_216","type":"vless","server":"205.233.181.41","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++RU781","type":"vless","server":"193.9.49.114","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"科技网络 🇺🇸_22","type":"vmess","server":"38.63.158.177","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.95913008.xyz"}}}
-  - {"name":"科技网络 🇺🇸_228","type":"vmess","server":"38.33.53.11","port":38005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1717241050794","headers":{"host":"www.75357611.xyz"}}}
-  - {"name":"US_分享日记_13","type":"vless","server":"185.148.107.81","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++BG139","type":"vless","server":"147.78.140.5","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"Youtube顺丰资源++US175","type":"vless","server":"170.114.45.25","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"AE_youtube@资源分享师_234","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"BG_youtube@资源分享师_95","type":"vless","server":"147.78.140.10","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++US1742","type":"vless","server":"167.68.11.253","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_260","type":"vless","server":"167.68.11.106","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CN_youtube@资源分享师_107","type":"vmess","server":"183.232.199.28","port":40001,"cipher":"auto","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Youtube顺丰资源++LT133","type":"vless","server":"88.216.66.193","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"AE_分享日记","type":"vless","server":"94.140.0.157","port":443,"uuid":"f775978b-6e22-41a8-ae5e-5f9779e6745f","tls":true,"servername":"juzibaipiao.5112233.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"juzibaipiao.5112233.xyz"}}}
-  - {"name":"US_分享日记_14","type":"vless","server":"172.66.46.216","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"gOdZillA-mR-DaRKarSha-ONETOpKIng.PaGEs.dEV","network":"ws","ws-opts":{"path":"/hmbvkyqipkfvhi5p?ed=2560","headers":{"host":"gOdZillA-mR-DaRKarSha-ONETOpKIng.PaGEs.dEV"}}}
-  - {"name":"Youtube顺丰资源++RU182","type":"vless","server":"185.176.24.120","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_150","type":"vless","server":"45.159.217.123","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7","type":"ss","server":"15.204.87.225","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"美国_youtube@资源分享师_129","type":"ss","server":"23.157.40.102","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"KR_youtube@资源分享师_57","type":"vless","server":"193.122.125.174","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11","type":"ss","server":"15.204.87.225","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"美国_youtube@资源分享师_85","type":"ss","server":"23.157.40.102","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"美国(yudou66.com+玉豆免费节点)","type":"ss","server":"51.77.53.200","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"PL_分享日记_1","type":"ss","server":"51.77.53.200","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"PL_分享日记_2","type":"ss","server":"51.77.53.200","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"38.75.137.105","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师_118","type":"ss","server":"23.157.40.20","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"FR_分享日记_2","type":"ss","server":"149.202.82.172","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"CN_youtube@资源分享师_61","type":"vmess","server":"120.232.240.56","port":16928,"cipher":"auto","uuid":"5f6b3c3f-b0a8-33f5-95c6-371f8c6af973","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2ray"}}
+  - {"name":"Youtube顺丰资源++LT33","type":"vless","server":"89.116.250.77","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++US53","type":"vless","server":"147.185.161.35","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"JP_youtube@资源分享师_211","type":"vless","server":"45.195.62.65","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34","type":"vmess","server":"38.180.98.215","port":8080,"cipher":"auto","uuid":"773ac60d-36d7-45b5-c99e-a0e3903e2e3a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"youtube@资源分享师_215","type":"vmess","server":"104.19.32.46","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip002-3.dtku47.xyz"}}}
+  - {"name":"Youtube顺丰资源++AT149","type":"vless","server":"94.177.8.26","port":130,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"RU_youtube@资源分享师_231","type":"vless","server":"45.8.211.95","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记_2","type":"vless","server":"45.159.219.23","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"RU_youtube@资源分享师_118","type":"vless","server":"193.9.49.233","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"BG_分享日记","type":"vless","server":"147.78.140.30","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++SC231","type":"vless","server":"45.133.247.80","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"KR_youtube@资源分享师_93","type":"vless","server":"146.56.141.168","port":47590,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"KZ_分享日记","type":"vless","server":"31.43.179.52","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++SC130","type":"vless","server":"154.85.99.37","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"TW_分享日记","type":"vmess","server":"103.159.206.35","port":31945,"cipher":"auto","uuid":"e2e511b0-7def-4e1b-d238-6cb5391b2e3f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"CO_分享日记","type":"vless","server":"91.195.110.131","port":2083,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"twitter苏小柠","headers":{"host":"mositr.freenods.sbs"}}}
+  - {"name":"香港","type":"vless","server":"47.57.13.107","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"v999.ylks.link","network":"ws","ws-opts":{"path":"/pkms9hrhvbpq1ikg?ed=2560","headers":{"host":"v999.ylks.link"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -834,105 +477,54 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_分享日记_1
-      - '@JUZIBAIPIAO-CT'
-      - Youtube顺丰资源++US203
-      - TG@ZDYZ2+-官方优选
-      - HK_youtube@资源分享师_79
-      - US_youtube@资源分享师_162
-      - Youtube顺丰资源++US1532
-      - Youtube顺丰资源++US00153
-      - AE_youtube@资源分享师_90
-      - US_youtube@资源分享师_84
-      - US_分享日记_2
-      - Youtube顺丰资源++RU218
-      - 科技网络 🇺🇸_227
-      - GB_youtube@资源分享师_220
-      - 科技网络 🇺🇸_211
-      - US_分享日记_3
-      - US_分享日记_4
-      - AU_youtube@资源分享师_99
-      - KZ_youtube@资源分享师_224
-      - Youtube顺丰资源++ES121
-      - Youtube顺丰资源++LU605
-      - US_分享日记_5
-      - ES_分享日记
-      - Youtube顺丰资源++GB130
-      - KZ_youtube@资源分享师_104
-      - Youtube顺丰资源++SC231
-      - LU_youtube@资源分享师_250
-      - RU_youtube@资源分享师_252
-      - Youtube顺丰资源++GB166
-      - US_youtube@资源分享师_51
-      - Youtube顺丰资源++HK145
-      - Youtube顺丰资源++144
-      - Youtube顺丰资源++US16
-      - Youtube顺丰资源++AE168
-      - RU_youtube@资源分享师_231
-      - US_youtube@资源分享师_81
-      - US_分享日记_6
-      - CR_分享日记
-      - RU_youtube@资源分享师_39
-      - ZA_分享日记
-      - Youtube顺丰资源++US62
-      - LU_youtube@资源分享师_284
-      - Youtube顺丰资源++RU148
-      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
-      - RU_youtube@资源分享师_118
-      - US_分享日记_7
-      - Youtube顺丰资源++US104
-      - US_分享日记_8
-      - Youtube顺丰资源++US2271
-      - RU_youtube@资源分享师_249
-      - US_分享日记_9
-      - US_分享日记_10
-      - NL_分享日记
-      - Youtube顺丰资源++US300
-      - Youtube顺丰资源++LU232
-      - Youtube顺丰资源++US125
-      - Youtube顺丰资源++AU115
-      - US_youtube@资源分享师_220
-      - LU_分享日记
-      - RU_youtube@资源分享师_251
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++JP30
-      - NL_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_4
-      - RU_youtube@资源分享师_247
-      - JP_youtube@资源分享师_31
-      - SC_分享日记
-      - hkaa0.shop|美国
-      - US_youtube@资源分享师_208
-      - '@JUZIBAIPIAO-CMCC'
       - FR_分享日记_1
-      - FR_分享日记_2
+      - GB_分享日记_1
+      - KR_分享日记
+      - 德国_youtube@资源分享师_127
+      - US_分享日记_1
+      - JP_分享日记
+      - DE_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_11
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_5
+      - "GB_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_2"
+      - GB_分享日记_2
+      - DE_分享日记
+      - GB_分享日记_3
+      - CA_分享日记
+      - TG@ZDYZ2+-HK-Hong+Kong
+      - CN_youtube@资源分享师_138
+      - 🇺🇸_US_美国_1
+      - hkaa0.shop|美国
       - 法国_YouTube面具人哈乐_54
-      - hkaa0.shop|法国
-      - US_分享日记_11
-      - US_分享日记_12
-      - US_youtube@资源分享师_210
-      - Youtube顺丰资源++GB193
-      - JP_youtube@资源分享师_24
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_7"
+      - 美国_youtube@资源分享师_129
+      - KR_youtube@资源分享师_57
+      - "US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课\r_11"
+      - 美国_youtube@资源分享师_85
       - 美国(yudou66.com+玉豆免费节点)
-      - 美国
-      - Youtube顺丰资源++US68
-      - CN_youtube@资源分享师_8
-      - US_youtube@资源分享师_216
-      - Youtube顺丰资源++RU781
-      - 科技网络 🇺🇸_22
-      - 科技网络 🇺🇸_228
-      - US_分享日记_13
-      - Youtube顺丰资源++BG139
-      - Youtube顺丰资源++US175
-      - AE_youtube@资源分享师_234
-      - BG_youtube@资源分享师_95
-      - Youtube顺丰资源++US1742
-      - US_youtube@资源分享师_260
-      - CN_youtube@资源分享师_107
-      - Youtube顺丰资源++LT133
-      - AE_分享日记
-      - US_分享日记_14
-      - Youtube顺丰资源++RU182
-      - US_youtube@资源分享师_150
+      - PL_分享日记_1
+      - PL_分享日记_2
+      - 🇺🇸_US_美国_2
+      - US_youtube@资源分享师_118
+      - FR_分享日记_2
+      - CN_youtube@资源分享师_61
+      - Youtube顺丰资源++LT33
+      - Youtube顺丰资源++US53
+      - JP_youtube@资源分享师_211
+      - US_瑞恩南京首席门徒閑哥Game私教一对一请加微信:txyz6234，订阅《閑哥情感TV（165CM大叔无房无车）》免费领取一套线上课_34
+      - youtube@资源分享师_215
+      - Youtube顺丰资源++AT149
+      - RU_youtube@资源分享师_231
+      - US_分享日记_2
+      - RU_youtube@资源分享师_118
+      - BG_分享日记
+      - Youtube顺丰资源++SC231
+      - KR_youtube@资源分享师_93
+      - KZ_分享日记
+      - Youtube顺丰资源++SC130
+      - TW_分享日记
+      - CO_分享日记
+      - 香港
 
 rules:
 # 本地/局域网地址
