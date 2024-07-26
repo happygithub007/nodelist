@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-07-25 11:42:09
+# 创建时间：2024-07-26 12:53:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：130
+# 节点数量：45
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,949 +86,354 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"V1-新加坡 IEPL-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37010,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"CN_youtube@资源分享师_13","type":"ss","server":"a1.45s6e224gdr.shop","port":10022,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_分享日记_1","type":"ss","server":"42.240.130.243","port":33237,"password":"0cf52016-ba98-319d-de8c-84dbfac9cccc","cipher":"none"}
-  - {"name":"V2-香港+PATHX+1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37001,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"CN_youtube@资源分享师_171","type":"ss","server":"kis7as.9sjd2dkesl2.shop","port":16983,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"V2-美国 PATHX 1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37041,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"CN_youtube@资源分享师_186","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":31995,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本|@ripaojiedian","type":"trojan","server":"36.151.195.77","port":31666,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
   - {"name":"CN_youtube@资源分享师_60","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":12269,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL-109.201.152.181-0883","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {"name":"FI😈SSRSUB_-924341426","type":"ss","server":"37.143.129.230","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇳🇱NL-109.201.152.181-0772","type":"ss","server":"sha.majidcttls.ggff.net","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
-  - {"name":"V1-美国 IEPL 1-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37040,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"V1-日本 IEPL 1-1倍率","type":"ss","server":"speedtest-api.xtspx.xyz","port":37020,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"CN_youtube@资源分享师_187","type":"ss","server":"ydthree.9sjd2dkesl2.shop","port":18572,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"V2-香港 PATHX 1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37001,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"V2-日本 PATHX 1-1倍率","type":"ss","server":"speedtest-rtc.xtspeeder002.xyz","port":37021,"password":"JHe7ay97yuw8ue","cipher":"aes-256-ctr","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"CN_youtube@资源分享师_182","type":"ss","server":"yinji1.9sjd2dkesl2.shop","port":10020,"password":"XoYrrEfZYxxHL3AI","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_youtube@资源分享师_114","type":"vless","server":"38.180.10.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CN_分享日记_2","type":"vless","server":"203.69.248.40","port":27381,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
-  - {"name":"KR_youtube@资源分享师_75","type":"vless","server":"146.56.171.182","port":11659,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++Netflix","type":"vless","server":"61.77.9.219","port":12487,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"Twitterfreecodestg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_1","type":"vless","server":"104.18.1.89","port":8443,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"servername":"VFIvE-tELegrAM.paGes.deV","network":"ws","ws-opts":{"path":"/mmf5knd8huh7yr0j?ed=2560","headers":{"host":"VFIvE-tELegrAM.paGes.deV"}}}
-  - {"name":"US_youtube@资源分享师_97","type":"vless","server":"us.qinlinyun.top","port":42670,"uuid":"31923a5e-3596-4bcd-f0ef-ff141929c958","tls":true,"servername":"us.qinlinyun.top","network":"tcp"}
-  - {"name":"US_分享日记_2","type":"vless","server":"20.119.0.50","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"nnfgrr.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"nnfgrr.azurewebsites.net"}}}
-  - {"name":"俄罗斯(yudou66.com+玉豆免费节点)","type":"vless","server":"95.85.95.85","port":80,"uuid":"bf743166-f4a3-48ea-8269-d88a4b79570a","servername":"pronkstar.com","network":"ws","ws-opts":{"path":"/bypronk","headers":{"host":"pronkstar.com"}}}
-  - {"name":"US_分享日记_3","type":"vless","server":"47.236.80.110","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CN_youtube@资源分享师_138","type":"vless","server":"39.172.116.144","port":35628,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"KR_youtube@资源分享师_55","type":"vless","server":"193.122.110.164","port":25800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"SCP官方节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"JP_youtube@资源分享师_94","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393","type":"vless","server":"159.100.17.71","port":12393,"uuid":"fa8ec474-39d3-481f-9281-1fb6fce4ef10","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_109","type":"vmess","server":"142.4.98.7","port":38006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.77755604.xyz","network":"ws","ws-opts":{"path":"/path/1721561935512","headers":{"host":"www.77755604.xyz"}}}
-  - {"name":"科技网络 🇺🇸_126","type":"vmess","server":"198.2.196.98","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.17036614.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.17036614.xyz"}}}
-  - {"name":"US_分享日记_4","type":"vless","server":"40.112.243.53","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"gerrrrw.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"gerrrrw.azurewebsites.net"}}}
-  - {"name":"欢迎订阅yui科技_217","type":"vmess","server":"137.175.49.100","port":37007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.37319796.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.37319796.xyz"}}}
-  - {"name":"@meli_proxyy_1","type":"vless","server":"5.161.147.171","port":443,"uuid":"bea4ddd0-a014-434e-9eb4-f9c8822bf19e","tls":true,"servername":"usa.freesdns.info","network":"ws","ws-opts":{"path":"/","headers":{"host":"usa.freesdns.info"}}}
-  - {"name":"科技网络 🇺🇸_205","type":"vmess","server":"137.175.12.104","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.50601820.xyz","network":"ws","ws-opts":{"path":"/path/1717241050794","headers":{"host":"www.50601820.xyz"}}}
-  - {"name":"科技网络 🇺🇸_210","type":"vmess","server":"142.171.237.245","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.71532237.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.71532237.xyz"}}}
-  - {"name":"Youtube顺丰资源","type":"vless","server":"148.113.175.147","port":80,"uuid":"378ac207-38d3-4401-ba96-3a7931968bc5","network":"ws","ws-opts":{"path":"/http"}}
-  - {"name":"科技网络 🇺🇸_234","type":"vmess","server":"170.178.169.133","port":30001,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.21799609.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.21799609.xyz"}}}
-  - {"name":"科技网络 🇺🇸_102","type":"vmess","server":"137.175.2.247","port":37006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88016387.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.88016387.xyz"}}}
+  - {"name":"日本|@ripaojiedian","type":"trojan","server":"36.151.195.77","port":31666,"udp":true,"password":"MfqALmAJ","skip-cert-verify":true,"network":"tcp"}
   - {"name":"DE_youtube@资源分享师_107","type":"vless","server":"5.161.42.208","port":8080,"uuid":"fe5cd209-5bbb-4d39-a2f2-504dd7afaab7","servername":"vkvd127.mycdn.me","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"科技网络 🇺🇸_103","type":"vmess","server":"142.4.119.122","port":37007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.96128725.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.96128725.xyz"}}}
-  - {"name":"CA_youtube@资源分享师_107","type":"vless","server":"142.171.33.100","port":59886,"uuid":"e3b2d928-1cff-401e-8324-825d378c20ab","servername":"zvuk.com","network":"ws","ws-opts":{"path":"/free"}}
-  - {"name":"科技网络 🇺🇸_122","type":"vmess","server":"38.174.165.82","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.33859315.xyz","network":"ws","ws-opts":{"path":"/path/150907203104","headers":{"host":"www.33859315.xyz"}}}
-  - {"name":"欢迎订阅yui科技_228","type":"vmess","server":"142.4.98.4","port":38006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.77755604.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.77755604.xyz"}}}
-  - {"name":"科技网络 🇺🇸_83","type":"vmess","server":"38.14.100.209","port":37005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.33799494.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.33799494.xyz"}}}
-  - {"name":"科技网络 🇺🇸_101","type":"vmess","server":"198.2.211.36","port":37008,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.38080912.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.38080912.xyz"}}}
-  - {"name":"科技网络 🇺🇸_156","type":"vmess","server":"172.111.57.84","port":30004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.75116565.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.75116565.xyz"}}}
-  - {"name":"科技网络 🇺🇸_104","type":"vmess","server":"38.11.49.36","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.30471929.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.30471929.xyz"}}}
-  - {"name":"科技网络 🇺🇸_125","type":"vmess","server":"198.2.201.18","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.43444988.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.43444988.xyz"}}}
-  - {"name":"科技网络 🇺🇸_138","type":"vmess","server":"38.38.172.251","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.13236255.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.13236255.xyz"}}}
-  - {"name":"科技网络 🇺🇸_119","type":"vmess","server":"38.33.0.181","port":38001,"cipher":"auto","uuid":"68d238ce-3ca1-46dc-b833-a0916c829ad3","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.74635375.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.74635375.xyz"}}}
-  - {"name":"欢迎订阅yui科技_141","type":"vmess","server":"172.111.57.105","port":32005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.53136553.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.53136553.xyz"}}}
-  - {"name":"US_youtube@资源分享师_208","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"英国(yudou66.com+玉豆免费节点)","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++FR220","type":"vless","server":"136.244.115.71","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"FR_youtube@资源分享师_6","type":"vmess","server":"146.19.168.161","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"az05.beyondy.cfd","network":"ws","ws-opts":{"path":"/link","headers":{"host":"az05.beyondy.cfd"}}}
-  - {"name":"科技网络 🇺🇸_179","type":"vmess","server":"148.135.38.70","port":31005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.29810260.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.29810260.xyz"}}}
-  - {"name":"科技网络 🇺🇸_157","type":"vmess","server":"38.33.0.171","port":38001,"cipher":"auto","uuid":"68d238ce-3ca1-46dc-b833-a0916c829ad3","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.74635375.xyz","network":"ws","ws-opts":{"path":"/path/1719143423660","headers":{"host":"www.74635375.xyz"}}}
-  - {"name":"欢迎订阅yui科技_189","type":"vmess","server":"38.14.101.232","port":38006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.41912208.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.41912208.xyz"}}}
-  - {"name":"科技网络 🇺🇸_11","type":"vmess","server":"172.111.57.242","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.70615435.xyz","network":"ws","ws-opts":{"path":"/path/1718886454408","headers":{"host":"www.70615435.xyz"}}}
-  - {"name":"科技网络 🇺🇸_169","type":"vmess","server":"74.48.69.242","port":31003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.35540218.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.35540218.xyz"}}}
-  - {"name":"欢迎订阅yui科技_34","type":"vmess","server":"142.171.134.120","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.27006254.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.27006254.xyz"}}}
-  - {"name":"欢迎订阅yui科技_152","type":"vmess","server":"156.245.8.193","port":41002,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.55825203.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.55825203.xyz"}}}
-  - {"name":"TG:@hkaa0|法国","type":"vmess","server":"az05.beyondy.cfd","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/link","headers":{"host":"az05.beyondy.cfd"}}}
-  - {"name":"科技网络 🇺🇸_90","type":"vmess","server":"142.4.104.107","port":37006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.64102475.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.64102475.xyz"}}}
-  - {"name":"科技网络 🇺🇸_199","type":"vmess","server":"104.156.141.91","port":30000,"cipher":"auto","uuid":"169fb64d-208d-4e06-bfc1-6f96554ca3ef","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.29116054.xyz","network":"ws","ws-opts":{"path":"/path/1717241050794","headers":{"host":"www.29116054.xyz"}}}
-  - {"name":"@meli_proxyy_2","type":"vless","server":"137.74.66.90","port":57254,"uuid":"097ab42d-c4dd-4a69-9b4b-92f0da96299e","servername":"speedtest.net","network":"tcp"}
-  - {"name":"科技网络 🇳🇱_27","type":"vmess","server":"156.249.18.172","port":41002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.98386116.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.98386116.xyz"}}}
-  - {"name":"科技网络 🇳🇱_57","type":"vmess","server":"154.85.1.9","port":41002,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.72281149.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.72281149.xyz"}}}
-  - {"name":"欢迎订阅yui科技_300","type":"vmess","server":"137.175.49.39","port":38007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.53062560.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.53062560.xyz"}}}
-  - {"name":"欢迎订阅yui科技_168","type":"vmess","server":"156.225.67.10","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93989779.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.93989779.xyz"}}}
-  - {"name":"科技网络 🇳🇱_39","type":"vmess","server":"156.225.67.59","port":41002,"cipher":"auto","uuid":"6193116d-96f9-4d7a-9be5-5bb06a69af0b","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.58987690.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.58987690.xyz"}}}
-  - {"name":"科技网络 🇳🇱_42","type":"vmess","server":"156.225.67.252","port":41003,"cipher":"auto","uuid":"3fd637ad-46fe-4f85-a6e8-86b00bca1122","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.74636847.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.74636847.xyz"}}}
-  - {"name":"科技网络 🇺🇸_171","type":"vmess","server":"74.48.79.22","port":31003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.32497476.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.32497476.xyz"}}}
-  - {"name":"科技网络 🇳🇱_61","type":"vmess","server":"154.85.1.82","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.34668845.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.34668845.xyz"}}}
-  - {"name":"欢迎订阅yui科技_134","type":"vmess","server":"142.4.119.121","port":37007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.96128725.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.96128725.xyz"}}}
-  - {"name":"US_youtube@资源分享师_119","type":"vmess","server":"23.158.56.49","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇳🇱_66","type":"vmess","server":"156.245.8.170","port":41003,"cipher":"auto","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.45436752.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.45436752.xyz"}}}
-  - {"name":"US_youtube@资源分享师_142","type":"vmess","server":"23.157.88.35","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_247","type":"vmess","server":"67.21.93.13","port":30001,"cipher":"auto","uuid":"9838c1b4-c3fd-49b5-8a59-2ff05385f17c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.81732420.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.81732420.xyz"}}}
-  - {"name":"科技网络 🇫🇷_78","type":"vmess","server":"51.75.155.119","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.95206863.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.95206863.xyz"}}}
-  - {"name":"科技网络 🇺🇸_106","type":"vmess","server":"38.14.123.164","port":37007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.33756710.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.33756710.xyz"}}}
-  - {"name":"科技网络 🇺🇸_196","type":"vmess","server":"137.175.40.13","port":38006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.75596620.xyz","network":"ws","ws-opts":{"path":"/path/1721561935512","headers":{"host":"www.75596620.xyz"}}}
-  - {"name":"科技网络 🇳🇱_96","type":"vmess","server":"154.85.1.49","port":41001,"cipher":"auto","uuid":"9c026efe-6af0-465f-b8c0-3f58c8c2d4c5","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.53854245.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.53854245.xyz"}}}
-  - {"name":"欢迎订阅yui科技_176","type":"vmess","server":"156.245.8.136","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.63929391.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.63929391.xyz"}}}
-  - {"name":"US_youtube@资源分享师_13","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","servername":"Telegram id: @V2raySeven","network":"ws","ws-opts":{"path":"/http"}}
-  - {"name":"GB_youtube@资源分享师_144","type":"vless","server":"51.38.70.15","port":80,"uuid":"7415478e-0e1b-4f1a-a048-e54c546df7c6","network":"ws","ws-opts":{"path":"/vless/"}}
-  - {"name":"AU_youtube@资源分享师_239","type":"vmess","server":"6.724064.xyz","port":443,"cipher":"auto","uuid":"e7290e7b-8650-423a-8701-f718850620b0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xglsvws","headers":{"host":"6.724064.xyz"}}}
-  - {"name":"欢迎订阅yui科技_237","type":"vmess","server":"192.74.241.182","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88674577.xyz","network":"ws","ws-opts":{"path":"/path/150907203104","headers":{"host":"www.88674577.xyz"}}}
-  - {"name":"欢迎订阅yui科技_253","type":"vmess","server":"183.236.51.23","port":45020,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"欢迎订阅yui科技_282","type":"vmess","server":"120.232.153.40","port":53942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"欢迎订阅yui科技_236","type":"vmess","server":"183.238.202.173","port":51193,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港+103","type":"trojan","server":"8.217.209.197","port":32249,"udp":true,"password":"f6e16cb5-3a17-377a-9376-7aa88208ee76","sni":"hkvip102.qlgq.fun","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"hkvip102"}}
-  - {"name":"Youtube顺丰资源++JP2","type":"vless","server":"54.249.135.43","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"KR_youtube@资源分享师_55","type":"vless","server":"193.122.110.164","port":25800,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"KR_youtube@资源分享师_75","type":"vless","server":"146.56.171.182","port":11659,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"Youtube顺丰资源++HK87","type":"vless","server":"203.184.132.238","port":1520,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"欢迎订阅yui科技_326","type":"vmess","server":"137.175.41.117","port":38007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.47643999.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.47643999.xyz"}}}
-  - {"name":"科技网络 🇺🇸_188","type":"vmess","server":"142.4.97.242","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.61974602.xyz","network":"ws","ws-opts":{"path":"/path/150907203104","headers":{"host":"www.61974602.xyz"}}}
-  - {"name":"欢迎订阅yui科技_195","type":"vmess","server":"38.33.57.23","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.40023947.xyz","network":"ws","ws-opts":{"path":"/path/1720786430176","headers":{"host":"www.40023947.xyz"}}}
-  - {"name":"科技网络 🇺🇸_192","type":"vmess","server":"198.2.222.125","port":37006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54790250.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.54790250.xyz"}}}
-  - {"name":"科技网络 🇺🇸_129","type":"vmess","server":"38.33.57.24","port":38001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.40023947.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.40023947.xyz"}}}
-  - {"name":"欢迎订阅yui科技_317","type":"vmess","server":"120.232.153.71","port":34965,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"HK_youtube@资源分享师_252","type":"vless","server":"152.32.252.175","port":8969,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"欢迎订阅yui科技_283","type":"vmess","server":"183.236.51.23","port":54437,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_142","type":"vmess","server":"137.175.42.233","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.30565785.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.30565785.xyz"}}}
-  - {"name":"Youtube顺丰资源++KR132","type":"vless","server":"222.113.18.214","port":37051,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393","type":"vless","server":"159.100.17.71","port":12393,"uuid":"fa8ec474-39d3-481f-9281-1fb6fce4ef10","network":"tcp"}
   - {"name":"HK_分享日记","type":"vless","server":"219.76.13.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"JP_分享日记","type":"vless","server":"104.215.58.230","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"gkkui8.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"gkkui8.azurewebsites.net"}}}
-  - {"name":"欢迎订阅yui科技_280","type":"vmess","server":"183.236.51.23","port":54100,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TW_youtube@资源分享师_169","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"HK_youtube@资源分享师_260","type":"vless","server":"43.154.34.74","port":1935,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"CN_分享日记_3","type":"vless","server":"119.28.189.227","port":32079,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"广东省广州市 移动","type":"vmess","server":"120.232.153.27","port":34002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_youtube@资源分享师_39","type":"vless","server":"47.236.180.51","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"科技网络 🇺🇸_177","type":"vmess","server":"137.175.5.206","port":38007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.36310394.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.36310394.xyz"}}}
+  - {"name":"Youtube顺丰资源++JP2","type":"vless","server":"54.249.135.43","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_youtube@资源分享师_208","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"CN_分享日记","type":"vless","server":"203.69.248.40","port":27381,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
+  - {"name":"US_分享日记_1","type":"vless","server":"104.18.1.89","port":8443,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"servername":"VFIvE-tELegrAM.paGes.deV","network":"ws","ws-opts":{"path":"/mmf5knd8huh7yr0j?ed=2560","headers":{"host":"VFIvE-tELegrAM.paGes.deV"}}}
+  - {"name":"科技网络 🇺🇸_199","type":"vmess","server":"104.156.141.91","port":30000,"cipher":"auto","uuid":"169fb64d-208d-4e06-bfc1-6f96554ca3ef","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.29116054.xyz","network":"ws","ws-opts":{"path":"/path/1717241050794","headers":{"host":"www.29116054.xyz"}}}
   - {"name":"科技网络 🇳🇱_33","type":"vmess","server":"156.245.8.147","port":41002,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.55825203.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.55825203.xyz"}}}
   - {"name":"科技网络 🇳🇱_31","type":"vmess","server":"156.225.67.139","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93989779.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.93989779.xyz"}}}
-  - {"name":"🇬🇧_GB_英国","type":"trojan","server":"51.38.65.155","port":443,"udp":true,"password":"c6e74900-0e4e-11ef-a430-1239d0255272","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_1","type":"trojan","server":"150.230.7.216","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_2","type":"trojan","server":"158.179.203.23","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_171","type":"trojan","server":"il.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"il.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_96","type":"trojan","server":"uk.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"uk.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_146","type":"trojan","server":"ua.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"ua.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_114","type":"trojan","server":"vn.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"vn.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_38","type":"trojan","server":"au.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"au.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"欢迎订阅yui科技_170","type":"vmess","server":"156.249.18.26","port":41003,"cipher":"auto","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.45436752.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.45436752.xyz"}}}
-  - {"name":"科技网络 🇬🇧_1","type":"vmess","server":"51.89.13.7","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.58126088.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.58126088.xyz"}}}
-  - {"name":"US_分享日记_5","type":"vless","server":"20.119.128.0","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"ndfddd.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"ndfddd.azurewebsites.net"}}}
+  - {"name":"欢迎订阅yui科技_168","type":"vmess","server":"156.225.67.10","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93989779.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.93989779.xyz"}}}
+  - {"name":"科技网络 🇳🇱_61","type":"vmess","server":"154.85.1.82","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.34668845.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.34668845.xyz"}}}
+  - {"name":"科技网络 🇺🇸_11","type":"vmess","server":"172.111.57.242","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.70615435.xyz","network":"ws","ws-opts":{"path":"/path/1718886454408","headers":{"host":"www.70615435.xyz"}}}
+  - {"name":"科技网络 🇳🇱_42","type":"vmess","server":"156.225.67.252","port":41003,"cipher":"auto","uuid":"3fd637ad-46fe-4f85-a6e8-86b00bca1122","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.74636847.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.74636847.xyz"}}}
+  - {"name":"欢迎订阅yui科技_176","type":"vmess","server":"156.245.8.136","port":41003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.63929391.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.63929391.xyz"}}}
+  - {"name":"欢迎订阅yui科技_152","type":"vmess","server":"156.245.8.193","port":41002,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.55825203.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.55825203.xyz"}}}
+  - {"name":"科技网络 🇺🇸_179","type":"vmess","server":"148.135.38.70","port":31005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.29810260.xyz","network":"ws","ws-opts":{"path":"/path/1721728314640","headers":{"host":"www.29810260.xyz"}}}
+  - {"name":"欢迎订阅yui科技_141","type":"vmess","server":"172.111.57.105","port":32005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.53136553.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.53136553.xyz"}}}
+  - {"name":"JP_youtube@资源分享师_94","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"俄罗斯(yudou66.com+玉豆免费节点)","type":"vless","server":"95.85.95.85","port":80,"uuid":"bf743166-f4a3-48ea-8269-d88a4b79570a","servername":"pronkstar.com","network":"ws","ws-opts":{"path":"/bypronk","headers":{"host":"pronkstar.com"}}}
+  - {"name":"Youtube顺丰资源++Netflix","type":"vless","server":"61.77.9.219","port":12487,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"Twitterfreecodestg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"Youtube顺丰资源++FR220","type":"vless","server":"136.244.115.71","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记_2","type":"vless","server":"47.236.80.110","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"JP_分享日记","type":"vless","server":"104.215.58.230","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"gkkui8.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"gkkui8.azurewebsites.net"}}}
+  - {"name":"SCP官方节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
+  - {"name":"US_youtube@资源分享师_39","type":"vless","server":"47.236.180.51","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"科技网络 🇺🇸_247","type":"vmess","server":"67.21.93.13","port":30001,"cipher":"auto","uuid":"9838c1b4-c3fd-49b5-8a59-2ff05385f17c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.81732420.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.81732420.xyz"}}}
+  - {"name":"US_youtube@资源分享师_119","type":"vmess","server":"23.158.56.49","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇳🇱_57","type":"vmess","server":"154.85.1.9","port":41002,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.72281149.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.72281149.xyz"}}}
+  - {"name":"US_youtube@资源分享师_142","type":"vmess","server":"23.157.88.35","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"TW_youtube@资源分享师_169","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_youtube@资源分享师_97","type":"vless","server":"us.qinlinyun.top","port":42670,"uuid":"31923a5e-3596-4bcd-f0ef-ff141929c958","tls":true,"servername":"us.qinlinyun.top","network":"tcp"}
+  - {"name":"US_youtube@资源分享师_114","type":"vless","server":"38.180.10.150","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"英国(yudou66.com+玉豆免费节点)","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
+  - {"name":"US_分享日记_3","type":"vless","server":"20.119.0.50","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"nnfgrr.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"nnfgrr.azurewebsites.net"}}}
+  - {"name":"US_分享日记_4","type":"vless","server":"20.119.128.0","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"ndfddd.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"ndfddd.azurewebsites.net"}}}
+  - {"name":"欢迎订阅yui科技_283","type":"vmess","server":"183.236.51.23","port":54437,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1051,136 +456,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-新加坡 IEPL-1倍率
-      - CN_youtube@资源分享师_13
-      - CN_分享日记_1
-      - V2-香港+PATHX+1-1倍率
       - CN_youtube@资源分享师_171
-      - V2-美国 PATHX 1-1倍率
       - CN_youtube@资源分享师_186
-      - 日本|@ripaojiedian
       - CN_youtube@资源分享师_60
-      - 🇳🇱NL-109.201.152.181-0883
-      - FI😈SSRSUB_-924341426
-      - 🇳🇱NL-109.201.152.181-0772
-      - V1-美国 IEPL 1-1倍率
-      - V1-日本 IEPL 1-1倍率
-      - CN_youtube@资源分享师_187
-      - V2-香港 PATHX 1-1倍率
-      - V2-日本 PATHX 1-1倍率
       - CN_youtube@资源分享师_182
-      - US_youtube@资源分享师_114
-      - CN_分享日记_2
-      - KR_youtube@资源分享师_75
-      - Youtube顺丰资源++Netflix
-      - US_分享日记_1
-      - US_youtube@资源分享师_97
-      - US_分享日记_2
-      - 俄罗斯(yudou66.com+玉豆免费节点)
-      - US_分享日记_3
-      - CN_youtube@资源分享师_138
-      - KR_youtube@资源分享师_55
-      - SCP官方节点
-      - JP_youtube@资源分享师_94
-      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
-      - 科技网络 🇺🇸_109
-      - 科技网络 🇺🇸_126
-      - US_分享日记_4
-      - 欢迎订阅yui科技_217
-      - '@meli_proxyy_1'
-      - 科技网络 🇺🇸_205
-      - 科技网络 🇺🇸_210
-      - Youtube顺丰资源
-      - 科技网络 🇺🇸_234
-      - 科技网络 🇺🇸_102
+      - 日本|@ripaojiedian
       - DE_youtube@资源分享师_107
-      - 科技网络 🇺🇸_103
-      - CA_youtube@资源分享师_107
-      - 科技网络 🇺🇸_122
-      - 欢迎订阅yui科技_228
-      - 科技网络 🇺🇸_83
-      - 科技网络 🇺🇸_101
-      - 科技网络 🇺🇸_156
-      - 科技网络 🇺🇸_104
-      - 科技网络 🇺🇸_125
-      - 科技网络 🇺🇸_138
-      - 科技网络 🇺🇸_119
-      - 欢迎订阅yui科技_141
-      - US_youtube@资源分享师_208
-      - 英国(yudou66.com+玉豆免费节点)
-      - Youtube顺丰资源++FR220
-      - FR_youtube@资源分享师_6
-      - 科技网络 🇺🇸_179
-      - 科技网络 🇺🇸_157
-      - 欢迎订阅yui科技_189
-      - 科技网络 🇺🇸_11
-      - 科技网络 🇺🇸_169
-      - 欢迎订阅yui科技_34
-      - 欢迎订阅yui科技_152
-      - TG:@hkaa0|法国
-      - 科技网络 🇺🇸_90
-      - 科技网络 🇺🇸_199
-      - '@meli_proxyy_2'
-      - 科技网络 🇳🇱_27
-      - 科技网络 🇳🇱_57
-      - 欢迎订阅yui科技_300
-      - 欢迎订阅yui科技_168
-      - 科技网络 🇳🇱_39
-      - 科技网络 🇳🇱_42
-      - 科技网络 🇺🇸_171
-      - 科技网络 🇳🇱_61
-      - 欢迎订阅yui科技_134
-      - US_youtube@资源分享师_119
-      - 科技网络 🇳🇱_66
-      - US_youtube@资源分享师_142
-      - 科技网络 🇺🇸_247
-      - 科技网络 🇫🇷_78
-      - 科技网络 🇺🇸_106
-      - 科技网络 🇺🇸_196
-      - 科技网络 🇳🇱_96
-      - 欢迎订阅yui科技_176
-      - US_youtube@资源分享师_13
-      - GB_youtube@资源分享师_144
-      - AU_youtube@资源分享师_239
-      - 欢迎订阅yui科技_237
-      - 欢迎订阅yui科技_253
-      - 欢迎订阅yui科技_282
-      - 欢迎订阅yui科技_236
-      - 香港+103
-      - Youtube顺丰资源++JP2
+      - KR_youtube@资源分享师_55
+      - KR_youtube@资源分享师_75
       - Youtube顺丰资源++HK87
-      - 欢迎订阅yui科技_326
-      - 科技网络 🇺🇸_188
-      - 欢迎订阅yui科技_195
-      - 科技网络 🇺🇸_192
-      - 科技网络 🇺🇸_129
-      - 欢迎订阅yui科技_317
-      - HK_youtube@资源分享师_252
-      - 欢迎订阅yui科技_283
-      - 科技网络 🇺🇸_142
-      - Youtube顺丰资源++KR132
+      - 🔒+VL-TCP-NONE+🇩🇪+DE-159.100.17.71:12393
       - HK_分享日记
-      - JP_分享日记
-      - 欢迎订阅yui科技_280
-      - TW_youtube@资源分享师_169
-      - HK_youtube@资源分享师_260
-      - CN_分享日记_3
-      - 广东省广州市 移动
-      - US_youtube@资源分享师_39
-      - 科技网络 🇺🇸_177
+      - Youtube顺丰资源++JP2
+      - US_youtube@资源分享师_208
+      - CN_分享日记
+      - US_分享日记_1
+      - 科技网络 🇺🇸_199
       - 科技网络 🇳🇱_33
       - 科技网络 🇳🇱_31
-      - 🇬🇧_GB_英国
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源++美国_2
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_96
-      - GB_youtube@资源分享师_146
-      - GB_youtube@资源分享师_114
-      - GB_youtube@资源分享师_38
-      - 欢迎订阅yui科技_170
-      - 科技网络 🇬🇧_1
-      - US_分享日记_5
+      - 欢迎订阅yui科技_168
+      - 科技网络 🇳🇱_61
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇳🇱_42
+      - 欢迎订阅yui科技_176
+      - 欢迎订阅yui科技_152
+      - 科技网络 🇺🇸_179
+      - 欢迎订阅yui科技_141
+      - JP_youtube@资源分享师_94
+      - 俄罗斯(yudou66.com+玉豆免费节点)
+      - Youtube顺丰资源++Netflix
+      - Youtube顺丰资源++FR220
+      - US_分享日记_2
+      - JP_分享日记
+      - SCP官方节点
+      - US_youtube@资源分享师_39
+      - 科技网络 🇺🇸_247
+      - US_youtube@资源分享师_119
+      - 科技网络 🇳🇱_57
+      - US_youtube@资源分享师_142
+      - TW_youtube@资源分享师_169
+      - US_youtube@资源分享师_97
+      - US_youtube@资源分享师_114
+      - 英国(yudou66.com+玉豆免费节点)
+      - US_分享日记_3
+      - US_分享日记_4
+      - 欢迎订阅yui科技_283
 
 rules:
 # 本地/局域网地址
