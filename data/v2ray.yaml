@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-06 12:15:48
+# 创建时间：2024-08-06 12:32:30
 # 使用模版：V2RaySE 默认模版
-# 节点数量：61
+# 节点数量：60
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -89,7 +89,6 @@ proxies:
   - {"name":"Youtube顺丰资源++146","type":"vless","server":"77.74.228.97","port":2087,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
   - {"name":"US_youtube@资源分享师_38","type":"vless","server":"47.76.146.1","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"LT_分享日记","type":"vless","server":"88.216.66.74","port":2053,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
-  - {"name":"US_分享日记_1","type":"vmess","server":"104.21.24.170","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
   - {"name":"GB_分享日记_1","type":"vless","server":"217.163.76.107","port":2053,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
   - {"name":"KZ_分享日记","type":"vless","server":"31.43.179.52","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
   - {"name":"CA_youtube@资源分享师_107","type":"vless","server":"142.171.33.100","port":59886,"uuid":"e3b2d928-1cff-401e-8324-825d378c20ab","tls":false,"servername":"zvuk.com","network":"ws","ws-opts":{"path":"/free"}}
@@ -105,7 +104,7 @@ proxies:
   - {"name":"Youtube顺丰资源++5","type":"vless","server":"185.146.173.12","port":443,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"Twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
   - {"name":"US_youtube@资源分享师_232","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
   - {"name":"SG_分享日记_2","type":"vless","server":"27.50.48.250","port":2096,"uuid":"678ac895-92c2-4f27-a9d4-f1a89c5f5365","tls":true,"servername":"mositr.freenods.sbs","network":"ws","ws-opts":{"path":"twitterfreecodes","headers":{"host":"mositr.freenods.sbs"}}}
-  - {"name":"US_分享日记_2","type":"vless","server":"104.16.57.85","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edtunnel-csc.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"edtunnel-csc.pages.dev"}}}
+  - {"name":"US_分享日记","type":"vless","server":"104.16.57.85","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"edtunnel-csc.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"edtunnel-csc.pages.dev"}}}
   - {"name":"Youtube顺丰资源_1","type":"vless","server":"47.236.145.85","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
   - {"name":"US_youtube@资源分享师_30","type":"vmess","server":"104.16.67.38","port":2095,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/glweidf.sbs/linkws","headers":{"host":"proud-union-8659.email-0kn8d.workers.dev"}}}
   - {"name":"US_youtube@资源分享师_210","type":"vless","server":"185.148.104.109","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
@@ -156,7 +155,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -172,7 +170,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -223,7 +221,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -239,7 +236,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -290,7 +287,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -306,7 +302,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -356,7 +352,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -372,7 +367,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -422,7 +417,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -438,7 +432,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -488,7 +482,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -504,7 +497,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
@@ -571,7 +564,6 @@ proxy-groups:
       - Youtube顺丰资源++146
       - US_youtube@资源分享师_38
       - LT_分享日记
-      - US_分享日记_1
       - GB_分享日记_1
       - KZ_分享日记
       - CA_youtube@资源分享师_107
@@ -587,7 +579,7 @@ proxy-groups:
       - Youtube顺丰资源++5
       - US_youtube@资源分享师_232
       - SG_分享日记_2
-      - US_分享日记_2
+      - US_分享日记
       - Youtube顺丰资源_1
       - US_youtube@资源分享师_30
       - US_youtube@资源分享师_210
