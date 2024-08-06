@@ -1,0 +1,2198 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "proxyDns",
+        "address": "8.8.8.8",
+        "detour": "select"
+      },
+      {
+        "tag": "localDns",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "ghproxy.com",
+          "cdn.jsdelivr.net",
+          "testingcf.jsdelivr.net"
+        ],
+        "server": "localDns"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "server": "block"
+      },
+      {
+        "server": "localDns",
+        "outbound": "any",
+        "disable_cache": true
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "server": "localDns"
+      },
+      {
+        "server": "localDns",
+        "clash_mode": "direct"
+      },
+      {
+        "server": "proxyDns",
+        "clash_mode": "global"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "server": "proxyDns"
+      }
+    ],
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081
+    },
+    {
+      "stack": "system",
+      "auto_route": true,
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "sniff": true,
+      "strict_route": true,
+      "type": "tun",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 1081
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "tag": "🤖 OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🌌 Google",
+      "type": "selector",
+      "outbounds": [
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "📟 Telegram",
+      "type": "selector",
+      "outbounds": [
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🐦 Twitter",
+      "type": "selector",
+      "outbounds": [
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "👤 Facebook",
+      "type": "selector",
+      "outbounds": [
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🛍️ Amazon",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🍎 Apple",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🧩 Microsoft",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🎮 Game",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "📺 Bilibili",
+      "type": "selector",
+      "outbounds": [
+        "direct"
+      ]
+    },
+    {
+      "tag": "🎬 MediaVideo",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🌏 !cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "Youtube顺丰资源++146",
+        "US_youtube@资源分享师_38",
+        "LT_分享日记",
+        "US_分享日记_1",
+        "GB_分享日记_1",
+        "KZ_分享日记",
+        "CA_youtube@资源分享师_107",
+        "GB_分享日记_2",
+        "Youtube顺丰资源++221",
+        "SG_分享日记_1",
+        "Youtube顺丰资源++117",
+        "GB_分享日记_3",
+        "BA_分享日记",
+        "SC_分享日记",
+        "GB_分享日记_4",
+        "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+        "Youtube顺丰资源++5",
+        "US_youtube@资源分享师_232",
+        "SG_分享日记_2",
+        "US_分享日记_2",
+        "Youtube顺丰资源_1",
+        "US_youtube@资源分享师_30",
+        "US_youtube@资源分享师_210",
+        "Youtube顺丰资源++US23",
+        "GB_youtube@资源分享师_189",
+        "Youtube顺丰资源++24",
+        "US_youtube@资源分享师_95",
+        "US_youtube@资源分享师_78",
+        "Youtube顺丰资源_2",
+        "Youtube顺丰资源_3",
+        "CA_分享日记",
+        "🏁RELAY-172.64.166.22-0418",
+        "Youtube顺丰资源++GB237",
+        "US_youtube@资源分享师_270",
+        "Youtube顺丰资源_4",
+        "AE_分享日记",
+        "KR_youtube@资源分享师_179",
+        "LU_分享日记",
+        "US_youtube@资源分享师_102",
+        "Youtube顺丰资源++172",
+        "@meli_proxyy",
+        "FR_youtube@资源分享师_225",
+        "Youtube顺丰资源++Netflix_1",
+        "US_youtube@资源分享师_202",
+        "BG_分享日记",
+        "科技网络+_51",
+        "Youtube顺丰资源++Netflix_2",
+        "US_youtube@资源分享师_47",
+        "US_youtube@资源分享师_70",
+        "US_youtube@资源分享师_278",
+        "US_youtube@资源分享师_177",
+        "US_youtube@资源分享师_215",
+        "US_youtube@资源分享师_184",
+        "@JUZIBAIPIAO-CMCC",
+        "US_youtube@资源分享师_271",
+        "US_youtube@资源分享师_263",
+        "US_youtube@资源分享师_25",
+        "Youtube顺丰资源++227",
+        "Youtube顺丰资源++UA80",
+        "US_youtube@资源分享师_176",
+        "Youtube顺丰资源++US44"
+      ]
+    },
+    {
+      "tag": "🌏 cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "select"
+      ]
+    },
+    {
+      "tag": "🛑 AdBlock",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "server": "77.74.228.97",
+      "server_port": 2087,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++146",
+      "type": "vless"
+    },
+    {
+      "server": "47.76.146.1",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "/tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "US_youtube@资源分享师_38",
+      "type": "vless"
+    },
+    {
+      "server": "88.216.66.74",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "LT_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "104.21.24.170",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "adenc36v.xtooltech.cfd"
+      },
+      "transport": {
+        "path": "/linkws",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_分享日记_1",
+      "type": "vmess"
+    },
+    {
+      "server": "217.163.76.107",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "GB_分享日记_1",
+      "type": "vless"
+    },
+    {
+      "server": "31.43.179.52",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "KZ_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "142.171.33.100",
+      "server_port": 59886,
+      "tls": {
+        "enabled": true,
+        "server_name": "zvuk.com"
+      },
+      "transport": {
+        "path": "/free",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e3b2d928-1cff-401e-8324-825d378c20ab",
+      "tag": "CA_youtube@资源分享师_107",
+      "type": "vless"
+    },
+    {
+      "server": "217.163.76.89",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitter苏小柠",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "GB_分享日记_2",
+      "type": "vless"
+    },
+    {
+      "server": "93.113.175.66",
+      "server_port": 2083,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++221",
+      "type": "vless"
+    },
+    {
+      "server": "27.50.48.250",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitter苏小柠",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "SG_分享日记_1",
+      "type": "vless"
+    },
+    {
+      "server": "217.163.76.75",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++117",
+      "type": "vless"
+    },
+    {
+      "server": "217.163.76.59",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitter苏小柠",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "GB_分享日记_3",
+      "type": "vless"
+    },
+    {
+      "server": "77.74.228.97",
+      "server_port": 2087,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "BA_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "154.197.121.248",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "SC_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "217.163.76.88",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitter苏小柠",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "GB_分享日记_4",
+      "type": "vless"
+    },
+    {
+      "server": "142.171.33.100",
+      "server_port": 59886,
+      "tls": {
+        "enabled": true,
+        "server_name": "zvuk.com"
+      },
+      "transport": {
+        "path": "/free",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e3b2d928-1cff-401e-8324-825d378c20ab",
+      "tag": "🔒+VL-WS-NONE+🇺🇸+US-142.171.33.100:59886",
+      "type": "vless"
+    },
+    {
+      "server": "185.146.173.12",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++5",
+      "type": "vless"
+    },
+    {
+      "server": "104.26.0.56",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_232",
+      "type": "vmess"
+    },
+    {
+      "server": "27.50.48.250",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "SG_分享日记_2",
+      "type": "vless"
+    },
+    {
+      "server": "104.16.57.85",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "edtunnel-csc.pages.dev"
+      },
+      "transport": {
+        "path": "/?ed=2048",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "US_分享日记_2",
+      "type": "vless"
+    },
+    {
+      "server": "47.236.145.85",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "page-us-qg0.pages.dev"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c",
+      "tag": "Youtube顺丰资源_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.16.67.38",
+      "server_port": 2095,
+      "transport": {
+        "path": "/glweidf.sbs/linkws",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_30",
+      "type": "vmess"
+    },
+    {
+      "server": "185.148.104.109",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "US_youtube@资源分享师_210",
+      "type": "vless"
+    },
+    {
+      "server": "155.46.213.37",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++US23",
+      "type": "vless"
+    },
+    {
+      "server": "31.22.116.238",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "GB_youtube@资源分享师_189",
+      "type": "vless"
+    },
+    {
+      "server": "154.197.121.254",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++24",
+      "type": "vless"
+    },
+    {
+      "server": "104.19.47.32",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_95",
+      "type": "vmess"
+    },
+    {
+      "server": "104.26.0.56",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_78",
+      "type": "vmess"
+    },
+    {
+      "server": "47.76.189.214",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "page-us-qg0.pages.dev"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c",
+      "tag": "Youtube顺丰资源_2",
+      "type": "vless"
+    },
+    {
+      "server": "154.92.9.155",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源_3",
+      "type": "vless"
+    },
+    {
+      "server": "205.233.181.146",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "/tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "CA_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "172.64.166.22",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🏁RELAY-172.64.166.22-0418",
+      "type": "vmess"
+    },
+    {
+      "server": "164.38.155.75",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++GB237",
+      "type": "vless"
+    },
+    {
+      "server": "104.19.47.77",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_270",
+      "type": "vmess"
+    },
+    {
+      "server": "64.110.83.231",
+      "server_port": 23022,
+      "tls": {
+        "enabled": true,
+        "server_name": "page-us-qg0.pages.dev"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c",
+      "tag": "Youtube顺丰资源_4",
+      "type": "vless"
+    },
+    {
+      "server": "94.140.0.23",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "AE_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "132.226.21.116",
+      "server_port": 6056,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "KR_youtube@资源分享师_179",
+      "type": "vless"
+    },
+    {
+      "server": "188.42.88.91",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "LU_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "fbi.gov",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_102",
+      "type": "vmess"
+    },
+    {
+      "server": "154.197.121.248",
+      "server_port": 8443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++172",
+      "type": "vless"
+    },
+    {
+      "server": "51.38.70.15",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "vkvd127.mycdn.me"
+      },
+      "transport": {
+        "path": "/vless/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "7415478e-0e1b-4f1a-a048-e54c546df7c6",
+      "tag": "@meli_proxyy",
+      "type": "vless"
+    },
+    {
+      "server": "51.75.149.8",
+      "server_port": 80,
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "path": "/myiust/?ed",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "4034162a-f4f2-4bd9-bb11-70047ebe20cf",
+      "tag": "FR_youtube@资源分享师_225",
+      "type": "vless"
+    },
+    {
+      "server": "185.59.218.169",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "Twitterfreecodestg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++Netflix_1",
+      "type": "vless"
+    },
+    {
+      "server": "104.26.7.132",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_202",
+      "type": "vmess"
+    },
+    {
+      "server": "185.176.26.175",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "/tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "BG_分享日记",
+      "type": "vless"
+    },
+    {
+      "server": "31.43.179.98",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "科技网络+_51",
+      "type": "vless"
+    },
+    {
+      "server": "103.169.142.217",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "Twitterfreecodestg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++Netflix_2",
+      "type": "vless"
+    },
+    {
+      "server": "104.26.7.132",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_47",
+      "type": "vmess"
+    },
+    {
+      "server": "104.19.47.27",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_70",
+      "type": "vmess"
+    },
+    {
+      "server": "104.19.45.42",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_278",
+      "type": "vmess"
+    },
+    {
+      "server": "172.64.233.7",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_177",
+      "type": "vmess"
+    },
+    {
+      "server": "104.19.46.27",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_215",
+      "type": "vmess"
+    },
+    {
+      "server": "140.99.233.156",
+      "server_port": 2087,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "US_youtube@资源分享师_184",
+      "type": "vless"
+    },
+    {
+      "server": "167.68.11.245",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "toujiediansigema.5112233.xyz"
+      },
+      "transport": {
+        "path": "TG@juzibaipiao偷节点死吗",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e4e7b149-8bd8-4266-8cbb-0987604dbc87",
+      "tag": "@JUZIBAIPIAO-CMCC",
+      "type": "vless"
+    },
+    {
+      "server": "104.19.58.175",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_271",
+      "type": "vmess"
+    },
+    {
+      "server": "172.64.233.37",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_263",
+      "type": "vmess"
+    },
+    {
+      "server": "23.227.38.6",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_25",
+      "type": "vmess"
+    },
+    {
+      "server": "217.163.76.59",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "mositr.freenods.sbs"
+      },
+      "transport": {
+        "path": "Twitterfreecodes",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "678ac895-92c2-4f27-a9d4-f1a89c5f5365",
+      "tag": "Youtube顺丰资源++227",
+      "type": "vless"
+    },
+    {
+      "server": "45.80.111.136",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++UA80",
+      "type": "vless"
+    },
+    {
+      "server": "104.19.47.79",
+      "server_port": 2086,
+      "transport": {
+        "path": "github.com/Alvin9999",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "US_youtube@资源分享师_176",
+      "type": "vmess"
+    },
+    {
+      "server": "45.159.218.167",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "cfed.tgzdyz2.top"
+      },
+      "transport": {
+        "path": "/tg@zdyz2",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "tag": "Youtube顺丰资源++US44",
+      "type": "vless"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
+      "download_detour": "select"
+    },
+    "geosite": {
+      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
+      "download_detour": "select"
+    },
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "block"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "v2rayse.com",
+          "cfmem.com",
+          "vpnse.org",
+          "cff.pw",
+          "tt.vg"
+        ],
+        "outbound": "select"
+      },
+      {
+        "domain": [
+          "clash.razord.top",
+          "yacd.metacubex.one",
+          "yacd.haishan.me",
+          "d.metacubex.one"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "openai"
+        ],
+        "outbound": "🤖 OpenAI"
+      },
+      {
+        "geosite": [
+          "google",
+          "github"
+        ],
+        "geoip": [
+          "google"
+        ],
+        "outbound": "🌌 Google"
+      },
+      {
+        "geosite": [
+          "telegram"
+        ],
+        "geoip": [
+          "telegram"
+        ],
+        "outbound": "📟 Telegram"
+      },
+      {
+        "geosite": [
+          "twitter"
+        ],
+        "geoip": [
+          "twitter"
+        ],
+        "outbound": "🐦 Twitter"
+      },
+      {
+        "geosite": [
+          "facebook",
+          "instagram"
+        ],
+        "geoip": [
+          "facebook"
+        ],
+        "outbound": "👤 Facebook"
+      },
+      {
+        "geosite": [
+          "amazon"
+        ],
+        "outbound": "🛍️ Amazon"
+      },
+      {
+        "geosite": [
+          "apple-cn",
+          "apple"
+        ],
+        "outbound": "🍎 Apple"
+      },
+      {
+        "geosite": [
+          "microsoft"
+        ],
+        "outbound": "🧩 Microsoft"
+      },
+      {
+        "geosite": [
+          "category-games"
+        ],
+        "outbound": "🎮 Game"
+      },
+      {
+        "geosite": [
+          "bilibili"
+        ],
+        "outbound": "📺 Bilibili"
+      },
+      {
+        "geosite": [
+          "tiktok",
+          "netflix",
+          "hbo",
+          "disney",
+          "primevideo"
+        ],
+        "geoip": [
+          "netflix"
+        ],
+        "outbound": "🎬 MediaVideo"
+      },
+      {
+        "geosite": [
+          "geolocation-!cn"
+        ],
+        "outbound": "🌏 !cn"
+      },
+      {
+        "geosite": [
+          "cn"
+        ],
+        "geoip": [
+          "private",
+          "cn"
+        ],
+        "outbound": "🌏 cn"
+      },
+      {
+        "geosite": [
+          "category-ads-all"
+        ],
+        "outbound": "🛑 AdBlock"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db"
+    }
+  }
+}
