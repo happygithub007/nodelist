@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-09 11:49:02
+# 创建时间：2024-08-09 12:05:25
 # 使用模版：V2RaySE 默认模版
 # 节点数量：5
 ####################################
@@ -86,74 +86,74 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"happynet.fhe-5ney.workers.dev","type":"vless","server":"104.19.62.86","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"happynet2082","type":"vless","server":"104.19.62.86","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"happynet-104.18.239.10","type":"vless","server":"104.18.239.10","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"happynet11","type":"vless","server":"162.159.130.170","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"happynet12","type":"vless","server":"104.17.161.100","port":2087,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet01","type":"vless","server":"104.19.62.86","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet02","type":"vless","server":"104.18.239.10","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet03","type":"vless","server":"162.159.130.170","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet04","type":"vless","server":"104.18.178.40","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet05","type":"vless","server":"104.16.251.253","port":8880,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -176,11 +176,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happynet.fhe-5ney.workers.dev
-      - happynet2082
-      - happynet-104.18.239.10
-      - happynet11
-      - happynet12
+      - happynet01
+      - happynet02
+      - happynet03
+      - happynet04
+      - happynet05
 
 rules:
 # 本地/局域网地址
