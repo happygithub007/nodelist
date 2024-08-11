@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-11 11:10:51
+# 创建时间：2024-08-11 11:15:15
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：8
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -93,6 +93,7 @@ proxies:
   - {"name":"happynet02","type":"vless","server":"104.18.239.10","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet03","type":"vless","server":"162.159.130.170","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet04","type":"vless","server":"104.18.178.40","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet05","type":"vless","server":"104.16.251.253","port":8880,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -106,6 +107,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -119,6 +121,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -132,6 +135,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: 📲 电报信息
     type: select
     proxies:
@@ -144,6 +148,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -156,6 +161,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -168,6 +174,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,6 +204,7 @@ proxy-groups:
       - happynet02
       - happynet03
       - happynet04
+      - happynet05
 
 rules:
 # 本地/局域网地址
