@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-13 16:43:18
+# 创建时间：2024-08-13 16:59:54
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -95,7 +95,7 @@ proxies:
   - {"name":"happynet04","type":"vless","server":"104.18.178.40","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet05","type":"vless","server":"104.16.251.253","port":8880,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet06","type":"vless","server":"162.159.133.41","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"happynet07","type":"vless","server":"104.17.161.100","port":8443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet07","type":"vless","server":"104.17.161.100","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
