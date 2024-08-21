@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-05 10:46:52
+# 创建时间：2024-08-21 13:01:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：19
+# 节点数量：6
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,172 +86,81 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"科技网络 🇺🇸_199","type":"vmess","server":"104.156.141.91","port":30000,"cipher":"auto","uuid":"169fb64d-208d-4e06-bfc1-6f96554ca3ef","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.29116054.xyz","network":"ws","ws-opts":{"path":"/path/1717241050794","headers":{"host":"www.29116054.xyz"}}}
-  - {"name":"科技网络 🇺🇸_247","type":"vmess","server":"67.21.93.13","port":30001,"cipher":"auto","uuid":"9838c1b4-c3fd-49b5-8a59-2ff05385f17c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.81732420.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.81732420.xyz"}}}
-  - {"name":"US_youtube@资源分享师_208","type":"vless","server":"43.153.103.203","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"KR_youtube@资源分享师_75","type":"vless","server":"146.56.171.182","port":11659,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"欢迎订阅yui科技_152","type":"vmess","server":"156.245.8.193","port":41002,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.55825203.xyz","network":"ws","ws-opts":{"path":"/path/1721133830102","headers":{"host":"www.55825203.xyz"}}}
-  - {"name":"CN_分享日记","type":"vless","server":"203.69.248.40","port":27381,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
   - {"name":"SCP官方节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"US_分享日记_1","type":"vless","server":"47.236.80.110","port":2096,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80","type":"vless","server":"104.18.37.150","port":80,"uuid":"781a8eb4-c4f7-4f99-9dee-e80369dbf1ec","servername":"us3.rtacg.com","network":"ws","ws-opts":{"path":"/","headers":{"host":"us3.rtacg.com"}}}
-  - {"name":"HK_分享日记","type":"vless","server":"219.76.13.167","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_39","type":"vless","server":"47.236.180.51","port":2087,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_2","type":"vless","server":"104.18.1.89","port":8443,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"servername":"VFIvE-tELegrAM.paGes.deV","network":"ws","ws-opts":{"path":"/mmf5knd8huh7yr0j?ed=2560","headers":{"host":"VFIvE-tELegrAM.paGes.deV"}}}
-  - {"name":"英国(yudou66.com+玉豆免费节点)","type":"vless","server":"51.38.69.149","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"JP_youtube@资源分享师_94","type":"vless","server":"149.28.22.198","port":8443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++FR220","type":"vless","server":"136.244.115.71","port":2053,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"TW_youtube@资源分享师_169","type":"vless","server":"61.220.65.189","port":26832,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_3","type":"vless","server":"20.119.0.50","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"nnfgrr.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"nnfgrr.azurewebsites.net"}}}
   - {"name":"JP_分享日记","type":"vless","server":"104.215.58.230","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"gkkui8.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"gkkui8.azurewebsites.net"}}}
+  - {"name":"🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"telegram-id-ArV2ray","servername":"8.V2.f.www.speedtest.net.mehpow.iR.","network":"ws","ws-opts":{"path":"/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052","headers":{"host":"8.V2.f.www.speedtest.net.mehpow.iR."}}}
+  - {"name":"🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"telegram-id-ArV2ray","servername":"1.V.V2.www.speedtest.net.et.debian.org.mehpow.iR.","network":"ws","ws-opts":{"path":"/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2095","headers":{"host":"1.V.V2.www.speedtest.net.et.debian.org.mehpow.iR."}}}
   - {"name":"科技网络 🇺🇸_11","type":"vmess","server":"172.111.57.242","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.70615435.xyz","network":"ws","ws-opts":{"path":"/path/1718886454408","headers":{"host":"www.70615435.xyz"}}}
+  - {"name":"🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"telegram-id-ArV2ray","servername":"6.V2.h.www.speedtest.net.dnschecker.tecH.","network":"ws","ws-opts":{"path":"/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2095","headers":{"host":"6.V2.h.www.speedtest.net.dnschecker.tecH."}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,25 +183,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 科技网络 🇺🇸_199
-      - 科技网络 🇺🇸_247
-      - US_youtube@资源分享师_208
-      - KR_youtube@资源分享师_75
-      - 欢迎订阅yui科技_152
-      - CN_分享日记
       - SCP官方节点
-      - US_分享日记_1
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.18.37.150:80
-      - HK_分享日记
-      - US_youtube@资源分享师_39
-      - US_分享日记_2
-      - 英国(yudou66.com+玉豆免费节点)
-      - JP_youtube@资源分享师_94
-      - Youtube顺丰资源++FR220
-      - TW_youtube@资源分享师_169
-      - US_分享日记_3
       - JP_分享日记
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  4ms
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  39ms
       - 科技网络 🇺🇸_11
+      - 🆔arv2ray 🔓 VL-WS-N/A 🆥🆥  6ms
 
 rules:
 # 本地/局域网地址
