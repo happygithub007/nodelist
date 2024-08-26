@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-25 12:33:54
+# 创建时间：2024-08-26 21:07:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：29
+# 节点数量：13
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,242 +86,130 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"GB_youtube@资源分享师_171","type":"trojan","server":"il.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"il.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"GB_youtube@资源分享师_114","type":"trojan","server":"vn.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"vn.mjt000.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"RU_youtube@资源分享师_39","type":"vless","server":"193.9.49.147","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++AU169","type":"vless","server":"192.65.217.57","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源","type":"vless","server":"47.236.145.85","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
-  - {"name":"@meli_proxyy","type":"vless","server":"104.18.5.2","port":2096,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"servername":"VFIvE-teLeGram.PAGEs.Dev","network":"ws","ws-opts":{"path":"/Tel-@V2ray_Alpha/?ed=2048","headers":{"host":"VFIvE-teLeGram.PAGEs.Dev"}}}
-  - {"name":"US_youtube@资源分享师_13","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","servername":"Telegram id: @V2raySeven","network":"ws","ws-opts":{"path":"/http"}}
-  - {"name":"Youtube顺丰资源++KR132","type":"vless","server":"222.113.18.214","port":37051,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_1","type":"vless","server":"bpb-xiaoer886.pages.dev","port":2096,"uuid":"facefd1f-903b-411d-b0a2-286c9a76e471","tls":true,"servername":"BPB-XiaOer886.paGeS.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"BPB-XiaOer886.paGeS.dEv"}}}
-  - {"name":"NL_分享日记","type":"vless","server":"45.159.218.229","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/juzi","headers":{"host":"page-us-qg0.pages.dev"}}}
-  - {"name":"FR_分享日记","type":"vless","server":"45.80.111.199","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_138","type":"vless","server":"205.233.181.242","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"科技网络+🇩🇪_76","type":"vless","server":"45.80.111.8","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"SE_分享日记","type":"vless","server":"185.146.173.122","port":443,"uuid":"5184b87c-8537-41d6-be54-5027c8432d50","tls":true,"servername":"paRVIZsabEti.pAgeS.dEV","network":"ws","ws-opts":{"path":"/","headers":{"host":"paRVIZsabEti.pAgeS.dEV"}}}
-  - {"name":"US_youtube@资源分享师_230","type":"vless","server":"108.165.216.42","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_2","type":"vless","server":"divide.footballlovernews.com","port":443,"uuid":"d15f5947-f95c-4cc4-b8e0-20219e4bc2d1","tls":true,"servername":"divide.footballlovernews.com","network":"ws","ws-opts":{"path":"/divide","headers":{"host":"divide.footballlovernews.com"}}}
-  - {"name":"🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80","type":"vless","server":"104.16.202.9","port":80,"uuid":"781a8eb4-c4f7-4f99-9dee-e80369dbf1ec","servername":"us3.rtacg.com","network":"ws","ws-opts":{"path":"/","headers":{"host":"us3.rtacg.com"}}}
-  - {"name":"US_分享日记_3","type":"vless","server":"solid.footballlovernews.com","port":443,"uuid":"f1dd1020-7b3f-491d-a9e3-0b2cb9a1daff","tls":true,"servername":"solid.footballlovernews.com","network":"ws","ws-opts":{"path":"/solid","headers":{"host":"solid.footballlovernews.com"}}}
-  - {"name":"US_youtube@资源分享师_103","type":"vless","server":"185.148.107.214","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++LT33","type":"vless","server":"89.116.250.77","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"Youtube顺丰资源++Netflix_1","type":"vless","server":"147.78.140.158","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"Twitterfreecodestg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_分享日记_4","type":"vless","server":"104.24.20.71","port":443,"uuid":"9902fc94-31f9-4afe-b37a-82f5790b3d2a","tls":true,"servername":"de1-moryvpnbot.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"de1-moryvpnbot.pages.dev"}}}
-  - {"name":"Youtube顺丰资源++Netflix_2","type":"vless","server":"205.233.181.146","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"Twitterfreecodestg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"LT_分享日记","type":"vless","server":"89.116.250.128","port":443,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms","type":"vless","server":"89.187.169.71","port":443,"udp":true,"uuid":"6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g","short-id":"01b200e90e250221"},"client-fingerprint":"chrome"}
-  - {"name":"US_分享日记_5","type":"vless","server":"104.21.34.74","port":443,"uuid":"d6f79630-aa94-4536-b2ef-899b5acb3b49","tls":true,"servername":"unmanliest.appreviewcenter.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"unmanliest.appreviewcenter.com"}}}
-  - {"name":"🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1","type":"vless","server":"185.146.173.98","port":80,"uuid":"b69f02d4-4947-5d4c-a341-aae33b616dbc","servername":"Uk2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"Uk2.vless.site."}}}
-  - {"name":"🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2","type":"vless","server":"185.146.173.44","port":80,"uuid":"5c023a50-f9f2-5563-9ce2-e46d5cda57bc","servername":"Be2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"Be2.vless.site."}}}
   - {"name":"SCP官方节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
+  - {"name":"科技网络 🇺🇸_234","type":"vmess","server":"170.178.169.133","port":30001,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.21799609.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.21799609.xyz"}}}
+  - {"name":"SE_分享日记","type":"vless","server":"185.146.173.122","port":443,"uuid":"5184b87c-8537-41d6-be54-5027c8432d50","tls":true,"servername":"paRVIZsabEti.pAgeS.dEV","network":"ws","ws-opts":{"path":"/","headers":{"host":"paRVIZsabEti.pAgeS.dEV"}}}
+  - {"name":"NL_分享日记","type":"vless","server":"45.159.218.229","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/juzi","headers":{"host":"page-us-qg0.pages.dev"}}}
+  - {"name":"Youtube顺丰资源","type":"vless","server":"47.236.145.85","port":443,"uuid":"bd7d2c5c-86bc-4d5c-8c6b-a5c58981e68c","tls":true,"servername":"page-us-qg0.pages.dev","network":"ws","ws-opts":{"path":"/","headers":{"host":"page-us-qg0.pages.dev"}}}
+  - {"name":"🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms","type":"vless","server":"89.187.169.71","port":443,"udp":true,"uuid":"6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g","short-id":"01b200e90e250221"},"client-fingerprint":"chrome"}
+  - {"name":"科技网络 🇫🇷_78","type":"vmess","server":"51.75.155.119","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.95206863.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.95206863.xyz"}}}
+  - {"name":"科技网络 🇬🇧_1","type":"vmess","server":"51.89.13.7","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.58126088.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.58126088.xyz"}}}
+  - {"name":"🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms","type":"vless","server":"185.146.173.44","port":80,"uuid":"5c023a50-f9f2-5563-9ce2-e46d5cda57bc","servername":"Be2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"Be2.vless.site."}}}
+  - {"name":"GB_youtube@资源分享师_171","type":"trojan","server":"il.mjt000.com","port":443,"udp":true,"password":"757b6db0-be90-40b1-8980-664bba40ae46","sni":"il.mjt000.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095","type":"vless","server":"185.146.173.96","port":2095,"uuid":"7a70e749-a876-510b-abea-bfd364f481d6","servername":"De3.VlesS.Site.","network":"ws","ws-opts":{"path":"/vless?ed=2095","headers":{"host":"De3.VlesS.Site."}}}
+  - {"name":"🇩🇪DE_667","type":"ss","server":"80.92.204.106","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳 上海市 阿里云","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12053,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -344,35 +232,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_youtube@资源分享师_171
-      - GB_youtube@资源分享师_114
-      - RU_youtube@资源分享师_39
-      - Youtube顺丰资源++AU169
-      - Youtube顺丰资源
-      - '@meli_proxyy'
-      - US_youtube@资源分享师_13
-      - Youtube顺丰资源++KR132
-      - US_分享日记_1
-      - NL_分享日记
-      - FR_分享日记
-      - US_youtube@资源分享师_138
-      - 科技网络+🇩🇪_76
-      - SE_分享日记
-      - US_youtube@资源分享师_230
-      - US_分享日记_2
-      - 🔒 VL-WS-NONE 🏴‍☠️ NA-104.16.202.9:80
-      - US_分享日记_3
-      - US_youtube@资源分享师_103
-      - Youtube顺丰资源++LT33
-      - Youtube顺丰资源++Netflix_1
-      - US_分享日记_4
-      - Youtube顺丰资源++Netflix_2
-      - LT_分享日记
-      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - US_分享日记_5
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_1
-      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms_2
       - SCP官方节点
+      - 科技网络 🇺🇸_234
+      - SE_分享日记
+      - NL_分享日记
+      - Youtube顺丰资源
+      - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
+      - 科技网络 🇫🇷_78
+      - 科技网络 🇬🇧_1
+      - 🆔oneclickvpnkeys 🔓 VL-WS-N/A 🇸🇪 SE 2ms
+      - GB_youtube@资源分享师_171
+      - 🔒 VL-WS-NONE 🇸🇪 SE-185.146.173.96:2095
+      - 🇩🇪DE_667
+      - 🇨🇳 上海市 阿里云
 
 rules:
 # 本地/局域网地址
