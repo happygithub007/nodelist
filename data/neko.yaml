@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-28 21:51:15
+# 创建时间：2024-08-30 21:52:15
 # 使用模版：V2RaySE 默认模版
-# 节点数量：58
+# 节点数量：72
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,445 +86,543 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Youtube顺丰资源  CN213","type":"vmess","server":"103.192.179.18","port":33678,"cipher":"auto","uuid":"3056f62f-5fac-4767-a9b8-63abc970684d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"12|HK_speednode_0251","type":"trojan","server":"38.207.164.31","port":32828,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
   - {"name":"马来西亚_082813001","type":"vless","server":"101.99.84.124","port":80,"uuid":"abfa5fd9-6ed0-4310-9372-49590b054a2b","servername":"moba.mobilelegends.com","network":"ws","ws-opts":{"path":"/vless-ntls","headers":{"host":"moba.mobilelegends.com"}}}
-  - {"name":"新加坡_082813095","type":"vless","server":"13.67.9.5","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"shg2.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"shg2.azurewebsites.net"}}}
+  - {"name":"马来西亚_083013001","type":"vless","server":"101.99.84.124","port":80,"uuid":"abfa5fd9-6ed0-4310-9372-49590b054a2b","servername":"moba.mobilelegends.com","network":"ws","ws-opts":{"path":"/vless-ntls","headers":{"host":"moba.mobilelegends.com"}}}
+  - {"name":"🇨🇳 广东省东莞市 电信","type":"ss","server":"gg01.6bnw.top","port":40013,"password":"4b1b1e13-1e02-4b73-848a-e99cefab6f55","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"3","type":"trojan","server":"42.236.73.72","port":443,"udp":true,"password":"fuck","sni":"www.zitian.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK-220.246.101.187-1250","type":"vmess","server":"shhkt.cdn-sgp.xyz","port":40046,"cipher":"auto","uuid":"f50389b3-b3fa-43f6-803a-c04e45b1d565","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"shhkt.cdn-sgp.xyz"}}}
   - {"name":"新加坡_082813089","type":"vless","server":"152.42.208.99","port":29260,"uuid":"43a5dfb3-7961-4338-969e-e2fe8fc6db37","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"印度_082813016","type":"vless","server":"144.24.139.190","port":28852,"uuid":"ee187c79-7594-4a97-96bc-ff717c61a919","network":"ws","ws-opts":{"path":"/a"}}
-  - {"name":"GB_youtube@资源分享师_166","type":"vless","server":"144.24.139.190","port":28852,"uuid":"ee187c79-7594-4a97-96bc-ff717c61a919","network":"ws","ws-opts":{"path":"/a"}}
-  - {"name":"Youtube顺丰资源++UA137","type":"ss","server":"95.164.6.178","port":1925,"password":"18Vz0GruOhKd3TaRwBwIH2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE_667","type":"ss","server":"80.92.204.106","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
-  - {"name":"🇨🇳 上海市 阿里云","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12053,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_1","type":"trojan","server":"129.146.248.140","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源  CN192","type":"vmess","server":"mmhk01.micloud.buzz","port":46001,"cipher":"auto","uuid":"638501f6-0ba0-47cb-bcfe-200cc1169e81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmhk01.micloud.buzz"}}}
-  - {"name":"US_youtube@资源分享师_163","type":"ss","server":"54.37.18.75","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"Youtube顺丰资源++美国_2","type":"trojan","server":"89.168.118.76","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡_082813116","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"Youtube顺丰资源++美国_3","type":"trojan","server":"158.101.175.51","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本_083013134","type":"vless","server":"45.77.22.236","port":33558,"uuid":"17b75e8c-6818-47de-88a5-2f846495587d","network":"tcp"}
+  - {"name":"新加坡_083013091","type":"vless","server":"159.223.67.95","port":443,"uuid":"89c73169-a2e8-4abb-8556-d6ee089052b0","tls":true,"servername":"aka.ms","network":"tcp","alpn":["h3","h2","http/1.1"]}
+  - {"name":"德国_083013127","type":"vless","server":"91.107.136.161","port":43392,"uuid":"53bfbb9d-7ce6-4a14-99f3-0bd854cdf2fe","network":"tcp"}
+  - {"name":"12|US_speednode_0377","type":"trojan","server":"45.87.103.80","port":28619,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"12|US_speednode_0332","type":"trojan","server":"154.17.20.7","port":34967,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"12|US_speednode_0330","type":"trojan","server":"154.17.22.88","port":30861,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"12|US_speednode_0340","type":"trojan","server":"154.17.25.7","port":50376,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"12|US_speednode_0326","type":"trojan","server":"38.207.187.156","port":44017,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"0,12|US_speednode_0311","type":"trojan","server":"103.136.185.28","port":3504,"udp":true,"password":"5150556f-3efb-3b94-b669-c8567cd61730","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"12|US_speednode_0329","type":"trojan","server":"185.218.7.182","port":53479,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港_083013087","type":"vless","server":"103.17.99.37","port":19280,"udp":true,"uuid":"89b90001-4206-4871-a99d-1744d48f215b","tls":true,"servername":"cdn-dynmedia-1.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"F5_aTQFA2QRCig3L-qT0Qth76JdewSHK5MgEt_p8Dlo","short-id":"a8bd783f"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云","type":"trojan","server":"43.153.80.208","port":443,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_youtube@资源分享师_129","type":"vmess","server":"104.26.7.132","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
+  - {"name":"US_youtube@资源分享师_154","type":"vmess","server":"104.18.14.19","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"SCP官方节点","type":"vless","server":"82.153.135.50","port":34171,"udp":true,"uuid":"ac74dfae-6039-43c0-fa55-fbf6e6630df6","tls":true,"servername":"dmcc.ae","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"Youtube顺丰资源++美国_4","type":"trojan","server":"34.123.83.237","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_256","type":"ss","server":"54.37.18.75","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"韩国_082813079","type":"vless","server":"132.226.172.147","port":62001,"udp":true,"uuid":"f61e2705-1fa7-4202-9724-d8a9e4d63917","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"US_youtube@资源分享师_28","type":"trojan","server":"152.42.252.70","port":443,"udp":true,"password":"fQ84Q7A4dw","sni":"ultra.vpnxhub.xyz","skip-cert-verify":true,"network":"grpc"}
-  - {"name":"Youtube顺丰资源++美国_5","type":"trojan","server":"34.66.72.229","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_6","type":"trojan","server":"168.138.46.67","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_7","type":"trojan","server":"141.144.232.159","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube顺丰资源++美国_8","type":"trojan","server":"158.179.203.23","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_youtube@资源分享师_150","type":"ss","server":"54.37.18.75","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"Youtube顺丰资源++美国_9","type":"trojan","server":"84.235.169.234","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"澳大利亚_082813031","type":"vless","server":"20.42.228.160","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"sdfee4.azurewebsites.net","network":"ws","ws-opts":{"headers":{"host":"sdfee4.azurewebsites.net"}}}
+  - {"name":"CF中转_0828132077","type":"vless","server":"104.21.69.44","port":2083,"uuid":"3098630e-1b33-477b-93f2-5ca345cbdb21","tls":true,"servername":"Kasler.lol","network":"grpc","grpc-opts":{"grpc-service-name":"Asi"},"alpn":["h2","http/1.1"]}
+  - {"name":"Youtube顺丰资源  CN192","type":"vmess","server":"mmhk01.micloud.buzz","port":46001,"cipher":"auto","uuid":"638501f6-0ba0-47cb-bcfe-200cc1169e81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmhk01.micloud.buzz"}}}
+  - {"name":"法国_083013089","type":"vless","server":"185.234.64.35","port":8443,"udp":true,"uuid":"2f9128fa-20ad-4e75-b017-9e2f4a5aed47","tls":true,"servername":"104.24.1.181","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"9_hNyoPG96fNIMh4IBQ3gs88n86vwCjp53tL_X_2dy4","short-id":"0cfbfab0b04ca069"},"client-fingerprint":"chrome"}
+  - {"name":"Youtube顺丰资源++美国_1","type":"trojan","server":"34.123.83.237","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国_083013134","type":"vless","server":"89.169.55.152","port":34311,"udp":true,"uuid":"68d883a5-8b91-43aa-b4ae-68458d25f77a","tls":true,"servername":"www.digikala.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"sojbJQBfQc5tdE2QjXGelIvYISxbTy2pWidbO3tZm2Y","short-id":"c38275"},"client-fingerprint":"chrome"}
   - {"name":"法国_082813087","type":"vless","server":"185.234.64.35","port":8443,"udp":true,"uuid":"2f9128fa-20ad-4e75-b017-9e2f4a5aed47","tls":true,"servername":"104.24.1.181","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"9_hNyoPG96fNIMh4IBQ3gs88n86vwCjp53tL_X_2dy4","short-id":"0cfbfab0b04ca069"},"client-fingerprint":"chrome"}
-  - {"name":"US_youtube@资源分享师_141","type":"ss","server":"54.37.18.75","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"瑞典_082813192","type":"vless","server":"77.221.143.183","port":33000,"udp":true,"uuid":"d5e775de-0530-4062-a654-25dd2ba648d2","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"b"},"reality-opts":{"public-key":"JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0","short-id":"be7f13dd"},"client-fingerprint":"chrome"}
-  - {"name":"CN_youtube@资源分享师_42","type":"vmess","server":"wduzpt.gxcvbmj.xyz","port":22238,"cipher":"auto","uuid":"6ea392c2-0636-3d4f-a6a2-f38a76e216d3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"俄罗斯联邦_082813098","type":"vless","server":"45.67.215.11","port":443,"uuid":"d12fd888-e00a-46b0-88f6-7d8ac86469dd","tls":true,"servername":"joinbedevmessorg.xn--54qv00ez5ar77g.co.","network":"ws","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=443","headers":{"host":"joinbedevmessorg.xn--54qv00ez5ar77g.co."}}}
-  - {"name":"US_youtube@资源分享师_160","type":"ss","server":"54.37.18.75","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"日本_082813173","type":"vless","server":"150.66.24.104","port":34237,"uuid":"2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5","tls":true,"servername":"cfed.tgzdyz2.top","network":"ws","ws-opts":{"path":"/tg@zdyz2","headers":{"host":"cfed.tgzdyz2.top"}}}
-  - {"name":"US_youtube@资源分享师_201","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","network":"ws","ws-opts":{"path":"/http"}}
+  - {"name":"瑞典_083013258","type":"vless","server":"bank.codezeep.ir","port":443,"udp":true,"uuid":"35bf66ad-f01e-4cdd-855e-34c03cadd489","tls":true,"servername":"mdundo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"kBBSmftl_t-gyWPm4cCg3n-_qYquZxC8lj_qJU5g0Ho","short-id":"34d2250a45581c19"},"client-fingerprint":"chrome"}
+  - {"name":"未知_083013010","type":"vless","server":"bpb-xiaoer886.pages.dev","port":2096,"uuid":"facefd1f-903b-411d-b0a2-286c9a76e471","tls":true,"servername":"BPB-XiaOer886.paGeS.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"BPB-XiaOer886.paGeS.dEv"}}}
+  - {"name":"法国_083013106","type":"vless","server":"193.70.90.159","port":80,"uuid":"f4859fc9-dc44-11ee-b9ba-00505603e70d","network":"ws","ws-opts":{"path":"/websocket"}}
+  - {"name":"Youtube顺丰资源++美国_2","type":"trojan","server":"34.41.252.92","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"未知_083013012","type":"vless","server":"bpb-xiaoer886.pages.dev","port":2083,"uuid":"facefd1f-903b-411d-b0a2-286c9a76e471","tls":true,"servername":"bPB-XiaOeR886.pAGES.DEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"bPB-XiaOeR886.pAGES.DEv"}}}
+  - {"name":"12|US_speednode_0346","type":"trojan","server":"2.59.151.85","port":48333,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_youtube@资源分享师_68","type":"vmess","server":"162.159.140.45","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"CF中转_08301310926","type":"vless","server":"190.93.247.155","port":80,"uuid":"Join-Telegram-Picumin","servername":"discord.com.PQN.iranserver.com.digikala.com.nobitex.ir.leader.ir.IMsrV2rayJGiioii92129TxTul.SawMINSWEDEN2.PaQmin.LAt","network":"ws","ws-opts":{"path":"/robots.txt?ed=2560","headers":{"host":"discord.com.PQN.iranserver.com.digikala.com.nobitex.ir.leader.ir.IMsrV2rayJGiioii92129TxTul.SawMINSWEDEN2.PaQmin.LAt"}}}
+  - {"name":"US_youtube@资源分享师_82","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
   - {"name":"科技网络 🇺🇸_234","type":"vmess","server":"170.178.169.133","port":30001,"cipher":"auto","uuid":"b697d727-cf6c-41dd-a0de-c7a9478e4a4a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.21799609.xyz","network":"ws","ws-opts":{"path":"/path/181721272114","headers":{"host":"www.21799609.xyz"}}}
-  - {"name":"美国_082813278","type":"vless","server":"34.192.216.9","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"name":"德国_082813135","type":"vless","server":"89.187.169.71","port":443,"udp":true,"uuid":"6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g","short-id":"01b200e90e250221"},"client-fingerprint":"randomized"}
-  - {"name":"Youtube顺丰资源++美国_10","type":"trojan","server":"34.41.252.92","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"德国_082813182","type":"vless","server":"80.240.22.230","port":8443,"udp":true,"uuid":"f2c70ce4-74de-4adb-abd3-880ed527bb35","tls":true,"servername":"Renovabe.com.br","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"EeCYaaZvlHEltnxx_5dvlsscctuREOpdX06oK8lY5S0","short-id":"a6fea821"},"client-fingerprint":"chrome"}
-  - {"name":"Youtube顺丰资源  JP153","type":"vmess","server":"3h-philippines1.09vpn.com","port":80,"cipher":"auto","uuid":"e7d6a050-e52a-4d85-ac26-95f85e44e8f4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":"3h-philippines1.09vpn.com"}}}
+  - {"name":"德国_083013135","type":"vless","server":"89.187.169.71","port":443,"udp":true,"uuid":"6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g","short-id":"01b200e90e250221"},"client-fingerprint":"randomized"}
+  - {"name":"US_youtube@资源分享师_139","type":"vmess","server":"162.159.140.66","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"爱尔兰_082813009","type":"vless","server":"95.164.44.221","port":8443,"udp":true,"uuid":"45533f81-cd8c-4792-a030-1adfbca4580a","tls":true,"servername":"104.26.0.64","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"gFTf_6RoZ471Gb_QAzNXtozMEqo1Zv81RgT-aoc0DCY","short-id":"e8bc0dd175491cfe"},"client-fingerprint":"chrome"}
-  - {"name":"CN_youtube@资源分享师_119","type":"vmess","server":"mmde92.micloud.buzz","port":46092,"cipher":"auto","uuid":"638501f6-0ba0-47cb-bcfe-200cc1169e81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"mmde92.micloud.buzz"}}}
-  - {"name":"科技网络 🇬🇧_1","type":"vmess","server":"51.89.13.7","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.58126088.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.58126088.xyz"}}}
-  - {"name":"新加坡_082813120","type":"vless","server":"165.154.217.19","port":3389,"udp":true,"uuid":"cf9e7994-4978-4be9-92c0-0992088f7800","tls":true,"servername":"iarf.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"LKY57231rstllemhba_L2effC1FEQyDxyXo5zcNtgFs","short-id":"3026f40f"},"client-fingerprint":"chrome"}
-  - {"name":"科技网络 🇫🇷_78","type":"vmess","server":"51.75.155.119","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.95206863.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.95206863.xyz"}}}
-  - {"name":"伊朗_082813018","type":"vless","server":"185.97.117.210","port":995,"uuid":"13ce135b-70b6-4e0b-b89c-f15cf15d066d","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"US_youtube@资源分享师_189","type":"vmess","server":"104.26.5.88","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
   - {"name":"FR_youtube@资源分享师_159","type":"vless","server":"193.70.90.159","port":80,"uuid":"f4859fc9-dc44-11ee-b9ba-00505603e70d","network":"ws","ws-opts":{"path":"/websocket"}}
-  - {"name":"法国_082813105","type":"vless","server":"193.70.90.159","port":80,"uuid":"f4859fc9-dc44-11ee-b9ba-00505603e70d","network":"ws","ws-opts":{"path":"/websocket"}}
-  - {"name":"加拿大_082813076","type":"vless","server":"40.69.106.103","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"mmghgy5.azurewebsites.net","network":"ws","ws-opts":{"headers":{"host":"mmghgy5.azurewebsites.net"}}}
-  - {"name":"阿联酋_082813014","type":"vless","server":"109.61.42.32","port":22979,"uuid":"28c934e6-03f3-4a27-a584-a4a8d16912bd","network":"tcp"}
-  - {"name":"巴西_082813009","type":"vless","server":"20.206.176.5","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"dhfthyt6.azurewebsites.net","network":"ws","ws-opts":{"headers":{"host":"dhfthyt6.azurewebsites.net"}}}
+  - {"name":"US_youtube@资源分享师_46","type":"vmess","server":"104.19.44.174","port":8080,"cipher":"auto","uuid":"3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"amd2.720208.xyz"}}}
+  - {"name":"🇰🇷 韩国 KT电信","type":"trojan","server":"218.158.87.155","port":11423,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"CF中转_083013434","type":"vless","server":"172.67.174.202","port":2052,"uuid":"77aa2623-e6aa-4997-b829-d83a963a0581","servername":"blog-free.rubika.ir.bale.com.igap.net.zcx---cplus.hhtml.nice.hg.newbalace.com.panel.TelActive.Net.","network":"ws","ws-opts":{"path":"/","headers":{"host":"blog-free.rubika.ir.bale.com.igap.net.zcx---cplus.hhtml.nice.hg.newbalace.com.panel.TelActive.Net."}}}
+  - {"name":"رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣","type":"vless","server":"15.222.123.95","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"US_youtube@资源分享师_126","type":"vmess","server":"104.26.9.156","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"CF中转_0830131781","type":"vless","server":"104.16.219.230","port":443,"uuid":"1235b6fb-7f15-4361-8da3-d1a079bdf484","tls":true,"servername":"NGINX-H.pages.DEV","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"NGINX-H.pages.DEV"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"韩国_082813079","type":"vless","server":"132.226.172.147","port":62001,"udp":true,"uuid":"f61e2705-1fa7-4202-9724-d8a9e4d63917","tls":true,"servername":"swdist.apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
+  - {"name":"CF中转_0830131900","type":"vless","server":"104.26.10.137","port":443,"uuid":"1e8e2283-4c2d-11ef-ad7f-00505605a82d","tls":true,"servername":"cdn-fr.brocdn.com","network":"ws","ws-opts":{"path":"/websocket","headers":{"host":"cdn-fr.brocdn.com"}}}
+  - {"name":"俄罗斯联邦_083013101","type":"vless","server":"45.67.215.11","port":443,"uuid":"d12fd888-e00a-46b0-88f6-7d8ac86469dd","tls":true,"servername":"joinbedevmessorg.xn--54qv00ez5ar77g.co.","network":"ws","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=443","headers":{"host":"joinbedevmessorg.xn--54qv00ez5ar77g.co."}}}
+  - {"name":"新加坡_083013113","type":"vless","server":"165.154.217.19","port":3389,"udp":true,"uuid":"cf9e7994-4978-4be9-92c0-0992088f7800","tls":true,"servername":"iarf.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"LKY57231rstllemhba_L2effC1FEQyDxyXo5zcNtgFs","short-id":"3026f40f"},"client-fingerprint":"chrome"}
+  - {"name":"科技网络 🇫🇷_78","type":"vmess","server":"51.75.155.119","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.95206863.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.95206863.xyz"}}}
+  - {"name":"CF中转_0828132099","type":"vless","server":"172.67.158.12","port":443,"uuid":"32f09b70-d2f7-11ee-abda-00505603e70d","tls":true,"servername":"st-gb-1.brocdn.com","network":"ws","ws-opts":{"path":"/websocket","headers":{"host":"st-gb-1.brocdn.com"}}}
+  - {"name":"CF中转_0830137239","type":"vless","server":"104.21.32.238","port":443,"uuid":"cede337b-9ea5-40e5-a8b1-690bf49ff41d","tls":true,"servername":"storeships.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"storeships.toptechnonews.com"}},"alpn":["http/1.1"],"client-fingerprint":"chrome"}
+  - {"name":"未知_083013748","type":"vless","server":"shaliest.toptechnonews.com","port":443,"uuid":"ff3c4db3-2259-479e-a0e0-7af7d1d429db","tls":true,"servername":"shaliest.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"shaliest.toptechnonews.com"}}}
+  - {"name":"瑞典_083013088","type":"vless","server":"70.34.223.45","port":443,"udp":true,"uuid":"35bf66ad-f01e-4cdd-855e-34c03cadd489","tls":true,"servername":"mdundo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"kBBSmftl_t-gyWPm4cCg3n-_qYquZxC8lj_qJU5g0Ho","short-id":"34d2250a45581c19"},"client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US-184.170.241.194-0724","type":"ss","server":"184.170.241.194","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"科技网络 🇬🇧_1","type":"vmess","server":"51.89.13.7","port":30002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.58126088.xyz","network":"ws","ws-opts":{"path":"/path/340434130032","headers":{"host":"www.58126088.xyz"}}}
+  - {"name":"亚美尼亚_082813011","type":"vless","server":"45.82.100.62","port":443,"uuid":"4352f2a7-d620-474e-9249-e866774a2c81","tls":true,"servername":"ebnada.com","network":"ws","ws-opts":{"path":"/hgffg","headers":{"host":"ebnada.com"}}}
+  - {"name":"12|US_speednode_0336","type":"trojan","server":"154.21.93.124","port":14280,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"CF中转_082813124","type":"vless","server":"172.67.156.27","port":443,"uuid":"f5a78514-1a94-486e-92a7-3bc9817095a6","tls":true,"servername":"nitriding.appreviewcenter.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"nitriding.appreviewcenter.com"}}}
+  - {"name":"🇨🇳 山东省济南市 联通","type":"ss","server":"yd1.qianggewangluo.buzz","port":10809,"password":"36fdc73d-0bff-4d66-9759-e81c63de16b6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"未知_082813670","type":"vless","server":"jorum.toptechnonews.com","port":443,"uuid":"6cffb34f-2197-4037-8bbe-54cd90410922","tls":true,"servername":"jorum.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws","headers":{"host":"jorum.toptechnonews.com"}}}
+  - {"name":"CF中转_083013439","type":"vless","server":"172.67.135.169","port":443,"uuid":"ec880e3c-2817-4b89-9887-ccc1fb7e3a52","tls":true,"servername":"steel.footballlovernews.com","network":"ws","ws-opts":{"path":"/steel","headers":{"host":"steel.footballlovernews.com"}},"client-fingerprint":"chrome"}
   - {"name":"🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms","type":"vless","server":"89.187.169.71","port":443,"udp":true,"uuid":"6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g","short-id":"01b200e90e250221"},"client-fingerprint":"chrome"}
-  - {"name":"美国_0828131127","type":"vless","server":"92.38.145.145","port":443,"uuid":"4352f2a7-d620-474e-9249-e866774a2c81","tls":true,"servername":"ebnada.com","network":"ws","ws-opts":{"path":"/hgffg","headers":{"host":"ebnada.com"}}}
-  - {"name":"俄罗斯联邦_082813091","type":"vless","server":"46.29.162.87","port":53018,"uuid":"96ce0b69-5561-4707-9961-5851e8ff8daf","tls":true,"servername":"thissitejust.redirectme.net","flow":"xtls-rprx-vision","network":"tcp","alpn":["h3","h2","http/1.1"],"client-fingerprint":"random"}
-  - {"name":"Youtube顺丰资源++GB193","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"wyRjDzZYC9E2aQ9iamj1vuj7ZckYVGLHn9yq92jRUUCdoz1AEKtSJRpiMPxXaiXfpXBJCp3gjsNbM9i2PbqeteCsXUWwDEAc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"德国_082813154","type":"vless","server":"136.244.84.182","port":443,"udp":true,"uuid":"abaf193b-eeb9-4a8a-afa7-6b6385156e94","tls":true,"servername":"www.iranserver.com","flow":"xtls-rprx-vision","network":"tcp","alpn":["http/1.1"],"reality-opts":{"public-key":"JiXxyKEi_TmEqRzyvOsBEKciioXup7SbW5rvTa6CnA4","short-id":"f1"},"client-fingerprint":"chrome"}
-  - {"name":"美国_0828131128","type":"vless","server":"gcore.com","port":443,"uuid":"4352f2a7-d620-474e-9249-e866774a2c81","tls":true,"servername":"ebnada.com","network":"ws","ws-opts":{"path":"/hgffg","headers":{"host":"ebnada.com"}}}
+  - {"name":"CF中转_0830131641","type":"vless","server":"104.16.14.99","port":443,"uuid":"03a987de-7e12-4b38-acbc-e19c90e1cc85","tls":true,"servername":"ARCane-ROYAL.Pages.DEV","network":"ws","ws-opts":{"headers":{"host":"ARCane-ROYAL.Pages.DEV"}},"alpn":["http/1.1"]}
+  - {"name":"12|KR_speednode_0257","type":"trojan","server":"118.45.125.234","port":16575,"udp":true,"password":"CMLiu","sni":"aliorg.filegear-sg.me","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 俄罗斯 新西伯利亚JustHost","type":"vmess","server":"mz.flmweb.cc","port":40045,"cipher":"auto","uuid":"1cbb8f04-b0cc-4520-8b17-ed412f457b9f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"mz.flmweb.cc"}}}
+  - {"name":"加拿大_083013076","type":"vless","server":"199.212.90.37","port":8443,"uuid":"4bc01e22-2d73-44ea-8393-28a591f12002","tls":true,"servername":"eiiim.danesh-bonyan.Store","network":"ws","ws-opts":{"path":"join.----------------Telegram-EiiiM----------------Telegram-EiiiM---------------.Telegram-EiiiM.","headers":{"host":"eiiim.danesh-bonyan.Store"}}}
+  - {"name":"俄罗斯联邦_083013067","type":"vless","server":"46.29.162.87","port":53018,"uuid":"05f08aa0-2170-4305-94a9-02e19203cad7","tls":true,"servername":"thissitejust.redirectme.net","flow":"xtls-rprx-vision","network":"tcp","alpn":["h3","h2","http/1.1"],"client-fingerprint":"random"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -547,64 +645,78 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源  CN213
+      - 12|HK_speednode_0251
       - 马来西亚_082813001
-      - 新加坡_082813095
+      - 马来西亚_083013001
+      - 🇨🇳 广东省东莞市 电信
+      - '3'
+      - 🇭🇰HK-220.246.101.187-1250
       - 新加坡_082813089
-      - 印度_082813016
-      - GB_youtube@资源分享师_166
-      - Youtube顺丰资源++UA137
-      - 🇩🇪DE_667
-      - 🇨🇳 上海市 阿里云
-      - Youtube顺丰资源++美国_1
-      - Youtube顺丰资源  CN192
-      - US_youtube@资源分享师_163
-      - Youtube顺丰资源++美国_2
-      - 新加坡_082813116
-      - Youtube顺丰资源++美国_3
+      - 日本_083013134
+      - 新加坡_083013091
+      - 德国_083013127
+      - 12|US_speednode_0377
+      - 12|US_speednode_0332
+      - 12|US_speednode_0330
+      - 12|US_speednode_0340
+      - 12|US_speednode_0326
+      - 0,12|US_speednode_0311
+      - 12|US_speednode_0329
+      - 香港_083013087
+      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
+      - US_youtube@资源分享师_129
+      - US_youtube@资源分享师_154
       - SCP官方节点
-      - Youtube顺丰资源++美国_4
-      - US_youtube@资源分享师_256
-      - 韩国_082813079
-      - US_youtube@资源分享师_28
-      - Youtube顺丰资源++美国_5
-      - Youtube顺丰资源++美国_6
-      - Youtube顺丰资源++美国_7
-      - Youtube顺丰资源++美国_8
-      - US_youtube@资源分享师_150
-      - Youtube顺丰资源++美国_9
-      - 澳大利亚_082813031
+      - CF中转_0828132077
+      - Youtube顺丰资源  CN192
+      - 法国_083013089
+      - Youtube顺丰资源++美国_1
+      - 德国_083013134
       - 法国_082813087
-      - US_youtube@资源分享师_141
-      - 瑞典_082813192
-      - CN_youtube@资源分享师_42
-      - 俄罗斯联邦_082813098
-      - US_youtube@资源分享师_160
-      - 日本_082813173
-      - US_youtube@资源分享师_201
+      - 瑞典_083013258
+      - 未知_083013010
+      - 法国_083013106
+      - Youtube顺丰资源++美国_2
+      - 未知_083013012
+      - 12|US_speednode_0346
+      - US_youtube@资源分享师_68
+      - CF中转_08301310926
+      - US_youtube@资源分享师_82
       - 科技网络 🇺🇸_234
-      - 美国_082813278
-      - 德国_082813135
-      - Youtube顺丰资源++美国_10
-      - 德国_082813182
-      - Youtube顺丰资源  JP153
+      - 德国_083013135
+      - US_youtube@资源分享师_139
       - 爱尔兰_082813009
-      - CN_youtube@资源分享师_119
-      - 科技网络 🇬🇧_1
-      - 新加坡_082813120
-      - 科技网络 🇫🇷_78
-      - 伊朗_082813018
+      - US_youtube@资源分享师_189
       - FR_youtube@资源分享师_159
-      - 法国_082813105
-      - 加拿大_082813076
-      - 阿联酋_082813014
-      - 巴西_082813009
+      - US_youtube@资源分享师_46
+      - 🇰🇷 韩国 KT电信
+      - CF中转_083013434
+      - رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣
+      - US_youtube@资源分享师_126
+      - CF中转_0830131781
+      - 韩国_082813079
+      - CF中转_0830131900
+      - 俄罗斯联邦_083013101
+      - 新加坡_083013113
+      - 科技网络 🇫🇷_78
+      - CF中转_0828132099
+      - CF中转_0830137239
+      - 未知_083013748
+      - 瑞典_083013088
+      - 🇺🇸US-184.170.241.194-0724
+      - 科技网络 🇬🇧_1
+      - 亚美尼亚_082813011
+      - 12|US_speednode_0336
+      - CF中转_082813124
+      - 🇨🇳 山东省济南市 联通
+      - 未知_082813670
+      - CF中转_083013439
       - 🆔freakconfig 🔒 VL-TCP- 🇩🇪 DE 153ms
-      - 美国_0828131127
-      - 俄罗斯联邦_082813091
-      - Youtube顺丰资源++GB193
-      - 德国_082813154
-      - 美国_0828131128
+      - CF中转_0830131641
+      - 12|KR_speednode_0257
+      - 🇸🇬 俄罗斯 新西伯利亚JustHost
+      - 加拿大_083013076
+      - 俄罗斯联邦_083013067
 
 rules:
 # 本地/局域网地址
