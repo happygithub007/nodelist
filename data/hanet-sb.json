@@ -1,0 +1,591 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "proxy_dns",
+        "address": "tls://8.8.8.8/dns-query",
+        "detour": "select"
+      },
+      {
+        "tag": "local_dns",
+        "address": "h3://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "reject",
+        "address": "rcode://refused"
+      },
+      {
+        "tag": "fake_ip",
+        "address": "fakeip"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local_dns",
+        "disable_cache": true
+      },
+      {
+        "clash_mode": "Global",
+        "server": "proxy_dns"
+      },
+      {
+        "clash_mode": "Direct",
+        "server": "local_dns"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "local_dns"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "server": "proxy_dns"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "fake_ip"
+      }
+    ],
+    "final": "proxy_dns",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    }
+  },
+  "ntp": {
+    "detour": "direct",
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m"
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "sniff_override_destination": true,
+      "domain_strategy": "prefer_ipv4",
+      "type": "tun",
+      "inet4_address": "172.16.0.1/30",
+      "inet6_address": "2001:0470:f9da:fdfa::1/64",
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "url-test",
+        "happyne0-tls",
+        "happynet0-tls",
+        "happynet1-tls",
+        "jp01",
+        "jp02",
+        "jp03",
+        "jp04",
+        "jp05",
+        "jp06",
+        "jp07",
+        "jp08",
+        "jp09",
+        "us01",
+        "us02",
+        "sg01",
+        "sg02",
+        "sg03"
+      ],
+      "default": "url-test"
+    },
+    {
+      "type": "urltest",
+      "tag": "url-test",
+      "outbounds": [
+        "happyne0-tls",
+        "happynet0-tls",
+        "happynet1-tls",
+        "jp01",
+        "jp02",
+        "jp03",
+        "jp04",
+        "jp05",
+        "jp06",
+        "jp07",
+        "jp08",
+        "jp09",
+        "us01",
+        "us02",
+        "sg01",
+        "sg02",
+        "sg03"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "vless",
+      "tag": "happyne0-tls",
+      "server": "104.19.62.86",
+      "server_port": 443,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "happynet0-tls",
+      "server": "bestcf.onecf.eu.org",
+      "server_port": 443,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "happynet1-tls",
+      "server": "104.17.161.100",
+      "server_port": 443,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp01",
+      "server": "104.19.62.86",
+      "server_port": 2082,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp02",
+      "server": "104.18.239.10",
+      "server_port": 2086,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp03",
+      "server": "162.159.130.170",
+      "server_port": 2052,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp04",
+      "server": "104.18.178.40",
+      "server_port": 2095,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp05",
+      "server": "104.16.251.253",
+      "server_port": 8880,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp06",
+      "server": "162.159.133.41",
+      "server_port": 2052,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp07",
+      "server": "104.17.161.100",
+      "server_port": 2082,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp08",
+      "server": "104.19.223.54",
+      "server_port": 8080,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "jp09",
+      "server": "104.19.222.140",
+      "server_port": 2082,
+      "uuid": "815842eb-ad06-494a-ba05-4b067a012b4e",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "happynet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "us01",
+      "server": "162.159.133.41",
+      "server_port": 2052,
+      "uuid": "2475ec9a-b3da-43c0-afea-ecc341732949",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "usnet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "us02",
+      "server": "104.19.222.140",
+      "server_port": 2095,
+      "uuid": "2475ec9a-b3da-43c0-afea-ecc341732949",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "usnet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "sg01",
+      "server": "162.159.133.41",
+      "server_port": 8080,
+      "uuid": "6b8bfbd3-75e3-4917-bd54-d57d428fbe5f",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "sgnet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "sg02",
+      "server": "104.16.5.157",
+      "server_port": 80,
+      "uuid": "6b8bfbd3-75e3-4917-bd54-d57d428fbe5f",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "sgnet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "sg03",
+      "server": "104.19.222.140",
+      "server_port": 2086,
+      "uuid": "6b8bfbd3-75e3-4917-bd54-d57d428fbe5f",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "host": "sgnet.fhe-5ney.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "reject"
+    },
+    {
+      "type": "dns",
+      "tag": "dns_out"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "protocol": "dns",
+        "outbound": "dns_out"
+      },
+      {
+        "rule_set": "geosite-category-ads-all",
+        "outbound": "reject"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "outbound": "direct"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "select",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "select",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-geolocation-!cn",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+        "download_detour": "select",
+        "update_interval": "1d"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-category-ads-all",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs",
+        "download_detour": "select",
+        "update_interval": "1d"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "cache.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090"
+    }
+  }
+}
