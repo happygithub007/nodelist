@@ -1,3993 +1,439 @@
-# 生成地址：v2rayse.com
-# 模版名称：defaultName
-# 生成时间：2024-10-03 12:58:40
-# 不要随意改变关键字，否则会导致出错
-# acl4SSR规则
-# 去广告：支持
-# 自动测速：支持
-# 微软分流：支持
-# 苹果分流：支持
-# 增强中国IP段：不支持
-# 增强国外GFW：不支持
-
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2024-10-17 15:52:25
+# 使用模版：V2RaySE 默认模版
+# 节点数量：45
+####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
-allow-lan: false
-mode: rule
-ipv6: false
+allow-lan: true
 log-level: info
 external-controller: 0.0.0.0:9090
 dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: false
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
   default-nameserver:
     - 223.5.5.5
     - 114.114.114.114
-  nameserver:
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
-    - 180.76.76.76
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - router.asus.com
-    - localhost.sec.qq.com
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
     - localhost.ptlogin2.qq.com
-    - +.msftconnecttest.com
-tun:
-  enable: true
-  stack: system
-  auto-route: true
-  auto-detect-interface: true
-  dns-hijack:
-    - 114.114.114.114
-    - 180.76.76.76
-    - 119.29.29.29
-    - 223.5.5.5
-    - 8.8.8.8
-    - 8.8.4.4
-    - 1.1.1.1
-    - 1.0.0.1
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
 proxies:
-  - name: 🇺🇸 美国 CloudFlare节点
-    port: 80
-    server: 104.17.237.149
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-      headers:
-        host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    cipher: auto
-    uuid: 78e36242-5009-4a63-a9bb-ac3691ef38b5
-    alterId: 0
-  - name: YouTube it头条1003_3
-    port: 443
-    server: irvideo.cfd
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: irvideo.cfd
-    cipher: auto
-    uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-    alterId: 0
-  - name: "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-    port: 80
-    server: 185.146.173.48
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-      headers:
-        host: Fr2.vmess.site.
-    cipher: none
-    uuid: 8b3f70bd-d3b5-5267-8fd9-a34e935eaebd
-    alterId: 0
-  - name: 科技网络 🇺🇸_234
-    port: 30001
-    server: 170.178.169.133
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: www.21799609.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /path/181721272114
-      headers:
-        host: www.21799609.xyz
-    cipher: auto
-    uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a
-    alterId: 64
-  - name: CN_youtube@资源分享师_49
-    port: 12928
-    server: z6.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: US_youtube@资源分享师_12
-    port: 8880
-    server: uk-new01.daluquan.top
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /itdog?ed=2560
-      headers:
-        host: uk-new01.daluquan.top
-    cipher: auto
-    uuid: 31a230c8-34f5-41f8-b4a1-bddded18290e
-    alterId: 0
-  - name: 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-    port: 39771
-    server: 198.2.234.98
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-  - name: CN_youtube@资源分享师_57
-    port: 12943
-    server: z6.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: ""
-      headers:
-        host: ""
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: 美国 CloudFlare节点_1
-    port: 80
-    server: 172.67.170.75
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /v118-fccxmxm35
-      headers:
-        host: us3e-mmnnfr9dop0.v2freevpn.com
-    cipher: auto
-    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-    alterId: 0
-  - name: YouTube it头条1003_183
-    port: 5050
-    server: 77.91.77.127
-    type: vmess
-    network: http
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 1a724b84-bbe1-45c1-b69d-82fb51f20c8e
-    alterId: 0
-  - name: CN_youtube@资源分享师 _98
-    port: 12954
-    server: z2.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: YouTube it头条1003_227
-    port: 12970
-    server: z3.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: 🏁RELAY-172.67.136.233-3160
-    port: 443
-    server: 172.67.136.233
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: az05.beyondy.cfd
-    skip-cert-verify: true
-    ws-opts:
-      path: /link
-      headers:
-        host: az05.beyondy.cfd
-    cipher: auto
-    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-    alterId: 0
-  - name: YouTube it头条1002_77
-    port: 59400
-    server: ne.atrinshops.ir
-    type: vmess
-    network: http
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: e9758e0c-130f-414e-8df8-c779e65e31b5
-    alterId: 0
-  - name: 美国 CloudFlare节点_2
-    port: 80
-    server: 172.64.155.209
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-      headers:
-        host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    cipher: auto
-    uuid: 441e10f0-4c76-4d6c-97b9-83bbefcbc602
-    alterId: 0
-  - name: CN_youtube@资源分享师 _49
-    port: 12950
-    server: z6.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: 🏁RELAY-104.21.44.106-2727
-    port: 443
-    server: hms04.xmivideo.cfd
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: xmivideo.cfd
-    cipher: auto
-    uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-    alterId: 0
-  - name: YouTube it头条1003_216
-    port: 12955
-    server: z2.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: z2.fragranceninja.com
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: CN_youtube@资源分享师 _43
-    port: 12975
-    server: z2.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: US_youtube@资源分享师_22
-    port: 2087
-    server: elsv3.ftko8vzt9w.cyou
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: elsv3.ftko8vzt9w.cyou
-    cipher: auto
-    uuid: 62cc5f51-d6c9-408a-a106-158c5c5a58ec
-    alterId: 0
-  - name: CN_youtube@资源分享师_45
-    port: 12946
-    server: z6.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: z6.fragranceninja.com
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: CN_youtube@资源分享师_100
-    port: 13006
-    server: z8.fragranceninja.com
-    type: vmess
-    network: tcp
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: US_分享日记_1
-    port: 443
-    server: hms082.gwdef.sbs
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: gwdef.sbs
-    cipher: auto
-    uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-    alterId: 0
-  - name: "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-    port: 59400
-    server: 136.244.101.16
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: e9758e0c-130f-414e-8df8-c779e65e31b5
-    alterId: 0
-  - name: YouTube it头条1003_156
-    port: 46010
-    server: 223.244.26.216
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /zh-cn
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
-    alterId: 0
-  - name: US_分享日记_2
-    port: 443
-    server: hms24.ivideos.sbs
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: ivideos.sbs
-    cipher: auto
-    uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-    alterId: 0
-  - name: US_youtube@资源分享师_6
-    port: 8880
-    server: us-new01.daluquan.top
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /itdog?ed=2560
-      headers:
-        host: us-new01.daluquan.top
-    cipher: auto
-    uuid: 660a00b2-85f5-4442-9690-05eb65584293
-    alterId: 0
-  - name: CN_youtube@资源分享师_72
-    port: 12925
-    server: z2.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: ""
-      headers:
-        host: ""
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: US_youtube@资源分享师_15
-    port: 8880
-    server: us-new03.daluquan.top
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /itdog?ed=2560
-      headers:
-        host: us-new03.daluquan.top
-    cipher: auto
-    uuid: 660a00b2-85f5-4442-9690-05eb65584293
-    alterId: 0
-  - name: YouTube it头条1003_17
-    port: 80
-    server: 104.16.67.38
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /v118-fccxmxm35
-      headers:
-        host: us3e-mmnnfr9dop0.v2freevpn.com
-    cipher: auto
-    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-    alterId: 0
-  - name: YouTube it头条1003_195
-    port: 12903
-    server: z6.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: z6.fragranceninja.com
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: YouTube it头条1003_50
-    port: 2052
-    server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.ernanews.ggff.net
-    cipher: auto
-    uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
-    alterId: 0
-  - name: 美国 CloudFlare节点_3
-    port: 80
-    server: 173.245.58.41
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-      headers:
-        host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    cipher: auto
-    uuid: a4af6fa2-264f-4ddd-8718-246dc999386b
-    alterId: 0
-  - name: US_youtube@资源分享师_23
-    port: 2083
-    server: hlv3.ftko8vzt9w.cyou
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: hlv3.ftko8vzt9w.cyou
-    cipher: auto
-    uuid: 62cc5f51-d6c9-408a-a106-158c5c5a58ec
-    alterId: 0
-  - name: YouTube it头条1003_180
-    port: 2086
-    server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.ernanews.ggff.net
-    cipher: auto
-    uuid: 5e7429a4-b006-4a16-b1a3-1af2fbcddbc0
-    alterId: 0
-  - name: 美国 CloudFlare节点_4
-    port: 80
-    server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 15b5685f-307b-49d1-8b5a-ab4c1a5de29f
-    alterId: 0
-  - name: CN_youtube@资源分享师_16
-    port: 12933
-    server: z6.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: z6.fragranceninja.com
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: YouTube it头条1003_232
-    port: 12969
-    server: z2.fragranceninja.com
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: z2.fragranceninja.com
-    cipher: auto
-    uuid: a32313ad-5e39-4f9a-9cad-512041790050
-    alterId: 0
-  - name: "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-    port: 443
-    server: speedtest.net
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: speedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: ws/?ed=2048
-      headers:
-        host: Dbdjhiw72ebsu272hs519j.com
-    cipher: auto
-    uuid: 686de4b9-70c3-46dc-968e-ae55bccf18be
-    alterId: 0
-  - name: YouTube it头条1003_74
-    port: 443
-    server: ozhjEJyMPvspLcYBAwxanOskKFweNiHSC.roxifa.ir
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /rafa?ed=2048
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 01eae514-d9b1-4040-9d18-b8a2e3b19c33
-    alterId: 0
-  - name: YouTube it头条1003_159
-    port: 57614
-    server: 5.34.176.111
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-    alterId: 0
-  - name: CN_youtube@资源分享师 _130
-    port: 22238
-    server: wduzpt.gxcvbmj.xyz
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3
-    alterId: 0
-  - name: Youtube顺丰资源  美国 138
-    port: 443
-    server: 69.84.182.38
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: UA_分享日记
-    port: 20
-    server: 95.164.37.157
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 2ddccb30-fd45-45ea-9b3b-aca79f67f78b
-  - name: YouTube it头条1002_72
-    port: 443
-    server: 185.146.173.112
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: uk1.vless.site
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless
-      headers:
-        host: uk1.vless.site
-    uuid: a67cbb64-1e7a-5272-b5a6-cd7bb0de6adb
-  - name: "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-    port: 2082
-    server: 104.21.55.174
-    type: vless
-    network: ws
-    udp: true
-    uuid: 7c8b85ad-1e3c-431e-bd0c-1e188ceecfc4
-  - name: "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-    port: 31021
-    server: 159.69.127.31
-    type: vless
-    network: tcp
-    udp: true
-    uuid: da5d3557-4c81-4d5f-ab62-f8385f4fc73a
-  - name: 亚美尼亚_100309007
-    port: 2053
-    server: 188.164.158.246
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: connectingno.technewspaper.store
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2,http/1.1
-    uuid: 032f6acf-d1e0-4f95-bdaa-e913977f93e8
-  - name: CF中转_0922092817
-    port: 80
-    server: 104.19.57.37
-    type: vless
-    network: ws
-    udp: true
-    uuid: 119e2518-a885-4e0c-8b11-6a5d7f7ff00d
-  - name: US_分享日记_3
-    port: 8443
-    server: 104.18.42.143
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: telegram-falcunargo-cenya.falcunar.asso.eu.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: telegram-falcunargo-cenya.falcunar.asso.eu.org
-    uuid: 0ccce1b6-e255-439a-a968-5a1a2ac7c04d
-  - name: "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-    port: 2082
-    server: 104.17.148.22
-    type: vless
-    network: ws
-    udp: true
-    uuid: 3e570ca5-59bb-4d35-9530-e0234ca54ef4
-  - name: CF中转_0912132607
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-fr-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: f4859fc9-dc44-11ee-b9ba-00505603e70d
-  - name: Youtube顺丰资源  美国 145
-    port: 443
-    server: 198.62.62.84
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: 瑞典_100309051
-    port: 2053
-    server: 185.146.173.90
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: connectingno.technewspaper.store
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2,http/1.1
-    uuid: 032f6acf-d1e0-4f95-bdaa-e913977f93e8
-  - name: Youtube顺丰资源  美国 175
-    port: 443
-    server: 198.62.62.60
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-    port: 80
-    server: speedtest.net
-    type: vless
-    network: ws
-    udp: true
-    uuid: 6a7383fe-dcc1-491d-89b1-c902e4be8eb1
-  - name: CF中转_1003091405
-    port: 2095
-    server: 172.67.132.209
-    type: vless
-    network: ws
-    udp: true
-    uuid: a1ab378f-6fcf-4f85-d3e8-d3d673ee114f
-  - name: "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-    port: 2087
-    server: 85.159.229.88
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: dash.cloudflare.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8
-      short-id: fc805835
-    uuid: e4527384-4f20-4378-95dc-403996f12588
-    client-fingerprint: firefox
-  - name: "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-    port: 443
-    server: 104.17.245.156
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: 47264192333081204176091557333481.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS
-      headers:
-        host: 47264192333081204176091557333481.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    alpn:
-      - http/1.1
-    uuid: e10643eb-d506-4134-a839-79666fc650e3
-    client-fingerprint: randomized
-  - name: CF中转_0922092691
-    port: 2095
-    server: 104.16.67.38
-    type: vless
-    network: ws
-    udp: true
-    uuid: ee187c79-7594-4a97-96bc-ff717c61a919
-  - name: CF中转_0912132170
-    port: 8080
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: YouTube it头条1003_92
-    port: 443
-    server: 45.83.20.37
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: be1.v2vless.site
-    skip-cert-verify: true
-    ws-opts:
-      path: /vless
-      headers:
-        host: be1.v2vless.site
-    uuid: 42770e56-cb46-404e-9f65-3e0a348a4b77
-  - name: CF中转_0922091675
-    port: 2052
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: CF中转_0912132171
-    port: 2086
-    server: 104.16.61.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: CF中转_0922092839
-    port: 8880
-    server: 104.16.61.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: CF中转_0922092682
-    port: 80
-    server: 172.67.169.244
-    type: vless
-    network: ws
-    udp: true
-    uuid: e3dc0d6a-aa94-4d1f-e930-f162aec8b624
-  - name: CF中转_0922092292
-    port: 2086
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: CF中转_0922092168
-    port: 2083
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: c46a54bf-b220-4c22-cd6e-fb1fcabda0af
-  - name: CF中转_0922091452
-    port: 80
-    server: 172.64.35.129
-    type: vless
-    network: ws
-    udp: true
-    uuid: e3dc0d6a-aa94-4d1f-e930-f162aec8b624
-  - name: 美国_1003091166
-    port: 443
-    server: 151.101.66.219
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: speedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8880
-      headers:
-        host: TEL.UNLIMITEDDEV.http.www.speedtest.net.fast.com.unlimiteddev.ir.
-    uuid: abd60b84-ca05-4e18-9168-fe0a6fd5f9a1
-    client-fingerprint: firefox
-  - name: US_分享日记_4
-    port: 8443
-    server: 172.64.145.113
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: telegram-falcunargo-cenya.falcunar.asso.eu.org
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: telegram-falcunargo-cenya.falcunar.asso.eu.org
-    uuid: 0ccce1b6-e255-439a-a968-5a1a2ac7c04d
-  - name: CF中转_0922092310
-    port: 443
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ahmedquran19.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /current_time
-      headers:
-        host: ahmedquran19.xyz
-    alpn:
-      - http/1.1
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-    client-fingerprint: chrome
-  - name: CF中转_0922092335
-    port: 80
-    server: 162.159.44.129
-    type: vless
-    network: ws
-    udp: true
-    uuid: e3dc0d6a-aa94-4d1f-e930-f162aec8b624
-  - name: Youtube顺丰资源  美国 252
-    port: 443
-    server: 198.62.62.206
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-    port: 80
-    server: 104.24.196.20
-    type: vless
-    network: ws
-    udp: true
-    uuid: a35017af-d228-44bd-885c-e5951ce09df6
-  - name: 法国_100309070
-    port: 1210
-    server: 51.77.111.91
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: ubuntu.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-      short-id: 7fe29733
-    uuid: 431ccfc9-1a6e-4c24-ade2-0e42684d7884
-    client-fingerprint: chrome
-  - name: CF中转_1003091114
-    port: 2053
-    server: 104.21.19.10
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: connectingno.technewspaper.store
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2,http/1.1
-    uuid: 032f6acf-d1e0-4f95-bdaa-e913977f93e8
-  - name: CF中转_0922092373
-    port: 80
-    server: 108.162.195.129
-    type: vless
-    network: ws
-    udp: true
-    uuid: e3dc0d6a-aa94-4d1f-e930-f162aec8b624
-  - name: "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-    port: 443
-    server: 65.109.208.42
-    type: vless
-    network: tcp
-    tls: true
-    udp: true
-    servername: tradingveiw.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: EMa87NDtZ_IsnOFKYZAGKz6288Fuu2IKep_dGbK0iV4
-      short-id: 5263e31933d3451c
-    uuid: 8acce190-9a6c-47c6-bf21-487466b6f521
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: Youtube顺丰资源  美国 218
-    port: 443
-    server: 198.62.62.132
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: 亚美尼亚_100309006
-    port: 2053
-    server: 188.164.158.161
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: connectingno.technewspaper.store
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2,http/1.1
-    uuid: 032f6acf-d1e0-4f95-bdaa-e913977f93e8
-  - name: "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-    port: 80
-    server: 151.101.2.219
-    type: vless
-    network: ws
-    udp: true
-    uuid: 1757f863-8209-4201-811d-69adfda9a9ed
-  - name: CF中转_0912132608
-    port: 443
-    server: 172.67.73.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-fr-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: f4859fc9-dc44-11ee-b9ba-00505603e70d
-  - name: "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-    port: 443
-    server: 104.21.31.174
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: 53331168005383295401796650654415.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS
-      headers:
-        host: 53331168005383295401796650654415.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    alpn:
-      - http/1.1
-    uuid: 952bdb68-a002-42ef-b50d-56f403cf71f7
-    client-fingerprint: randomized
-  - name: "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-    port: 443
-    server: 104.18.32.47
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    skip-cert-verify: true
-    ws-opts:
-      path: /V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS
-      headers:
-        host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    alpn:
-      - http/1.1
-    uuid: 0f908c6e-61bf-447d-82f5-0e8938bd4efc
-    client-fingerprint: randomized
-  - name: CF中转_0922092783
-    port: 443
-    server: 104.19.222.79
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: DiGi-003-bDZ43gbSZ5vB1b5OgZqNyU3e.NicDOm.IR
-    skip-cert-verify: true
-    ws-opts:
-      path: /mH4EPKyk1uYA6WN5N3jQ7Ads
-      headers:
-        host: DiGi-003-bDZ43gbSZ5vB1b5OgZqNyU3e.NicDOm.IR
-    uuid: 429bba32-f283-4d80-8286-1fc9577243a3
-  - name: YouTube it头条1003_65
-    port: 443
-    server: 108.162.195.129
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: xm.ailicf.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /6511e
-      headers:
-        host: xm.ailicf.us.kg
-    uuid: 6511e6ad-0383-48cd-a5b8-00e4a4c82655
-  - name: CF中转_1003091310
-    port: 443
-    server: 104.20.5.134
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: bPB-V.pAges.dEv
-    skip-cert-verify: true
-    ws-opts:
-      path: /LtZFqGz6qD8jBoHW/MTI5LjE1OS4yNDEuMTcy
-      headers:
-        host: Bpb-v.PaGES.DEV
-    alpn:
-      - http/1.1
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: CF中转_0922091732
-    port: 443
-    server: 104.19.223.79
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: DiGi-003-bDZ43gbSZ5vB1b5OgZqNyU3e.NicDOm.IR
-    skip-cert-verify: true
-    ws-opts:
-      path: /mH4EPKyk1uYA6WN5N3jQ7Ads
-      headers:
-        host: DiGi-003-bDZ43gbSZ5vB1b5OgZqNyU3e.NicDOm.IR
-    uuid: 429bba32-f283-4d80-8286-1fc9577243a3
-  - name: 新加坡_100309033
-    port: 2053
-    server: 92.243.74.151
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: connectingno.technewspaper.store
-    skip-cert-verify: true
-    grpc-opts: {}
-    alpn:
-      - h2,http/1.1
-    uuid: 032f6acf-d1e0-4f95-bdaa-e913977f93e8
-  - name: Youtube顺丰资源  美国 280
-    port: 443
-    server: 69.84.182.86
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 170
-    port: 443
-    server: 198.62.62.67
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 93
-    port: 443
-    server: 198.62.62.207
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 128
-    port: 443
-    server: 198.62.62.6
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: CF中转_1003091281
-    port: 2082
-    server: 172.67.171.200
-    type: vless
-    network: ws
-    udp: true
-    uuid: 7c8b85ad-1e3c-431e-bd0c-1e188ceecfc4
-  - name: "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-    port: 2095
-    server: 104.21.13.125
-    type: vless
-    network: ws
-    udp: true
-    uuid: a1ab378f-6fcf-4f85-d3e8-d3d673ee114f
-  - name: Youtube顺丰资源  美国 141
-    port: 443
-    server: 198.62.62.92
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 84
-    port: 443
-    server: 198.62.62.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 261
-    port: 443
-    server: 69.84.182.75
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 233
-    port: 443
-    server: 69.84.182.171
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 102
-    port: 443
-    server: 198.62.62.13
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.us.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 169
-    port: 443
-    server: 69.84.182.208
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: CF中转_0922091111
-    port: 80
-    server: 104.21.63.51
-    type: vless
-    network: ws
-    udp: true
-    servername: ca.ailicf.us.kg
-    uuid: 571f64c7-bff0-4d33-8765-56ad2334cb55
-  - name: "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-    port: 5030
-    server: 91.107.141.204
-    type: vless
-    network: grpc
-    tls: true
-    udp: true
-    servername: MAp.GooGlE.COM
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: u-PCnNfSY3DvfouSNpGvowXrB3bkaC8gZkQsryP-3Vs
-      short-id: 0db32cc0cc8078a9
-    uuid: 040c7fc7-65aa-440e-864e-8c89b91bf63c
-    client-fingerprint: firefox
-  - name: Youtube顺丰资源  美国 165
-    port: 443
-    server: 198.62.62.54
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: CF中转_1003091431
-    port: 80
-    server: 172.67.193.36
-    type: vless
-    network: ws
-    udp: true
-    servername: join-to.unlimiteddev.community
-    uuid: abd60b84-ca05-4e18-9168-fe0a6fd5f9a1
-    client-fingerprint: chrome
-  - name: US_分享日记_5
-    port: 443
-    server: 104.16.61.8
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ahmedquran19.xyz
-    skip-cert-verify: true
-    ws-opts:
-      path: /current_time
-      headers:
-        host: ahmedquran19.xyz
-    uuid: 962a733d-2614-0b9b-7ffe-9ac92ffea8eb
-  - name: Youtube顺丰资源  日本 56
-    port: 18097
-    server: 115.179.24.106
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?proxyip=proxyip.jp.fxxk.dedyn.io
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: Youtube顺丰资源  美国 208
-    port: 443
-    server: 198.62.62.102
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: la.ylka.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: la.ylka.us.kg
-    uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  - name: RU_youtube@资源分享师_3
-    port: 443
-    server: immense-buzzard.mite885.beauty
-    type: trojan
-    network: tcp
-    udp: true
-    sni: immense-buzzard.mite885.beauty
-    password: "3672449442956713984"
-    skip-cert-verify: false
-  - name: Youtube顺丰资源++英国+334
-    port: 443
-    server: 213.170.157.1
-    type: trojan
-    network: tcp
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: true
-  - name: "3"
-    port: 443
-    server: 42.236.73.72
-    type: trojan
-    network: tcp
-    udp: true
-    sni: www.zitian.cn
-    password: fuck
-    skip-cert-verify: true
-  - name: 🇺🇦 乌克兰 v2rayfree.eu.org
-    port: 2053
-    server: 185.234.64.146
-    type: trojan
-    network: tcp
-    udp: true
-    password: 5c7941b5-c393-4eea-a76d-d44b59baf8a0
-    skip-cert-verify: true
-  - name: 12|KR_speednode_0198
-    port: 443
-    server: 59.3.3.161
-    type: trojan
-    network: tcp
-    udp: true
-    sni: aliorg.filegear-sg.me
-    password: CMLiu
-    skip-cert-verify: true
-  - name: 🇷🇺 俄罗斯 莫斯科JustHost
-    port: 1007
-    server: 176.32.35.167
-    type: trojan
-    network: tcp
-    udp: true
-    sni: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com
-    password: 88903f70-b50b-11ed-8775-f23c9164ca5d
-    skip-cert-verify: true
-  - name: 15|HK_speednode_0143
-    port: 443
-    server: aliyun.2096.us.kg
-    type: trojan
-    network: tcp
-    udp: true
-    sni: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
-    password: 95b
-    skip-cert-verify: true
-  - name: 15|US_speednode_0343
-    port: 10511
-    server: 65.75.194.43
-    type: trojan
-    network: tcp
-    udp: true
-    sni: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    password: 95b
-    skip-cert-verify: true
-  - name: 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-    port: 443
-    server: 43.153.80.208
-    type: trojan
-    network: tcp
-    udp: true
-    sni: aliorg.filegear-sg.me
-    password: CMLiu
-    skip-cert-verify: true
-  - name: 15|US_speednode_0339
-    port: 443
-    server: 43.153.103.203
-    type: trojan
-    network: tcp
-    udp: true
-    sni: 15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org
-    password: 95b
-    skip-cert-verify: true
-  - name: RU_分享日记
-    port: 443
-    server: 91.199.84.246
-    type: trojan
-    network: tcp
-    udp: true
-    sni: immense-buzzard.mite885.beauty
-    password: "3672449442956713984"
-    skip-cert-verify: false
-  - name: 🇷🇺RU-176.32.35.167-1781
-    port: 1007
-    server: 97e355d4-sjlts0-sjblbk-wk2w.ru.z7zi.com
-    type: trojan
-    network: tcp
-    udp: true
-    password: 88903f70-b50b-11ed-8775-f23c9164ca5d
-    skip-cert-verify: false
-  - name: 15|TW_speednode_0276
-    port: 81
-    server: 210.61.97.241
-    type: trojan
-    network: tcp
-    udp: true
-    sni: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
-    password: 95b
-    skip-cert-verify: true
-  - name: 亚洲(油管:破解资源君2.0)
-    port: 443
-    server: 194.195.254.50
-    type: trojan
-    network: tcp
-    udp: true
-    sni: cdn.qchwnd.moe
-    password: ef81a036-1db9-45ed-a3aa-f932a4750066
-    skip-cert-verify: true
-  - name: Youtube顺丰资源++美国
-    port: 443
-    server: 34.41.252.92
-    type: trojan
-    network: tcp
-    udp: true
-    password: NISHIKUITAN222
-    skip-cert-verify: true
-  - name: Youtube顺丰资源++中国+94
-    port: 20018
-    server: hk3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+44
-    port: 20008
-    server: tw5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 意大利+v2rayfree.eu.org
-    port: 443
-    server: 212.102.53.198
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸 美国 华盛顿Cogent通信公司_1
-    port: 443
-    server: 38.110.1.53
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+161
-    port: 20001
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+60
-    port: 20018
-    server: jp1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+173
-    port: 20018
-    server: sg5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+59
-    port: 20018
-    server: hk5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_19
-    port: 9101
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_77
-    port: 990
-    server: 185.47.255.22
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_1
-    port: 5003
-    server: 38.75.136.33
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师_109
-    port: 20024
-    server: jp1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸 美国 华盛顿Cogent通信公司_2
-    port: 2376
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: CN_分享日记
-    port: 32185
-    server: whcm.v6v.eu
-    type: ss
-    udp: true
-    password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+179
-    port: 20024
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+73
-    port: 20021
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+169
-    port: 20008
-    server: jp3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _114
-    port: 20018
-    server: hk1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1002_184
-    port: 8888
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: YouTube it头条1002_5
-    port: 8091
-    server: 139.64.165.155
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师_91_1
-    port: 20001
-    server: hk3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_20
-    port: 8091
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师 _56
-    port: 20021
-    server: tw1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_2
-    port: 7002
-    server: 38.75.137.105
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师_117
-    port: 20001
-    server: jp2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: US_分享日记_6
-    port: 8008
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+79
-    port: 20021
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+76
-    port: 20028
-    server: sg5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+83
-    port: 20028
-    server: jp2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸US-38.114.114.69-7494
-    port: 8009
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师_80
-    port: 20028
-    server: tw5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _111
-    port: 20028
-    server: sg2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _97
-    port: 20028
-    server: hk3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _101
-    port: 20001
-    server: jp1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+64
-    port: 20030
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_3
-    port: 9101
-    server: 38.75.137.105
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+104
-    port: 20028
-    server: hk2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _94
-    port: 20028
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_78
-    port: 20028
-    server: sg3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _100
-    port: 20018
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_192
-    port: 5003
-    server: 139.64.165.155
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+100
-    port: 20028
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_16
-    port: 8119
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+81
-    port: 20028
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+88
-    port: 20028
-    server: tw2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+41
-    port: 20016
-    server: tw5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_206
-    port: 2375
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-    port: 15084
-    server: 103.161.255.195
-    type: ss
-    udp: true
-    password: hGkQ6915tD
-    cipher: aes-256-cfb
-  - name: CN_youtube@资源分享师 _123
-    port: 20024
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_4
-    port: 3389
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+152
-    port: 20008
-    server: hk2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _127
-    port: 20027
-    server: jp2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_91_2
-    port: 20027
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_90
-    port: 20027
-    server: sg3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+42
-    port: 20028
-    server: jp5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _105
-    port: 20027
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _128
-    port: 20027
-    server: tw2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _126
-    port: 20027
-    server: jp1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+v2rayfree.eu.org_1
-    port: 6679
-    server: 69.50.92.72
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+98
-    port: 20016
-    server: hk2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _104
-    port: 20001
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_110
-    port: 20027
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+68
-    port: 20016
-    server: jp1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+193
-    port: 20030
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_116
-    port: 20027
-    server: hk5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_112
-    port: 20027
-    server: jp5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: US_youtube@资源分享师_43
-    port: 5600
-    server: 69.50.95.179
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+174
-    port: 20016
-    server: tw4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_5
-    port: 8881
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+78
-    port: 20024
-    server: sg4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+80
-    port: 20028
-    server: hk1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸 美国 V2CROSS.COM
-    port: 5000
-    server: 69.50.92.110
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: US_分享日记_7
-    port: 9102
-    server: 38.75.136.33
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师_92
-    port: 20027
-    server: hk2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_97
-    port: 20018
-    server: sg2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _112
-    port: 20027
-    server: hk3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸US-38.114.114.69-8107
-    port: 8118
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: US_youtube@资源分享师_50
-    port: 5601
-    server: 69.50.92.55
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_94
-    port: 59208
-    server: 52.169.109.35
-    type: ss
-    udp: true
-    password: 9AU1RTjWJhu7gfZvI98ulZ
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+95
-    port: 20018
-    server: tw1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+185
-    port: 20024
-    server: sg1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_212
-    port: 7306
-    server: 38.75.136.33
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+63
-    port: 20024
-    server: jp2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: US_分享日记_8
-    port: 5498
-    server: 69.50.95.179
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_198
-    port: 5000
-    server: 167.88.61.235
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_203
-    port: 7307
-    server: 69.50.92.55
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: US_分享日记_9
-    port: 8882
-    server: 69.50.92.99
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+40
-    port: 20016
-    server: sg2.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: US_分享日记_10
-    port: 8881
-    server: 69.50.92.72
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_4
-    port: 63314
-    server: 13.79.174.197
-    type: ss
-    udp: true
-    password: nAOsWTXwwlBFd2Ez2dGK2s
-    cipher: chacha20-ietf-poly1305
-  - name: US_分享日记_11
-    port: 5499
-    server: 69.50.92.111
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: YouTube it 头条 1001_3
-    port: 8888
-    server: 69.50.92.111
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: US_分享日记_12
-    port: 8882
-    server: 69.50.95.179
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 美国+v2rayfree.eu.org_2
-    port: 9102
-    server: 69.50.92.55
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: US_分享日记_13
-    port: 8009
-    server: 69.50.92.110
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: US_分享日记_14
-    port: 8080
-    server: 69.50.95.179
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+43
-    port: 20008
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+51
-    port: 20018
-    server: tw5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it 头条 1001_4
-    port: 8882
-    server: 69.50.92.72
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 美国+v2rayfree.eu.org_3
-    port: 8118
-    server: 69.50.92.110
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+37
-    port: 20018
-    server: jp5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_15
-    port: 6697
-    server: 23.157.40.85
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 北美地区+v2rayfree.eu.org_1
-    port: 8008
-    server: 23.157.40.101
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+70
-    port: 20024
-    server: tw1.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: YouTube it头条1003_231
-    port: 20001
-    server: hk5.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师 _76
-    port: 20018
-    server: jp4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸 美国 华盛顿Cogent通信公司_3
-    port: 8080
-    server: 38.75.136.33
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: Youtube顺丰资源++中国+50
-    port: 20018
-    server: tw3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: CN_youtube@资源分享师_122
-    port: 20024
-    server: hk3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 瑞典+v2rayfree.eu.org
-    port: 6679
-    server: 167.88.61.235
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸US-38.114.114.69-7209
-    port: 5001
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: US_分享日记_15
-    port: 8009
-    server: 23.157.40.101
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸US-38.114.114.69-7377
-    port: 7001
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: YouTube it头条1003_18
-    port: 6697
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸 美国 华盛顿Cogent通信公司_4
-    port: 8882
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: CN_youtube@资源分享师 _96
-    port: 20018
-    server: hk4.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: Youtube顺丰资源++中国+84
-    port: 20028
-    server: jp3.mhw7e2.online
-    type: ss
-    udp: true
-    password: 70747514-fb14-4f31-8390-e1f0453eff6d
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_6
-    port: 6379
-    server: 38.75.136.33
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: US_分享日记_16
-    port: 443
-    server: 38.114.114.158
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 北美地区+v2rayfree.eu.org_2
-    port: 7307
-    server: 23.157.40.101
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
+  - {"name":"@meli_proxyy_1","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_2","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_3","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_4","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_5","type":"vless","server":"live.wkrq.com","port":443,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","tls":true,"servername":"fTARA.com","network":"ws","ws-opts":{"path":"/?ed=443","headers":{"host":"fTARA.com"}}}
+  - {"name":"@meli_proxyy+2","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","servername":"19.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"19.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir"}}}
+  - {"name":"@meli_proxyyسرورای‌بیشتر_1","type":"vmess","server":"bwdraper.faculty.ucdavis.edu","port":443,"cipher":"auto","uuid":"587eeb1a-9d5e-4407-886f-9e9492e42273","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"bwdraper.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/express_v2ray?ed=2560","headers":{"host":"icomedbackbitches.com"}}}
+  - {"name":"@meli_proxyyسرورای‌بیشتر_2","type":"vmess","server":"zmaoz.faculty.ucdavis.edu","port":443,"cipher":"auto","uuid":"587eeb1a-9d5e-4407-886f-9e9492e42273","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"zmaoz.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/express_v2ray?ed=2560","headers":{"host":"icomedbackbitches.com"}}}
+  - {"name":"@meli_proxyy_6","type":"vless","server":"live.wkrq.com","port":443,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","tls":true,"servername":"Asreaval.com","network":"ws","ws-opts":{"path":"/?ed=443","headers":{"host":"Asreaval.com"}}}
+  - {"name":"@meli_proxyy_7","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","servername":"13.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"13.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir"}}}
+  - {"name":"@meli_proxyy_8","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_9","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_10","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_11","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_12","type":"ss","server":"67.220.95.100","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"@meli_proxyy_13","type":"ss","server":"89.23.103.21","port":51584,"password":"oYQ8JwEldYn4KT2gfZ6eNl","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_14","type":"ss","server":"91.107.160.111","port":36298,"password":"eYIAoGqIiRxoKF5zsnpmade3UnUEJchNghNYliDVlYk=","cipher":"aes-256-gcm"}
+  - {"name":"@meli_proxyy_15","type":"ss","server":"23.166.88.198","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"@meli_proxyy_16","type":"ss","server":"91.219.237.102","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_17","type":"ss","server":"103.167.234.98","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_18","type":"vless","server":"185.156.108.40","port":13784,"uuid":"2d722623-3740-4f73-9357-01ad1a25ce27","network":"tcp"}
+  - {"name":"@meli_proxyy_19","type":"vless","server":"91.107.151.209","port":58298,"uuid":"4c942230-2910-4c2d-80eb-f3800c79dc7a","servername":"divarcdn.com","network":"tcp"}
+  - {"name":"@meli_proxyy_20","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"012116a8-7d92-4c5f-b3f2-13a0e9b37ba9","servername":"www-domain.hu1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.hu1.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_21","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"4dcbf542-6f9f-4c87-a96d-fa66e7a03d2b","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.nl2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.nl2.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_22","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"cf43996d-cc45-458e-87ac-c9c933c9ed3e","servername":"www-domain.fi2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.fi2.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_23","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"2fe62d75-af36-4f84-97cb-c0c71691be1b","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_24","type":"vless","server":"91.107.240.100","port":2095,"udp":true,"uuid":"f1aefe1d-64a7-4252-81b9-34c8221a925f","tls":true,"servername":"EMie2V.Gstatic.COM.coiNEX.com.SARBAZIT.COM","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SgzllpJZNbdqv4IXgW-tixaJDu1mK5EZTS6dqrQvnEE","short-id":"8786b7bb"},"client-fingerprint":"firefox"}
+  - {"name":"@meli_proxyy_25","type":"ss","server":"45.158.171.44","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_26","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"012116a8-7d92-4c5f-b3f2-13a0e9b37ba9","servername":"www-domain.hu1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.hu1.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_27","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"c05ffb1d-e27c-48e5-92e1-f00dedf23013","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.se1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.se1.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_28","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"93d2ef40-6d50-4844-87d1-15e3c8257dba","servername":"www-domain.de3.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.de3.v2vless.sitespeedtest.net"}}}
+  - {"name":"@meli_proxyy_29","type":"vless","server":"185.18.250.117","port":443,"uuid":"1e9aadae-ca17-4f75-b0a0-7de5e3858cfb","tls":true,"servername":"xn----pmcnaac0dkn0rb71nda.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"xn----pmcnaac0dkn0rb71nda.pages.dev"}}}
+  - {"name":"@meli_proxyy_30","type":"vless","server":"172.66.47.100","port":443,"uuid":"4045e84e-5e3c-4f70-8ff5-c1097882a55a","tls":true,"servername":"bpb-worker-panel1-e4p.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"bpb-worker-panel1-e4p.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"@meli_proxyy_31","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"ff57a431-5bb6-4f5f-93ab-e9e95d1ac342","servername":"Babaaha.ir","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Babaaha.ir"}}}
+  - {"name":"@meli_proxyy_32","type":"ss","server":"185.5.38.111","port":55988,"password":"2VrTnsQrvfJhSxWwRGtSUk43T8BL3M9XU6AYssJKzSbT6Lr2paHvqWAxcYWHZ243vEqc1fSTMkWbP6VqUBbFEVKeX5pVv1CU","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_33","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@meli_proxyy_34","type":"trojan","server":"enfuego.missionsec.io","port":443,"udp":true,"password":"TD7FKA3CZSyRgCeXp60xjaEa3uSzFaS5BOpC2lY3y9cYRA884qZOI3wxlNDneD","sni":"enfuego.missionsec.io","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@meli_proxyy_35","type":"trojan","server":"training.freetrade.link","port":18333,"udp":true,"password":"Y4O3x7D8RSepyNXDA8ZOZEaKB3F9Y35Ca3TpuxlR6aCAeygSDl0IwcjCz2nSqF","sni":"training.freetrade.link","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@meli_proxyy_36","type":"trojan","server":"tobster.freetrade.link","port":28343,"udp":true,"password":"ASRpD3DYlZTNagqjxKS2BcF39y3y8DO30e85zCZXaCau6EO7RwxF4YAIenplSC","sni":"tobster.freetrade.link","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"@meli_proxyy_37","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"1e1aa30a-343c-40dd-8540-8ee3b972ea7b","servername":"Trownmikhamtk.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Trownmikhamtk.net"}}}
+  - {"name":"🇩🇪All¹ | @meli_proxyy","type":"vless","server":"151.101.2.216","port":80,"uuid":"1e1aa30a-343c-40dd-8540-8ee3b972ea7b","servername":"Trownmikhamtk.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Trownmikhamtk.net"}}}
+  - {"name":"🇩🇪All² | @meli_proxyy","type":"vless","server":"151.101.2.216","port":80,"uuid":"ff57a431-5bb6-4f5f-93ab-e9e95d1ac342","servername":"Babaaha.ir","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Babaaha.ir"}}}
+  - {"name":"@meli_proxyy_38","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"DIGIV2RAy","servername":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir.","network":"ws","ws-opts":{"path":"/tm-Digiv2-__teldIGIv2__-DIGiv","headers":{"host":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."}}}
+  - {"name":"@meli_proxyy_39","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"DIGIV2RAy","servername":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir.","network":"ws","ws-opts":{"path":"/tm-Digiv2-__teldIGIv2__-DIGiv","headers":{"host":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."}}}
+  - {"name":"@meli_proxyy_40","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"TELEGRAM-NUFiLTER","servername":"Dadachibodoberim.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Dadachibodoberim.net"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -4010,258 +456,64 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国 CloudFlare节点
-      - YouTube it头条1003_3
-      - "[🇫🇷] [vm-no-ws] [thu-05am-2800472]"
-      - 科技网络 🇺🇸_234
-      - CN_youtube@资源分享师_49
-      - US_youtube@资源分享师_12
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - CN_youtube@资源分享师_57
-      - 美国 CloudFlare节点_1
-      - YouTube it头条1003_183
-      - CN_youtube@资源分享师 _98
-      - YouTube it头条1003_227
-      - 🏁RELAY-172.67.136.233-3160
-      - YouTube it头条1002_77
-      - 美国 CloudFlare节点_2
-      - CN_youtube@资源分享师 _49
-      - 🏁RELAY-104.21.44.106-2727
-      - YouTube it头条1003_216
-      - CN_youtube@资源分享师 _43
-      - US_youtube@资源分享师_22
-      - CN_youtube@资源分享师_45
-      - CN_youtube@资源分享师_100
-      - US_分享日记_1
-      - "[nl] [vm-no-tc] [Sun-01pm-0330575]"
-      - YouTube it头条1003_156
-      - US_分享日记_2
-      - US_youtube@资源分享师_6
-      - CN_youtube@资源分享师_72
-      - US_youtube@资源分享师_15
-      - YouTube it头条1003_17
-      - YouTube it头条1003_195
-      - YouTube it头条1003_50
-      - 美国 CloudFlare节点_3
-      - US_youtube@资源分享师_23
-      - YouTube it头条1003_180
-      - 美国 CloudFlare节点_4
-      - CN_youtube@资源分享师_16
-      - YouTube it头条1003_232
-      - "[🇷🇺] [vm-tl-ws] [thu-05am-2755410]"
-      - YouTube it头条1003_74
-      - YouTube it头条1003_159
-      - CN_youtube@资源分享师 _130
-      - Youtube顺丰资源  美国 138
-      - UA_分享日记
-      - YouTube it头条1002_72
-      - "[🇸🇪] [vl-no-ws] [thu-05am-2718974]"
-      - "[🇩🇪] [vl-no-tc] [thu-05am-2730444]"
-      - 亚美尼亚_100309007
-      - CF中转_0922092817
-      - US_分享日记_3
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2712806]"
-      - CF中转_0912132607
-      - Youtube顺丰资源  美国 145
-      - 瑞典_100309051
-      - Youtube顺丰资源  美国 175
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2717343]"
-      - CF中转_1003091405
-      - "[ie] [vl-re-gr] [Sun-01pm-0303781]"
-      - "[🇬🇧] [vl-tl-ws] [sun-07am-1049961]"
-      - CF中转_0922092691
-      - CF中转_0912132170
-      - YouTube it头条1003_92
-      - CF中转_0922091675
-      - CF中转_0912132171
-      - CF中转_0922092839
-      - CF中转_0922092682
-      - CF中转_0922092292
-      - CF中转_0922092168
-      - CF中转_0922091452
-      - 美国_1003091166
-      - US_分享日记_4
-      - CF中转_0922092310
-      - CF中转_0922092335
-      - Youtube顺丰资源  美国 252
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725216]"
-      - 法国_100309070
-      - CF中转_1003091114
-      - CF中转_0922092373
-      - "[🇫🇮] [vl-re-tc] [thu-05am-2720453]"
-      - Youtube顺丰资源  美国 218
-      - 亚美尼亚_100309006
-      - "[🇫🇷] [vl-no-ws] [thu-05am-2709060]"
-      - CF中转_0912132608
-      - "[🇺🇸] [vl-tl-ws] [sun-07am-1032916]"
-      - "[🇩🇪] [vl-tl-ws] [thu-05am-2708028]"
-      - CF中转_0922092783
-      - YouTube it头条1003_65
-      - CF中转_1003091310
-      - CF中转_0922091732
-      - 新加坡_100309033
-      - Youtube顺丰资源  美国 280
-      - Youtube顺丰资源  美国 170
-      - Youtube顺丰资源  美国 93
-      - Youtube顺丰资源  美国 128
-      - CF中转_1003091281
-      - "[🇩🇪] [vl-no-ws] [thu-05am-2725000]"
-      - Youtube顺丰资源  美国 141
-      - Youtube顺丰资源  美国 84
-      - Youtube顺丰资源  美国 261
-      - Youtube顺丰资源  美国 233
-      - Youtube顺丰资源  美国 102
-      - Youtube顺丰资源  美国 169
-      - CF中转_0922091111
-      - "[🇬🇧] [vl-re-gr] [thu-05am-2707013]"
-      - Youtube顺丰资源  美国 165
-      - CF中转_1003091431
-      - US_分享日记_5
-      - Youtube顺丰资源  日本 56
-      - Youtube顺丰资源  美国 208
-      - RU_youtube@资源分享师_3
-      - Youtube顺丰资源++英国+334
-      - "3"
-      - 🇺🇦 乌克兰 v2rayfree.eu.org
-      - 12|KR_speednode_0198
-      - 🇷🇺 俄罗斯 莫斯科JustHost
-      - 15|HK_speednode_0143
-      - 15|US_speednode_0343
-      - 🇺🇸 美国加利福尼亚州圣克拉拉 腾讯云
-      - 15|US_speednode_0339
-      - RU_分享日记
-      - 🇷🇺RU-176.32.35.167-1781
-      - 15|TW_speednode_0276
-      - 亚洲(油管:破解资源君2.0)
-      - Youtube顺丰资源++美国
-      - Youtube顺丰资源++中国+94
-      - Youtube顺丰资源++中国+44
-      - 意大利+v2rayfree.eu.org
-      - 🇺🇸 美国 华盛顿Cogent通信公司_1
-      - Youtube顺丰资源++中国+161
-      - Youtube顺丰资源++中国+60
-      - Youtube顺丰资源++中国+173
-      - Youtube顺丰资源++中国+59
-      - YouTube it头条1003_19
-      - YouTube it头条1003_77
-      - 美国+华盛顿Cogent通信公司_1
-      - CN_youtube@资源分享师_109
-      - 🇺🇸 美国 华盛顿Cogent通信公司_2
-      - CN_分享日记
-      - Youtube顺丰资源++中国+179
-      - Youtube顺丰资源++中国+73
-      - Youtube顺丰资源++中国+169
-      - CN_youtube@资源分享师 _114
-      - YouTube it头条1002_184
-      - YouTube it头条1002_5
-      - CN_youtube@资源分享师_91_1
-      - YouTube it头条1003_20
-      - CN_youtube@资源分享师 _56
-      - 美国+华盛顿Cogent通信公司_2
-      - CN_youtube@资源分享师_117
-      - US_分享日记_6
-      - Youtube顺丰资源++中国+79
-      - Youtube顺丰资源++中国+76
-      - Youtube顺丰资源++中国+83
-      - 🇺🇸US-38.114.114.69-7494
-      - CN_youtube@资源分享师_80
-      - CN_youtube@资源分享师 _111
-      - CN_youtube@资源分享师 _97
-      - CN_youtube@资源分享师 _101
-      - Youtube顺丰资源++中国+64
-      - 美国+华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+104
-      - CN_youtube@资源分享师 _94
-      - CN_youtube@资源分享师_78
-      - CN_youtube@资源分享师 _100
-      - YouTube it头条1003_192
-      - Youtube顺丰资源++中国+100
-      - YouTube it头条1003_16
-      - Youtube顺丰资源++中国+81
-      - Youtube顺丰资源++中国+88
-      - Youtube顺丰资源++中国+41
-      - YouTube it头条1003_206
-      - 🇯🇵 13|🇯🇵 日本R|@ripaojiedian
-      - CN_youtube@资源分享师 _123
-      - 美国+华盛顿Cogent通信公司_4
-      - Youtube顺丰资源++中国+152
-      - CN_youtube@资源分享师 _127
-      - CN_youtube@资源分享师_91_2
-      - CN_youtube@资源分享师_90
-      - Youtube顺丰资源++中国+42
-      - CN_youtube@资源分享师 _105
-      - CN_youtube@资源分享师 _128
-      - CN_youtube@资源分享师 _126
-      - 美国+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+98
-      - CN_youtube@资源分享师 _104
-      - CN_youtube@资源分享师_110
-      - Youtube顺丰资源++中国+68
-      - Youtube顺丰资源++中国+193
-      - CN_youtube@资源分享师_116
-      - CN_youtube@资源分享师_112
-      - US_youtube@资源分享师_43
-      - Youtube顺丰资源++中国+174
-      - 美国+华盛顿Cogent通信公司_5
-      - Youtube顺丰资源++中国+78
-      - Youtube顺丰资源++中国+80
-      - 🇺🇸 美国 V2CROSS.COM
-      - US_分享日记_7
-      - CN_youtube@资源分享师_92
-      - CN_youtube@资源分享师_97
-      - CN_youtube@资源分享师 _112
-      - 🇺🇸US-38.114.114.69-8107
-      - US_youtube@资源分享师_50
-      - YouTube it头条1003_94
-      - Youtube顺丰资源++中国+95
-      - Youtube顺丰资源++中国+185
-      - YouTube it头条1003_212
-      - Youtube顺丰资源++中国+63
-      - US_分享日记_8
-      - YouTube it头条1003_198
-      - YouTube it头条1003_203
-      - US_分享日记_9
-      - Youtube顺丰资源++中国+40
-      - US_分享日记_10
-      - YouTube it头条1003_4
-      - US_分享日记_11
-      - YouTube it 头条 1001_3
-      - US_分享日记_12
-      - 美国+v2rayfree.eu.org_2
-      - US_分享日记_13
-      - US_分享日记_14
-      - Youtube顺丰资源++中国+43
-      - Youtube顺丰资源++中国+51
-      - YouTube it 头条 1001_4
-      - 美国+v2rayfree.eu.org_3
-      - Youtube顺丰资源++中国+37
-      - YouTube it头条1003_15
-      - 北美地区+v2rayfree.eu.org_1
-      - Youtube顺丰资源++中国+70
-      - YouTube it头条1003_231
-      - CN_youtube@资源分享师 _76
-      - 🇺🇸 美国 华盛顿Cogent通信公司_3
-      - Youtube顺丰资源++中国+50
-      - CN_youtube@资源分享师_122
-      - 瑞典+v2rayfree.eu.org
-      - 🇺🇸US-38.114.114.69-7209
-      - US_分享日记_15
-      - 🇺🇸US-38.114.114.69-7377
-      - YouTube it头条1003_18
-      - 🇺🇸 美国 华盛顿Cogent通信公司_4
-      - CN_youtube@资源分享师 _96
-      - Youtube顺丰资源++中国+84
-      - 美国+华盛顿Cogent通信公司_6
-      - US_分享日记_16
-      - 北美地区+v2rayfree.eu.org_2
+      - '@meli_proxyy_1'
+      - '@meli_proxyy_2'
+      - '@meli_proxyy_3'
+      - '@meli_proxyy_4'
+      - '@meli_proxyy_5'
+      - '@meli_proxyy+2'
+      - '@meli_proxyyسرورای‌بیشتر_1'
+      - '@meli_proxyyسرورای‌بیشتر_2'
+      - '@meli_proxyy_6'
+      - '@meli_proxyy_7'
+      - '@meli_proxyy_8'
+      - '@meli_proxyy_9'
+      - '@meli_proxyy_10'
+      - '@meli_proxyy_11'
+      - '@meli_proxyy_12'
+      - '@meli_proxyy_13'
+      - '@meli_proxyy_14'
+      - '@meli_proxyy_15'
+      - '@meli_proxyy_16'
+      - '@meli_proxyy_17'
+      - '@meli_proxyy_18'
+      - '@meli_proxyy_19'
+      - '@meli_proxyy_20'
+      - '@meli_proxyy_21'
+      - '@meli_proxyy_22'
+      - '@meli_proxyy_23'
+      - '@meli_proxyy_24'
+      - '@meli_proxyy_25'
+      - '@meli_proxyy_26'
+      - '@meli_proxyy_27'
+      - '@meli_proxyy_28'
+      - '@meli_proxyy_29'
+      - '@meli_proxyy_30'
+      - '@meli_proxyy_31'
+      - '@meli_proxyy_32'
+      - '@meli_proxyy_33'
+      - '@meli_proxyy_34'
+      - '@meli_proxyy_35'
+      - '@meli_proxyy_36'
+      - '@meli_proxyy_37'
+      - 🇩🇪All¹ | @meli_proxyy
+      - 🇩🇪All² | @meli_proxyy
+      - '@meli_proxyy_38'
+      - '@meli_proxyy_39'
+      - '@meli_proxyy_40'
+
 rules:
+# 本地/局域网地址
+# 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
+# ACL4SSR标志 如没有，代表不是用ACL4SSR规则
+# 本地/局域网地址
+# Router managed 路由器管理域名
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
-  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -4276,7 +528,6 @@ rules:
   - DOMAIN,instant.arubanetworks.com,🎯 全球直连
   - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
   - DOMAIN,router.asus.com,🎯 全球直连
-  - DOMAIN,www.asusrouter.com,🎯 全球直连
   - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
   - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -4289,16 +540,23 @@ rules:
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
   - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
+# 广告关键词
+# 广告联盟-国内****************
+# 广告联盟-国外****************
+# 垃圾站点****************
+# 运营商广告****************
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
   - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+  - DOMAIN-KEYWORD,adservice,🛑 全球拦截
   - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
   - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
   - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
   - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
   - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - DOMAIN-KEYWORD,analysis,🛑 全球拦截
   - DOMAIN-KEYWORD,applovin,🛑 全球拦截
   - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
   - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -4312,6 +570,7 @@ rules:
   - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
   - DOMAIN-KEYWORD,socdm,🛑 全球拦截
   - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+  - DOMAIN-KEYWORD,usage,🛑 全球拦截
   - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
   - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
   - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -4708,7 +967,6 @@ rules:
   - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
   - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -4882,6 +1140,66 @@ rules:
   - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
   - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+# 包含常用应用的各种去广告规则。
+# 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
+# 163
+# 17173
+# 178
+# 2345
+# 360
+# 58
+# Alibaba
+# Adobe
+# Apple
+# AutoHome
+# Baidu
+# Book-app 起点 掌阅 书旗 宜搜
+# ByteDance 头条抖音
+# Dangdang
+# Duomi
+# Facebook
+# Fang
+# Google
+# JD
+# Kugou
+# Kuwo
+# Meizu flyme 魅族
+# Meitu
+# Miui 小米
+# Moji
+# Qingting.fm
+# QQ
+# RenRen
+# Sina
+# Sougou
+# Teleplus
+# Twitter
+# UC ali
+# Weifeng
+# WPS Office
+# Wi-Fi key
+# Ximalaya 喜马拉雅
+# Xunlei 迅雷app&看看
+# Yahoo
+# Zhihu
+# Ads in Video apps 下面都是 ********************
+# 6间房
+# Baofeng 暴风影音
+# Douyu
+# Fenghuang 凤凰TV
+# Funshion 风行
+# iqiyi PPS 爱奇艺
+# Ku6 酷6
+# LeTV 乐视
+# MGTV 芒果TV
+# Sohu 搜狐
+# PPTV、PPLive
+# QQ Live
+# Youku & Tudou
+# Youtube
+# Others ads in Video apps
+# Ads in Video apps end 上面都是 ********************
+# 常用网站广告
   - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
   - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
   - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
@@ -5046,6 +1364,7 @@ rules:
   - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
   - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
+  - DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
   - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
   - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -5403,6 +1722,7 @@ rules:
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
   - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
+  - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
   - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
   - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
   - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -5597,6 +1917,7 @@ rules:
   - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
   - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
   - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+  - DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
   - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
   - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -5905,6 +2226,8 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
+# Google China
+#DOMAIN-SUFFIX,translate.googleapis.com
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -5916,24 +2239,34 @@ rules:
   - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+  - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+  - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
   - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
   - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+# 内容：SteamCN
+# 数量：15条
   - DOMAIN,csgo.wmsj.cn,🎯 全球直连
   - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
   - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -5945,11 +2278,13 @@ rules:
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
   - DOMAIN,wmsjsteam.com,🎯 全球直连
-  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
   - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+# Microsoft Services
+# optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
+# source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -5962,11 +2297,8 @@ rules:
   - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
-  - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -6029,11 +2361,12 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+# Apple
+# 一般国内Apple肯定正常,不需要开代理
   - DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -6058,13 +2391,64 @@ rules:
   - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
   - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
+# 内容：国外媒体列表
+# 更新：2023-01-15 22:06:33
+# 数量：330条
+# ABC
+# AbemaTV
+# All4
+# Amazon
+# AppleNews
+# AppleTV
+# BBCiPlayer
+# Bahamut
+# DAZN
+# Deezer
+# DiscoveryPlus
+# DisneyPlus
+# EncoreTVB
+# FoxNow
+# HBO
+# HBO_GO_HKG
+# HWTV
+# Hulu
+# HuluJapan
+# ITV
+# JOOX
+# Japonx
+# KKBOX
+# KKTV
+# LiTV
+# LineTV
+# My5
+# MyTVSuper
+# Netflix
+# Niconico
+# PBS
+# Pandora
+# Pornhub
+# Qobuz
+# SoundCloud
+# Spotify
+# TIDAL
+# TaiWanGood 台湾好
+# TikTok
+# Twitch
+# ViuTV
+# YouTube
+# YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+  - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+  - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
   - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+  - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -6082,17 +2466,18 @@ rules:
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
   - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -6107,11 +2492,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -6123,11 +2510,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -6148,19 +2538,25 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -6180,6 +2576,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -6195,9 +2592,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -6213,25 +2613,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -6269,60 +2676,27 @@ rules:
   - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
   - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
-  - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
-  - DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
-  - DOMAIN-KEYWORD,olevod,🌍 国外媒体
-  - DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
-  - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,openai,🌍 国外媒体
-  - DOMAIN,gemini.google.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
-  - DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,openai.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-  - DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
+  - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
   - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -6330,12 +2704,15 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-  - DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
+  - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -6352,6 +2729,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -6367,6 +2745,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -6381,7 +2762,14 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
+# Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
   - DOMAIN-SUFFIX,t.me,📲 电报信息
   - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
   - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
@@ -6394,10 +2782,48 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+# 长风网站，自动注入
+  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
+# 代理列表
+# MyList && Other
+# 国外域名
+# 国外域名关键字
+# Top Blocked Sites
+# Amazon
+# BBC
+# Developer 开发者常用国外网站、镜像和论坛
+# Discord
+# Facebook
+# Github
+# Google
+# GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
+# Instagram
+# Kakao Talk
+# Line
+# OneDrive
+#DOMAIN-SUFFIX,aria.microsoft.com
+# Porn
+# Pixiv
+# Spark
+# Steam
+# TapTap
+# Twitch
+# Twitter
+# Telegram
+# TeraBox
+# Whatsapp
+# Wikipedia 维基相关域名
+#飞流直播
+#华文电视
+# VikACG
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
   - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
+  - DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
   - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
   - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -6408,13 +2834,13 @@ rules:
   - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
   - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
   - DOMAIN-SUFFIX,notion.so,🚀 节点选择
+  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
   - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
   - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
   - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
   - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
   - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
   - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
-  - DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
   - DOMAIN-SUFFIX,eu,🚀 节点选择
   - DOMAIN-SUFFIX,hk,🚀 节点选择
   - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -6422,6 +2848,7 @@ rules:
   - DOMAIN-SUFFIX,sg,🚀 节点选择
   - DOMAIN-SUFFIX,tw,🚀 节点选择
   - DOMAIN-SUFFIX,uk,🚀 节点选择
+  - DOMAIN-SUFFIX,us,🚀 节点选择
   - DOMAIN-KEYWORD,1e100,🚀 节点选择
   - DOMAIN-KEYWORD,abema,🚀 节点选择
   - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -6572,11 +2999,8 @@ rules:
   - DOMAIN-KEYWORD,uk-live,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
   - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
-  - DOMAIN-SUFFIX,claude.ai,🚀 节点选择
-  - DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
   - DOMAIN-SUFFIX,apache.org,🚀 节点选择
   - DOMAIN-SUFFIX,docker.com,🚀 节点选择
-  - DOMAIN-SUFFIX,docker.io,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
   - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
   - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -6691,8 +3115,6 @@ rules:
   - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
   - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
   - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
-  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
-  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
   - DOMAIN-KEYWORD,1drv,🚀 节点选择
   - DOMAIN-KEYWORD,onedrive,🚀 节点选择
   - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -6730,7 +3152,6 @@ rules:
   - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
   - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
-  - DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
   - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
   - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
   - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -6749,6 +3170,7 @@ rules:
   - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
   - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
   - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
+  - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
   - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -6805,14 +3227,59 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
   - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
   - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
-  - DOMAIN-SUFFIX,zoom.us,🚀 节点选择
-  - DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
   - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
   - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
+# 直连列表
+# MyList
+# CN域名直连(中国|公司|网络)
+# 中国国内常见域名关键词直连
+# 360
+# 4399
+# 58
+# Alibaba
+# Baidu
+# Bilibili
+# Blizzard
+# ByteDance
+# CCTV
+# ChinaNet
+# DiDi
+# Douyu 斗鱼
+# Epic
+# HuaWei
+# Iflytek 科大讯飞
+# Iqiyi
+# JD
+# Kingsoft
+# Kuaishou 快手
+# Meitu
+# LeTV 乐视
+# MGTV 芒果TV
+# MI
+# NetEase
+# PPTV、PPLive
+# PDD 拼多多
+# Sina
+# Sohu Sogo
+# Sony
+# SteamCN
+# Tencent
+# Vip 唯品会
+# Ximalaya 喜马拉雅
+# Xunlei 迅雷
+# YYeTs 人人影视
+# Private Tracker
+# TeamViewer
+# Public Direct CDN 公共直连
+#DOMAIN-SUFFIX,ajax.aspnetcdn.com
+#DOMAIN-SUFFIX,ajax.cloudflare.com
+#DOMAIN-SUFFIX,cdnjs.cloudflare.com
+#DOMAIN-SUFFIX,code.jquery.com
+# AccelerateDirectSites
   - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -6828,12 +3295,11 @@ rules:
   - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
-  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
-  - DOMAIN-SUFFIX,tebex.io,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
   - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+  - DOMAIN-KEYWORD,-cn,🎯 全球直连
   - DOMAIN-KEYWORD,360buy,🎯 全球直连
   - DOMAIN-KEYWORD,alicdn,🎯 全球直连
   - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -6880,7 +3346,6 @@ rules:
   - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
   - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
-  - DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
   - DOMAIN-SUFFIX,amap.com,🎯 全球直连
   - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
   - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -6920,8 +3385,6 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
-  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -6929,6 +3392,9 @@ rules:
   - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
   - DOMAIN-SUFFIX,im9.com,🎯 全球直连
   - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
   - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
@@ -6943,7 +3409,6 @@ rules:
   - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
   - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
-  - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
   - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -6992,25 +3457,12 @@ rules:
   - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
   - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
   - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
   - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
-  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
-  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
-  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
-  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
-  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -7110,7 +3562,6 @@ rules:
   - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
   - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
   - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
   - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
   - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
   - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -7162,7 +3613,46 @@ rules:
   - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+  - DOMAIN-KEYWORD,announce,🎯 全球直连
+  - DOMAIN-KEYWORD,torrent,🎯 全球直连
+  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
   - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+  - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
   - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
   - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -7176,10 +3666,6 @@ rules:
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
-  - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
-  - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
-  - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
-  - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
   - DOMAIN-SUFFIX,115.com,🎯 全球直连
   - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -7209,7 +3695,6 @@ rules:
   - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
   - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
   - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
-  - DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
   - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
   - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -7245,7 +3730,6 @@ rules:
   - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
   - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
   - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
-  - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
   - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
   - DOMAIN-SUFFIX,fang.com,🎯 全球直连
   - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
@@ -7324,7 +3808,6 @@ rules:
   - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
   - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
@@ -7347,7 +3830,6 @@ rules:
   - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
   - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
   - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
-  - DOMAIN-SUFFIX,realme.com,🎯 全球直连
   - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
   - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
   - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -7381,7 +3863,6 @@ rules:
   - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
   - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
   - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
-  - DOMAIN-SUFFIX,vivo.com,🎯 全球直连
   - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
   - DOMAIN-SUFFIX,weather.com,🎯 全球直连
   - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
@@ -7418,9 +3899,15 @@ rules:
   - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
-  - DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+# 中国云服务商ip端
+# 阿里
+# 腾讯 qq
+# 百度 Baidu
+# 华为 huwei
+# 网易 NetEase
+# 360
   - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
   - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
   - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
