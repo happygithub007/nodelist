@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-10-17 15:52:25
+# 创建时间：2024-11-01 15:33:26
 # 使用模版：V2RaySE 默认模版
-# 节点数量：45
+# 节点数量：326
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,354 +86,2321 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"@meli_proxyy_1","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_2","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_3","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_4","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_5","type":"vless","server":"live.wkrq.com","port":443,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","tls":true,"servername":"fTARA.com","network":"ws","ws-opts":{"path":"/?ed=443","headers":{"host":"fTARA.com"}}}
-  - {"name":"@meli_proxyy+2","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","servername":"19.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"19.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir"}}}
-  - {"name":"@meli_proxyyسرورای‌بیشتر_1","type":"vmess","server":"bwdraper.faculty.ucdavis.edu","port":443,"cipher":"auto","uuid":"587eeb1a-9d5e-4407-886f-9e9492e42273","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"bwdraper.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/express_v2ray?ed=2560","headers":{"host":"icomedbackbitches.com"}}}
-  - {"name":"@meli_proxyyسرورای‌بیشتر_2","type":"vmess","server":"zmaoz.faculty.ucdavis.edu","port":443,"cipher":"auto","uuid":"587eeb1a-9d5e-4407-886f-9e9492e42273","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"zmaoz.faculty.ucdavis.edu","network":"ws","ws-opts":{"path":"/express_v2ray?ed=2560","headers":{"host":"icomedbackbitches.com"}}}
-  - {"name":"@meli_proxyy_6","type":"vless","server":"live.wkrq.com","port":443,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","tls":true,"servername":"Asreaval.com","network":"ws","ws-opts":{"path":"/?ed=443","headers":{"host":"Asreaval.com"}}}
-  - {"name":"@meli_proxyy_7","type":"vless","server":"www.speedtest.net","port":2095,"uuid":"356c9081-9705-403e-b4eb-41a7bc4d0683","servername":"13.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"13.v.v2.www.speedtest.net.g.debian.org.nanvaiiisaeed.ir"}}}
-  - {"name":"@meli_proxyy_8","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_9","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_10","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_11","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_12","type":"ss","server":"67.220.95.100","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"@meli_proxyy_13","type":"ss","server":"89.23.103.21","port":51584,"password":"oYQ8JwEldYn4KT2gfZ6eNl","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_14","type":"ss","server":"91.107.160.111","port":36298,"password":"eYIAoGqIiRxoKF5zsnpmade3UnUEJchNghNYliDVlYk=","cipher":"aes-256-gcm"}
-  - {"name":"@meli_proxyy_15","type":"ss","server":"23.166.88.198","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"@meli_proxyy_16","type":"ss","server":"91.219.237.102","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_17","type":"ss","server":"103.167.234.98","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_18","type":"vless","server":"185.156.108.40","port":13784,"uuid":"2d722623-3740-4f73-9357-01ad1a25ce27","network":"tcp"}
-  - {"name":"@meli_proxyy_19","type":"vless","server":"91.107.151.209","port":58298,"uuid":"4c942230-2910-4c2d-80eb-f3800c79dc7a","servername":"divarcdn.com","network":"tcp"}
-  - {"name":"@meli_proxyy_20","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"012116a8-7d92-4c5f-b3f2-13a0e9b37ba9","servername":"www-domain.hu1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.hu1.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_21","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"4dcbf542-6f9f-4c87-a96d-fa66e7a03d2b","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.nl2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.nl2.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_22","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"cf43996d-cc45-458e-87ac-c9c933c9ed3e","servername":"www-domain.fi2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.fi2.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_23","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"2fe62d75-af36-4f84-97cb-c0c71691be1b","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_24","type":"vless","server":"91.107.240.100","port":2095,"udp":true,"uuid":"f1aefe1d-64a7-4252-81b9-34c8221a925f","tls":true,"servername":"EMie2V.Gstatic.COM.coiNEX.com.SARBAZIT.COM","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SgzllpJZNbdqv4IXgW-tixaJDu1mK5EZTS6dqrQvnEE","short-id":"8786b7bb"},"client-fingerprint":"firefox"}
-  - {"name":"@meli_proxyy_25","type":"ss","server":"45.158.171.44","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_26","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"012116a8-7d92-4c5f-b3f2-13a0e9b37ba9","servername":"www-domain.hu1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.hu1.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_27","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"c05ffb1d-e27c-48e5-92e1-f00dedf23013","servername":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.se1.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.se1.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_28","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"93d2ef40-6d50-4844-87d1-15e3c8257dba","servername":"www-domain.de3.v2vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"www-domain.de3.v2vless.sitespeedtest.net"}}}
-  - {"name":"@meli_proxyy_29","type":"vless","server":"185.18.250.117","port":443,"uuid":"1e9aadae-ca17-4f75-b0a0-7de5e3858cfb","tls":true,"servername":"xn----pmcnaac0dkn0rb71nda.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"xn----pmcnaac0dkn0rb71nda.pages.dev"}}}
-  - {"name":"@meli_proxyy_30","type":"vless","server":"172.66.47.100","port":443,"uuid":"4045e84e-5e3c-4f70-8ff5-c1097882a55a","tls":true,"servername":"bpb-worker-panel1-e4p.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@Linkvws?ed=2560","headers":{"host":"bpb-worker-panel1-e4p.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
-  - {"name":"@meli_proxyy_31","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"ff57a431-5bb6-4f5f-93ab-e9e95d1ac342","servername":"Babaaha.ir","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Babaaha.ir"}}}
-  - {"name":"@meli_proxyy_32","type":"ss","server":"185.5.38.111","port":55988,"password":"2VrTnsQrvfJhSxWwRGtSUk43T8BL3M9XU6AYssJKzSbT6Lr2paHvqWAxcYWHZ243vEqc1fSTMkWbP6VqUBbFEVKeX5pVv1CU","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_33","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"T9VPet1fGhdb4JPmUS6SS5RNZ7NSgBvQNF4rkoQTdFhGWvmGedszfjBTgefmrQYhjhyB867P9RvyBQmtEjLUegm5CNymHC3i","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@meli_proxyy_34","type":"trojan","server":"enfuego.missionsec.io","port":443,"udp":true,"password":"TD7FKA3CZSyRgCeXp60xjaEa3uSzFaS5BOpC2lY3y9cYRA884qZOI3wxlNDneD","sni":"enfuego.missionsec.io","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@meli_proxyy_35","type":"trojan","server":"training.freetrade.link","port":18333,"udp":true,"password":"Y4O3x7D8RSepyNXDA8ZOZEaKB3F9Y35Ca3TpuxlR6aCAeygSDl0IwcjCz2nSqF","sni":"training.freetrade.link","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@meli_proxyy_36","type":"trojan","server":"tobster.freetrade.link","port":28343,"udp":true,"password":"ASRpD3DYlZTNagqjxKS2BcF39y3y8DO30e85zCZXaCau6EO7RwxF4YAIenplSC","sni":"tobster.freetrade.link","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"@meli_proxyy_37","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"1e1aa30a-343c-40dd-8540-8ee3b972ea7b","servername":"Trownmikhamtk.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Trownmikhamtk.net"}}}
-  - {"name":"🇩🇪All¹ | @meli_proxyy","type":"vless","server":"151.101.2.216","port":80,"uuid":"1e1aa30a-343c-40dd-8540-8ee3b972ea7b","servername":"Trownmikhamtk.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Trownmikhamtk.net"}}}
-  - {"name":"🇩🇪All² | @meli_proxyy","type":"vless","server":"151.101.2.216","port":80,"uuid":"ff57a431-5bb6-4f5f-93ab-e9e95d1ac342","servername":"Babaaha.ir","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Babaaha.ir"}}}
-  - {"name":"@meli_proxyy_38","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"DIGIV2RAy","servername":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir.","network":"ws","ws-opts":{"path":"/tm-Digiv2-__teldIGIv2__-DIGiv","headers":{"host":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."}}}
-  - {"name":"@meli_proxyy_39","type":"vless","server":"www.speedtest.net","port":2052,"uuid":"DIGIV2RAy","servername":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir.","network":"ws","ws-opts":{"path":"/tm-Digiv2-__teldIGIv2__-DIGiv","headers":{"host":"www.speedtest.net.ftp.debian.org.www.digikala.com.cloudflare.com.farsr0id.ir."}}}
-  - {"name":"@meli_proxyy_40","type":"vless","server":"nufilter.fastly80.hosting-ip.com","port":80,"uuid":"TELEGRAM-NUFiLTER","servername":"Dadachibodoberim.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Dadachibodoberim.net"}}}
+  - {"name":"🇺🇸 美国_1","type":"trojan","server":"172.67.148.85","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_分享日记_1","type":"ss","server":"212.102.47.129","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_youtube@资源分享师_13","type":"ss","server":"212.102.47.131","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_2","type":"ss","server":"212.102.47.130","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_3","type":"vless","server":"172.64.35.202","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"🇨🇦CA-149.22.95.183-0592","type":"ss","server":"149.22.95.183","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🇺🇸 美国_2","type":"trojan","server":"104.18.79.252","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"亚太地区+v2rayfree.eu.org","type":"trojan","server":"36.50.134.29","port":443,"udp":true,"password":"94d219c9-1afc-4d42-b090-8b3794764380","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US-107.155.57.51-0648","type":"ss","server":"107.155.57.51","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇺🇸US-184.170.241.194-0590","type":"ss","server":"184.170.241.194","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"US_分享日记_4","type":"vless","server":"104.17.64.70","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"CN_youtube@资源分享师 _32","type":"vmess","server":"120.232.153.27","port":51582,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_分享日记_5","type":"ss","server":"23.157.40.103","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"ss","server":"167.88.61.111","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_6","type":"ss","server":"23.157.40.26","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_7","type":"ss","server":"23.150.152.16","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"美国_1","type":"trojan","server":"188.114.96.113","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"ss","server":"167.88.61.111","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_8","type":"ss","server":"23.150.152.16","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_9","type":"ss","server":"23.150.152.16","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_10","type":"ss","server":"23.150.152.16","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_11","type":"ss","server":"23.150.152.16","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"[🇨🇦] [vm-no-tc] [fri-08am-1118660]","type":"vmess","server":"108.181.200.220","port":17163,"cipher":"auto","uuid":"d54814a1-7a93-45f8-9117-db317a25d100","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499","type":"ss","server":"15.204.87.225","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 美国_3","type":"trojan","server":"173.245.59.202","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US-37.19.198.243-0615","type":"ss","server":"37.19.198.243","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_12","type":"ss","server":"23.150.152.16","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499","type":"ss","server":"15.204.87.217","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_13","type":"ss","server":"156.146.38.167","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_14","type":"vless","server":"104.19.173.68","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"CA_分享日记_1","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_youtube@资源分享师 _59","type":"ss","server":"38.121.43.204","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_15","type":"ss","server":"69.50.95.203","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US-205.134.180.139-0400","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_分享日记_16","type":"ss","server":"205.134.180.145","port":443,"password":"hgLCgfLRgB6d","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US-205.134.180.150-0629","type":"ss","server":"205.134.180.150","port":443,"password":"5cp9Z3iWnJZ2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"ss","server":"142.202.49.119","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_17","type":"ss","server":"23.150.152.16","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US-37.19.198.244-0614","type":"ss","server":"37.19.198.244","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_18","type":"ss","server":"142.202.49.84","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US-37.19.198.160-0616","type":"ss","server":"37.19.198.160","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_youtube@资源分享师 _23","type":"ss","server":"23.134.94.168","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US-205.134.180.147-9517","type":"ss","server":"205.134.180.147","port":443,"password":"9Bvkw5aupNy8","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_youtube@资源分享师 _69","type":"ss","server":"38.121.43.204","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_19","type":"ss","server":"67.220.95.100","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师_12","type":"ss","server":"156.146.38.168","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_20","type":"ss","server":"142.202.49.84","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_1","type":"ss","server":"38.75.136.21","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师 _65","type":"ss","server":"38.121.43.204","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"北美地区+v2rayfree.eu.org","type":"ss","server":"23.150.248.122","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"CH_分享日记_1","type":"ss","server":"156.146.62.162","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"未知_110113476","type":"vless","server":"cfpage-39t.pages.dev","port":443,"uuid":"bba5ce00-09e4-4fce-8d26-35db5b4e38d4","tls":true,"servername":"cfpage-39t.pages.dev","network":"ws","ws-opts":{"path":"/Telegram"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"ss","server":"142.202.49.119","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_21","type":"ss","server":"142.202.49.119","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师_11","type":"ss","server":"38.86.135.141","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"52.10.33.211","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸US-205.134.180.151-0632","type":"ss","server":"205.134.180.151","port":443,"password":"5cp9Z3iWnJZ2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_2","type":"trojan","server":"104.25.171.225","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"ES_分享日记","type":"ss","server":"150.241.95.62","port":25486,"password":"uz*q6N5=kB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"GB_分享日记_1","type":"ss","server":"141.98.101.178","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"[🇩🇪] [vl-no-ws] [fri-08am-1029702]","type":"vless","server":"159.223.250.98","port":443,"uuid":"6ff28b87-82bc-4446-b8f3-18978358b47a","servername":"159.223.250.98","network":"ws","ws-opts":{"path":"/BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN-BARGOVPN?ed=443","headers":{"host":"159.223.250.98"}}}
+  - {"name":"GB_分享日记_2","type":"ss","server":"141.98.101.182","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_youtube@资源分享师 _61","type":"ss","server":"142.202.48.105","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸_US_美国_3","type":"ss","server":"38.75.136.21","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL-79.127.239.84-1375","type":"ss","server":"ams1.fromblancwithlove.com","port":19175,"password":"5Au7NhFmcBqMnika4KVk7h4ZdV3wD4hFtJ8PJ3AlHzLeU1chEBaz19a643q7hBPV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_分享日记_22","type":"ss","server":"69.50.92.71","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"US_youtube@资源分享师 _67","type":"ss","server":"142.202.48.105","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"日本 东京Amazon数据中心","type":"vmess","server":"8vndq-g03.jp05-6786-vm0.entry.fr0307a.art","port":46484,"cipher":"auto","uuid":"22acc467-7440-386a-927a-d84be554b37e","alterId":1,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CA_分享日记_2","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"IN_分享日记","type":"ss","server":"159.65.149.72","port":51348,"password":"p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"GB_youtube@资源分享师 _1","type":"ss","server":"141.98.101.180","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"未知_110113421","type":"vless","server":"benedict.ns.cloudflare.com","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🇷🇸RS-194.71.126.31-0712","type":"ss","server":"194.71.126.31","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"[🇮🇹] [vm-no-tc] [fri-08am-1118925]","type":"vmess","server":"147.45.51.16","port":2098,"cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"[🇱🇺] [vm-no-tc] [fri-08am-1118554]","type":"vmess","server":"107.189.4.166","port":8080,"cipher":"chacha20-poly1305","uuid":"41bf26d7-8734-5ac2-8bba-76a724aaacbd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_youtube@资源分享师_7","type":"ss","server":"149.22.87.240","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🇬🇧GB-212.102.53.196-0665","type":"ss","server":"212.102.53.196","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"CN_youtube@资源分享师 _11","type":"vmess","server":"120.232.153.71","port":43526,"cipher":"auto","uuid":"21a9bff2-72de-4e62-93ff-8b159f66d875","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇬🇧GB-212.102.53.197-0656","type":"ss","server":"212.102.53.197","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🇬🇧GB-212.102.53.81-0659","type":"ss","server":"212.102.53.81","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🇬🇧GB-77.72.5.150-9241","type":"ss","server":"77.72.5.150","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"GB_分享日记_3","type":"ss","server":"212.102.53.195","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"[🇳🇱] [vl-no-tc] [fri-08am-1014566]","type":"vless","server":"89.105.223.195","port":38987,"uuid":"0e834419-e72d-49cd-83e6-d149f673481d","network":"tcp"}
+  - {"name":"🇬🇧GB-212.102.53.78-0664","type":"ss","server":"212.102.53.78","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_23","type":"ss","server":"38.110.1.53","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"[🇩🇪] [vm-no-tc] [fri-08am-1121524]","type":"vmess","server":"37.114.33.109","port":12213,"cipher":"auto","uuid":"cdc95a8e-3acb-436f-8fc3-336ebd544003","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR-51.15.27.48-0644","type":"ss","server":"51.15.27.48","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱NL-109.201.152.181-0643","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"CN_youtube@资源分享师 _9","type":"vless","server":"120.232.240.42","port":12507,"uuid":"0d89a36e-36bc-41d2-8bd3-bbd639991f29","tls":true,"servername":"nicorobin.eula.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"nicorobin.eula.cloudns.org"}}}
+  - {"name":"AF_分享日记","type":"ss","server":"185.24.151.214","port":52952,"password":"LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB-212.102.53.194-0142","type":"ss","server":"212.102.53.194","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"[🇫🇮] [vl-tl-ws] [fri-08am-1044549]","type":"vless","server":"151.101.66.228","port":443,"uuid":"cb5c7d29-5ca3-4b73-bea3-060aa3d9b7b0","tls":true,"servername":"TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir","network":"ws","ws-opts":{"path":"/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880","headers":{"host":"TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir"}},"client-fingerprint":"firefox"}
+  - {"name":"🇫🇷FR-195.154.169.198-0647","type":"ss","server":"195.154.169.198","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"CH_分享日记_2","type":"ss","server":"156.146.62.161","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🇬🇧GB-212.102.53.80-0414","type":"ss","server":"212.102.53.80","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🏁RELAY-104.21.53.183-2955","type":"vmess","server":"104.21.53.183","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"CF中转_1101131784","type":"vless","server":"162.159.44.207","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"GB_分享日记_4","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"🏁RELAY-172.64.103.211-2943","type":"vmess","server":"172.64.103.211","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🏁RELAY-172.67.216.29-2945","type":"vmess","server":"172.67.216.29","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🇬🇧GB-212.102.53.198-0506","type":"ss","server":"212.102.53.198","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"CF中转_1101131750","type":"vless","server":"104.20.21.247","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"[🇬🇧] [vl-no-tc] [fri-08am-1023252]","type":"vless","server":"51.195.149.115","port":26475,"uuid":"4534d7c9-c5dd-490a-9f14-75245f58ae01","network":"tcp"}
+  - {"name":"美国_3","type":"trojan","server":"190.93.246.21","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"[🇭🇰] [vm-no-tc] [fri-08am-1127138]","type":"vmess","server":"hkt2.bika.hk","port":30251,"cipher":"auto","uuid":"9e88a10b-655c-5120-89d0-408634169561","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CH_分享日记_3","type":"ss","server":"156.146.62.164","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"美国_4","type":"trojan","server":"108.162.196.36","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"CH_分享日记_4","type":"ss","server":"156.146.62.163","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"ES_youtube@资源分享师 _1","type":"ss","server":"150.241.95.63","port":42993,"password":"fjtXQ9*tNg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"ss","server":"154.90.63.193","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"[🇩🇪] [vl-re-tc] [fri-08am-1039647]","type":"vless","server":"91.107.158.18","port":17050,"udp":true,"uuid":"ab260705-2e0c-49d8-9646-f618ef718e94","tls":true,"servername":"faassentuinendier.NL","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Gx_qWHcTr467XFjNlbDM3uI1EvE8HO-kXsGMYB_stVY","short-id":"ad"},"client-fingerprint":"random"}
+  - {"name":"美国_1101131070","type":"vless","server":"199.232.37.15","port":80,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","servername":"sara193.ir","network":"ws","ws-opts":{"path":"/BCXzvAcvSB7JzMWj?ed=2560","headers":{"host":"sara193.ir"}}}
+  - {"name":"US_分享日记_24","type":"ss","server":"208.67.105.196","port":42029,"password":"SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_1101131160","type":"vless","server":"151.101.130.219","port":443,"uuid":"a37fcf10-e5d5-4a63-9a8e-280ac84f21ed","tls":true,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"广东省广州市 移动","type":"vmess","server":"183.236.51.23","port":45020,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_youtube@资源分享师 _60","type":"ss","server":"38.121.43.204","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"美国_5","type":"trojan","server":"104.25.245.193","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_1101131162","type":"vless","server":"151.101.2.219","port":443,"uuid":"a37fcf10-e5d5-4a63-9a8e-280ac84f21ed","tls":true,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"🇧🇿BZ-77.247.108.24-0715","type":"ss","server":"77.247.108.24","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_youtube@资源分享师 _37","type":"vmess","server":"183.236.51.23","port":51002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国_4","type":"trojan","server":"173.245.49.76","port":443,"udp":true,"password":"NISHIKUITAN222","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国_6","type":"vless","server":"192.210.136.205","port":15894,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ld.ylka.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"ld.ylka.us.kg"}}}
+  - {"name":"GB_youtube@资源分享师 _2","type":"ss","server":"141.98.101.179","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"美国_7","type":"trojan","server":"172.67.56.244","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"US_youtube@资源分享师_15","type":"vless","server":"nufilter.fastly80-2.hosting-ip.com","port":80,"uuid":"TELEGRAM-NUFiLTER","servername":"Ojolat2boqol.net","network":"ws","ws-opts":{"path":"/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048","headers":{"host":"Ojolat2boqol.net"}}}
+  - {"name":"美国_1101131163","type":"vless","server":"151.101.66.219","port":443,"uuid":"a37fcf10-e5d5-4a63-9a8e-280ac84f21ed","tls":true,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"[🇰🇿] [vm-no-ws] [fri-08am-1121846]","type":"vmess","server":"89.218.15.100","port":10000,"cipher":"auto","uuid":"b644c39c-959b-11ef-9636-37042336d259","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vpnjantit"}}
+  - {"name":"[🇹🇷] [vl-no-ws] [fri-08am-1033474]","type":"vless","server":"151.101.130.219","port":80,"uuid":"8b76a60f-f2f6-4ab0-94a3-47fd9cf47b84","servername":"XpnTeam.ir","network":"ws","ws-opts":{"path":"@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048","headers":{"host":"XpnTeam.ir"}}}
+  - {"name":"德国_110113090","type":"vless","server":"188.40.252.118","port":443,"udp":true,"uuid":"bd811260-c993-45da-b123-2dc47b28b29b","tls":true,"servername":"internxt.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"31WHACxR__Za7n1RtqMXGefp0nl1Y-Mv1vjHVtnRqQc","short-id":"f13d0973b236ce"},"client-fingerprint":"firefox"}
+  - {"name":"TR_youtube@资源分享师 _1","type":"ss","server":"ist1.fromblancwithlove.com","port":21657,"password":"7PC4KztQwRixCS809ZFEllQpmAMn4oE0O9qdrCYo4MdEXJU577cjYeaG0tZDyRl0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_youtube@资源分享师 _13","type":"vmess","server":"120.232.153.37","port":42055,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"unKnow_youtube@资源分享师_2","type":"vless","server":"103.170.72.109","port":27033,"uuid":"0d89a36e-36bc-41d2-8bd3-bbd639991f29","tls":true,"servername":"nicorobin.eula.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"nicorobin.eula.cloudns.org"}}}
+  - {"name":"US_分享日记_25","type":"ss","server":"69.50.95.174","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"US_分享日记_26","type":"vless","server":"198.62.62.228","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"la.ylka.us.kg","network":"ws","ws-opts":{"path":"/proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"la.ylka.us.kg"}}}
+  - {"name":"US_分享日记_27","type":"ss","server":"38.114.114.69","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"[🇩🇪] [vl-re-tc] [fri-08am-1020956]","type":"vless","server":"95.164.117.128","port":8880,"udp":true,"uuid":"3542952f-fabc-4556-b68b-dcd4e21c3944","tls":true,"servername":"google.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ra4OxEIGMgGc84ujeHHHuks4AKE_PXakoKFvL89b71E","short-id":"680a8928"},"client-fingerprint":"firefox"}
+  - {"name":"香港_110113032","type":"vless","server":"154.211.8.12","port":443,"uuid":"0d89a36e-36bc-41d2-8bd3-bbd639991f29","tls":true,"servername":"nicorobin.eula.cloudns.org","network":"ws","ws-opts":{"path":"/Telegram@V2ray_Alpha/?ed=2048","headers":{"host":"nicorobin.eula.cloudns.org"}}}
+  - {"name":"[🇺🇸] [vl-re-tc] [fri-08am-1035302]","type":"vless","server":"164.92.82.207","port":59843,"udp":true,"uuid":"9681032c-12e7-40fb-9107-16406203250c","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"7CcN-0C4vUwQ_rJAY38IPcfpoIW2gvBRCVxt4dUAIQg","short-id":"03f5"},"client-fingerprint":"chrome"}
+  - {"name":"[🇸🇬] [vm-no-tc] [fri-08am-1121629]","type":"vmess","server":"5.34.176.111","port":57614,"cipher":"auto","uuid":"4e55ce40-9f8e-417d-f8ae-aa6af97a7097","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"US_分享日记_28","type":"vless","server":"104.21.59.145","port":443,"uuid":"468d811a-8540-4517-9779-0f542b5150d2","tls":true,"servername":"PPal03.luCIEN-isAak.WOrkeRS.dEV","network":"ws","ws-opts":{"path":"/je0xblzdnsjj7nff?ed=2560","headers":{"host":"PPal03.luCIEN-isAak.WOrkeRS.dEV"}}}
+  - {"name":"美国_110113991","type":"vless","server":"54.83.28.61","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"[🇫🇮] [vl-tl-ws] [fri-08am-1032551]","type":"vless","server":"151.101.0.223","port":443,"uuid":"85e5d269-af01-4739-b6de-361ac74ceae3","tls":true,"servername":"itsaze.ir","network":"ws","ws-opts":{"path":"/lW0tvTq4oSbHyKeRM?ed=2560","headers":{"host":"itsaze.ir"}},"alpn":["http/1.1"],"client-fingerprint":"chrome"}
+  - {"name":"美国_8","type":"trojan","server":"103.21.244.127","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"[🇬🇧] [vl-no-ws] [fri-08am-1023335]","type":"vless","server":"151.101.130.228","port":80,"uuid":"45b0c639-b364-4d00-a49f-ccdfac51fe5e","servername":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.TzZLiMitTNeW.NeT","network":"ws","ws-opts":{"path":"/","headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.TzZLiMitTNeW.NeT"}}}
+  - {"name":"FR_分享日记","type":"trojan","server":"15.188.18.102","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-172.67.194.60-1123","type":"vmess","server":"e.bukitk.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"e.bukitk.homes"}}}
+  - {"name":"香港_110113040","type":"vless","server":"58.176.229.127","port":35002,"uuid":"de44b044-8f90-4e18-b742-16591667ff96","tls":true,"servername":"edgetunnel-free.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048fp=randomized","headers":{"host":"edgetunnel-free.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"chrome"}
+  - {"name":"unKnow_youtube@资源分享师 _3","type":"vless","server":"103.170.72.238","port":27061,"uuid":"0d89a36e-36bc-41d2-8bd3-bbd639991f29","tls":true,"servername":"nicorobin.eula.cloudns.org","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"nicorobin.eula.cloudns.org"}}}
+  - {"name":"美国_1101131062","type":"vless","server":"151.101.65.210","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"pooleno.ir","network":"ws","ws-opts":{"path":"/GGPPfZ3NKyOoKNiK?ed=2560","headers":{"host":"pooleno.ir"}},"alpn":["h3","h2","http/1.1"],"client-fingerprint":"firefox"}
+  - {"name":"科技网络 🇺🇸_215","type":"vmess","server":"192.74.236.130","port":30004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.91334565.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.91334565.xyz"}}}
+  - {"name":"[🇸🇪] [tr-tl-tc] [fri-08am-1012051]","type":"trojan","server":"51.21.141.231","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"科技网络 🇺🇸_156","type":"vmess","server":"192.74.231.218","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.96601962.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.96601962.xyz"}}}
+  - {"name":"🏁RELAY-104.21.94.64-8298","type":"vmess","server":"104.21.94.64","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"[🇫🇮] [vl-no-tc] [fri-08am-1028426]","type":"vless","server":"79.127.70.76","port":2087,"uuid":"69211570-21c3-4046-93f7-5739f4f7f9b4","servername":"doostihaa.com","network":"tcp"}
+  - {"name":"科技网络 🇺🇸_18","type":"vmess","server":"38.33.0.35","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88501252.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.88501252.xyz"}}}
+  - {"name":"🏁RELAY-104.21.14.106-8323","type":"vmess","server":"e.jembat.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"e.jembat.homes"}}}
+  - {"name":"科技网络 🇺🇸_21","type":"vmess","server":"38.174.162.100","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.78422888.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.78422888.xyz"}}}
+  - {"name":"[🇫🇷] [vl-no-ws] [fri-08am-1016530]","type":"vless","server":"51.75.30.8","port":80,"uuid":"1949f066-bcb0-49be-88e9-74abd940f80e","network":"ws","ws-opts":{"path":"/http"}}
+  - {"name":"美国_1101131012","type":"vless","server":"151.101.194.228","port":80,"uuid":"45b0c639-b364-4d00-a49f-ccdfac51fe5e","servername":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v08.TzZLiMitTNeW.NeT","network":"ws","ws-opts":{"headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v08.TzZLiMitTNeW.NeT"}}}
+  - {"name":"美国_110113909","type":"vless","server":"151.101.66.228","port":80,"uuid":"45b0c639-b364-4d00-a49f-ccdfac51fe5e","servername":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v05.TzZLiMitTNeW.NeT","network":"ws","ws-opts":{"headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v05.TzZLiMitTNeW.NeT"}}}
+  - {"name":"德国_110113067","type":"vless","server":"18.196.215.9","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"科技网络 🇺🇸_311","type":"vmess","server":"192.74.236.157","port":30004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.91334565.xyz","network":"ws","ws-opts":{"path":"/path/1729850945832","headers":{"host":"www.91334565.xyz"}}}
+  - {"name":"科技网络 🇺🇸_280","type":"vmess","server":"192.74.237.149","port":31003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.73276259.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.73276259.xyz"}}}
+  - {"name":"德国_110113069","type":"vless","server":"37.114.33.108","port":15296,"udp":true,"uuid":"063f59fe-987b-401f-b404-84352e08dfc6","tls":true,"servername":"sourceforge.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qfd99L4hzJxX32eZBwVSDrGWZsWSSfFmtMIKiZi97VE","short-id":"313f5cba"},"client-fingerprint":"firefox"}
+  - {"name":"🇺🇸US-205.134.180.137-9520","type":"ss","server":"205.134.180.137","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"科技网络 🇺🇸_272","type":"vmess","server":"38.33.1.165","port":37003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.62874040.xyz","network":"ws","ws-opts":{"path":"/path/1730023699986","headers":{"host":"www.62874040.xyz"}}}
+  - {"name":"未知_110113460","type":"vless","server":"creativecommons.org","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPB-V.pAges.dEv","network":"ws","ws-opts":{"path":"/LtZFqGz6qD8jBoHW/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bPB-V.pAges.dEv"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_6","type":"ss","server":"exchange.gameaurela.click","port":52952,"password":"LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏁RELAY-104.21.24.181-8281","type":"vmess","server":"b.dermaga.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"b.dermaga.homes","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"b.dermaga.homes"}}}
+  - {"name":"美国_9","type":"trojan","server":"104.19.249.177","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"US_分享日记_29","type":"vmess","server":"104.21.18.227","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jahfkjha.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🏁RELAY-104.21.1.252-1161","type":"vmess","server":"e.kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"e.kampong.org"}}}
+  - {"name":"荷兰_110113025","type":"vless","server":"176.124.207.10","port":8443,"uuid":"622ce49a-be40-45e3-bb13-8dcd1b0a35dd","tls":true,"servername":"aaaa9999.v2ryng01.ru","network":"grpc","alpn":["h2","http/1.1"]}
+  - {"name":"美国_10","type":"trojan","server":"104.16.248.47","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"[🇩🇪] [vl-re-tc] [fri-08am-1022811]","type":"vless","server":"37.27.222.24","port":2053,"udp":true,"uuid":"41d623c2-fe89-4fe0-be57-91ae61edb63d","tls":true,"servername":"varzesh3.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"ckLzIQIObY1_v4PXEwFIOK6X1gvCx51Z4wD5bqmMpmc","short-id":"82074b3be93e194d"},"client-fingerprint":"chrome"}
+  - {"name":"US_分享日记_30","type":"vmess","server":"172.67.131.17","port":443,"cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hms19.best-tizi.top","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms19.best-tizi.top"}}}
+  - {"name":"🇫🇷FR-193.160.130.245-2963","type":"vmess","server":"beyonddsz.cfd","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
+  - {"name":"🇫🇷FR-146.19.168.161-0263","type":"vmess","server":"az05.beyondy.cfd","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/link","headers":{"host":"az05.beyondy.cfd"}}}
+  - {"name":"CF中转_1101132225","type":"vless","server":"172.64.153.235","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPb-V.pagES.deV","network":"ws","ws-opts":{"path":"/P3CkdedH5De954Jp/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bPb-V.pagES.deV"}},"alpn":["http/1.1"]}
+  - {"name":"美国_1101131093","type":"vless","server":"hajlab.ucdavis.edu","port":80,"uuid":"8ee254b8-cf7b-4bd9-84d1-b46eca02272b","servername":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.TzZLiMitTNeW.NeT","network":"ws","ws-opts":{"headers":{"host":"wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.TzZLiMitTNeW.NeT"}}}
+  - {"name":"CF中转_1101132192","type":"vless","server":"104.20.5.134","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPB-V.pAges.dEv","network":"ws","ws-opts":{"path":"/LtZFqGz6qD8jBoHW/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bPB-V.pAges.dEv"}}}
+  - {"name":"[🇺🇸] [vl-tl-ws] [fri-08am-1050150]","type":"vless","server":"104.21.31.174","port":443,"uuid":"f7b841a5-1808-4650-ae77-6ab89525dfb5","tls":true,"servername":"53331168005383295401796650654415.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS","headers":{"host":"53331168005383295401796650654415.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"科技网络 🇺🇸_196","type":"vmess","server":"192.74.240.237","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.93326012.xyz","network":"ws","ws-opts":{"path":"/path/1730023699986","headers":{"host":"www.93326012.xyz"}}}
+  - {"name":"CF中转_1101131647","type":"vless","server":"104.19.57.37","port":443,"uuid":"119e2518-a885-4e0c-8b11-6a5d7f7ff00d","tls":true,"servername":"telegram-vpnhttpinjectorfree-30.veleh14860.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"telegram-vpnhttpinjectorfree-30.veleh14860.workers.dev"}}}
+  - {"name":"US_分享日记_31","type":"vless","server":"172.66.44.101","port":443,"uuid":"34a83286-ba4e-4f0a-ac08-77a95469eeaf","tls":true,"servername":"pardazesh18.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"pardazesh18.pages.dev"}}}
+  - {"name":"[🇩🇪] [vl-tl-ws] [fri-08am-1014122]","type":"vless","server":"104.17.234.114","port":443,"uuid":"0c0aad8e-f479-4562-9515-5c0db05176a2","tls":true,"servername":"UNLIMITEDDEV1.unlimiteddev-vpn.com","network":"ws","ws-opts":{"path":"/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8080","headers":{"host":"UNLIMITEDDEV1.unlimiteddev-vpn.com"}},"client-fingerprint":"chrome"}
+  - {"name":"[🇩🇪] [vl-no-ws] [fri-08am-1015952]","type":"vless","server":"2.189.130.90","port":35208,"uuid":"173a3cf8-a87b-4e07-93cb-6a683712d13e","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"GB_分享日记_5","type":"trojan","server":"35.179.220.249","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"科技网络 🇺🇸_263","type":"vmess","server":"38.33.19.66","port":37004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.25902523.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.25902523.xyz"}}}
+  - {"name":"美国_110113619","type":"vless","server":"198.62.62.251","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"dd.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"dd.ylks.xyz"}}}
+  - {"name":"🏁RELAY-172.67.223.119-2969","type":"vmess","server":"172.67.223.119","port":443,"cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hms02.fxiaomi.sbs","network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
+  - {"name":"美国_1101131161","type":"vless","server":"151.101.194.219","port":443,"uuid":"a37fcf10-e5d5-4a63-9a8e-280ac84f21ed","tls":true,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"[🇬🇧] [vl-re-tc] [fri-08am-1024305]","type":"vless","server":"209.38.106.109","port":2082,"udp":true,"uuid":"4b0b9c47-943c-4f0e-b614-f79c24571f3b","tls":true,"servername":"canva.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"DSryCgoqwyu9yP90fm_S9dnbTHVRhBGei7nB6DHh0x4","short-id":"dfefcdcb"},"client-fingerprint":"firefox"}
+  - {"name":"[🇮🇹] [vl-re-gr] [fri-08am-1015726]","type":"vless","server":"147.45.51.16","port":2096,"udp":true,"uuid":"16747acc-95c8-44ba-9b66-3d8a0c035347","tls":true,"servername":"dash.cloudflare.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI","short-id":"28f58957"},"client-fingerprint":"firefox"}
+  - {"name":"CF中转_1101132545","type":"vless","server":"172.67.71.76","port":443,"uuid":"b48716fb-16c7-44d3-b75f-a3a9020a3559","tls":true,"servername":"yelan.thelastronin.cloudns.org","network":"ws","ws-opts":{"path":"/VLESS/ca-full.privateip.net","headers":{"host":"yelan.thelastronin.cloudns.org"}}}
+  - {"name":"[🇩🇪] [vl-re-tc] [fri-08am-1037608]","type":"vless","server":"freedom-ge.proxy-mtm.com","port":4046,"udp":true,"uuid":"Telegram-proxy_mtm","tls":true,"servername":"business.stackoverflow.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"zs_DCQtZLXSQnzY7uOMkJyftskWo04hVVXMILNc0GEA","short-id":"a8"},"client-fingerprint":"chrome"}
+  - {"name":"[🇫🇷] [vl-no-ws] [fri-08am-1046557]","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","network":"ws","ws-opts":{"path":"/http"}}
+  - {"name":"德国_110113076","type":"vless","server":"91.107.163.164","port":45187,"udp":true,"uuid":"324318a5-2823-421d-b282-c1fd469d5939","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"nko9VHbKvB3ZxWUguFPQjhoXikGfUV22Fmf2dmUKw38","short-id":"ac9b"},"client-fingerprint":"random"}
+  - {"name":"CF中转_1101131975","type":"vless","server":"172.67.193.108","port":443,"uuid":"48b94941-d602-11ee-aaa8-00505603e70d","tls":true,"servername":"st-pl-1.brocdn.com","network":"ws","ws-opts":{"path":"/websocket","headers":{"host":"st-pl-1.brocdn.com"}},"client-fingerprint":"chrome"}
+  - {"name":"美国_11","type":"trojan","server":"104.21.108.193","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_1101131094","type":"vless","server":"199.232.0.0","port":443,"uuid":"8ff9fb56-a63c-5ec8-a4ac-3be008369bfd","tls":true,"servername":"channel-id-eliv2ray.net","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"channel-id-eliv2ray.net"}},"client-fingerprint":"edge"}
+  - {"name":"CN_youtube@资源分享师 _8","type":"vmess","server":"120.237.79.157","port":46665,"cipher":"auto","uuid":"3ac820af-becb-45d7-9e7a-e33d02961bb3","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇫🇷FR-193.160.130.245-8381","type":"vmess","server":"193.160.130.245","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"beyonddsz.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
+  - {"name":"US_分享日记_32","type":"trojan","server":"16.171.187.8","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"科技网络 🇺🇸_180","type":"vmess","server":"198.200.48.230","port":37006,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.23355292.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.23355292.xyz"}}}
+  - {"name":"法国_110113065","type":"vless","server":"35.181.221.39","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"科技网络 🇺🇸_149","type":"vmess","server":"38.11.50.80","port":31005,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.67266046.xyz","network":"ws","ws-opts":{"path":"/path/1729936066187","headers":{"host":"www.67266046.xyz"}}}
+  - {"name":"[🇩🇪] [vl-no-ws] [fri-08am-1042158]","type":"vless","server":"151.101.2.219","port":80,"uuid":"bb6134b2-f78f-4f40-bf4c-49895227aee2","servername":"ajibtarimdomain.com","network":"ws","ws-opts":{"path":"/me3ter_faloower?ed=80","headers":{"host":"ajibtarimdomain.com"}}}
+  - {"name":"美国_12","type":"trojan","server":"104.25.206.92","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_13","type":"trojan","server":"198.41.206.92","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_1101131172","type":"vless","server":"199.232.0.57","port":443,"uuid":"befb1e37-4777-5224-b435-330c0bc05227","tls":true,"servername":"Joinbede-V2raynplus.com","network":"ws","ws-opts":{"path":"/@V2raynplus-@V2raynplus?ed=2560","headers":{"host":"Joinbede-V2raynplus.com"}},"client-fingerprint":"qq"}
+  - {"name":"🏁RELAY-172.67.131.108-2930","type":"vmess","server":"172.67.131.108","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"US_分享日记_33","type":"vless","server":"154.9.241.153","port":10276,"uuid":"0d89a36e-36bc-41d2-8bd3-bbd639991f29","tls":true,"servername":"nicorobin.eula.cloudns.org","network":"ws","ws-opts":{"path":"/proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"nicorobin.eula.cloudns.org"}}}
+  - {"name":"CA_youtube@资源分享师 _1","type":"vmess","server":"cloudcone1.xl1314.top","port":56685,"cipher":"auto","uuid":"ebbeb152-91ec-43a1-9905-bd5294d7b220","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xl1314.top","network":"ws","ws-opts":{"path":"/main","headers":{"host":"xl1314.top"}}}
+  - {"name":"US_分享日记_34","type":"vmess","server":"d.ritchier.info","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"d.ritchier.info"}}}
+  - {"name":"CF中转_1101131721","type":"vless","server":"104.20.17.149","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"US_分享日记_35","type":"vmess","server":"masjidd.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"masjidd.homes"}}}
+  - {"name":"科技网络 🇺🇸_181","type":"vmess","server":"38.38.164.235","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.70890700.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.70890700.xyz"}}}
+  - {"name":"CF中转_1101132629","type":"vless","server":"104.21.233.139","port":443,"uuid":"d3a12e79-ef42-4268-b367-42eeb3494e60","tls":true,"servername":"Hagh.PaGes.DEv","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"Hagh.PaGes.DEv"}}}
+  - {"name":"🏁RELAY-185.146.173.129-8374","type":"vmess","server":"185.146.173.129","port":443,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nt-haze-7dad.rogap16875.workers.dev","network":"ws","ws-opts":{"path":"/afrhms16v.bestxray.buzz/linkws","headers":{"host":"nt-haze-7dad.rogap16875.workers.dev"}}}
+  - {"name":"科技网络 🇺🇸_326","type":"vmess","server":"38.11.18.99","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.65320526.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.65320526.xyz"}}}
+  - {"name":"[🇩🇪] [vl-tl-ws] [fri-08am-1045534]","type":"vless","server":"188.114.97.12","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"telegraM-VirginiaVpn.noleCa2676.WorkerS.DEV","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"telegraM-VirginiaVpn.noleCa2676.WorkerS.DEV"}},"client-fingerprint":"randomized"}
+  - {"name":"爱尔兰_110113007","type":"vless","server":"63.35.205.123","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"爱尔兰_110113006","type":"vless","server":"54.228.242.79","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"美国_14","type":"trojan","server":"190.93.247.56","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"US_youtube@资源分享师_14","type":"vmess","server":"www.bzfmc.com","port":443,"cipher":"auto","uuid":"fa5b55cd-cafc-4de0-a4c8-722e02a9f58e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"yelan.thelastronin.cloudns.org","network":"ws","ws-opts":{"path":"/linkws/hms03.dongfeng.cfd","headers":{"host":"yelan.thelastronin.cloudns.org"}}}
+  - {"name":"US_分享日记_36","type":"ss","server":"212.102.47.132","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"US_分享日记_37","type":"vmess","server":"irhms03.dongfeng.cfd","port":443,"cipher":"auto","uuid":"fa5b55cd-cafc-4de0-a4c8-722e02a9f58e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"hms03.dongfeng.cfd"}}}
+  - {"name":"CF中转_1101131731","type":"vless","server":"104.20.19.121","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"美国_15","type":"trojan","server":"104.25.30.65","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_16","type":"trojan","server":"104.24.132.242","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"US_分享日记_38","type":"vmess","server":"yichueng.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"yichueng.org"}}}
+  - {"name":"US_分享日记_39","type":"vmess","server":"valkinin.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"valkinin.org"}}}
+  - {"name":"美国_17","type":"trojan","server":"188.114.99.0","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"🏁RELAY-172.64.171.223-8335","type":"vmess","server":"172.64.171.223","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"obdii.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🏁RELAY-172.64.80.1-1895","type":"vmess","server":"tampay.info","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"tampay.info"}}}
+  - {"name":"US_youtube@资源分享师 _62","type":"ss","server":"api.turkiye6.xyz","port":443,"password":"lQHuqev0bDeSuxSCL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_4","type":"ss","server":"38.75.136.21","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"[🇩🇪] [vl-tl-ws] [fri-08am-1051163]","type":"vless","server":"45.63.117.50","port":443,"uuid":"fcf99985-147b-4c71-c3f2-f448e5a379f1","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}},"alpn":["http/1.1"]}
+  - {"name":"US_分享日记_40","type":"vless","server":"162.159.44.202","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"科技网络 🇺🇸_150","type":"vmess","server":"38.33.24.79","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.89655249.xyz","network":"ws","ws-opts":{"path":"/path/1730106196017","headers":{"host":"www.89655249.xyz"}}}
+  - {"name":"🏁RELAY-188.114.97.21-2917","type":"vmess","server":"188.114.97.21","port":443,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"afrhms16v.bestxray.buzz","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"CN_youtube@资源分享师 _10","type":"vmess","server":"120.232.153.40","port":43526,"cipher":"auto","uuid":"21a9bff2-72de-4e62-93ff-8b159f66d875","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CF中转_1101131607","type":"vless","server":"172.66.46.213","port":443,"uuid":"00b29fab-5a01-4224-a5f2-1ad156c6de4b","tls":true,"servername":"speedtest.svgspeedtest.net","network":"ws","ws-opts":{"path":"/@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy","headers":{"host":"speedtest.svgspeedtest.net"}}}
+  - {"name":"🇳🇱NL-79.127.239.84-2719","type":"ss","server":"79.127.239.84","port":19175,"password":"5Au7NhFmcBqMnika4KVk7h4ZdV3wD4hFtJ8PJ3AlHzLeU1chEBaz19a643q7hBPV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏁RELAY-172.67.190.98-8192","type":"vmess","server":"lammaland.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"lammaland.org","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"lammaland.org"}}}
+  - {"name":"未知_110113458","type":"vless","server":"cdnjs.com","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpB-V.PagEs.DEV","network":"ws","ws-opts":{"path":"/jdMMEgBE5RGsuynR/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bpB-V.PagEs.DEV"}},"alpn":["http/1.1"]}
+  - {"name":"CF中转_1101131777","type":"vless","server":"108.162.195.209","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🏁RELAY-104.18.206.97-2932","type":"vmess","server":"104.18.206.97","port":443,"cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"7whrapid-river-a083.sisay70779.workers.dev","network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"7whrapid-river-a083.sisay70779.workers.dev"}}}
+  - {"name":"美国_1101131052","type":"vless","server":"151.101.3.8","port":80,"uuid":"80fccf97-7cfb-4b98-8469-e4b4398de499","servername":"tehran5.ir","network":"ws","ws-opts":{"path":"/Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS-Telegram-ConfigMS?ed=2048","headers":{"host":"tehran5.ir"}}}
+  - {"name":"美国_18","type":"trojan","server":"104.27.88.3","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"[🇩🇪] [vl-no-ws] [fri-08am-1040878]","type":"vless","server":"151.101.66.219","port":80,"uuid":"b2adee6b-dbfb-51c0-a588-c4bcda53f342","servername":"JOIN-ELiV2RAy.ru","network":"ws","ws-opts":{"path":"/@ELiV2ray-@ELiV2ray?ed=80","headers":{"host":"JOIN-ELiV2RAy.ru"}}}
+  - {"name":"🇳🇱NL-77.91.123.173-1885","type":"ss","server":"77.91.123.173","port":18332,"password":"pr7gwyOgWWrq4i6qpaJtMf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_19","type":"trojan","server":"103.21.244.15","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"德国","type":"vless","server":"217.160.216.30","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"ld.ylka.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"ld.ylka.us.kg"}}}
+  - {"name":"US_youtube@资源分享师 _64","type":"ss","server":"149.22.87.241","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"科技网络 🇺🇸_5","type":"vmess","server":"38.33.57.11","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.43539481.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.43539481.xyz"}}}
+  - {"name":"墨西哥_110113001","type":"vless","server":"140.84.179.114","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"da.ylks.xyz","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"da.ylks.xyz"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_7","type":"vless","server":"151.101.194.219","port":80,"uuid":"27016d6e-1f62-5805-a7e6-32c32006c307","servername":"f35-ELi.ir","network":"ws","ws-opts":{"path":"/Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-?ed=80","headers":{"host":"f35-ELi.ir"}}}
+  - {"name":"科技网络 🇺🇸_316","type":"vmess","server":"142.0.136.5","port":31005,"cipher":"auto","uuid":"051b844f-efe3-4847-92aa-66b5de0b6d4e","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.99222591.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.99222591.xyz"}}}
+  - {"name":"[🇩🇪] [vl-tl-ws] [fri-08am-1027547]","type":"vless","server":"185.146.173.200","port":443,"uuid":"6446d42c-6414-40bb-bc6a-129dcc137435","tls":true,"servername":"roooos.boyalone1393.workers.dev","network":"ws","ws-opts":{"path":"/frh1.ilovenano.ir/AM2BtcJfrPCJSiFzAOskw1HtQRpS","headers":{"host":"roooos.boyalone1393.workers.dev"}},"alpn":["http/1.1"],"client-fingerprint":"chrome"}
+  - {"name":"美国_20","type":"trojan","server":"104.16.21.203","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"🏁RELAY-104.21.56.187-8233","type":"vmess","server":"ritchier.info","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"ritchier.info","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"ritchier.info"}}}
+  - {"name":"科技网络 🇺🇸_129","type":"vmess","server":"137.175.54.198","port":37007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.35743578.xyz","network":"ws","ws-opts":{"path":"/path/1730023949283","headers":{"host":"www.35743578.xyz"}}}
+  - {"name":"[🇩🇪] [vl-tl-ws] [fri-08am-1017983]","type":"vless","server":"151.101.2.133","port":443,"uuid":"22013c5e-0752-4c41-9902-79a12d0ec857","tls":true,"servername":"maxi.ir","network":"ws","ws-opts":{"path":"/de","headers":{"host":"maxi.ir"}},"client-fingerprint":"firefox"}
+  - {"name":"🇺🇸_US_美国_5","type":"ss","server":"38.75.136.21","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"CF中转_1101132341","type":"vless","server":"172.66.47.192","port":443,"uuid":"9902fc94-31f9-4afe-b37a-82f5790b3d2a","tls":true,"servername":"dabF5Ca6.dE1-1nD.PaGeS.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"dabF5Ca6.dE1-1nD.PaGeS.dEv"}}}
+  - {"name":"TR_youtube@资源分享师 _2","type":"ss","server":"95.173.180.35","port":21657,"password":"7PC4KztQwRixCS809ZFEllQpmAMn4oE0O9qdrCYo4MdEXJU577cjYeaG0tZDyRl0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国_21","type":"trojan","server":"173.245.59.225","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"科技网络 🇺🇸_270","type":"vmess","server":"142.4.99.52","port":37002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.90469567.xyz","network":"ws","ws-opts":{"path":"/path/1730023699986","headers":{"host":"www.90469567.xyz"}}}
+  - {"name":"CF中转_1101132194","type":"vless","server":"104.20.6.134","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bPB-V.pAges.dEv","network":"ws","ws-opts":{"path":"/LtZFqGz6qD8jBoHW/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bPB-V.pAges.dEv"}}}
+  - {"name":"US_分享日记_41","type":"vmess","server":"c.serkat.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"c.serkat.org"}}}
+  - {"name":"科技网络 🇺🇸_271","type":"vmess","server":"198.2.196.2","port":36007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.66836245.xyz","network":"ws","ws-opts":{"path":"/path/1730194244147","headers":{"host":"www.66836245.xyz"}}}
+  - {"name":"CF中转_1101132340","type":"vless","server":"172.66.44.64","port":443,"uuid":"9902fc94-31f9-4afe-b37a-82f5790b3d2a","tls":true,"servername":"dabF5Ca6.dE1-1nD.PaGeS.dEv","network":"ws","ws-opts":{"path":"/","headers":{"host":"dabF5Ca6.dE1-1nD.PaGeS.dEv"}}}
+  - {"name":"CF中转_1101131707","type":"vless","server":"104.26.14.237","port":443,"uuid":"263f4c03-183a-4062-98c7-d42d4b2de9d7","tls":true,"servername":"yelan.thelastronin.cloudns.org","network":"ws","ws-opts":{"path":"/VLESS/jp-full.privateip.net","headers":{"host":"yelan.thelastronin.cloudns.org"}},"alpn":["http/1.1"],"client-fingerprint":"random"}
+  - {"name":"🏁RELAY-172.67.219.194-2940","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"US_分享日记_42","type":"vmess","server":"e.seribus.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"e.seribus.org"}}}
+  - {"name":"美国_22","type":"vless","server":"172.67.130.185","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"Ld.YLKS.XYZ","network":"ws","ws-opts":{"path":"/nlold76sr0xivoh2?ed=2560","headers":{"host":"Ld.YLKS.XYZ"}}}
+  - {"name":"[🇬🇧] [vl-tl-ws] [fri-08am-1042732]","type":"vless","server":"104.17.245.156","port":443,"uuid":"bdde820a-c897-480a-a2cc-d95febe8e617","tls":true,"servername":"47264192333081204176091557333481.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS","headers":{"host":"47264192333081204176091557333481.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"美国_23","type":"trojan","server":"104.16.200.34","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_24","type":"trojan","server":"190.93.246.77","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"美国_25","type":"trojan","server":"108.162.192.89","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"新加坡_110113061","type":"vless","server":"152.42.192.226","port":443,"uuid":"adf846fa-04cc-4bec-a67d-e36f8a48bc83","tls":true,"servername":"EMPTY","network":"tcp","alpn":["h3","h2","http/1.1"]}
+  - {"name":"🏁RELAY-173.245.59.8-2976","type":"vmess","server":"173.245.59.8","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"77h2quiet-dream-5c34.foratay741.workers.dev","network":"ws","ws-opts":{"path":"/glweidf.cfd/linkws","headers":{"host":"77h2quiet-dream-5c34.foratay741.workers.dev"}}}
+  - {"name":"US_分享日记_43","type":"vmess","server":"e.darat.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"e.darat.homes"}}}
+  - {"name":"[🇰🇷] [vl-tl-ws] [fri-08am-1028382]","type":"vless","server":"172.66.44.211","port":443,"uuid":"690f16d0-6425-462b-86e0-a70a8169c5d9","tls":true,"servername":"pardazeshvpn-tg97.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@V2ray_Alpha/?ed=2048","headers":{"host":"pardazeshvpn-tg97.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"美国_26","type":"trojan","server":"104.22.74.194","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"CF中转_1101132492","type":"vless","server":"172.67.68.101","port":443,"uuid":"a64f0cea-ca89-40e6-b316-b3badff1eb90","tls":true,"servername":"ISAa1.PAGeS.deV","network":"ws","ws-opts":{"path":"/","headers":{"host":"ISAa1.PAGeS.deV"}}}
+  - {"name":"US_分享日记_44","type":"vmess","server":"162.159.8.120","port":443,"cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hms19.best-tizi.top","network":"ws","ws-opts":{"path":"/LINKWS","headers":{"host":"hms19.best-tizi.top"}}}
+  - {"name":"🏁RELAY-104.21.77.251-8296","type":"vmess","server":"d.seribus.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"d.seribus.org","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"d.seribus.org"}}}
+  - {"name":"US_分享日记_45","type":"vmess","server":"jannah.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"jannah.homes"}}}
+  - {"name":"CF中转_1101132295","type":"vless","server":"172.67.73.241","port":443,"uuid":"8a7e02f7-d621-11ee-aaa8-00505603e70d","tls":true,"servername":"st-pl-1.brocdn.com","network":"ws","ws-opts":{"path":"/websocket","headers":{"host":"st-pl-1.brocdn.com"}}}
+  - {"name":"美国_27","type":"trojan","server":"172.64.42.112","port":443,"udp":true,"password":"NISHIKUITAN222","sni":"id.ylks.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"id.ylks.xyz"}}}
+  - {"name":"[🇺🇸] [vl-no-tc] [fri-08am-1043664]","type":"vless","server":"81.90.147.182","port":29905,"uuid":"c4d548c5-dffa-4fd0-9ad0-047a089f71f0","servername":"telewebion.com","network":"tcp"}
+  - {"name":"🏁RELAY-104.21.46.121-2922","type":"vmess","server":"104.21.46.121","port":443,"cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ivideos.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"ivideos.sbs"}}}
+  - {"name":"US_分享日记_46","type":"vless","server":"104.26.9.160","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}}}
+  - {"name":"美国_1101131159","type":"vless","server":"69.84.182.97","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"la.ylka.us.kg","network":"ws","ws-opts":{"path":"/proxyip=proxyip.us.fxxk.dedyn.io","headers":{"host":"la.ylka.us.kg"}}}
+  - {"name":"🏁RELAY-104.21.83.115-8188","type":"vmess","server":"104.21.83.115","port":443,"cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hms02.fxiaomi.sbs","network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
+  - {"name":"新加坡_110113065","type":"vless","server":"92.223.100.53","port":443,"uuid":"f2004126-5865-4980-b6dd-2211dbaadf10","tls":true,"servername":"18.gcr.dns04.com","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"18.gcr.dns04.com"}},"client-fingerprint":"chrome"}
+  - {"name":"CF中转_1101131705","type":"vless","server":"104.21.59.216","port":443,"uuid":"25dc75f9-b944-46bd-b36d-408b4a0879d8","tls":true,"servername":"furina.thelastronin.cloudns.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"furina.thelastronin.cloudns.org"}},"alpn":["http/1.1"],"client-fingerprint":"random"}
+  - {"name":"[🇬🇧] [tr-tl-ws] [fri-08am-1011221]","type":"trojan","server":"104.16.159.3","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"科技网络 🇺🇸_168","type":"vmess","server":"38.33.34.25","port":38003,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.78274451.xyz","network":"ws","ws-opts":{"path":"/path/1730193985655","headers":{"host":"www.78274451.xyz"}}}
+  - {"name":"🏁RELAY-104.19.32.0-8201","type":"vmess","server":"104.19.32.0","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"Youtube顺丰资源  美国 255","type":"vless","server":"104.24.199.168","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lc.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/ProxyIP=ProxyIP.US.fxxk.dedyn.io","headers":{"host":"lc.kpcloud.eu.org"}}}
+  - {"name":"🏁RELAY-104.21.56.187-1889","type":"vmess","server":"104.21.56.187","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"ritchier.info","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"ritchier.info"}}}
+  - {"name":"🏁RELAY-104.21.24.170-2952","type":"vmess","server":"104.21.24.170","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"adenc36v.xtooltech.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"🏁RELAY-172.67.136.233-2978","type":"vmess","server":"172.67.136.233","port":443,"cipher":"auto","uuid":"3f638f34-8dba-4186-bc43-2716a7ddd4be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"az05.beyondy.cfd","network":"ws","ws-opts":{"path":"/link","headers":{"host":"az05.beyondy.cfd"}}}
+  - {"name":"US_分享日记_47","type":"vmess","server":"c.tampay.info","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"c.tampay.info"}}}
+  - {"name":"🏁RELAY-104.21.92.133-1147","type":"vmess","server":"d.masjide.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"d.masjide.org"}}}
+  - {"name":"🏁RELAY-172.67.155.187-8327","type":"vmess","server":"bs.masjidd.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"bs.masjidd.homes","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"bs.masjidd.homes"}}}
+  - {"name":"🏁RELAY-172.67.220.83-8200","type":"vmess","server":"172.67.220.83","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"CF中转_1101131740","type":"vless","server":"104.20.20.123","port":443,"uuid":"2928d83a-ca75-4d52-b437-fa78c7601378","tls":true,"servername":"freedom-1rj.pages.dev","network":"ws","ws-opts":{"path":"/freedom-1rj.pages.dev/?ed=2560","headers":{"host":"freedom-1rj.pages.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"🏁RELAY-104.21.60.81-8177","type":"vmess","server":"d.bukitk.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"d.bukitk.homes"}}}
+  - {"name":"US_分享日记_48","type":"vmess","server":"104.21.77.29","port":443,"cipher":"auto","uuid":"8d90c129-4156-4d6c-9115-24df25f26a02","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"beyonddbc.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddbc.sbs"}}}
+  - {"name":"CF中转_1101132059","type":"vless","server":"104.21.26.222","port":443,"uuid":"6951bb60-60fd-4fad-8964-7b2ed7ced8a9","tls":true,"servername":"47441234942388412428717014952546.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou","network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VLESS-WS-TLS","headers":{"host":"47441234942388412428717014952546.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
+  - {"name":"CF中转_1101132787","type":"vless","server":"104.18.41.176","port":443,"uuid":"fb15b62e-93f2-4eda-ab2d-06d6dc8874f1","tls":true,"servername":"am1.vless.site","network":"ws","ws-opts":{"path":"/vless-Join-M_Buy","headers":{"host":"am1.vless.site"}}}
+  - {"name":"[🇫🇷] [vl-tl-ws] [fri-08am-1029262]","type":"vless","server":"104.21.49.18","port":443,"uuid":"6d154bf6-d60c-11ee-aaa8-00505603e70d","tls":true,"servername":"st-fr-1.brocdn.com","network":"ws","ws-opts":{"path":"/websocket","headers":{"host":"st-fr-1.brocdn.com"}},"client-fingerprint":"chrome"}
+  - {"name":"🏁RELAY-104.21.1.252-1157","type":"vmess","server":"d.kampong.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"d.kampong.org","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"d.kampong.org"}}}
+  - {"name":"🏁RELAY-104.21.44.106-1137","type":"vmess","server":"104.21.44.106","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🏁RELAY-104.21.92.133-1184","type":"vmess","server":"masjide.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"masjide.org"}}}
+  - {"name":"Youtube顺丰资源  美国 282","type":"vless","server":"172.66.158.193","port":443,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"lc.kpcloud.eu.org","network":"ws","ws-opts":{"path":"/ProxyIP=ProxyIP.US.fxxk.dedyn.io","headers":{"host":"lc.kpcloud.eu.org"}}}
+  - {"name":"CF中转_1101132251","type":"vless","server":"172.66.47.119","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"BPb-v.PAgeS.dEv","network":"ws","ws-opts":{"path":"/2Ppx1F9heZcHSSm9/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"BPb-v.PAgeS.dEv"}},"alpn":["http/1.1"]}
+  - {"name":"US_分享日记_49","type":"vmess","server":"an.kalavryta.org","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"an.kalavryta.org"}}}
+  - {"name":"US_分享日记_50","type":"vmess","server":"bukitk.homes","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"bukitk.homes"}}}
+  - {"name":"CF中转_1101132276","type":"vless","server":"172.67.68.157","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"bpb-v.PaGes.DEV","network":"ws","ws-opts":{"path":"/KwDVhBMHIU0TeEyL/MTI5LjE1OS4yNDEuMTcy","headers":{"host":"bpb-v.PaGes.DEV"}},"alpn":["http/1.1"]}
+  - {"name":"CF中转_1101132258","type":"vless","server":"172.66.47.61","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"servername":"23spt.pages.dev","network":"ws","ws-opts":{"path":"/Telegram@V2ray_Alpha/?ed=2560","headers":{"host":"23spt.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -456,51 +2423,332 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '@meli_proxyy_1'
-      - '@meli_proxyy_2'
-      - '@meli_proxyy_3'
-      - '@meli_proxyy_4'
-      - '@meli_proxyy_5'
-      - '@meli_proxyy+2'
-      - '@meli_proxyyسرورای‌بیشتر_1'
-      - '@meli_proxyyسرورای‌بیشتر_2'
-      - '@meli_proxyy_6'
-      - '@meli_proxyy_7'
-      - '@meli_proxyy_8'
-      - '@meli_proxyy_9'
-      - '@meli_proxyy_10'
-      - '@meli_proxyy_11'
-      - '@meli_proxyy_12'
-      - '@meli_proxyy_13'
-      - '@meli_proxyy_14'
-      - '@meli_proxyy_15'
-      - '@meli_proxyy_16'
-      - '@meli_proxyy_17'
-      - '@meli_proxyy_18'
-      - '@meli_proxyy_19'
-      - '@meli_proxyy_20'
-      - '@meli_proxyy_21'
-      - '@meli_proxyy_22'
-      - '@meli_proxyy_23'
-      - '@meli_proxyy_24'
-      - '@meli_proxyy_25'
-      - '@meli_proxyy_26'
-      - '@meli_proxyy_27'
-      - '@meli_proxyy_28'
-      - '@meli_proxyy_29'
-      - '@meli_proxyy_30'
-      - '@meli_proxyy_31'
-      - '@meli_proxyy_32'
-      - '@meli_proxyy_33'
-      - '@meli_proxyy_34'
-      - '@meli_proxyy_35'
-      - '@meli_proxyy_36'
-      - '@meli_proxyy_37'
-      - 🇩🇪All¹ | @meli_proxyy
-      - 🇩🇪All² | @meli_proxyy
-      - '@meli_proxyy_38'
-      - '@meli_proxyy_39'
-      - '@meli_proxyy_40'
+      - 🇺🇸 美国_1
+      - US_分享日记_1
+      - US_youtube@资源分享师_13
+      - US_分享日记_2
+      - US_分享日记_3
+      - 🇨🇦CA-149.22.95.183-0592
+      - 🇺🇸 美国_2
+      - 亚太地区+v2rayfree.eu.org
+      - 🇺🇸US-107.155.57.51-0648
+      - 🇺🇸US-184.170.241.194-0590
+      - US_分享日记_4
+      - CN_youtube@资源分享师 _32
+      - US_分享日记_5
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - US_分享日记_6
+      - US_分享日记_7
+      - 美国_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - US_分享日记_8
+      - US_分享日记_9
+      - US_分享日记_10
+      - US_分享日记_11
+      - '[🇨🇦] [vm-no-tc] [fri-08am-1118660]'
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.225:5499
+      - 🇺🇸 美国_3
+      - 🇺🇸US-37.19.198.243-0615
+      - US_分享日记_12
+      - SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.87.217:5499
+      - US_分享日记_13
+      - US_分享日记_14
+      - CA_分享日记_1
+      - US_youtube@资源分享师 _59
+      - US_分享日记_15
+      - 🇺🇸US-205.134.180.139-0400
+      - US_分享日记_16
+      - 🇺🇸US-205.134.180.150-0629
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - US_分享日记_17
+      - 🇺🇸US-37.19.198.244-0614
+      - US_分享日记_18
+      - 🇺🇸US-37.19.198.160-0616
+      - US_youtube@资源分享师 _23
+      - 🇺🇸US-205.134.180.147-9517
+      - US_youtube@资源分享师 _69
+      - US_分享日记_19
+      - US_youtube@资源分享师_12
+      - US_分享日记_20
+      - 🇺🇸_US_美国_1
+      - US_youtube@资源分享师 _65
+      - 北美地区+v2rayfree.eu.org
+      - CH_分享日记_1
+      - 未知_110113476
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - US_分享日记_21
+      - US_youtube@资源分享师_11
+      - 🇺🇸_US_美国_2
+      - 🇺🇸US-205.134.180.151-0632
+      - 美国_2
+      - ES_分享日记
+      - GB_分享日记_1
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1029702]'
+      - GB_分享日记_2
+      - US_youtube@资源分享师 _61
+      - 🇺🇸_US_美国_3
+      - 🇳🇱NL-79.127.239.84-1375
+      - US_分享日记_22
+      - US_youtube@资源分享师 _67
+      - 日本 东京Amazon数据中心
+      - CA_分享日记_2
+      - IN_分享日记
+      - GB_youtube@资源分享师 _1
+      - 未知_110113421
+      - 🇷🇸RS-194.71.126.31-0712
+      - '[🇮🇹] [vm-no-tc] [fri-08am-1118925]'
+      - '[🇱🇺] [vm-no-tc] [fri-08am-1118554]'
+      - US_youtube@资源分享师_7
+      - 🇬🇧GB-212.102.53.196-0665
+      - CN_youtube@资源分享师 _11
+      - 🇬🇧GB-212.102.53.197-0656
+      - 🇬🇧GB-212.102.53.81-0659
+      - 🇬🇧GB-77.72.5.150-9241
+      - GB_分享日记_3
+      - '[🇳🇱] [vl-no-tc] [fri-08am-1014566]'
+      - 🇬🇧GB-212.102.53.78-0664
+      - US_分享日记_23
+      - '[🇩🇪] [vm-no-tc] [fri-08am-1121524]'
+      - 🇫🇷FR-51.15.27.48-0644
+      - 🇳🇱NL-109.201.152.181-0643
+      - CN_youtube@资源分享师 _9
+      - AF_分享日记
+      - 🇬🇧GB-212.102.53.194-0142
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1044549]'
+      - 🇫🇷FR-195.154.169.198-0647
+      - CH_分享日记_2
+      - 🇬🇧GB-212.102.53.80-0414
+      - 🏁RELAY-104.21.53.183-2955
+      - CF中转_1101131784
+      - GB_分享日记_4
+      - 🏁RELAY-172.64.103.211-2943
+      - 🏁RELAY-172.67.216.29-2945
+      - 🇬🇧GB-212.102.53.198-0506
+      - CF中转_1101131750
+      - '[🇬🇧] [vl-no-tc] [fri-08am-1023252]'
+      - 美国_3
+      - '[🇭🇰] [vm-no-tc] [fri-08am-1127138]'
+      - CH_分享日记_3
+      - 美国_4
+      - CH_分享日记_4
+      - ES_youtube@资源分享师 _1
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1039647]'
+      - 美国_1101131070
+      - US_分享日记_24
+      - 美国_1101131160
+      - 广东省广州市 移动
+      - US_youtube@资源分享师 _60
+      - 美国_5
+      - 美国_1101131162
+      - 🇧🇿BZ-77.247.108.24-0715
+      - CN_youtube@资源分享师 _37
+      - 🇺🇸 美国_4
+      - 美国_6
+      - GB_youtube@资源分享师 _2
+      - 美国_7
+      - US_youtube@资源分享师_15
+      - 美国_1101131163
+      - '[🇰🇿] [vm-no-ws] [fri-08am-1121846]'
+      - '[🇹🇷] [vl-no-ws] [fri-08am-1033474]'
+      - 德国_110113090
+      - TR_youtube@资源分享师 _1
+      - CN_youtube@资源分享师 _13
+      - unKnow_youtube@资源分享师_2
+      - US_分享日记_25
+      - US_分享日记_26
+      - US_分享日记_27
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1020956]'
+      - 香港_110113032
+      - '[🇺🇸] [vl-re-tc] [fri-08am-1035302]'
+      - '[🇸🇬] [vm-no-tc] [fri-08am-1121629]'
+      - US_分享日记_28
+      - 美国_110113991
+      - '[🇫🇮] [vl-tl-ws] [fri-08am-1032551]'
+      - 美国_8
+      - '[🇬🇧] [vl-no-ws] [fri-08am-1023335]'
+      - FR_分享日记
+      - 🏁RELAY-172.67.194.60-1123
+      - 香港_110113040
+      - unKnow_youtube@资源分享师 _3
+      - 美国_1101131062
+      - 科技网络 🇺🇸_215
+      - '[🇸🇪] [tr-tl-tc] [fri-08am-1012051]'
+      - 科技网络 🇺🇸_156
+      - 🏁RELAY-104.21.94.64-8298
+      - '[🇫🇮] [vl-no-tc] [fri-08am-1028426]'
+      - 科技网络 🇺🇸_18
+      - 🏁RELAY-104.21.14.106-8323
+      - 科技网络 🇺🇸_21
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1016530]'
+      - 美国_1101131012
+      - 美国_110113909
+      - 德国_110113067
+      - 科技网络 🇺🇸_311
+      - 科技网络 🇺🇸_280
+      - 德国_110113069
+      - 🇺🇸US-205.134.180.137-9520
+      - 科技网络 🇺🇸_272
+      - 未知_110113460
+      - 美国(yudou66.com 玉豆免费节点)_6
+      - 🏁RELAY-104.21.24.181-8281
+      - 美国_9
+      - US_分享日记_29
+      - 🏁RELAY-104.21.1.252-1161
+      - 荷兰_110113025
+      - 美国_10
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1022811]'
+      - US_分享日记_30
+      - 🇫🇷FR-193.160.130.245-2963
+      - 🇫🇷FR-146.19.168.161-0263
+      - CF中转_1101132225
+      - 美国_1101131093
+      - CF中转_1101132192
+      - '[🇺🇸] [vl-tl-ws] [fri-08am-1050150]'
+      - 科技网络 🇺🇸_196
+      - CF中转_1101131647
+      - US_分享日记_31
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1014122]'
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1015952]'
+      - GB_分享日记_5
+      - 科技网络 🇺🇸_263
+      - 美国_110113619
+      - 🏁RELAY-172.67.223.119-2969
+      - 美国_1101131161
+      - '[🇬🇧] [vl-re-tc] [fri-08am-1024305]'
+      - '[🇮🇹] [vl-re-gr] [fri-08am-1015726]'
+      - CF中转_1101132545
+      - '[🇩🇪] [vl-re-tc] [fri-08am-1037608]'
+      - '[🇫🇷] [vl-no-ws] [fri-08am-1046557]'
+      - 德国_110113076
+      - CF中转_1101131975
+      - 美国_11
+      - 美国_1101131094
+      - CN_youtube@资源分享师 _8
+      - 🇫🇷FR-193.160.130.245-8381
+      - US_分享日记_32
+      - 科技网络 🇺🇸_180
+      - 法国_110113065
+      - 科技网络 🇺🇸_149
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1042158]'
+      - 美国_12
+      - 美国_13
+      - 美国_1101131172
+      - 🏁RELAY-172.67.131.108-2930
+      - US_分享日记_33
+      - CA_youtube@资源分享师 _1
+      - US_分享日记_34
+      - CF中转_1101131721
+      - US_分享日记_35
+      - 科技网络 🇺🇸_181
+      - CF中转_1101132629
+      - 🏁RELAY-185.146.173.129-8374
+      - 科技网络 🇺🇸_326
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1045534]'
+      - 爱尔兰_110113007
+      - 爱尔兰_110113006
+      - 美国_14
+      - US_youtube@资源分享师_14
+      - US_分享日记_36
+      - US_分享日记_37
+      - CF中转_1101131731
+      - 美国_15
+      - 美国_16
+      - US_分享日记_38
+      - US_分享日记_39
+      - 美国_17
+      - 🏁RELAY-172.64.171.223-8335
+      - 🏁RELAY-172.64.80.1-1895
+      - US_youtube@资源分享师 _62
+      - 🇺🇸_US_美国_4
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1051163]'
+      - US_分享日记_40
+      - 科技网络 🇺🇸_150
+      - 🏁RELAY-188.114.97.21-2917
+      - CN_youtube@资源分享师 _10
+      - CF中转_1101131607
+      - 🇳🇱NL-79.127.239.84-2719
+      - 🏁RELAY-172.67.190.98-8192
+      - 未知_110113458
+      - CF中转_1101131777
+      - 🏁RELAY-104.18.206.97-2932
+      - 美国_1101131052
+      - 美国_18
+      - '[🇩🇪] [vl-no-ws] [fri-08am-1040878]'
+      - 🇳🇱NL-77.91.123.173-1885
+      - 美国_19
+      - 德国
+      - US_youtube@资源分享师 _64
+      - 科技网络 🇺🇸_5
+      - 墨西哥_110113001
+      - 美国(yudou66.com 玉豆免费节点)_7
+      - 科技网络 🇺🇸_316
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1027547]'
+      - 美国_20
+      - 🏁RELAY-104.21.56.187-8233
+      - 科技网络 🇺🇸_129
+      - '[🇩🇪] [vl-tl-ws] [fri-08am-1017983]'
+      - 🇺🇸_US_美国_5
+      - CF中转_1101132341
+      - TR_youtube@资源分享师 _2
+      - 美国_21
+      - 科技网络 🇺🇸_270
+      - CF中转_1101132194
+      - US_分享日记_41
+      - 科技网络 🇺🇸_271
+      - CF中转_1101132340
+      - CF中转_1101131707
+      - 🏁RELAY-172.67.219.194-2940
+      - US_分享日记_42
+      - 美国_22
+      - '[🇬🇧] [vl-tl-ws] [fri-08am-1042732]'
+      - 美国_23
+      - 美国_24
+      - 美国_25
+      - 新加坡_110113061
+      - 🏁RELAY-173.245.59.8-2976
+      - US_分享日记_43
+      - '[🇰🇷] [vl-tl-ws] [fri-08am-1028382]'
+      - 美国_26
+      - CF中转_1101132492
+      - US_分享日记_44
+      - 🏁RELAY-104.21.77.251-8296
+      - US_分享日记_45
+      - CF中转_1101132295
+      - 美国_27
+      - '[🇺🇸] [vl-no-tc] [fri-08am-1043664]'
+      - 🏁RELAY-104.21.46.121-2922
+      - US_分享日记_46
+      - 美国_1101131159
+      - 🏁RELAY-104.21.83.115-8188
+      - 新加坡_110113065
+      - CF中转_1101131705
+      - '[🇬🇧] [tr-tl-ws] [fri-08am-1011221]'
+      - 科技网络 🇺🇸_168
+      - 🏁RELAY-104.19.32.0-8201
+      - Youtube顺丰资源  美国 255
+      - 🏁RELAY-104.21.56.187-1889
+      - 🏁RELAY-104.21.24.170-2952
+      - 🏁RELAY-172.67.136.233-2978
+      - US_分享日记_47
+      - 🏁RELAY-104.21.92.133-1147
+      - 🏁RELAY-172.67.155.187-8327
+      - 🏁RELAY-172.67.220.83-8200
+      - CF中转_1101131740
+      - 🏁RELAY-104.21.60.81-8177
+      - US_分享日记_48
+      - CF中转_1101132059
+      - CF中转_1101132787
+      - '[🇫🇷] [vl-tl-ws] [fri-08am-1029262]'
+      - 🏁RELAY-104.21.1.252-1157
+      - 🏁RELAY-104.21.44.106-1137
+      - 🏁RELAY-104.21.92.133-1184
+      - Youtube顺丰资源  美国 282
+      - CF中转_1101132251
+      - US_分享日记_49
+      - US_分享日记_50
+      - CF中转_1101132276
+      - CF中转_1101132258
 
 rules:
 # 本地/局域网地址
