@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-09-12 16:28:27
+# 创建时间：2024-11-15 15:13:36
 # 使用模版：V2RaySE 默认模版
-# 节点数量：17
+# 节点数量：21
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,6 +86,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"jp09_1","type":"vless","server":"104.19.222.140","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg03_1","type":"vless","server":"104.19.222.140","port":2086,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us02_1","type":"vless","server":"104.19.222.140","port":2095,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happyne0-tls","type":"vless","server":"104.19.62.86","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet0-tls","type":"vless","server":"bestcf.onecf.eu.org","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"happynet1-tls","type":"vless","server":"104.17.161.100","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
@@ -97,18 +100,22 @@ proxies:
   - {"name":"jp06","type":"vless","server":"162.159.133.41","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"jp07","type":"vless","server":"104.17.161.100","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"jp08","type":"vless","server":"104.19.223.54","port":8080,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"jp09","type":"vless","server":"104.19.222.140","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp09_2","type":"vless","server":"104.19.222.140","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp10","type":"vless","server":"104.25.254.168","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"us01","type":"vless","server":"162.159.133.41","port":2052,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"us02","type":"vless","server":"104.19.222.140","port":2095,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us02_2","type":"vless","server":"104.19.222.140","port":2095,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"sg01","type":"vless","server":"162.159.133.41","port":8080,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
   - {"name":"sg02","type":"vless","server":"104.16.5.157","port":80,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
-  - {"name":"sg03","type":"vless","server":"104.19.222.140","port":2086,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg03_2","type":"vless","server":"104.19.222.140","port":2086,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -120,18 +127,22 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -143,18 +154,22 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -166,17 +181,21 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -188,17 +207,21 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -210,17 +233,21 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -232,12 +259,13 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,6 +288,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - jp09_1
+      - sg03_1
+      - us02_1
       - happyne0-tls
       - happynet0-tls
       - happynet1-tls
@@ -271,12 +302,13 @@ proxy-groups:
       - jp06
       - jp07
       - jp08
-      - jp09
+      - jp09_2
+      - jp10
       - us01
-      - us02
+      - us02_2
       - sg01
       - sg02
-      - sg03
+      - sg03_2
 
 rules:
 # 本地/局域网地址
