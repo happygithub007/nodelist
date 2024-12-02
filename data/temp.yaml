@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-12-02 15:53:00
+# 创建时间：2024-12-02 15:58:47
 # 使用模版：V2RaySE 默认模版
-# 节点数量：239
+# 节点数量：211
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,269 +86,236 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"NL_ youtube@资源分享师_1","type":"vless","server":"45.131.4.48","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_1","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"us1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us1.youxuan.wiki"}}}
-  - {"name":"US_ youtube@资源分享师_2","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"rs1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"rs1.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_2","type":"vless","server":"45.131.7.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"GB_ youtube@资源分享师_1","type":"vless","server":"213.35.119.223","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqsg.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"GB_ youtube@资源分享师_2","type":"vless","server":"213.35.108.22","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqsg.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"US_ youtube@资源分享师_3","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"us6.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us6.7896543.xyz"}}}
-  - {"name":"NL_ youtube@资源分享师_3","type":"vless","server":"45.131.5.215","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_4","type":"vless","server":"138.2.26.196","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjp.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"US_ youtube@资源分享师_5","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"kr2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"kr2.youxuan.wiki"}}}
-  - {"name":"US_ youtube@资源分享师_6","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"us3.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us3.youxuan.wiki"}}}
-  - {"name":"US_ youtube@资源分享师_7","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"rs2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"rs2.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_4","type":"vless","server":"45.131.5.98","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_8","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"tw6.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tw6.7896543.xyz"}}}
-  - {"name":"US_ youtube@资源分享师_9","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"0e54744e-575b-4eca-a9c6-4b4c50561df1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
-  - {"name":"NL_ youtube@资源分享师_5","type":"vless","server":"45.131.5.202","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_6","type":"vless","server":"45.131.6.66","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_10","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"144b25af-18c8-4b43-9bf5-e88306396e96","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
-  - {"name":"US_ youtube@资源分享师_11","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"tw2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tw2.youxuan.wiki"}}}
-  - {"name":"US_ youtube@资源分享师_12","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"us5.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us5.7896543.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_42","type":"ss","server":"38.110.1.3","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"unKnow_ youtube@资源分享师_1","type":"ss","server":"k-r03.loveroise.com","port":54012,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"unKnow_ youtube@资源分享师_3","type":"ss","server":"h-k01.loveroise.com","port":54000,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_ youtube@资源分享师_5","type":"ss","server":"gdgs.tarioblink.me","port":30001,"password":"15dad387-4ce8-4f9e-9dc1-cd1cc760e37c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_ youtube@资源分享师_11","type":"ss","server":"61.172.235.22","port":11001,"password":"b3d05306-e5ae-46ca-9deb-40dc2232912b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"unKnow_ youtube@资源分享师_5","type":"ss","server":"soontw.soon.guru","port":40020,"password":"f0e7fd1e-0469-415f-95da-774021f16f36","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_ youtube@资源分享师_2","type":"ss","server":"gdgs.tarioblink.me","port":30002,"password":"15dad387-4ce8-4f9e-9dc1-cd1cc760e37c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_ youtube@资源分享师_37","type":"trojan","server":"13.60.145.61","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.ukhttp/1.1","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"US_ youtube@资源分享师_7","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"rs2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"rs2.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_4","type":"vless","server":"45.131.5.98","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_8","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"tw6.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tw6.7896543.xyz"}}}
+  - {"name":"NL_ youtube@资源分享师_5","type":"vless","server":"45.131.5.202","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_6","type":"vless","server":"45.131.6.66","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_11","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"tw2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tw2.youxuan.wiki"}}}
+  - {"name":"US_ youtube@资源分享师_12","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"us5.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us5.7896543.xyz"}}}
   - {"name":"US_ youtube@资源分享师_13","type":"vless","server":"151.101.2.133","port":443,"uuid":"3a6ea2e7-e181-4595-9812-7faccf4955f6","tls":true,"servername":"barkatc1.ir","network":"ws","ws-opts":{"path":"/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048","headers":{"host":"barkatc1.ir"}}}
-  - {"name":"NL_ youtube@资源分享师_7","type":"vless","server":"45.131.5.22","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_8","type":"vless","server":"45.131.4.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"CR_ youtube@资源分享师_1","type":"vless","server":"190.93.247.56","port":8080,"uuid":"edafc8cb-f3e3-434d-8310-481c931d2334","tls":false,"servername":"astech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.hostirann.xYz.","network":"ws","ws-opts":{"path":"/telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech?ed=2560","headers":{"host":"astech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.hostirann.xYz."}}}
-  - {"name":"NL_ youtube@资源分享师_9","type":"vless","server":"45.131.4.147","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_10","type":"vless","server":"45.131.6.208","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_11","type":"vless","server":"45.131.6.10","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_14","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"72219927-c114-420f-b563-3c8ce0e451c6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
-  - {"name":"NL_ youtube@资源分享师_12","type":"vless","server":"45.131.6.101","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"CR_ youtube@资源分享师_2","type":"vless","server":"190.93.247.56","port":8080,"uuid":"974f5231-0196-46ec-938e-4a5f11a534ce","tls":false,"servername":"legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz.","network":"ws","ws-opts":{"path":"/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560","headers":{"host":"legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz."}}}
+  - {"name":"NL_ youtube@资源分享师_7","type":"vless","server":"45.131.5.22","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_8","type":"vless","server":"45.131.4.232","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"CR_ youtube@资源分享师_1","type":"vless","server":"190.93.247.56","port":8080,"uuid":"edafc8cb-f3e3-434d-8310-481c931d2334","servername":"astech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.hostirann.xYz.","network":"ws","ws-opts":{"path":"/telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech?ed=2560","headers":{"host":"astech.ir.www.speedtest.net.www.zula.ir.cloudflare.com.hostirann.xYz."}}}
+  - {"name":"NL_ youtube@资源分享师_9","type":"vless","server":"45.131.4.147","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_10","type":"vless","server":"45.131.6.208","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_11","type":"vless","server":"45.131.6.10","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_12","type":"vless","server":"45.131.6.101","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"CR_ youtube@资源分享师_2","type":"vless","server":"190.93.247.56","port":8080,"uuid":"974f5231-0196-46ec-938e-4a5f11a534ce","servername":"legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz.","network":"ws","ws-opts":{"path":"/telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560","headers":{"host":"legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz."}}}
   - {"name":"CN_ youtube@资源分享师_1","type":"vless","server":"pq.hkt1.yydjc.top","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"download.globals-download.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"NL_ youtube@资源分享师_13","type":"vless","server":"45.131.5.235","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_14","type":"vless","server":"45.131.5.149","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"KR_ youtube@资源分享师_1","type":"hysteria2","server":"193.122.114.172","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_15","type":"vless","server":"45.131.7.157","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"KR_ youtube@资源分享师_2","type":"hysteria2","server":"193.122.113.204","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_16","type":"vless","server":"45.131.7.234","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_17","type":"vless","server":"45.131.5.223","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_18","type":"vless","server":"45.131.7.59","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_19","type":"vless","server":"45.131.6.112","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_20","type":"vless","server":"45.131.5.12","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_21","type":"vless","server":"45.131.7.44","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_22","type":"vless","server":"45.131.4.211","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"CN_ youtube@资源分享师_2","type":"ss","server":"gdgs.tarioblink.me","port":30002}
+  - {"name":"NL_ youtube@资源分享师_13","type":"vless","server":"45.131.5.235","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_14","type":"vless","server":"45.131.5.149","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_15","type":"vless","server":"45.131.7.157","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_16","type":"vless","server":"45.131.7.234","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_17","type":"vless","server":"45.131.5.223","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_18","type":"vless","server":"45.131.7.59","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_19","type":"vless","server":"45.131.6.112","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_20","type":"vless","server":"45.131.5.12","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_21","type":"vless","server":"45.131.7.44","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_22","type":"vless","server":"45.131.4.211","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_3","type":"vless","server":"957e32be476a.78ab92.98f0fa.a458.h2.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"download.globals-download.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"CR_ youtube@资源分享师_3","type":"hysteria2","server":"144.22.242.34","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"US_ youtube@资源分享师_15","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"jp4.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"jp4.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_23","type":"vless","server":"45.131.4.27","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_24","type":"vless","server":"45.131.7.69","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"GB_ youtube@资源分享师_3","type":"hysteria2","server":"158.179.177.7","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"KR_ youtube@资源分享师_3","type":"hysteria2","server":"193.123.241.149","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"US_ youtube@资源分享师_15","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"jp4.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"jp4.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_23","type":"vless","server":"45.131.4.27","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_24","type":"vless","server":"45.131.7.69","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_16","type":"vless","server":"138.2.166.171","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqdes.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"JP_ youtube@资源分享师_1","type":"hysteria2","server":"146.56.100.103","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"US_ youtube@资源分享师_17","type":"vless","server":"151.101.2.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","tls":false,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
-  - {"name":"NL_ youtube@资源分享师_25","type":"vless","server":"45.131.7.247","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"KR_ youtube@资源分享师_4","type":"hysteria2","server":"193.122.98.107","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"AU_ youtube@资源分享师_1","type":"hysteria2","server":"159.13.35.245","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"US_ youtube@资源分享师_18","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"kr1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"kr1.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_26","type":"vless","server":"45.131.6.189","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_27","type":"vless","server":"45.131.6.69","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_28","type":"vless","server":"45.131.4.95","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_17","type":"vless","server":"151.101.2.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"NL_ youtube@资源分享师_25","type":"vless","server":"45.131.7.247","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_18","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"kr1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"kr1.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_26","type":"vless","server":"45.131.6.189","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_27","type":"vless","server":"45.131.6.69","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_28","type":"vless","server":"45.131.4.95","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_19","type":"vless","server":"162.159.152.116","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p1in2.globals-download.com","network":"ws","ws-opts":{"path":"/pq/in2","headers":{"host":"p1in2.globals-download.com"}},"client-fingerprint":"firefox"}
-  - {"name":"US_ youtube@资源分享师_20","type":"hysteria2","server":"152.69.180.226","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
   - {"name":"CN_ youtube@资源分享师_4","type":"vless","server":"pq.hkt4.yydjc.top","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"download.globals-download.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"NL_ youtube@资源分享师_29","type":"vless","server":"45.131.7.176","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_29","type":"vless","server":"45.131.7.176","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_21","type":"vless","server":"152.70.99.180","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjp.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"NL_ youtube@资源分享师_30","type":"vless","server":"45.131.5.99","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_31","type":"vless","server":"45.131.5.30","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_32","type":"vless","server":"45.131.6.163","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_33","type":"vless","server":"45.131.5.95","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"unKnow_ youtube@资源分享师_1","type":"ss","server":"k-r03.loveroise.com","port":54012}
-  - {"name":"NL_ youtube@资源分享师_34","type":"vless","server":"45.131.6.235","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_35","type":"vless","server":"45.131.6.132","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"unKnow_ youtube@资源分享师_2","type":"hysteria2","server":"139.185.51.61","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"NL_ youtube@资源分享师_30","type":"vless","server":"45.131.5.99","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_31","type":"vless","server":"45.131.5.30","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_32","type":"vless","server":"45.131.6.163","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_33","type":"vless","server":"45.131.5.95","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_34","type":"vless","server":"45.131.6.235","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_35","type":"vless","server":"45.131.6.132","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_22","type":"vless","server":"64.181.225.150","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"NL_ youtube@资源分享师_36","type":"vless","server":"45.131.7.147","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_37","type":"vless","server":"45.131.4.108","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_23","type":"hysteria2","server":"152.69.225.196","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_38","type":"vless","server":"45.131.4.50","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_39","type":"vless","server":"45.131.6.125","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_40","type":"vless","server":"45.131.6.130","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_41","type":"vless","server":"45.131.6.198","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_42","type":"vless","server":"45.131.4.61","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_43","type":"vless","server":"45.131.5.237","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_24","type":"vless","server":"104.17.234.128","port":8080,"uuid":"dc3837aa-704d-4732-a7ec-049bda54fe6a","tls":false,"servername":"join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.","network":"ws","ws-opts":{"path":"@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880","headers":{"host":"join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community."}}}
-  - {"name":"GB_ youtube@资源分享师_4","type":"hysteria2","server":"158.179.18.251","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"NL_ youtube@资源分享师_36","type":"vless","server":"45.131.7.147","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_37","type":"vless","server":"45.131.4.108","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_38","type":"vless","server":"45.131.4.50","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_39","type":"vless","server":"45.131.6.125","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_40","type":"vless","server":"45.131.6.130","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_41","type":"vless","server":"45.131.6.198","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_42","type":"vless","server":"45.131.4.61","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_43","type":"vless","server":"45.131.5.237","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_24","type":"vless","server":"104.17.234.128","port":8080,"uuid":"dc3837aa-704d-4732-a7ec-049bda54fe6a","servername":"join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.","network":"ws","ws-opts":{"path":"@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880","headers":{"host":"join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community."}}}
   - {"name":"US_ youtube@资源分享师_25","type":"vless","server":"162.159.152.19","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p2us1.globals-download.com","network":"ws","ws-opts":{"path":"/pq/us1","headers":{"host":"p2us1.globals-download.com"}},"client-fingerprint":"safari"}
-  - {"name":"US_ youtube@资源分享师_26","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"be04980f-3b70-4850-b51d-ea74487d2d29","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
-  - {"name":"NL_ youtube@资源分享师_44","type":"vless","server":"45.131.5.170","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_27","type":"vless","server":"qrzv.youxuan.wiki","port":2095,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"hk11.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"hk11.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_45","type":"vless","server":"45.131.4.23","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"unKnow_ youtube@资源分享师_3","type":"ss","server":"h-k01.loveroise.com","port":54000}
-  - {"name":"CN_ youtube@资源分享师_5","type":"ss","server":"gdgs.tarioblink.me","port":30001}
-  - {"name":"NL_ youtube@资源分享师_46","type":"vless","server":"45.131.5.145","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_47","type":"vless","server":"45.131.5.142","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_48","type":"vless","server":"45.131.5.105","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_49","type":"vless","server":"45.131.7.33","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_28","type":"hysteria2","server":"152.70.234.12","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_50","type":"vless","server":"45.131.7.115","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_44","type":"vless","server":"45.131.5.170","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_27","type":"vless","server":"qrzv.youxuan.wiki","port":2095,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"hk11.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"hk11.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_46","type":"vless","server":"45.131.5.145","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_47","type":"vless","server":"45.131.5.142","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_48","type":"vless","server":"45.131.5.105","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_49","type":"vless","server":"45.131.7.33","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_50","type":"vless","server":"45.131.7.115","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"GB_ youtube@资源分享师_5","type":"vless","server":"140.238.99.207","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqgbs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"US_ youtube@资源分享师_29","type":"vless","server":"151.101.194.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","tls":false,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
-  - {"name":"NL_ youtube@资源分享师_51","type":"vless","server":"45.131.5.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_29","type":"vless","server":"151.101.194.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"NL_ youtube@资源分享师_51","type":"vless","server":"45.131.5.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_6","type":"vless","server":"103.44.255.81","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_52","type":"vless","server":"45.131.6.46","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_52","type":"vless","server":"45.131.6.46","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"KR_ youtube@资源分享师_5","type":"vless","server":"61.84.74.108","port":30017,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_53","type":"vless","server":"45.131.4.180","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_53","type":"vless","server":"45.131.4.180","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"KR_ youtube@资源分享师_6","type":"vless","server":"119.197.35.190","port":50000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"/Telegram🇨🇳 @WangCai2 /","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"US_ youtube@资源分享师_30","type":"hysteria2","server":"205.178.183.99","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"tv.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_54","type":"vless","server":"45.131.5.151","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_31","type":"vless","server":"151.101.194.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","tls":false,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
-  - {"name":"NL_ youtube@资源分享师_55","type":"vless","server":"45.131.7.119","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_56","type":"vless","server":"45.131.7.62","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"DE_ youtube@资源分享师","type":"hysteria2","server":"132.145.239.250","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"SE_ youtube@资源分享师","type":"hysteria2","server":"141.147.19.58","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_57","type":"vless","server":"45.131.4.202","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_58","type":"vless","server":"45.131.4.205","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_59","type":"vless","server":"45.131.6.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_60","type":"vless","server":"45.131.4.144","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_54","type":"vless","server":"45.131.5.151","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_31","type":"vless","server":"151.101.194.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"NL_ youtube@资源分享师_55","type":"vless","server":"45.131.7.119","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_56","type":"vless","server":"45.131.7.62","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_57","type":"vless","server":"45.131.4.202","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_58","type":"vless","server":"45.131.4.205","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_59","type":"vless","server":"45.131.6.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_60","type":"vless","server":"45.131.4.144","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_7","type":"vless","server":"957e32be476a.78ab92.98f0fa.a458.t2.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"download.yydjc.top","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"NL_ youtube@资源分享师_61","type":"vless","server":"45.131.7.142","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_45","type":"vless","server":"45.131.4.23","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_32","type":"vless","server":"162.159.153.116","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p1in1.globals-download.com","network":"ws","ws-opts":{"path":"/pq/in1","headers":{"host":"p1in1.globals-download.com"}},"client-fingerprint":"ios"}
   - {"name":"US_ youtube@资源分享师_33","type":"vless","server":"129.151.226.72","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqfrs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"NL_ youtube@资源分享师_62","type":"vless","server":"45.131.7.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_63","type":"vless","server":"45.131.4.30","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_62","type":"vless","server":"45.131.7.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_63","type":"vless","server":"45.131.4.30","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_34","type":"vless","server":"206.238.236.90","port":2087,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"KR_ youtube@资源分享师_7","type":"vless","server":"119.197.35.190","port":50000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"US_ youtube@资源分享师_35","type":"hysteria2","server":"152.69.220.212","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
   - {"name":"NL_ youtube@资源分享师_64","type":"vless","server":"132.226.229.245","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqkrs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"edge"}
-  - {"name":"NL_ youtube@资源分享师_65","type":"vless","server":"45.131.5.35","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_66","type":"vless","server":"45.131.5.178","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_65","type":"vless","server":"45.131.5.35","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_66","type":"vless","server":"45.131.5.178","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_36","type":"vless","server":"131.186.22.238","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqkr.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"NL_ youtube@资源分享师_67","type":"vless","server":"45.131.6.87","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_68","type":"vless","server":"45.131.5.23","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_69","type":"vless","server":"45.131.4.45","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_37","type":"trojan","server":"13.60.145.61","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.ukhttp/1.1","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"NL_ youtube@资源分享师_67","type":"vless","server":"45.131.6.87","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_68","type":"vless","server":"45.131.5.23","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_69","type":"vless","server":"45.131.4.45","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_8","type":"vless","server":"219.77.65.212","port":23555,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"/Telegram🇨🇳 @WangCai2 /","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"US_ youtube@资源分享师_38","type":"vless","server":"qrzv.youxuan.wiki","port":2095,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"hk1.youxuan.wiki","network":"ws","ws-opts":{"path":"/sssddd","headers":{"host":"hk1.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_70","type":"vless","server":"45.131.4.124","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_71","type":"vless","server":"45.131.4.58","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_72","type":"hysteria2","server":"158.101.218.147","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_73","type":"vless","server":"45.131.4.55","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_39","type":"hysteria2","server":"64.181.161.195","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"US_ youtube@资源分享师_38","type":"vless","server":"qrzv.youxuan.wiki","port":2095,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"hk1.youxuan.wiki","network":"ws","ws-opts":{"path":"/sssddd","headers":{"host":"hk1.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_70","type":"vless","server":"45.131.4.124","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_71","type":"vless","server":"45.131.4.58","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_73","type":"vless","server":"45.131.4.55","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_40","type":"vless","server":"162.159.152.169","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"pjp1.globals-download.com","network":"ws","ws-opts":{"path":"/pq/jp1","headers":{"host":"pjp1.globals-download.com"}},"client-fingerprint":"firefox"}
   - {"name":"GB_ youtube@资源分享师_6","type":"vless","server":"79.72.27.31","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqfrs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
   - {"name":"KR_ youtube@资源分享师_8","type":"vless","server":"14.55.158.171","port":50000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_74","type":"vless","server":"45.131.5.145","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_75","type":"vless","server":"45.131.6.82","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_41","type":"vmess","server":"104.26.0.57","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"US_ youtube@资源分享师_42","type":"ss","server":"38.110.1.3","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"NL_ youtube@资源分享师_76","type":"vless","server":"45.131.4.82","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_43","type":"vmess","server":"104.26.0.200","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"NL_ youtube@资源分享师_77","type":"vless","server":"45.131.4.237","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_78","type":"vless","server":"45.131.5.72","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"unKnow_ youtube@资源分享师_4","type":"hysteria2","server":"193.123.76.84","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"JP_ youtube@资源分享师_2","type":"hysteria2","server":"146.56.154.243","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
-  - {"name":"US_ youtube@资源分享师_44","type":"hysteria2","server":"129.151.220.170","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"NL_ youtube@资源分享师_79","type":"vless","server":"45.131.5.197","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_80","type":"vless","server":"45.131.5.244","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_81","type":"vless","server":"45.131.7.247","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_82","type":"vless","server":"45.131.7.57","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_83","type":"vless","server":"45.131.7.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_84","type":"vless","server":"45.131.5.248","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_85","type":"vless","server":"45.131.4.70","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_86","type":"vless","server":"45.131.5.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_87","type":"vless","server":"45.131.7.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_74","type":"vless","server":"45.131.5.145","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_75","type":"vless","server":"45.131.6.82","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_61","type":"vless","server":"45.131.7.142","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_76","type":"vless","server":"45.131.4.82","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_77","type":"vless","server":"45.131.4.237","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_78","type":"vless","server":"45.131.5.72","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_1","type":"vless","server":"45.131.4.48","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_1","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"us1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us1.youxuan.wiki"}}}
+  - {"name":"US_ youtube@资源分享师_2","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"rs1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"rs1.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_79","type":"vless","server":"45.131.5.197","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_80","type":"vless","server":"45.131.5.244","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_81","type":"vless","server":"45.131.7.247","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_82","type":"vless","server":"45.131.7.57","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_83","type":"vless","server":"45.131.7.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_84","type":"vless","server":"45.131.5.248","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_85","type":"vless","server":"45.131.4.70","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_86","type":"vless","server":"45.131.5.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_87","type":"vless","server":"45.131.7.78","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_45","type":"vless","server":"104.19.36.176","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p1us4.globals-download.com","network":"ws","ws-opts":{"path":"/pq/us4","headers":{"host":"p1us4.globals-download.com"}},"client-fingerprint":"firefox"}
-  - {"name":"NL_ youtube@资源分享师_88","type":"vless","server":"45.131.5.45","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_89","type":"vless","server":"45.131.6.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_90","type":"vless","server":"45.131.7.27","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_91","type":"vless","server":"45.131.4.26","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_92","type":"vless","server":"45.131.4.63","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_46","type":"hysteria2","server":"158.178.236.104","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"NL_ youtube@资源分享师_88","type":"vless","server":"45.131.5.45","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_89","type":"vless","server":"45.131.6.113","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_90","type":"vless","server":"45.131.7.27","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_91","type":"vless","server":"45.131.4.26","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_92","type":"vless","server":"45.131.4.63","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_2","type":"vless","server":"45.131.7.114","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_47","type":"vless","server":"64.181.233.90","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"NL_ youtube@资源分享师_93","type":"vless","server":"45.131.4.196","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_93","type":"vless","server":"45.131.4.196","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_48","type":"vless","server":"206.238.236.251","port":2083,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"US_ youtube@资源分享师_49","type":"hysteria2","server":"129.151.249.89","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"GB_ youtube@资源分享师_1","type":"vless","server":"213.35.119.223","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqsg.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"GB_ youtube@资源分享师_7","type":"vless","server":"140.238.84.17","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqgbs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"US_ youtube@资源分享师_50","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","tls":false,"servername":"tr1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tr1.youxuan.wiki"}}}
-  - {"name":"NL_ youtube@资源分享师_94","type":"vless","server":"45.131.6.171","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_95","type":"vless","server":"45.131.5.37","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_96","type":"vless","server":"45.131.6.170","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_97","type":"vless","server":"45.131.4.107","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_98","type":"vless","server":"45.131.5.9","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"KR_ youtube@资源分享师_9","type":"hysteria2","server":"193.123.242.61","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"api.push.apple.com","skip-cert-verify":true}
+  - {"name":"US_ youtube@资源分享师_50","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"tr1.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"tr1.youxuan.wiki"}}}
+  - {"name":"NL_ youtube@资源分享师_94","type":"vless","server":"45.131.6.171","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_95","type":"vless","server":"45.131.5.37","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_96","type":"vless","server":"45.131.6.170","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_97","type":"vless","server":"45.131.4.107","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_98","type":"vless","server":"45.131.5.9","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"GB_ youtube@资源分享师_2","type":"vless","server":"213.35.108.22","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqsg.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
   - {"name":"JP_ youtube@资源分享师_3","type":"vless","server":"146.56.180.37","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqkrs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"safari"}
-  - {"name":"US_ youtube@资源分享师_51","type":"vmess","server":"104.26.0.216","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"US_ youtube@资源分享师_52","type":"hysteria2","server":"129.151.242.47","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
-  - {"name":"US_ youtube@资源分享师_53","type":"hysteria2","server":"129.146.95.165","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"US_ youtube@资源分享师_3","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"us6.7896543.xyz","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us6.7896543.xyz"}}}
+  - {"name":"NL_ youtube@资源分享师_3","type":"vless","server":"45.131.5.215","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_54","type":"vless","server":"167.234.211.240","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjs.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
-  - {"name":"US_ youtube@资源分享师_55","type":"vmess","server":"104.26.0.57","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"NL_ youtube@资源分享师_99","type":"vless","server":"45.131.5.172","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_99","type":"vless","server":"45.131.5.172","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_56","type":"vless","server":"104.18.77.9","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_100","type":"vless","server":"45.131.7.121","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_101","type":"vless","server":"45.131.5.107","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_102","type":"vless","server":"45.131.4.88","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_100","type":"vless","server":"45.131.7.121","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_101","type":"vless","server":"45.131.5.107","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_102","type":"vless","server":"45.131.4.88","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"KR_ youtube@资源分享师_10","type":"vless","server":"119.192.167.123","port":10000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"/Telegram🇨🇳 @WangCai2 /","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_103","type":"vless","server":"45.131.4.5","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_103","type":"vless","server":"45.131.4.5","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_57","type":"vless","server":"155.248.192.204","port":34237,"uuid":"e8899a8e-729a-43bc-aebf-95e12c6c6db6","tls":true,"servername":"test2.ccdd.site","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"test2.ccdd.site"}}}
   - {"name":"US_ youtube@资源分享师_58","type":"vless","server":"104.16.206.48","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"US_ youtube@资源分享师_59","type":"vless","server":"162.159.153.19","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p2us2.globals-download.com","network":"ws","ws-opts":{"path":"/pq/us2","headers":{"host":"p2us2.globals-download.com"}},"client-fingerprint":"chrome"}
   - {"name":"CN_ youtube@资源分享师_9","type":"vless","server":"957e32be476a.78ab92.98f0fa.a458.h3.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"download.globals-download.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
   - {"name":"US_ youtube@资源分享师_60","type":"vless","server":"104.19.56.218","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"p1in3.globals-download.com","network":"ws","ws-opts":{"path":"/pq/in3","headers":{"host":"p1in3.globals-download.com"}},"client-fingerprint":"ios"}
-  - {"name":"US_ youtube@资源分享师_61","type":"vmess","server":"104.26.0.232","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"NL_ youtube@资源分享师_104","type":"vless","server":"45.131.5.188","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_105","type":"vless","server":"45.131.4.56","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_106","type":"vless","server":"45.131.7.86","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_104","type":"vless","server":"45.131.5.188","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_105","type":"vless","server":"45.131.4.56","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_106","type":"vless","server":"45.131.7.86","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_10","type":"vless","server":"27.50.49.234","port":8443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_107","type":"vless","server":"45.131.5.120","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_108","type":"vless","server":"45.131.6.212","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_109","type":"vless","server":"45.131.5.13","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_110","type":"vless","server":"45.131.6.26","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_107","type":"vless","server":"45.131.5.120","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_108","type":"vless","server":"45.131.6.212","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_109","type":"vless","server":"45.131.5.13","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_110","type":"vless","server":"45.131.6.26","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"US_ youtube@资源分享师_62","type":"vless","server":"104.19.36.145","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"US_ youtube@资源分享师_63","type":"vless","server":"104.19.34.74","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"CN_ youtube@资源分享师_11","type":"ss","server":"61.172.235.22","port":11001}
-  - {"name":"unKnow_ youtube@资源分享师_5","type":"ss","server":"soontw.soon.guru","port":40020}
-  - {"name":"CH_ youtube@资源分享师","type":"hysteria2","server":"152.67.95.183","port":35000,"password":"42f6b793-2185-4be2-b6d5-c6fc9621c843","sni":"www.apple.com","skip-cert-verify":true}
+  - {"name":"US_ youtube@资源分享师_4","type":"vless","server":"138.2.26.196","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqjp.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"ios"}
+  - {"name":"US_ youtube@资源分享师_5","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"kr2.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"kr2.youxuan.wiki"}}}
+  - {"name":"US_ youtube@资源分享师_6","type":"vless","server":"qrzv.youxuan.wiki","port":2086,"uuid":"4c0109f7-e002-410a-b37d-a56b391237a5","servername":"us3.youxuan.wiki","network":"ws","ws-opts":{"path":"/youxuan","headers":{"host":"us3.youxuan.wiki"}}}
   - {"name":"BR_ youtube@资源分享师","type":"vless","server":"168.138.165.109","port":443,"uuid":"42f6b793-2185-4be2-b6d5-c6fc9621c843","tls":true,"servername":"dcpqsg.hnkkt.com","flow":"xtls-rprx-vision","network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"NL_ youtube@资源分享师_111","type":"vless","server":"45.131.6.248","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_111","type":"vless","server":"45.131.6.248","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_12","type":"vless","server":"27.50.48.154","port":8443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"NL_ youtube@资源分享师_112","type":"vless","server":"45.131.4.6","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_64","type":"vmess","server":"104.26.0.104","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"NL_ youtube@资源分享师_112","type":"vless","server":"45.131.4.6","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"KR_ youtube@资源分享师_11","type":"vless","server":"125.134.172.40","port":50000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"/Telegram🇨🇳 @WangCai2 /","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"KR_ youtube@资源分享师_12","type":"vless","server":"211.39.65.170","port":50000,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"/telegram🇨🇳 @wangcai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"US_ youtube@资源分享师_65","type":"vless","server":"206.238.236.253","port":8443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"CN_ youtube@资源分享师_13","type":"vless","server":"27.50.49.166","port":8443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"AU_ youtube@资源分享师_2","type":"vless","server":"43.156.116.194","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
-  - {"name":"US_ youtube@资源分享师_66","type":"vless","server":"join-shield-vpn.fastly80-2.hosting-ip.com","port":80,"uuid":"4a54fc9e-b717-4815-9d8a-b5bbc401aa56","tls":false,"servername":"Mozilaxjicker.com","network":"ws","ws-opts":{"path":"/vpn_shield--vpn_shield--vpn_shield--vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield?ed=2048","headers":{"host":"Mozilaxjicker.com"}}}
-  - {"name":"US_ youtube@资源分享师_67","type":"vmess","server":"104.26.0.217","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
-  - {"name":"US_ youtube@资源分享师_68","type":"vmess","server":"104.26.0.136","port":2086,"cipher":"auto","uuid":"bc65fac2-7dc7-426f-acdd-0779a5035bde","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"p1.613055.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"p1.613055.xyz"}}}
-  - {"name":"NL_ youtube@资源分享师_113","type":"vless","server":"45.131.7.43","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_114","type":"vless","server":"45.131.4.97","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_115","type":"vless","server":"45.131.5.124","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"NL_ youtube@资源分享师_116","type":"vless","server":"45.131.5.121","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_ youtube@资源分享师_66","type":"vless","server":"join-shield-vpn.fastly80-2.hosting-ip.com","port":80,"uuid":"4a54fc9e-b717-4815-9d8a-b5bbc401aa56","servername":"Mozilaxjicker.com","network":"ws","ws-opts":{"path":"/vpn_shield--vpn_shield--vpn_shield--vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield---------vpn_shield?ed=2048","headers":{"host":"Mozilaxjicker.com"}}}
+  - {"name":"NL_ youtube@资源分享师_113","type":"vless","server":"45.131.7.43","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_114","type":"vless","server":"45.131.4.97","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_115","type":"vless","server":"45.131.5.124","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"NL_ youtube@资源分享师_116","type":"vless","server":"45.131.5.121","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CA_ youtube@资源分享师","type":"vless","server":"74.48.186.122","port":7000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.xn--i-sx6a60i.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.xn--i-sx6a60i.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_69","type":"vless","server":"151.101.2.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","tls":false,"servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
-  - {"name":"NL_ youtube@资源分享师_117","type":"vless","server":"45.131.6.10","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_ youtube@资源分享师_70","type":"vmess","server":"104.26.0.168","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_69","type":"vless","server":"151.101.2.219","port":80,"uuid":"ad9ae42c-6858-4635-b93d-8bec2169e569","servername":"snapp.com","network":"ws","ws-opts":{"path":"/Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048","headers":{"host":"snapp.com"}}}
+  - {"name":"NL_ youtube@资源分享师_117","type":"vless","server":"45.131.6.10","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
   - {"name":"CN_ youtube@资源分享师_14","type":"vless","server":"27.50.49.37","port":2053,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
   - {"name":"CN_ youtube@资源分享师_15","type":"vless","server":"219.76.13.186","port":443,"uuid":"f2b3219c-215f-4b7e-96d8-25b751d79988","tls":true,"servername":"edgetunnel.xiaomayi.nyc.mn","network":"ws","ws-opts":{"path":"Telegram🇨🇳 @WangCai2 /?ed=2048","headers":{"host":"edgetunnel.xiaomayi.nyc.mn"}}}
+  - {"name":"US_ youtube@资源分享师_14","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"72219927-c114-420f-b563-3c8ce0e451c6","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
+  - {"name":"US_ youtube@资源分享师_67","type":"vmess","server":"104.26.0.217","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_68","type":"vmess","server":"104.26.0.136","port":2086,"cipher":"auto","uuid":"bc65fac2-7dc7-426f-acdd-0779a5035bde","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"p1.613055.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"p1.613055.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_41","type":"vmess","server":"104.26.0.57","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_10","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"144b25af-18c8-4b43-9bf5-e88306396e96","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
+  - {"name":"US_ youtube@资源分享师_51","type":"vmess","server":"104.26.0.216","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_64","type":"vmess","server":"104.26.0.104","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_61","type":"vmess","server":"104.26.0.232","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_26","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"be04980f-3b70-4850-b51d-ea74487d2d29","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
+  - {"name":"US_ youtube@资源分享师_43","type":"vmess","server":"104.26.0.200","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_70","type":"vmess","server":"104.26.0.168","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
+  - {"name":"US_ youtube@资源分享师_9","type":"vmess","server":"visa.com","port":443,"cipher":"auto","uuid":"0e54744e-575b-4eca-a9c6-4b4c50561df1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xjp.daluquan.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"xjp.daluquan.top"}}}
+  - {"name":"US_ youtube@资源分享师_55","type":"vmess","server":"104.26.0.57","port":8880,"cipher":"auto","uuid":"90f8f4dc-8092-4355-9047-05f506f5e9ab","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"m1.106778.xyz","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"m1.106778.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -358,15 +325,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -374,26 +338,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -401,14 +357,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -416,19 +369,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -438,26 +385,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -465,28 +408,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -502,11 +440,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -514,13 +452,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -533,7 +469,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -544,22 +479,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -567,33 +499,40 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -603,15 +542,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -619,26 +555,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -646,14 +574,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -661,19 +586,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -683,26 +602,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -710,28 +625,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -747,11 +657,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -759,13 +669,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -778,7 +686,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -789,22 +696,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -812,33 +716,40 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -848,15 +759,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -864,26 +772,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -891,14 +791,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -906,19 +803,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -928,26 +819,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -955,28 +842,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -992,11 +874,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -1004,13 +886,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -1023,7 +903,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -1034,22 +913,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -1057,32 +933,39 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -1092,15 +975,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -1108,26 +988,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -1135,14 +1007,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -1150,19 +1019,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -1172,26 +1035,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -1199,28 +1058,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -1236,11 +1090,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -1248,13 +1102,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -1267,7 +1119,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -1278,22 +1129,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -1301,32 +1149,39 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -1336,15 +1191,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -1352,26 +1204,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -1379,14 +1223,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -1394,19 +1235,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -1416,26 +1251,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -1443,28 +1274,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -1480,11 +1306,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -1492,13 +1318,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -1511,7 +1335,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -1522,22 +1345,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -1545,32 +1365,39 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -1580,15 +1407,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -1596,26 +1420,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -1623,14 +1439,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -1638,19 +1451,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -1660,26 +1467,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -1687,28 +1490,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -1724,11 +1522,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -1736,13 +1534,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -1755,7 +1551,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -1766,22 +1561,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -1789,9 +1581,21 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1814,24 +1618,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_1
-      - US_ youtube@资源分享师_2
-      - NL_ youtube@资源分享师_2
-      - GB_ youtube@资源分享师_1
-      - GB_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_3
-      - NL_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_4
-      - US_ youtube@资源分享师_5
-      - US_ youtube@资源分享师_6
+      - US_ youtube@资源分享师_42
+      - unKnow_ youtube@资源分享师_1
+      - unKnow_ youtube@资源分享师_3
+      - CN_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_11
+      - unKnow_ youtube@资源分享师_5
+      - CN_ youtube@资源分享师_2
+      - US_ youtube@资源分享师_37
       - US_ youtube@资源分享师_7
       - NL_ youtube@资源分享师_4
       - US_ youtube@资源分享师_8
-      - US_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_10
       - US_ youtube@资源分享师_11
       - US_ youtube@资源分享师_12
       - US_ youtube@资源分享师_13
@@ -1841,15 +1640,12 @@ proxy-groups:
       - NL_ youtube@资源分享师_9
       - NL_ youtube@资源分享师_10
       - NL_ youtube@资源分享师_11
-      - US_ youtube@资源分享师_14
       - NL_ youtube@资源分享师_12
       - CR_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_13
       - NL_ youtube@资源分享师_14
-      - KR_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_15
-      - KR_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_16
       - NL_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_18
@@ -1857,26 +1653,18 @@ proxy-groups:
       - NL_ youtube@资源分享师_20
       - NL_ youtube@资源分享师_21
       - NL_ youtube@资源分享师_22
-      - CN_ youtube@资源分享师_2
       - CN_ youtube@资源分享师_3
-      - CR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_15
       - NL_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_3
-      - KR_ youtube@资源分享师_3
       - US_ youtube@资源分享师_16
-      - JP_ youtube@资源分享师_1
       - US_ youtube@资源分享师_17
       - NL_ youtube@资源分享师_25
-      - KR_ youtube@资源分享师_4
-      - AU_ youtube@资源分享师_1
       - US_ youtube@资源分享师_18
       - NL_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_27
       - NL_ youtube@资源分享师_28
       - US_ youtube@资源分享师_19
-      - US_ youtube@资源分享师_20
       - CN_ youtube@资源分享师_4
       - NL_ youtube@资源分享师_29
       - US_ youtube@资源分享师_21
@@ -1884,14 +1672,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_32
       - NL_ youtube@资源分享师_33
-      - unKnow_ youtube@资源分享师_1
       - NL_ youtube@资源分享师_34
       - NL_ youtube@资源分享师_35
-      - unKnow_ youtube@资源分享师_2
       - US_ youtube@资源分享师_22
       - NL_ youtube@资源分享师_36
       - NL_ youtube@资源分享师_37
-      - US_ youtube@资源分享师_23
       - NL_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_39
       - NL_ youtube@资源分享师_40
@@ -1899,19 +1684,13 @@ proxy-groups:
       - NL_ youtube@资源分享师_42
       - NL_ youtube@资源分享师_43
       - US_ youtube@资源分享师_24
-      - GB_ youtube@资源分享师_4
       - US_ youtube@资源分享师_25
-      - US_ youtube@资源分享师_26
       - NL_ youtube@资源分享师_44
       - US_ youtube@资源分享师_27
-      - NL_ youtube@资源分享师_45
-      - unKnow_ youtube@资源分享师_3
-      - CN_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_46
       - NL_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_48
       - NL_ youtube@资源分享师_49
-      - US_ youtube@资源分享师_28
       - NL_ youtube@资源分享师_50
       - GB_ youtube@资源分享师_5
       - US_ youtube@资源分享师_29
@@ -1921,26 +1700,22 @@ proxy-groups:
       - KR_ youtube@资源分享师_5
       - NL_ youtube@资源分享师_53
       - KR_ youtube@资源分享师_6
-      - US_ youtube@资源分享师_30
       - NL_ youtube@资源分享师_54
       - US_ youtube@资源分享师_31
       - NL_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_56
-      - DE_ youtube@资源分享师
-      - SE_ youtube@资源分享师
       - NL_ youtube@资源分享师_57
       - NL_ youtube@资源分享师_58
       - NL_ youtube@资源分享师_59
       - NL_ youtube@资源分享师_60
       - CN_ youtube@资源分享师_7
-      - NL_ youtube@资源分享师_61
+      - NL_ youtube@资源分享师_45
       - US_ youtube@资源分享师_32
       - US_ youtube@资源分享师_33
       - NL_ youtube@资源分享师_62
       - NL_ youtube@资源分享师_63
       - US_ youtube@资源分享师_34
       - KR_ youtube@资源分享师_7
-      - US_ youtube@资源分享师_35
       - NL_ youtube@资源分享师_64
       - NL_ youtube@资源分享师_65
       - NL_ youtube@资源分享师_66
@@ -1948,28 +1723,23 @@ proxy-groups:
       - NL_ youtube@资源分享师_67
       - NL_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_69
-      - US_ youtube@资源分享师_37
       - CN_ youtube@资源分享师_8
       - US_ youtube@资源分享师_38
       - NL_ youtube@资源分享师_70
       - NL_ youtube@资源分享师_71
-      - NL_ youtube@资源分享师_72
       - NL_ youtube@资源分享师_73
-      - US_ youtube@资源分享师_39
       - US_ youtube@资源分享师_40
       - GB_ youtube@资源分享师_6
       - KR_ youtube@资源分享师_8
       - NL_ youtube@资源分享师_74
       - NL_ youtube@资源分享师_75
-      - US_ youtube@资源分享师_41
-      - US_ youtube@资源分享师_42
+      - NL_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_76
-      - US_ youtube@资源分享师_43
       - NL_ youtube@资源分享师_77
       - NL_ youtube@资源分享师_78
-      - unKnow_ youtube@资源分享师_4
-      - JP_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_44
+      - NL_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_1
+      - US_ youtube@资源分享师_2
       - NL_ youtube@资源分享师_79
       - NL_ youtube@资源分享师_80
       - NL_ youtube@资源分享师_81
@@ -1985,11 +1755,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_90
       - NL_ youtube@资源分享师_91
       - NL_ youtube@资源分享师_92
-      - US_ youtube@资源分享师_46
+      - NL_ youtube@资源分享师_2
       - US_ youtube@资源分享师_47
       - NL_ youtube@资源分享师_93
       - US_ youtube@资源分享师_48
-      - US_ youtube@资源分享师_49
+      - GB_ youtube@资源分享师_1
       - GB_ youtube@资源分享师_7
       - US_ youtube@资源分享师_50
       - NL_ youtube@资源分享师_94
@@ -1997,13 +1767,11 @@ proxy-groups:
       - NL_ youtube@资源分享师_96
       - NL_ youtube@资源分享师_97
       - NL_ youtube@资源分享师_98
-      - KR_ youtube@资源分享师_9
+      - GB_ youtube@资源分享师_2
       - JP_ youtube@资源分享师_3
-      - US_ youtube@资源分享师_51
-      - US_ youtube@资源分享师_52
-      - US_ youtube@资源分享师_53
+      - US_ youtube@资源分享师_3
+      - NL_ youtube@资源分享师_3
       - US_ youtube@资源分享师_54
-      - US_ youtube@资源分享师_55
       - NL_ youtube@资源分享师_99
       - US_ youtube@资源分享师_56
       - NL_ youtube@资源分享师_100
@@ -2016,7 +1784,6 @@ proxy-groups:
       - US_ youtube@资源分享师_59
       - CN_ youtube@资源分享师_9
       - US_ youtube@资源分享师_60
-      - US_ youtube@资源分享师_61
       - NL_ youtube@资源分享师_104
       - NL_ youtube@资源分享师_105
       - NL_ youtube@资源分享师_106
@@ -2027,22 +1794,19 @@ proxy-groups:
       - NL_ youtube@资源分享师_110
       - US_ youtube@资源分享师_62
       - US_ youtube@资源分享师_63
-      - CN_ youtube@资源分享师_11
-      - unKnow_ youtube@资源分享师_5
-      - CH_ youtube@资源分享师
+      - US_ youtube@资源分享师_4
+      - US_ youtube@资源分享师_5
+      - US_ youtube@资源分享师_6
       - BR_ youtube@资源分享师
       - NL_ youtube@资源分享师_111
       - CN_ youtube@资源分享师_12
       - NL_ youtube@资源分享师_112
-      - US_ youtube@资源分享师_64
       - KR_ youtube@资源分享师_11
       - KR_ youtube@资源分享师_12
       - US_ youtube@资源分享师_65
       - CN_ youtube@资源分享师_13
       - AU_ youtube@资源分享师_2
       - US_ youtube@资源分享师_66
-      - US_ youtube@资源分享师_67
-      - US_ youtube@资源分享师_68
       - NL_ youtube@资源分享师_113
       - NL_ youtube@资源分享师_114
       - NL_ youtube@资源分享师_115
@@ -2050,9 +1814,21 @@ proxy-groups:
       - CA_ youtube@资源分享师
       - US_ youtube@资源分享师_69
       - NL_ youtube@资源分享师_117
-      - US_ youtube@资源分享师_70
       - CN_ youtube@资源分享师_14
       - CN_ youtube@资源分享师_15
+      - US_ youtube@资源分享师_14
+      - US_ youtube@资源分享师_67
+      - US_ youtube@资源分享师_68
+      - US_ youtube@资源分享师_41
+      - US_ youtube@资源分享师_10
+      - US_ youtube@资源分享师_51
+      - US_ youtube@资源分享师_64
+      - US_ youtube@资源分享师_61
+      - US_ youtube@资源分享师_26
+      - US_ youtube@资源分享师_43
+      - US_ youtube@资源分享师_70
+      - US_ youtube@资源分享师_9
+      - US_ youtube@资源分享师_55
 
 rules:
 # 本地/局域网地址
