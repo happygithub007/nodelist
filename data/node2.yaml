@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-12-30 16:44:49
+# 创建时间：2025-01-06 14:22:13
 # 使用模版：V2RaySE 默认模版
-# 节点数量：110
+# 节点数量：126
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,809 +86,921 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"15|KZ_speednode_0046","type":"trojan","server":"194.76.18.129","port":443,"udp":true,"password":"tg-fq521free","sni":"torjan.xn--xhq44j.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"torjan.xn--xhq44j.eu.org"}}}
-  - {"name":"🇷🇺_RU_俄罗斯_1","type":"vless","server":"185.236.233.136","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vless","server":"171.22.125.188","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  美国 163","type":"vless","server":"171.22.125.186","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_1","type":"vless","server":"94.131.112.54","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_2","type":"vless","server":"171.22.124.176","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  德国 131","type":"vless","server":"135.181.155.147","port":40240,"uuid":"6da76ed2-0352-4483-9b48-1b149324b75e","servername":"canva.com","network":"tcp"}
-  - {"name":"Youtube顺丰资源  法国 121","type":"vless","server":"91.134.38.117","port":58060,"uuid":"20c60350-172c-40c3-b1e0-ae495c43a424","servername":"telewebion.com","network":"tcp"}
-  - {"name":"Youtube顺丰资源  俄罗斯 153","type":"vless","server":"185.236.233.55","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  俄罗斯 147","type":"vless","server":"80.92.206.33","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"🇳🇱_NL_荷兰_1","type":"vless","server":"188.119.112.18","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  乌克兰 150","type":"vless","server":"95.164.3.165","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"未知_1","type":"vless","server":"103.106.2.239","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  伊朗 105","type":"vless","server":"91.107.177.96","port":2083,"uuid":"b427ed05-cc5f-4f88-ab96-f04a6e30300b","network":"ws","ws-opts":{"path":"/?ed=2048"}}
-  - {"name":"Youtube顺丰资源  荷兰 172","type":"vless","server":"188.119.112.3","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  美国 185","type":"vless","server":"85.209.153.245","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"未知_2","type":"vless","server":"103.106.2.221","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  英国 174","type":"vless","server":"45.144.29.246","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"🇳🇱_NL_荷兰_2","type":"vless","server":"188.119.113.164","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  俄罗斯 180","type":"vless","server":"77.91.122.108","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)","type":"vless","server":"77.91.122.79","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"AMS【请勿测速】_1","type":"trojan","server":"154.213.187.46","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"香港_111509070","type":"vless","server":"13.75.34.176","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"hkklo.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"hkklo.azurewebsites.net"}}}
-  - {"name":"AMS【请勿测速】_2","type":"trojan","server":"77.238.236.134","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"LAX【请勿测速】_1","type":"trojan","server":"216.38.168.120","port":50708,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"LAX【请勿测速】_2","type":"trojan","server":"129.146.46.164","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"ICN【请勿测速】_1","type":"trojan","server":"106.240.1.52","port":20443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"Youtube顺丰资源  乌克兰 151","type":"vless","server":"94.131.105.11","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"LAX【请勿测速】_3","type":"trojan","server":"185.238.248.71","port":56918,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"KR【请勿测速】","type":"vless","server":"106.242.64.238","port":30015,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"v2-3h5.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"random"}
-  - {"name":"LAX【请勿测速】_4","type":"trojan","server":"154.17.224.10","port":57496,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"Youtube顺丰资源  美国 213","type":"vless","server":"151.101.2.133","port":443,"uuid":"49652cc3-621d-5070-8d8f-9249cfd74504","tls":true,"servername":"0-ELi-V2RAY.COM","network":"ws","ws-opts":{"path":"/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=443ed=2560","headers":{"host":"0-ELi-V2RAY.COM"}}}
+  - {"name":"德国(yudou66.com 玉豆免费节点)_1","type":"vless","server":"45.63.117.50","port":443,"uuid":"fcf99985-147b-4c71-c3f2-f448e5a379f1","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"DE_分享日记","type":"vless","server":"cpanel3.sassanidempire.com","port":443,"uuid":"fcf99985-147b-4c71-c3f2-f448e5a379f1","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"US_分享日记_1","type":"vless","server":"104.26.8.43","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.xn--i-sx6a60i.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.xn--i-sx6a60i.us.kg"}}}
+  - {"name":"US_youtube@资源分享师  _9","type":"vless","server":"13.42.67.231","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"US_分享日记_2","type":"vless","server":"3.72.26.105","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"IE_youtube@资源分享师  _4","type":"trojan","server":"63.32.120.6","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"IE_youtube@资源分享师  _1","type":"trojan","server":"52.19.54.44","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪_DE_德国","type":"vless","server":"162.55.170.100","port":10102,"uuid":"ca96b955-00d1-45f7-ce1e-da6efd90e404","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"CPH【请勿测速】","type":"trojan","server":"217.110.20.141","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"15|FR_speednode_0031","type":"trojan","server":"51.44.134.174","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸_US_美国_3","type":"vless","server":"171.22.125.182","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"Youtube顺丰资源  美国 167","type":"vless","server":"151.101.2.133","port":80,"uuid":"4ea312d7-3844-4ff8-8062-ed2e03ddc2a1","servername":"scp-only.ws.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"scp-only.ws.com"}}}
-  - {"name":"美国_由快嘴科技提供：kkzui.com3","type":"vless","server":"speedtest.net","port":80,"uuid":"28db3a7c-637f-5b29-85c9-cce3cd1873c1","servername":"MOSIV2-0.IR.","network":"ws","ws-opts":{"path":"/","headers":{"host":"MOSIV2-0.IR."}}}
-  - {"name":"ICN【请勿测速】_2","type":"trojan","server":"106.242.64.238","port":30015,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"15|US_speednode_0044","type":"vless","server":"135.148.177.196","port":443,"uuid":"e20ebe01-1815-4c09-8e77-fb2f168263ce","tls":true,"servername":"147135001178.sec22org.com","network":"tcp","alpn":["h2","http/1.1"]}
+  - {"name":"法国(yudou66.com 玉豆免费节点)","type":"vmess","server":"163.5.159.231","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"irvideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"irvideo.cfd"}}}
   - {"name":"Youtube顺丰资源  伊朗 237","type":"vless","server":"213.176.126.9","port":7054,"uuid":"37b61a50-0fa7-d8b9-1f28-ecb528c7722a","servername":"","network":"tcp"}
-  - {"name":"dongtaiwang.com节点2_1","type":"vless","server":"185.22.153.73","port":25835,"udp":true,"uuid":"af7f07dc-d726-4b1e-967d-dbb6c594999f","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"JaUyzihmZ70WZdjNflneJnr99G-TXXtqDBeSNAQzHBc","short-id":"aff1f4dc"},"client-fingerprint":"chrome"}
-  - {"name":"15|US_speednode_0062","type":"vless","server":"104.22.53.235","port":80,"uuid":"b5cdabf0-e048-4fa2-90da-9379b1a4926e","servername":"cc.ailicf.us.kg","network":"ws","ws-opts":{"path":"/b5cdabf0-e04","headers":{"host":"cc.ailicf.us.kg"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"trojan","server":"168.138.142.53","port":443,"udp":true,"password":"9d0a75d2-f747-4afa-b43f-d208af9e8f9a","sni":"bz02.ssr.ee","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"dongtaiwang.com节点2_2","type":"vless","server":"185.226.172.156","port":22298,"udp":true,"uuid":"9c2c632a-c88f-478f-afea-629764427d51","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9gabR4G0GdHtht5oD1D9wSCjGs76bMT7zWEaSh6LBGM","short-id":"8e256e4d"},"client-fingerprint":"chrome"}
-  - {"name":"香港(yudou66.com 玉豆免费节点)","type":"vless","server":"scp-fasttttly.tencent.su","port":80,"uuid":"4ea312d7-3844-4ff8-8062-ed2e03ddc2a1","servername":"scp-only.ws.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"scp-only.ws.com"}}}
-  - {"name":"Youtube顺丰资源  孟加拉国 148","type":"vless","server":"103.106.2.243","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"美国(xiaozhi77.com YouTube小智分享)","type":"vless","server":"clearcreditrepair.com","port":443,"uuid":"092f6989-74a2-5deb-841c-46622fd8f96d","tls":true,"servername":"O-ELi-V2-RAY.COM","network":"ws","ws-opts":{"path":"/","headers":{"host":"O-ELi-V2-RAY.COM"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"151.101.194.133","port":80,"cipher":"auto","uuid":"3ecf9ef9-d4e7-4eb4-a16d-c6e7b2a39af4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"7707.dev","network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":"7707.dev"}}}
-  - {"name":"0|--52","type":"vmess","server":"151.101.194.133","port":443,"cipher":"auto","uuid":"545485da-9ff4-48c5-ae94-45e6e4ee7d26","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"mio.splashthat.com","network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":"6606.com"}}}
-  - {"name":"15|US_speednode_0042","type":"vless","server":"147135001178.sec22org.com","port":443,"uuid":"e20ebe01-1815-4c09-8e77-fb2f168263ce","tls":true,"network":"tcp","alpn":["h2","http/1.1"]}
-  - {"name":"未知_3","type":"ss","server":"3.v2.a.www.speedtest.net.2.op.jahesh-tolid.website","port":443,"password":"kbmwAPhErPtyfPrGFusEoF6u4zcqJK/DjOGBJLLab9I=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"ss","server":"k-r03.loveroise.com","port":54012,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_youtube@资源分享师 _2","type":"trojan","server":"13.37.115.92","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"vless","server":"147.135.4.2","port":443,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"servername":"147135004002.sec20org.com","network":"tcp"}
-  - {"name":"🇺🇸_US_美国_4","type":"vless","server":"171.22.125.181","port":2198,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","network":"tcp"}
-  - {"name":"15|US_speednode_0045","type":"vless","server":"147.135.1.195","port":443,"uuid":"ea286109-d20f-415e-849e-4af20ab04b65","tls":true,"servername":"147135001195.sec22org.com","network":"tcp","alpn":["h2","http/1.1"]}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_6","type":"vless","server":"zmaoz.faculty.ucdavis.edu","port":443,"uuid":"a9fb66d3-8d3c-492a-b14d-36fc7078f9a6","tls":true,"servername":"JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt","network":"ws","ws-opts":{"path":"/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480","headers":{"host":"JOIN.vmessorg.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.vmessorg.DDNS1-IP.nEt"}}}
-  - {"name":"LAX【请勿测速】_5","type":"trojan","server":"154.17.21.134","port":18446,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"🇺🇸_US_美国_5","type":"trojan","server":"18.159.67.87","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
-  - {"name":"AMS【请勿测速】_3","type":"trojan","server":"185.204.109.190","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"法国(yudou66.com 玉豆免费节点)_1","type":"ss","server":"h-k01.loveroise.com","port":54000,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_7","type":"ss","server":"j-p04.loveroise.com","port":54102,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_8","type":"ss","server":"h-k02.loveroise.com","port":54002,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"13|🇰🇷 韩国|@ripaojiedian_1","type":"ss","server":"k-r01.loveroise.com","port":54008,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_分享日记_1","type":"vless","server":"54.172.217.194","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
-  - {"name":"Youtube顺丰资源  美国 214","type":"vless","server":"3.28.188.217","port":19731,"uuid":"4e8e0e45-0110-4c89-b31f-a7e1562c6bf1","servername":"telewebion.com","network":"tcp"}
-  - {"name":"US_分享日记_2","type":"trojan","server":"13.43.233.119","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_分享日记_3","type":"trojan","server":"54.243.170.21","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CN_youtube@资源分享师 _30","type":"ss","server":"223.113.53.141","port":30003,"password":"91e37161-99ff-45c2-b4d9-9933e4009ad6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_9","type":"ss","server":"k-r03.loveroise.com","port":54012,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"0|--32","type":"ss","server":"194.5.215.59","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"美国_由快嘴科技提供：kkzui.com18","type":"ss","server":"52.89.164.115","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com1","type":"ss","server":"217.30.10.18","port":9001,"password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_10","type":"ss","server":"h-k02.loveroise.com","port":54002,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"法国(yudou66.com 玉豆免费节点)_2","type":"ss","server":"h-k01.loveroise.com","port":54000,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_youtube@资源分享师 _83","type":"ss","server":"62.60.217.97","port":39788,"password":"nsMBR29hC2TgriKzQ/OE918cEbx48m54EF33Lr2TYVs=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_11","type":"ss","server":"149.34.244.68","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_12","type":"ss","server":"j-p04.loveroise.com","port":54102,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"UA_ youtube@资源分享师","type":"ss","server":"188.191.147.127","port":31348,"password":"6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"0|--4_1","type":"ss","server":"169.150.210.233","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"🇷🇺_RU_俄罗斯_2","type":"ss","server":"217.30.10.18","port":9084,"password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb"}
-  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com6","type":"ss","server":"217.30.10.18","port":9079,"password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_3","type":"ss","server":"217.30.10.18","port":9045,"password":"Lp27rqyJq72bZsqX","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_4","type":"ss","server":"217.30.10.18","port":9019,"password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb"}
-  - {"name":"🇬🇧_GB_英国->🇺🇦_UA_乌克兰","type":"ss","server":"51.15.15.82","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"13|🇰🇷 韩国|@ripaojiedian_2","type":"ss","server":"k-r01.loveroise.com","port":54008,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺_RU_俄罗斯_5","type":"ss","server":"217.30.10.18","port":9026,"password":"QWDDvVE9npNurQfA","cipher":"aes-256-cfb"}
-  - {"name":"0|--3","type":"ss","server":"217.30.10.18","port":9011,"password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb"}
-  - {"name":"美国_由快嘴科技提供：kkzui.com21","type":"ss","server":"54.245.207.144","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"UA_youtube@资源分享师","type":"vless","server":"95.164.116.22","port":2501,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"ICN【请勿测速】","type":"trojan","server":"106.240.1.52","port":20443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_1","type":"trojan","server":"216.38.168.120","port":50708,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"US_youtube@资源分享师  _61","type":"trojan","server":"13.38.143.98","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"GB_youtube@资源分享师  _1","type":"vmess","server":"5.39.254.196","port":23169,"cipher":"auto","uuid":"398ce84e-4849-4e5f-9b1a-a56fbe233b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"US_分享日记_3","type":"vless","server":"13.50.142.236","port":22222,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"servername":"telegram-channel-vlessconfig.sohala.uk","network":"ws","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
+  - {"name":"LAX【请勿测速】_2","type":"trojan","server":"91.149.239.145","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"法国_由快嘴科技提供：kkzui.com165","type":"vmess","server":"irvideo.cfd","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"irvideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"irvideo.cfd"}}}
+  - {"name":"CN_youtube@资源分享师  _10_1","type":"ss","server":"gdgs.tarioblink.me","port":30003,"password":"ba9d2c35-523c-459e-b288-b7103d106d29","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"LV_youtube@资源分享师_1","type":"ss","server":"46.183.217.232","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"LAX【请勿测速】_3","type":"trojan","server":"129.146.46.164","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)_1","type":"vless","server":"194.87.11.56","port":8000,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.mifeng.us.kg"}}}
+  - {"name":"US_youtube@资源分享师  _45_1","type":"ss","server":"51.158.252.130","port":443,"password":"gfROOX8kj3xatvhQY1oPkH","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"dongtaiwang.com节点2","type":"vless","server":"185.226.172.156","port":22298,"udp":true,"uuid":"9c2c632a-c88f-478f-afea-629764427d51","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9gabR4G0GdHtht5oD1D9wSCjGs76bMT7zWEaSh6LBGM","short-id":"8e256e4d"},"client-fingerprint":"chrome"}
+  - {"name":"US_youtube@资源分享师  _4","type":"trojan","server":"13.43.115.157","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"AMS【请勿测速】_1","type":"trojan","server":"154.213.187.46","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"AMS【请勿测速】_2","type":"trojan","server":"185.204.109.190","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"AMS【请勿测速】_3","type":"trojan","server":"77.238.236.134","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_4","type":"trojan","server":"154.21.85.62","port":22353,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_5","type":"trojan","server":"20.33.30.36","port":2083,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_6","type":"trojan","server":"185.238.248.71","port":56918,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_7","type":"trojan","server":"154.17.21.134","port":18446,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"FR_youtube@资源分享师  _7","type":"trojan","server":"15.237.4.86","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳_CN_中国->🇷🇺_RU_俄罗斯","type":"vmess","server":"cm1.awslcn.info","port":25230,"cipher":"auto","uuid":"243eab52-9ac1-405c-887c-eb112c0985b8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
+  - {"name":"UA_ youtube@资源分享师_1","type":"ss","server":"188.191.147.127","port":31348,"password":"6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vless","server":"15.204.153.78","port":443,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"servername":"147135010103.sec19org.com","network":"tcp"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vless","server":"47.251.95.178","port":443,"uuid":"4c5f4cf8-b30a-4658-84bb-f0145dd123d4","tls":true,"servername":"high.work.lzg.me","network":"ws","ws-opts":{"path":"/4c5f4cf8-b30a-4658-84bb-f0145dd123d4","headers":{"host":"high.work.lzg.me"}}}
+  - {"name":"15|DE_speednode_0028","type":"trojan","server":"109.61.16.83","port":443,"udp":true,"password":"3723507166611775488","sni":"profound-elk.boa152.lol","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)_2","type":"ss","server":"185.22.155.228","port":23456,"password":"dongtaiwang.com","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_RU_俄罗斯_1","type":"ss","server":"217.30.10.18","port":9026,"password":"QWDDvVE9npNurQfA","cipher":"aes-256-cfb"}
   - {"name":"美国_由快嘴科技提供：kkzui.com34","type":"ss","server":"54.69.180.74","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian_1","type":"ss","server":"18.181.162.137","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian_2","type":"ss","server":"57.181.42.233","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇰🇷 韩国3|@ripaojiedian","type":"ss","server":"218.234.149.9","port":2105,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"新加坡_由快嘴科技提供：kkzui.com84","type":"ss","server":"52.221.190.255","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"52.79.73.137","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"0|--4_2","type":"ss","server":"43.203.122.162","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com24","type":"ss","server":"217.30.10.18","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
+  - {"name":"0|--35_1","type":"ss","server":"146.70.61.18","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
   - {"name":"俄罗斯_由快嘴科技提供：kkzui.com8","type":"ss","server":"217.30.10.18","port":9059,"password":"9XwYyZsK8SNzQDtY","cipher":"aes-256-cfb"}
-  - {"name":"中国_由快嘴科技提供：kkzui.com26","type":"ss","server":"154.197.26.237","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com13_1","type":"ss","server":"217.30.10.18","port":9020,"password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_1","type":"ss","server":"35.88.126.102","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--1","type":"ss","server":"217.30.10.18","port":9041,"password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_2","type":"ss","server":"217.30.10.18","port":9019,"password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb"}
+  - {"name":"UA_ youtube@资源分享师_2","type":"ss","server":"188.191.147.127","port":31348,"password":"6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com23","type":"ss","server":"217.30.10.18","port":9056,"password":"rNBfNuuANFCAk7KB","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com1","type":"ss","server":"217.30.10.18","port":9001,"password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com92","type":"ss","server":"217.30.10.18","port":9025,"password":"XPtzA9sCug3SPR4c","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com12","type":"ss","server":"217.30.10.18","port":9024,"password":"BejrQvtu9sqUeNuZ","cipher":"aes-256-cfb"}
+  - {"name":"🇩🇪_DE_德国->🇸🇬_SG_新加坡","type":"ss","server":"45.87.175.181","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_RU_俄罗斯_3","type":"ss","server":"89.185.85.227","port":19262,"password":"0goatjlGmKeKt9En6vfsJF","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"0|--6","type":"ss","server":"217.30.10.18","port":9050,"password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_4","type":"ss","server":"217.30.10.18","port":9038,"password":"gYCYXfkUQEs2TaJQ","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯(yudou66.com 玉豆免费节点)_3","type":"ss","server":"77.105.147.212","port":55098,"password":"NChVdloynewtqS0847jui6PQejHLO3gUuw1tnUmYVPI=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_youtube@资源分享师  _45_2","type":"ss","server":"51.158.252.130","port":443,"password":"gfROOX8kj3xatvhQY1oPkH","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"0|--32_1","type":"ss","server":"194.5.215.59","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"0|--8","type":"ss","server":"52.32.68.164","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国_由快嘴科技提供：kkzui.com4","type":"ss","server":"54.200.223.152","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com9_1","type":"ss","server":"217.30.10.18","port":9037,"password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb"}
+  - {"name":"美国_由快嘴科技提供：kkzui.com143","type":"ss","server":"35.92.45.179","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"35.85.36.208","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--10","type":"ss","server":"34.219.132.251","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸_US_美国->🇧🇬_BG_保加利亚","type":"ss","server":"35.93.31.33","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--36","type":"ss","server":"34.213.242.165","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--3","type":"ss","server":"217.30.10.18","port":9011,"password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"ss","server":"208.67.105.87","port":42501,"password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_RU_俄罗斯_5","type":"ss","server":"217.30.10.18","port":9045,"password":"Lp27rqyJq72bZsqX","cipher":"aes-256-cfb"}
+  - {"name":"🇹🇷_TR_土耳其","type":"ss","server":"185.123.101.241","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com13_2","type":"ss","server":"217.30.10.18","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_6","type":"ss","server":"217.30.10.18","port":9084,"password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb"}
+  - {"name":"0|--56","type":"ss","server":"43.203.127.152","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"美国_由快嘴科技提供：kkzui.com16","type":"ss","server":"34.219.80.203","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇰🇷 韩国2|@ripaojiedian","type":"ss","server":"112.213.102.228","port":4231,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-  - {"name":"0|--5","type":"ss","server":"13.250.115.217","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian","type":"ss","server":"54.238.219.226","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_6","type":"ss","server":"217.30.10.18","port":9003,"password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
-  - {"name":"0|--26","type":"ss","server":"79.110.53.169","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
-  - {"name":"未知_4","type":"ss","server":"3.v2.a.www.speedtest.net.2.op.jahesh-tolid.website","port":443,"password":"kbmwAPhErPtyfPrGFusEoF6u4zcqJK/DjOGBJLLab9I=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡_由快嘴科技提供：kkzui.com111","type":"ss","server":"68.183.227.45","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇺🇸_US_美国_3","type":"ss","server":"54.186.92.34","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"ss","server":"apple.slumbo.com","port":443,"password":"LuxyNetBot","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"ss","server":"23.88.37.31","port":443,"password":"LuxyNetBot","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"LV_youtube@资源分享师_2","type":"ss","server":"46.183.217.232","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_RU_俄罗斯_7","type":"ss","server":"217.30.10.18","port":9010,"password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb"}
+  - {"name":"0|--4_1","type":"ss","server":"169.150.210.233","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
+  - {"name":"🇷🇺_RU_俄罗斯_8","type":"ss","server":"217.30.10.18","port":9042,"password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"英国_由快嘴科技提供：kkzui.com61","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺_RU_俄罗斯_9","type":"ss","server":"217.30.10.18","port":9014,"password":"KnJGad3FqTvjqbaX","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺_RU_俄罗斯_10","type":"ss","server":"217.30.10.18","port":9060,"password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com6","type":"ss","server":"217.30.10.18","port":9079,"password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧_GB_英国->🇺🇦_UA_乌克兰","type":"ss","server":"51.15.15.82","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"俄罗斯_由快嘴科技提供：kkzui.com9_2","type":"ss","server":"217.30.10.18","port":9006,"password":"FAdUvMJUq5vDgKEq","cipher":"aes-256-cfb"}
+  - {"name":"0|--32_2","type":"ss","server":"p239.panda004.net","port":3231,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"德国(yudou66.com 玉豆免费节点)_2","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian_1","type":"ss","server":"54.249.152.9","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--63","type":"ss","server":"125.141.26.14","port":40244,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"美国_由快嘴科技提供：kkzui.com21","type":"ss","server":"54.245.207.144","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian_1","type":"ss","server":"3.112.236.3","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--34","type":"ss","server":"107.155.57.11","port":8080,"password":"14fFPrbezE3HDZzsMOr6","cipher":"rc4-md5"}
   - {"name":"俄罗斯_由快嘴科技提供：kkzui.com26","type":"ss","server":"217.30.10.18","port":9094,"password":"rpgbNnU9rDDU4aWZ","cipher":"aes-256-cfb"}
+  - {"name":"0|--5_1","type":"ss","server":"34.222.136.128","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--43","type":"ss","server":"210.217.18.70","port":3231,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"0|--35_2","type":"ss","server":"35.85.33.177","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"俄罗斯_由快嘴科技提供：kkzui.com78","type":"ss","server":"217.30.10.18","port":9018,"password":"fG2artUmHfNT2cX7","cipher":"aes-256-cfb"}
-  - {"name":"13|🇸🇬 新加坡2|@ripaojiedian","type":"ss","server":"s-g04.loveroise.com","port":54030,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_youtube@资源分享师_176","type":"ss","server":"198.105.123.190","port":46902,"password":"2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_13","type":"ss","server":"208.67.105.87","port":42501,"password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"0|--4_2","type":"ss","server":"43.203.122.162","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--5_2","type":"ss","server":"3.35.206.24","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--46","type":"ss","server":"168.126.234.232","port":25415,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"13|🇰🇷 韩国3|@ripaojiedian","type":"ss","server":"218.234.149.9","port":2105,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"13|🇰🇷 韩国2|@ripaojiedian","type":"ss","server":"112.213.102.228","port":4231,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"0|--64","type":"ss","server":"221.150.109.90","port":41748,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"13|🇰🇷 韩国特殊|@ripaojiedian","type":"ss","server":"52.79.73.137","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--71","type":"ss","server":"168.126.234.233","port":40915,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"美国_由快嘴科技提供：kkzui.com116","type":"ss","server":"3.38.212.48","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian_2","type":"ss","server":"18.181.162.137","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--69","type":"ss","server":"p229.panda004.net","port":40244,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"0|--65","type":"ss","server":"p230.panda004.net","port":41748,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"0|--4_3","type":"ss","server":"54.178.84.59","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"13|🇯🇵 日本特殊|@ripaojiedian_3","type":"ss","server":"43.207.232.228","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"0|--48","type":"ss","server":"43.206.231.196","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"CN_youtube@资源分享师  _10_2","type":"ss","server":"gdgs.tarioblink.me","port":30003,"password":"ba9d2c35-523c-459e-b288-b7103d106d29","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本_由快嘴科技提供：kkzui.com97","type":"ss","server":"52.194.212.235","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本_由快嘴科技提供：kkzui.com56","type":"ss","server":"54.178.191.236","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian_2","type":"ss","server":"52.69.160.222","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"CN_youtube@资源分享师 _71","type":"ss","server":"154.90.63.193","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_youtube@资源分享师  _21","type":"ss","server":"gtm1.ktmwan.net","port":27277,"password":"d5aefe53-0e37-41c3-af76-74ebd0120124","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"13|🇸🇬 狮城特殊|@ripaojiedian_3","type":"ss","server":"54.238.219.226","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"中国_由快嘴科技提供：kkzui.com26","type":"ss","server":"154.197.26.237","port":8388,"password":"asd123456","cipher":"chacha20-ietf"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -911,116 +1023,132 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 15|KZ_speednode_0046
-      - 🇷🇺_RU_俄罗斯_1
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - Youtube顺丰资源  美国 163
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - Youtube顺丰资源  德国 131
-      - Youtube顺丰资源  法国 121
-      - Youtube顺丰资源  俄罗斯 153
-      - Youtube顺丰资源  俄罗斯 147
-      - 🇳🇱_NL_荷兰_1
-      - Youtube顺丰资源  乌克兰 150
-      - 未知_1
-      - Youtube顺丰资源  伊朗 105
-      - Youtube顺丰资源  荷兰 172
-      - Youtube顺丰资源  美国 185
-      - 未知_2
-      - Youtube顺丰资源  英国 174
-      - 🇳🇱_NL_荷兰_2
-      - Youtube顺丰资源  俄罗斯 180
-      - 俄罗斯(yudou66.com 玉豆免费节点)
-      - AMS【请勿测速】_1
-      - 香港_111509070
-      - AMS【请勿测速】_2
-      - LAX【请勿测速】_1
-      - LAX【请勿测速】_2
-      - ICN【请勿测速】_1
-      - Youtube顺丰资源  乌克兰 151
-      - LAX【请勿测速】_3
-      - KR【请勿测速】
-      - LAX【请勿测速】_4
-      - Youtube顺丰资源  美国 213
-      - CPH【请勿测速】
-      - 15|FR_speednode_0031
-      - 🇺🇸_US_美国_3
-      - Youtube顺丰资源  美国 167
-      - 美国_由快嘴科技提供：kkzui.com3
-      - ICN【请勿测速】_2
-      - 15|US_speednode_0044
-      - Youtube顺丰资源  伊朗 237
-      - dongtaiwang.com节点2_1
-      - 15|US_speednode_0062
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - dongtaiwang.com节点2_2
-      - 香港(yudou66.com 玉豆免费节点)
-      - Youtube顺丰资源  孟加拉国 148
-      - 美国(xiaozhi77.com YouTube小智分享)
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 0|--52
-      - 15|US_speednode_0042
-      - 未知_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - US_youtube@资源分享师 _2
-      - 美国(yudou66.com 玉豆免费节点)_5
-      - 🇺🇸_US_美国_4
-      - 15|US_speednode_0045
-      - 美国(yudou66.com 玉豆免费节点)_6
-      - LAX【请勿测速】_5
-      - 🇺🇸_US_美国_5
-      - AMS【请勿测速】_3
-      - 法国(yudou66.com 玉豆免费节点)_1
-      - 美国(yudou66.com 玉豆免费节点)_7
-      - 美国(yudou66.com 玉豆免费节点)_8
-      - 13|🇰🇷 韩国|@ripaojiedian_1
+      - 德国(yudou66.com 玉豆免费节点)_1
+      - DE_分享日记
       - US_分享日记_1
-      - Youtube顺丰资源  美国 214
+      - US_youtube@资源分享师  _9
       - US_分享日记_2
+      - IE_youtube@资源分享师  _4
+      - IE_youtube@资源分享师  _1
+      - 🇩🇪_DE_德国
+      - CPH【请勿测速】
+      - 法国(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  伊朗 237
+      - UA_youtube@资源分享师
+      - ICN【请勿测速】
+      - LAX【请勿测速】_1
+      - US_youtube@资源分享师  _61
+      - GB_youtube@资源分享师  _1
       - US_分享日记_3
-      - CN_youtube@资源分享师 _30
-      - 美国(yudou66.com 玉豆免费节点)_9
-      - 0|--32
-      - 美国_由快嘴科技提供：kkzui.com18
-      - 俄罗斯_由快嘴科技提供：kkzui.com1
-      - 美国(yudou66.com 玉豆免费节点)_10
-      - 法国(yudou66.com 玉豆免费节点)_2
-      - CN_youtube@资源分享师 _83
-      - 美国(yudou66.com 玉豆免费节点)_11
-      - 美国(yudou66.com 玉豆免费节点)_12
-      - UA_ youtube@资源分享师
-      - 0|--4_1
-      - 🇷🇺_RU_俄罗斯_2
-      - 俄罗斯_由快嘴科技提供：kkzui.com6
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
-      - 13|🇰🇷 韩国|@ripaojiedian_2
-      - 🇷🇺_RU_俄罗斯_5
-      - 0|--3
-      - 美国_由快嘴科技提供：kkzui.com21
+      - LAX【请勿测速】_2
+      - 法国_由快嘴科技提供：kkzui.com165
+      - CN_youtube@资源分享师  _10_1
+      - LV_youtube@资源分享师_1
+      - LAX【请勿测速】_3
+      - 俄罗斯(yudou66.com 玉豆免费节点)_1
+      - US_youtube@资源分享师  _45_1
+      - dongtaiwang.com节点2
+      - US_youtube@资源分享师  _4
+      - AMS【请勿测速】_1
+      - AMS【请勿测速】_2
+      - AMS【请勿测速】_3
+      - LAX【请勿测速】_4
+      - LAX【请勿测速】_5
+      - LAX【请勿测速】_6
+      - LAX【请勿测速】_7
+      - FR_youtube@资源分享师  _7
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+      - UA_ youtube@资源分享师_1
+      - 美国(yudou66.com 玉豆免费节点)_1
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 15|DE_speednode_0028
+      - 俄罗斯(yudou66.com 玉豆免费节点)_2
+      - 🇷🇺_RU_俄罗斯_1
       - 美国_由快嘴科技提供：kkzui.com34
-      - 13|🇯🇵 日本特殊|@ripaojiedian_1
-      - 13|🇯🇵 日本特殊|@ripaojiedian_2
-      - 13|🇰🇷 韩国3|@ripaojiedian
-      - 新加坡_由快嘴科技提供：kkzui.com84
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 0|--4_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com24
+      - 0|--35_1
       - 俄罗斯_由快嘴科技提供：kkzui.com8
-      - 中国_由快嘴科技提供：kkzui.com26
-      - 美国_由快嘴科技提供：kkzui.com16
-      - 13|🇰🇷 韩国2|@ripaojiedian
-      - 0|--5
-      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_1
+      - 🇺🇸_US_美国_1
+      - 0|--1
+      - 🇷🇺_RU_俄罗斯_2
+      - UA_ youtube@资源分享师_2
+      - 俄罗斯_由快嘴科技提供：kkzui.com23
+      - 俄罗斯_由快嘴科技提供：kkzui.com1
+      - 俄罗斯_由快嘴科技提供：kkzui.com92
+      - 俄罗斯_由快嘴科技提供：kkzui.com12
+      - 🇩🇪_DE_德国->🇸🇬_SG_新加坡
+      - 🇷🇺_RU_俄罗斯_3
+      - 0|--6
+      - 🇷🇺_RU_俄罗斯_4
+      - 俄罗斯(yudou66.com 玉豆免费节点)_3
+      - US_youtube@资源分享师  _45_2
+      - 0|--32_1
+      - 0|--8
+      - 美国_由快嘴科技提供：kkzui.com4
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_1
+      - 美国_由快嘴科技提供：kkzui.com143
+      - 🇺🇸_US_美国_2
+      - 0|--10
+      - 🇺🇸_US_美国->🇧🇬_BG_保加利亚
+      - 0|--36
+      - 0|--3
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 🇷🇺_RU_俄罗斯_5
+      - 🇹🇷_TR_土耳其
+      - 俄罗斯_由快嘴科技提供：kkzui.com13_2
       - 🇷🇺_RU_俄罗斯_6
-      - 0|--26
-      - 未知_4
+      - 0|--56
+      - 美国_由快嘴科技提供：kkzui.com16
+      - 新加坡_由快嘴科技提供：kkzui.com111
+      - 🇺🇸_US_美国_3
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 美国(yudou66.com 玉豆免费节点)_5
+      - LV_youtube@资源分享师_2
+      - 🇷🇺_RU_俄罗斯_7
+      - 0|--4_1
+      - 🇷🇺_RU_俄罗斯_8
+      - 英国_由快嘴科技提供：kkzui.com61
+      - 🇷🇺_RU_俄罗斯_9
+      - 🇷🇺_RU_俄罗斯_10
+      - 俄罗斯_由快嘴科技提供：kkzui.com6
+      - 🇬🇧_GB_英国->🇺🇦_UA_乌克兰
+      - 俄罗斯_由快嘴科技提供：kkzui.com9_2
+      - 0|--32_2
+      - 德国(yudou66.com 玉豆免费节点)_2
+      - 13|🇯🇵 日本特殊|@ripaojiedian_1
+      - 0|--63
+      - 美国_由快嘴科技提供：kkzui.com21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_1
+      - 0|--34
       - 俄罗斯_由快嘴科技提供：kkzui.com26
+      - 0|--5_1
+      - 0|--43
+      - 0|--35_2
       - 俄罗斯_由快嘴科技提供：kkzui.com78
-      - 13|🇸🇬 新加坡2|@ripaojiedian
-      - US_youtube@资源分享师_176
-      - 美国(yudou66.com 玉豆免费节点)_13
+      - 0|--4_2
+      - 0|--5_2
+      - 0|--46
+      - 13|🇰🇷 韩国3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 0|--64
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 0|--71
+      - 美国_由快嘴科技提供：kkzui.com116
+      - 13|🇯🇵 日本特殊|@ripaojiedian_2
+      - 0|--69
+      - 0|--65
+      - 0|--4_3
+      - 13|🇯🇵 日本特殊|@ripaojiedian_3
+      - 0|--48
+      - CN_youtube@资源分享师  _10_2
+      - 日本_由快嘴科技提供：kkzui.com97
+      - 日本_由快嘴科技提供：kkzui.com56
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_2
+      - CN_youtube@资源分享师 _71
+      - CN_youtube@资源分享师  _21
+      - 13|🇸🇬 狮城特殊|@ripaojiedian_3
+      - 中国_由快嘴科技提供：kkzui.com26
 
 rules:
 # 本地/局域网地址
