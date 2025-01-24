@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-01-17 15:15:25
+# 创建时间：2025-01-24 15:03:22
 # 使用模版：V2RaySE 默认模版
-# 节点数量：47
+# 节点数量：14
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,52 +86,19 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"US_ youtube@资源分享师_99","type":"vless","server":"harlan.ns.cloudflare.com","port":443,"uuid":"d5ad8973-f4da-4b90-bcfc-77013494c753","tls":true,"servername":"dtgf6c.alligator27.com","network":"ws","ws-opts":{"path":"/wss","headers":{"host":"dtgf6c.alligator27.com"}}}
-  - {"name":"🇸🇪SE-90.226.80.135-6088","type":"ss","server":"homa.cybsecguru.com","port":55551,"password":"UNJXwrcb3vkdQbR6P5VGHA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇿AZ-94.20.141.173-6022","type":"ss","server":"94.20.141.173","port":443,"password":"Txj30LibF3Mn5FOvQBuJFV","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺_RU_俄罗斯","type":"trojan","server":"195.133.93.81","port":443,"udp":true,"password":"3723507166611775488","sni":"sensible-ocelot.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1","type":"vless","server":"aliyun.2096.us.kg","port":443,"uuid":"70c2e363-a934-4ea5-9e29-7cadd817194c","tls":true,"servername":"v2-3h5.pages.dev","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"v2-3h5.pages.dev"}},"alpn":["http/1.1"],"client-fingerprint":"random"}
-  - {"name":"US_youtube@资源分享师      _44","type":"vless","server":"104.21.30.21","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"🇷🇺_RU_俄罗斯->🇩🇪_DE_德国","type":"trojan","server":"195.133.93.63","port":443,"udp":true,"password":"3723507166611775488","sni":"correct-redbird.boa152.lol","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2","type":"trojan","server":"aliyun.2096.us.kg","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"LAX【请勿测速】_1","type":"trojan","server":"154.21.85.62","port":22353,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"🇨🇭CH-91.103.253.151-6084","type":"ss","server":"91.103.253.151","port":19057,"password":"UQggIxCSCABoBALH599HxE","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_youtube@资源分享师      _13","type":"vless","server":"104.21.30.5","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_youtube@资源分享师      _65","type":"vless","server":"103.21.244.190","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"15|US_speednode_0044","type":"vless","server":"198.41.205.44","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"US_youtube@资源分享师      _94","type":"vless","server":"173.245.49.53","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"🇦🇹AT-95.164.36.59-6095","type":"ss","server":"at1.opensocks.site","port":8388,"password":"ZmQwZjFk","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"LAX【请勿测速】_2","type":"trojan","server":"20.33.30.36","port":2083,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"15|US_speednode_0037","type":"vless","server":"198.41.199.226","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"a.mifeng.us.kg","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.mifeng.us.kg"}}}
-  - {"name":"🇮🇸IS-89.221.224.166-6085","type":"ss","server":"89.221.224.166","port":8388,"password":"MDZhNTAz","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_youtube@资源分享师      _7","type":"vless","server":"104.22.52.235","port":80,"uuid":"b5cdabf0-e048-4fa2-90da-9379b1a4926e","tls":false,"servername":"cc.ailicf.us.kg","network":"ws","ws-opts":{"path":"/b5cdabf0-e04","headers":{"host":"cc.ailicf.us.kg"}}}
-  - {"name":"15|IN_speednode_0020","type":"trojan","server":"5.8.35.208","port":443,"udp":true,"password":"3648425794742788096","sni":"loving-boa.treefrog761.one","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇲🇩MD-45.140.146.223-6081_1","type":"ss","server":"45.140.146.223","port":8388,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"AMS【请勿测速】_1","type":"trojan","server":"185.204.109.190","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"US_ youtube@资源分享师_100","type":"vless","server":"chloe.ns.cloudflare.com","port":443,"uuid":"92794752-e42f-4aae-a0c3-25f750472b74","tls":true,"servername":"gga1bx.fivegravity.com","network":"ws","ws-opts":{"path":"/wss","headers":{"host":"gga1bx.fivegravity.com"}}}
-  - {"name":"Youtube顺丰资源  香港 98","type":"ss","server":"mmt-shyd.iwe.la","port":46461,"password":"e2c62a73-3132-48a6-a020-25c3ae0d8af2","cipher":"aes-128-gcm"}
   - {"name":"🇺🇸US-64.74.163.130-5797","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇩MD-45.140.146.223-6081_2","type":"ss","server":"45.140.146.223","port":8388,"password":"YjJiYzBj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"DE_ youtube@资源分享师_9","type":"ss","server":"45.87.175.171","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"unKnow_youtube@资源分享师      _1","type":"vless","server":"138.199.154.143","port":8880,"uuid":"6b970ff3-ebb2-4a32-96c2-cb3cbbd75e05","tls":false,"network":"grpc"}
-  - {"name":"US_youtube@资源分享师      _69","type":"vless","server":"x2swe-amazon.thanks-devefun-team-omg-i-needed-free-c-im-sure-you-are-the-bes.link","port":8080,"uuid":"b1f200fe-7452-4001-bc91-829dfbbcf631","tls":false,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"IR_youtube@资源分享师      _5","type":"vless","server":"37.27.202.141","port":8880,"uuid":"202d4c1f-b173-4a3b-9dce-d401115a5ef9","tls":false,"network":"grpc"}
+  - {"name":"AMS【请勿测速】_1","type":"trojan","server":"185.204.109.190","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"US_分享日记_1","type":"vless","server":"172.66.44.68","port":443,"uuid":"87ced8c4-b4d4-4c7b-ba67-11b78833a1b6","tls":true,"servername":"37c60f8d.ALBAnGURaKUqi.paGEs.dEv","network":"ws","ws-opts":{"path":"/telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420?ed=2560","headers":{"host":"37c60f8d.ALBAnGURaKUqi.paGEs.dEv"}}}
+  - {"name":"LAX【请勿测速】_1","type":"trojan","server":"20.33.30.36","port":2083,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
   - {"name":"AMS【请勿测速】_2","type":"trojan","server":"77.238.236.134","port":8443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"美国(yudou66.com 玉豆免费节点)","type":"vless","server":"20.206.176.5","port":443,"uuid":"6f995056-7802-4a1d-bff7-61678e626c3f","tls":true,"servername":"dhfthyt6.azurewebsites.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"dhfthyt6.azurewebsites.net"}}}
-  - {"name":"unKnow_ youtube@资源分享师_1","type":"trojan","server":"naiu-jp.05vr9nyqg5.download","port":13012,"udp":true,"password":"e279c494-c426-443a-a034-a04516409242","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"LAX【请勿测速】_3","type":"trojan","server":"91.149.239.145","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"AMS【请勿测速】_3","type":"trojan","server":"154.213.187.46","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"US_分享日记_2","type":"vless","server":"135.148.195.57","port":443,"uuid":"ea286109-d20f-415e-849e-4af20ab04b65","tls":true,"servername":"147135001195.sec22org.com","network":"tcp"}
+  - {"name":"US_youtube@资源分享师      _93","type":"vless","server":"94.131.111.195","port":443,"uuid":"2d7c7aa5-364a-4dbb-937a-f8e4f5f73007","tls":true,"servername":"de4.connecton.surf","network":"ws","ws-opts":{"path":"/vless"}}
+  - {"name":"LAX【请勿测速】_2","type":"trojan","server":"206.119.79.247","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"美国_由快嘴科技提供：kkzui.com30","type":"vmess","server":"sg2.cowvpn.org","port":443,"cipher":"auto","uuid":"11a805f2-41a7-4cd8-8406-0470c3cde0d3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg2cf.cowvpn.org","network":"ws","ws-opts":{"path":"/cctv13/vmess_sg2cf","headers":{"host":"sg2cf.cowvpn.org"}}}
   - {"name":"CPH【请勿测速】","type":"trojan","server":"217.110.20.141","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
-  - {"name":"13|🇭🇰 香港6|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":15011,"password":"2N0M0MMOXEJMXKPN","cipher":"aes-256-gcm"}
-  - {"name":"13|🇭🇰 香港7|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":15003,"password":"2MT8DJ2LPPCI5PH8","cipher":"aes-256-gcm"}
-  - {"name":"13,14|台湾|@ripaojiedian","type":"trojan","server":"naiu-other.05vr9nyqg5.download","port":13035,"udp":true,"password":"e279c494-c426-443a-a034-a04516409242","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"13|🇸🇬 新加坡4|@ripaojiedian","type":"ss","server":"ti3hyra4.slashdevslashnetslashtun.net","port":16014,"password":"H5IGGU6EPG7XR7X4","cipher":"aes-256-gcm"}
-  - {"name":"DE_ youtube@资源分享师_2","type":"trojan","server":"52.59.115.238","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_ youtube@资源分享师_52","type":"trojan","server":"13.36.22.144","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"FR_ youtube@资源分享师_3","type":"trojan","server":"15.236.83.175","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"DE_ youtube@资源分享师_3","type":"trojan","server":"3.123.181.28","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US_分享日记_1","type":"vless","server":"135.148.195.57","port":443,"uuid":"ea286109-d20f-415e-849e-4af20ab04b65","tls":true,"servername":"147135001195.sec22org.com","network":"tcp"}
-  - {"name":"US_分享日记_2","type":"vless","server":"172.66.44.68","port":443,"uuid":"87ced8c4-b4d4-4c7b-ba67-11b78833a1b6","tls":true,"servername":"37c60f8d.ALBAnGURaKUqi.paGEs.dEv","network":"ws","ws-opts":{"path":"/telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420,telegram-@expressvpn_420?ed=2560","headers":{"host":"37c60f8d.ALBAnGURaKUqi.paGEs.dEv"}}}
+  - {"name":"LAX【请勿测速】_3","type":"trojan","server":"91.149.239.122","port":443,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"LAX【请勿测速】_4","type":"trojan","server":"154.21.85.62","port":22353,"udp":true,"password":"tianxiaweishuang","sni":"tj2-5dt.pages.dev","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tj2-5dt.pages.dev"}},"alpn":["http/1.1"]}
+  - {"name":"法国(yudou66.com 玉豆免费节点)","type":"vmess","server":"163.5.159.231","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"irvideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"irvideo.cfd"}}}
   - {"name":"US_分享日记_3","type":"vless","server":"135.148.182.1","port":443,"uuid":"ea286109-d20f-415e-849e-4af20ab04b65","tls":true,"servername":"147135001195.sec22org.com","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -139,52 +106,19 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: ♻️ 自动选择
     type: url-test
@@ -192,52 +126,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: 🌍 国外媒体
     type: select
@@ -245,208 +146,76 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
   - name: 🎯 全球直连
     type: select
@@ -470,52 +239,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_ youtube@资源分享师_99
-      - 🇸🇪SE-90.226.80.135-6088
-      - 🇦🇿AZ-94.20.141.173-6022
-      - 🇷🇺_RU_俄罗斯
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_1
-      - US_youtube@资源分享师      _44
-      - 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
-      - 官方🌐发布🌐群组：t.me/sLian90【请勿测速】_2
-      - LAX【请勿测速】_1
-      - 🇨🇭CH-91.103.253.151-6084
-      - US_youtube@资源分享师      _13
-      - US_youtube@资源分享师      _65
-      - 15|US_speednode_0044
-      - US_youtube@资源分享师      _94
-      - 🇦🇹AT-95.164.36.59-6095
-      - LAX【请勿测速】_2
-      - 15|US_speednode_0037
-      - 🇮🇸IS-89.221.224.166-6085
-      - US_youtube@资源分享师      _7
-      - 15|IN_speednode_0020
-      - 🇲🇩MD-45.140.146.223-6081_1
-      - AMS【请勿测速】_1
-      - US_ youtube@资源分享师_100
-      - Youtube顺丰资源  香港 98
       - 🇺🇸US-64.74.163.130-5797
-      - 🇲🇩MD-45.140.146.223-6081_2
-      - DE_ youtube@资源分享师_9
-      - unKnow_youtube@资源分享师      _1
-      - US_youtube@资源分享师      _69
-      - IR_youtube@资源分享师      _5
-      - AMS【请勿测速】_2
-      - 美国(yudou66.com 玉豆免费节点)
-      - unKnow_ youtube@资源分享师_1
-      - LAX【请勿测速】_3
-      - AMS【请勿测速】_3
-      - CPH【请勿测速】
-      - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇭🇰 香港7|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇸🇬 新加坡4|@ripaojiedian
-      - DE_ youtube@资源分享师_2
-      - US_ youtube@资源分享师_52
-      - FR_ youtube@资源分享师_3
-      - DE_ youtube@资源分享师_3
+      - AMS【请勿测速】_1
       - US_分享日记_1
+      - LAX【请勿测速】_1
+      - AMS【请勿测速】_2
       - US_分享日记_2
+      - US_youtube@资源分享师      _93
+      - LAX【请勿测速】_2
+      - 美国_由快嘴科技提供：kkzui.com30
+      - CPH【请勿测速】
+      - LAX【请勿测速】_3
+      - LAX【请勿测速】_4
+      - 法国(yudou66.com 玉豆免费节点)
       - US_分享日记_3
 
 rules:
