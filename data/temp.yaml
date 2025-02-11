@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-02-11 15:00:16
+# 创建时间：2025-02-11 15:04:54
 # 使用模版：V2RaySE 默认模版
 # 节点数量：10
 ####################################
@@ -86,109 +86,109 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"ss","server":"ru.fastsoonlink.com","port":40031,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮_FI_芬兰->🇨🇳_CN_中国","type":"trojan","server":"next-hippo.treefrog761.one","port":443,"udp":true,"password":"3774827088566296576","sni":"next-hippo.treefrog761.one","skip-cert-verify":false}
-  - {"name":"🇮🇹_IT_意大利","type":"ss","server":"37.143.129.230","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"🇷🇺_RU_俄罗斯_1","type":"vless","server":"46.226.162.83","port":4811,"uuid":"ef860ee9-e31c-454e-9096-961f05c6e119","tls":false,"network":"tcp"}
-  - {"name":"🇬🇧_GB_英国","type":"ss","server":"77.239.99.180","port":34775,"password":"nHDhqhjSzmrCNUeRalyPwQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺_RU_俄罗斯_2","type":"vless","server":"46.226.162.83","port":4811,"uuid":"ef860ee9-e31c-454e-9096-961f05c6e119","tls":false,"network":"tcp"}
-  - {"name":"🇨🇳_CN_中国->🇵🇱_PL_波兰","type":"ss","server":"pr.fastsoonlink.com","port":40030,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱_NL_荷兰->🇺🇸_US_美国","type":"ss","server":"45.158.171.110","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸_US_美国","type":"ss","server":"38.68.135.239","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"🇷🇺_RU_俄罗斯_3","type":"ss","server":"89.221.224.166","port":8388,"password":"NjBlZDlk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_1","type":"ss","server":"38.68.135.239","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺_RU_俄罗斯","type":"ss","server":"89.221.224.166","port":8388,"password":"NjBlZDlk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_2","type":"ss","server":"38.86.135.223","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇪🇸_ES_西班牙_1","type":"ss","server":"150.241.97.216","port":26039,"password":"gj1dvw15nnjIyMSjSficeC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸_US_美国_3","type":"vless","server":"104.17.147.22","port":2052,"uuid":"ff6eadb1-c587-580f-9270-589371b70d94","tls":false,"servername":"sPeedtest2.sbs.ch2.vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"sPeedtest2.sbs.ch2.vless.sitespeedtest.net"}}}
+  - {"name":"🇺🇦_UA_乌克兰","type":"ss","server":"95.164.68.37","port":8388,"password":"OTBkYmFk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇪🇸_ES_西班牙_2","type":"ss","server":"150.241.97.216","port":26039,"password":"gj1dvw15nnjIyMSjSficeC","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱_NL_荷兰","type":"ss","server":"45.158.171.136","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳_CN_中国->🇹🇷_TR_土耳其","type":"ss","server":"tur.fastsoonlink.com","port":40019,"password":"65abdb1c-1cdf-4630-a32b-8ae566b48c00","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,16 +211,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇫🇮_FI_芬兰->🇨🇳_CN_中国
-      - 🇮🇹_IT_意大利
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇬🇧_GB_英国
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇨🇳_CN_中国->🇵🇱_PL_波兰
       - 🇳🇱_NL_荷兰->🇺🇸_US_美国
-      - 🇺🇸_US_美国
-      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_1
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇪🇸_ES_西班牙_1
+      - 🇺🇸_US_美国_3
+      - 🇺🇦_UA_乌克兰
+      - 🇪🇸_ES_西班牙_2
+      - 🇳🇱_NL_荷兰
+      - 🇨🇳_CN_中国->🇹🇷_TR_土耳其
 
 rules:
 # 本地/局域网地址
