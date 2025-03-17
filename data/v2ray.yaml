@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-03-12 18:33:06
+# 创建时间：2025-03-17 15:44:11
 # 使用模版：V2RaySE 默认模版
-# 节点数量：31
+# 节点数量：22
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,256 +86,193 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"14|SC_speednode_0049","type":"vless","server":"154.83.2.156","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"中国_由快嘴科技提供:kkzui.com13","type":"vmess","server":"120.210.205.59","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"中国_由快嘴科技提供:kkzui.com6","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vless","server":"join.mosiv2.fastly80-3.hosting-ip.com","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"join--bede-----mosiv2.ir","network":"ws","ws-opts":{"path":"/MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560","headers":{"host":"join--bede-----mosiv2.ir"}}}
-  - {"name":"10|Channel id: @ShadowProxy66 🇩🇪 ...","type":"hysteria2","server":"161.97.108.42","port":44140,"password":"MICPT1LLn6","skip-cert-verify":true,"obfs-password":"hsdirhrrkskdhebdjdj"}
-  - {"name":"科技网络 🇸🇪","type":"vless","server":"185.146.173.112","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
-  - {"name":"中国_由快嘴科技提供：kkzui.com7","type":"vmess","server":"120.26.55.225","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇺🇸_1","type":"vless","server":"156.238.18.48","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"183.236.51.38","port":41699,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"中国","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"14|NL_speednode_0029","type":"vless","server":"45.149.12.183","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"中国_由快嘴科技提供：kkzui.com3","type":"vmess","server":"112.132.215.12","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vmess","server":"120.232.153.40","port":44550,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"vless","server":"151.101.2.165","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"Join--E-L-i-V-2-R-A-Y.net","network":"ws","ws-opts":{"path":"/channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY","headers":{"host":"Join--E-L-i-V-2-R-A-Y.net"}}}
-  - {"name":"Youtube顺丰资源  荷兰 110","type":"vless","server":"185.170.166.242","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram@V2ray_Alpha","headers":{"host":"photographipictureai.ir"}}}
-  - {"name":"科技网络 🇺🇸_2","type":"vless","server":"156.238.18.153","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"12|🇸🇬 新加坡4|@ripaojiedian","type":"ss","server":"5.223.55.99","port":8388,"password":"eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"科技网络 🇺🇸_3","type":"vless","server":"15.204.151.50","port":443,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"servername":"147135010103.sec19org.com","network":"tcp"}
-  - {"name":"1,14|SC_speednode_0051","type":"vless","server":"154.83.2.228","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"美国_由快嘴科技提供：kkzui.com108","type":"vless","server":"104.17.148.22","port":2052,"uuid":"e5a39804-7573-595d-b427-3b4ec4475f75","tls":false,"servername":"sPeedtest2.sbs.rs1.vless.sitespeedtest.net","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"sPeedtest2.sbs.rs1.vless.sitespeedtest.net"}}}
-  - {"name":"UA_分享日记","type":"ss","server":"95.164.68.37","port":1443,"password":"ZDljYmNh","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"LT_youtube@资源分享师 _1","type":"vless","server":"84.32.131.21","port":8880,"uuid":"df0680ca-e43c-498d-ed86-8e196eedd012","tls":false,"network":"grpc"}
-  - {"name":"Youtube顺丰资源  丹麦 163","type":"vless","server":"195.85.59.155","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
-  - {"name":"美国(yudou66.com 玉豆免费节点)_5","type":"trojan","server":"104.17.148.22","port":443,"udp":true,"password":"Pooria","sni":"301.pOORiAm.ir","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trPyOrWMfkHd15oxiI","headers":{"host":"301.pooriam.ir"}}}
   - {"name":"日本(yudou66.com 玉豆免费节点)","type":"vless","server":"156.238.18.165","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"2,12|🇭🇰 香港2|@ripaojiedian","type":"ss","server":"hk01.x.quickcht3.club","port":52611,"password":"2be0c954-4291-45ea-b47d-ca713180550b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Youtube顺丰资源  香港 115","type":"ss","server":"58.19.16.228","port":52611,"password":"2be0c954-4291-45ea-b47d-ca713180550b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_分享日记","type":"vless","server":"147.135.10.103","port":443,"uuid":"3b9bc773-05eb-4d5f-8c1f-57342c0c4f40","tls":true,"servername":"147135010103.sec19org.com","network":"tcp"}
-  - {"name":"伊朗","type":"ss","server":"sgp.fastsoonlink.com","port":40005,"password":"3FB23A19-9424-40C7-9139-3540228283FA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"科技网络 🇺🇸_1","type":"vless","server":"156.238.18.48","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"中国_由快嘴科技提供:kkzui.com6","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国_由快嘴科技提供：kkzui.com7","type":"vmess","server":"120.26.55.225","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Youtube顺丰资源  美国 147","type":"vless","server":"156.238.18.95","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"中国","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国_由快嘴科技提供:kkzui.com13","type":"vmess","server":"120.210.205.59","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇸🇪","type":"vless","server":"185.146.173.112","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
+  - {"name":"Youtube顺丰资源  丹麦 163","type":"vless","server":"195.85.59.155","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
+  - {"name":"14|SC_speednode_0050","type":"vless","server":"154.83.2.230","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"14|NL_speednode_0029","type":"vless","server":"45.149.12.183","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
   - {"name":"中国_由快嘴科技提供:kkzui.com5","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Youtube顺丰资源  美国 53","type":"vless","server":"156.238.18.208","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_2","type":"vless","server":"156.238.18.153","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"Youtube顺丰资源  美国 114","type":"vless","server":"156.238.18.60","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"Youtube顺丰资源  美国 156","type":"vless","server":"156.238.18.246","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"1,14|SC_speednode_0051","type":"vless","server":"154.83.2.228","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"14|SC_speednode_0049","type":"vless","server":"154.83.2.156","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"中国_由快嘴科技提供：kkzui.com3","type":"vmess","server":"112.132.215.12","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"CN_youtube@资源分享师_13","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16012,"password":"B5CJMEHJMSMNQ120","cipher":"aes-256-gcm"}
+  - {"name":"香港(yudou66.com 玉豆免费节点)","type":"vmess","server":"183.236.51.38","port":53902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"12|🇹🇼 台湾2|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":21002,"password":"ECOQAU8O56QGBV28","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -358,37 +295,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14|SC_speednode_0049
-      - 中国_由快嘴科技提供:kkzui.com13
-      - 中国_由快嘴科技提供:kkzui.com6
-      - 美国(yudou66.com 玉豆免费节点)_1
-      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
-      - 科技网络 🇸🇪
-      - 中国_由快嘴科技提供：kkzui.com7
-      - 科技网络 🇺🇸_1
-      - 美国(yudou66.com 玉豆免费节点)_2
-      - 中国
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供：kkzui.com3
-      - 美国(yudou66.com 玉豆免费节点)_3
-      - 美国(yudou66.com 玉豆免费节点)_4
-      - Youtube顺丰资源  荷兰 110
-      - 科技网络 🇺🇸_2
-      - 12|🇸🇬 新加坡4|@ripaojiedian
-      - 科技网络 🇺🇸_3
-      - 1,14|SC_speednode_0051
-      - 美国_由快嘴科技提供：kkzui.com108
-      - UA_分享日记
-      - LT_youtube@资源分享师 _1
-      - Youtube顺丰资源  丹麦 163
-      - 美国(yudou66.com 玉豆免费节点)_5
       - 日本(yudou66.com 玉豆免费节点)
-      - 2,12|🇭🇰 香港2|@ripaojiedian
-      - Youtube顺丰资源  香港 115
-      - US_分享日记
-      - 伊朗
+      - 科技网络 🇺🇸_1
+      - 中国_由快嘴科技提供:kkzui.com6
+      - 中国_由快嘴科技提供：kkzui.com7
+      - Youtube顺丰资源  美国 147
+      - 中国
+      - 中国_由快嘴科技提供:kkzui.com13
+      - 科技网络 🇸🇪
+      - Youtube顺丰资源  丹麦 163
+      - 14|SC_speednode_0050
+      - 14|NL_speednode_0029
       - 中国_由快嘴科技提供:kkzui.com5
+      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_2
+      - Youtube顺丰资源  美国 114
+      - Youtube顺丰资源  美国 156
+      - 1,14|SC_speednode_0051
+      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供：kkzui.com3
       - CN_youtube@资源分享师_13
+      - 香港(yudou66.com 玉豆免费节点)
+      - 12|🇹🇼 台湾2|@ripaojiedian
 
 rules:
 # 本地/局域网地址
