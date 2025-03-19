@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-03-17 15:44:40
+# 创建时间：2025-03-20 00:21:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：56
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,193 +86,431 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"日本(yudou66.com 玉豆免费节点)","type":"vless","server":"156.238.18.165","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"科技网络 🇺🇸_1","type":"vless","server":"156.238.18.48","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
   - {"name":"中国_由快嘴科技提供:kkzui.com6","type":"vmess","server":"183.236.51.36","port":59003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"10|Channel id: @ShadowProxy66 🇩🇪 ...","type":"hysteria2","server":"161.97.108.42","port":44140,"password":"MICPT1LLn6","skip-cert-verify":true,"obfs-password":"hsdirhrrkskdhebdjdj"}
   - {"name":"中国_由快嘴科技提供：kkzui.com7","type":"vmess","server":"120.26.55.225","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Youtube顺丰资源  美国 147","type":"vless","server":"156.238.18.95","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"中国","type":"vmess","server":"47.104.186.133","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"中国_由快嘴科技提供:kkzui.com13","type":"vmess","server":"120.210.205.59","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"科技网络 🇸🇪","type":"vless","server":"185.146.173.112","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
-  - {"name":"Youtube顺丰资源  丹麦 163","type":"vless","server":"195.85.59.155","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
-  - {"name":"14|SC_speednode_0050","type":"vless","server":"154.83.2.230","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"14|NL_speednode_0029","type":"vless","server":"45.149.12.183","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_1","type":"vless","server":"156.238.18.48","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_1","type":"vless","server":"45.131.4.147","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"301.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram@WangCai2/?ed=2560","headers":{"host":"301.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_2","type":"vmess","server":"108.186.31.113","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.32675228.xyz","network":"ws","ws-opts":{"path":"/path/1742598471721","headers":{"host":"www.32675228.xyz"}}}
   - {"name":"中国_由快嘴科技提供:kkzui.com5","type":"vmess","server":"47.92.152.169","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Youtube顺丰资源  美国 53","type":"vless","server":"156.238.18.208","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"科技网络 🇺🇸_2","type":"vless","server":"156.238.18.153","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"Youtube顺丰资源  美国 114","type":"vless","server":"156.238.18.60","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"Youtube顺丰资源  美国 156","type":"vless","server":"156.238.18.246","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"1,14|SC_speednode_0051","type":"vless","server":"154.83.2.228","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
-  - {"name":"14|SC_speednode_0049","type":"vless","server":"154.83.2.156","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇸🇪","type":"vless","server":"185.146.173.112","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
+  - {"name":"科技网络 🇯🇵_1","type":"vless","server":"156.238.19.169","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_3","type":"vless","server":"156.238.18.153","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_4","type":"vmess","server":"137.175.39.202","port":38002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.88096134.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.88096134.xyz"}}}
+  - {"name":"usa-ny-ws02","type":"trojan","server":"108.162.198.165","port":443,"udp":true,"password":"bb64051d-e8d6-43b7-bacf-ba0eaf3facd5","sni":"ssp1.100896.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws02yshare6688","headers":{"host":"ssp1.100896.xyz"}}}
+  - {"name":"Anqiqii-LosA-grpc分享节点","type":"trojan","server":"ssloa1.100896.xyz","port":443,"udp":true,"password":"bb64051d-e8d6-43b7-bacf-ba0eaf3facd5","sni":"ssloa1.100896.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpcvip8690"}}
+  - {"name":"科技网络 🇺🇸_5","type":"vmess","server":"192.74.231.213","port":37002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.57277774.xyz","network":"ws","ws-opts":{"path":"/path/1742788157991","headers":{"host":"www.57277774.xyz"}}}
+  - {"name":"科技网络 🇯🇵_2","type":"vless","server":"156.238.18.235","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_2","type":"vmess","server":"120.232.153.63","port":40102,"cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"科技网络 🇯🇵_3","type":"vless","server":"156.238.19.135","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"🇷🇺_RU_俄罗斯->🇺🇸_US_美国","type":"vless","server":"46.254.93.124","port":8080,"uuid":"0f9f0500-01a2-49a6-b67b-d1b38913ba2c","tls":false,"servername":"sNaPp.MaStErSrV.ir.","network":"ws","ws-opts":{"path":"/","headers":{"host":"sNaPp.MaStErSrV.ir."}}}
+  - {"name":"科技网络 🇯🇵_4","type":"vless","server":"156.238.19.136","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇯🇵_5","type":"vless","server":"156.238.19.124","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇯🇵_6","type":"vless","server":"156.238.19.194","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"Youtube顺丰资源  荷兰 110","type":"vless","server":"185.170.166.242","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram@V2ray_Alpha","headers":{"host":"photographipictureai.ir"}}}
+  - {"name":"科技网络 🇯🇵_7","type":"vless","server":"156.238.18.12","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"日本(yudou66.com 玉豆免费节点)","type":"vless","server":"156.238.18.165","port":2052,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2048","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"Youtube顺丰资源  美国 147","type":"vless","server":"156.238.18.95","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_6","type":"vmess","server":"64.32.1.254","port":30000,"cipher":"auto","uuid":"c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.39676427.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.39676427.xyz"}}}
+  - {"name":"usa-ny-grpc02","type":"trojan","server":"172.67.152.188","port":443,"udp":true,"password":"bb64051d-e8d6-43b7-bacf-ba0eaf3facd5","sni":"ssp1.100896.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpcshareqz6588"}}
   - {"name":"中国_由快嘴科技提供：kkzui.com3","type":"vmess","server":"112.132.215.12","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇱🇹_LT_立陶宛->🇺🇸_US_美国","type":"vless","server":"86.38.214.30","port":8080,"uuid":"0f9f0500-01a2-49a6-b67b-d1b38913ba2c","tls":false,"servername":"sNaPp.MaStErSrV.ir.","network":"ws","ws-opts":{"path":"/","headers":{"host":"sNaPp.MaStErSrV.ir."}}}
+  - {"name":"Anqiqii_youtube分享","type":"trojan","server":"ssp1.100896.xyz","port":443,"udp":true,"password":"bb64051d-e8d6-43b7-bacf-ba0eaf3facd5","sni":"ssp1.100896.xyz","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws02yshare6688","headers":{"host":"ssp1.100896.xyz"}}}
+  - {"name":"🇨🇳_CN_中国->🇺🇸_US_美国","type":"vless","server":"154.197.121.138","port":8080,"uuid":"0f9f0500-01a2-49a6-b67b-d1b38913ba2c","tls":false,"servername":"sNaPp.MaStErSrV.ir.","network":"ws","ws-opts":{"path":"/","headers":{"host":"sNaPp.MaStErSrV.ir."}}}
+  - {"name":"科技网络 🇯🇵_8","type":"vless","server":"156.238.19.147","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"2|🇺🇸1 |  4.0MB/s","type":"trojan","server":"192.3.130.103","port":443,"udp":true,"password":"576c81b6-4976-4fe3-b1a9-05a9c302e98e","sni":"us10-01zl.huangshang.filegear-sg.me","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"i8oL7PsxV002zYFTmiIeg"}}
+  - {"name":"科技网络 🇺🇸_7","type":"vmess","server":"67.21.82.19","port":30001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.52602402.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.52602402.xyz"}}}
+  - {"name":"🇺🇸_US_美国","type":"trojan","server":"socepy.homeofbrave.net","port":443,"udp":true,"password":"3wXO97Y83a9ynFAgyajxxpz6qeSSCu6z3C3RDwTNYcDZyCAFglBE3ANDFA0e7SFaIlDOq","sni":"socepy.homeofbrave.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_3","type":"vless","server":"156.238.18.14","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"1,14|SC_speednode_0051","type":"vless","server":"154.83.2.228","port":8880,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"Youtube顺丰资源  丹麦 163","type":"vless","server":"195.85.59.155","port":8880,"uuid":"f6bd2c47-99da-4bca-bf70-7186aa9e7e06","tls":false,"servername":"photographipictureai.ir","network":"ws","ws-opts":{"path":"/Telegram","headers":{"host":"photographipictureai.ir"}}}
+  - {"name":"@meli_proxyy","type":"vless","server":"104.17.148.22","port":2096,"uuid":"838f5273-5d2d-4630-a0f5-9cc8e4aef4d6","tls":true,"servername":"FuMzLrHj.kOrTiZ.InFo","network":"ws","ws-opts":{"path":"/","headers":{"host":"FuMzLrHj.kOrTiZ.InFo"}}}
   - {"name":"CN_youtube@资源分享师_13","type":"ss","server":"w72tapyb.slashdevslashnetslashtun.net","port":16012,"password":"B5CJMEHJMSMNQ120","cipher":"aes-256-gcm"}
+  - {"name":"科技网络 🇯🇵_9","type":"vless","server":"156.238.18.2","port":80,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"Telegram🇨🇳@WangCai2/?ed=2560","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_8","type":"vmess","server":"38.11.49.61","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.45700497.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.45700497.xyz"}}}
   - {"name":"香港(yudou66.com 玉豆免费节点)","type":"vmess","server":"183.236.51.38","port":53902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"12|🇹🇼 台湾2|@ripaojiedian","type":"ss","server":"qh62onjn.slashdevslashnetslashtun.net","port":21002,"password":"ECOQAU8O56QGBV28","cipher":"aes-256-gcm"}
+  - {"name":"科技网络 🇺🇸_9","type":"vmess","server":"107.167.7.9","port":31000,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.31878068.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.31878068.xyz"}}}
+  - {"name":"科技网络 🇺🇸_10","type":"vmess","server":"107.167.7.8","port":31000,"cipher":"auto","uuid":"bdee202c-8fae-441f-a588-7bc4d3887019","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.31878068.xyz","network":"ws","ws-opts":{"path":"/path/1742598471721","headers":{"host":"www.31878068.xyz"}}}
+  - {"name":"科技网络 🇺🇸_11","type":"vmess","server":"107.167.31.116","port":31004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.34250201.xyz","network":"ws","ws-opts":{"path":"/path/1742500879021","headers":{"host":"www.34250201.xyz"}}}
+  - {"name":"科技网络 🇺🇸_12","type":"vmess","server":"38.33.56.53","port":37001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.36790472.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.36790472.xyz"}}}
+  - {"name":"科技网络 🇺🇸_13","type":"vmess","server":"38.33.57.22","port":38003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.38118322.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.38118322.xyz"}}}
+  - {"name":"科技网络 🇺🇸_14","type":"vmess","server":"192.74.224.171","port":37002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.68584158.xyz","network":"ws","ws-opts":{"path":"/path/1742587807399","headers":{"host":"www.68584158.xyz"}}}
+  - {"name":"科技网络 🇺🇸_15","type":"vmess","server":"38.11.69.47","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54846389.xyz","network":"ws","ws-opts":{"path":"/path/1742788157991","headers":{"host":"www.54846389.xyz"}}}
+  - {"name":"@meli_proxyyسرورای‌بیشتر","type":"vless","server":"156.238.18.28","port":2095,"uuid":"53fa8faf-ba4b-4322-9c69-a3e5b1555049","tls":false,"servername":"redw.pooriam.ir","network":"ws","ws-opts":{"path":"/","headers":{"host":"redw.pooriam.ir"}}}
+  - {"name":"科技网络 🇺🇸_16","type":"vmess","server":"38.11.50.66","port":31007,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.65420682.xyz","network":"ws","ws-opts":{"path":"/path/1742788157991","headers":{"host":"www.65420682.xyz"}}}
+  - {"name":"usa-ny-grpc05","type":"trojan","server":"141.101.120.10","port":443,"udp":true,"password":"bb64051d-e8d6-43b7-bacf-ba0eaf3facd5","sni":"ssp2.100896.xyz","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpcshareqz6588"}}
+  - {"name":"美国(yudou66.com 玉豆免费节点)_4","type":"vless","server":"135.148.206.182","port":443,"uuid":"54694a33-a8dc-47dd-bc38-acd3971e0055","tls":true,"servername":"147135004002.sec20org.com","network":"tcp"}
+  - {"name":"科技网络 🇺🇸_17","type":"vmess","server":"107.167.28.204","port":31001,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.32969216.xyz","network":"ws","ws-opts":{"path":"/path/1742788157991","headers":{"host":"www.32969216.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,28 +533,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(yudou66.com 玉豆免费节点)
-      - 科技网络 🇺🇸_1
       - 中国_由快嘴科技提供:kkzui.com6
+      - '10|Channel id: @ShadowProxy66 🇩🇪 ...'
       - 中国_由快嘴科技提供：kkzui.com7
-      - Youtube顺丰资源  美国 147
-      - 中国
       - 中国_由快嘴科技提供:kkzui.com13
-      - 科技网络 🇸🇪
-      - Youtube顺丰资源  丹麦 163
-      - 14|SC_speednode_0050
-      - 14|NL_speednode_0029
-      - 中国_由快嘴科技提供:kkzui.com5
-      - Youtube顺丰资源  美国 53
+      - 科技网络 🇺🇸_1
+      - 美国(yudou66.com 玉豆免费节点)_1
       - 科技网络 🇺🇸_2
-      - Youtube顺丰资源  美国 114
-      - Youtube顺丰资源  美国 156
-      - 1,14|SC_speednode_0051
-      - 14|SC_speednode_0049
+      - 中国_由快嘴科技提供:kkzui.com5
+      - 科技网络 🇸🇪
+      - 科技网络 🇯🇵_1
+      - 科技网络 🇺🇸_3
+      - 科技网络 🇺🇸_4
+      - usa-ny-ws02
+      - Anqiqii-LosA-grpc分享节点
+      - 科技网络 🇺🇸_5
+      - 科技网络 🇯🇵_2
+      - 美国(yudou66.com 玉豆免费节点)_2
+      - 科技网络 🇯🇵_3
+      - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+      - 科技网络 🇯🇵_4
+      - 科技网络 🇯🇵_5
+      - 科技网络 🇯🇵_6
+      - Youtube顺丰资源  荷兰 110
+      - 科技网络 🇯🇵_7
+      - 日本(yudou66.com 玉豆免费节点)
+      - Youtube顺丰资源  美国 147
+      - 科技网络 🇺🇸_6
+      - usa-ny-grpc02
       - 中国_由快嘴科技提供：kkzui.com3
+      - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
+      - Anqiqii_youtube分享
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 科技网络 🇯🇵_8
+      - 2|🇺🇸1 |  4.0MB/s
+      - 科技网络 🇺🇸_7
+      - 🇺🇸_US_美国
+      - 美国(yudou66.com 玉豆免费节点)_3
+      - 1,14|SC_speednode_0051
+      - Youtube顺丰资源  丹麦 163
+      - '@meli_proxyy'
       - CN_youtube@资源分享师_13
+      - 科技网络 🇯🇵_9
+      - 科技网络 🇺🇸_8
       - 香港(yudou66.com 玉豆免费节点)
-      - 12|🇹🇼 台湾2|@ripaojiedian
+      - 科技网络 🇺🇸_9
+      - 科技网络 🇺🇸_10
+      - 科技网络 🇺🇸_11
+      - 科技网络 🇺🇸_12
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_14
+      - 科技网络 🇺🇸_15
+      - '@meli_proxyyسرورای‌بیشتر'
+      - 科技网络 🇺🇸_16
+      - usa-ny-grpc05
+      - 美国(yudou66.com 玉豆免费节点)_4
+      - 科技网络 🇺🇸_17
 
 rules:
 # 本地/局域网地址
