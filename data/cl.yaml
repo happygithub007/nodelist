@@ -1,12 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-04-07 14:36:32
-# 使用模版：ACL4SSR_Online_Full.ini
+# 创建时间：2025-04-07 14:40:10
+# 使用模版：V2RaySE 默认模版
 # 节点数量：156
-# 节点类型：hysteria2, ss, vmess
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -248,17 +247,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
       - DIRECT
-  - name: 🚀 手动切换
-    type: select
-    proxies:
       - 🇭🇰 中国-香港-HY-001-1C
       - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
@@ -577,179 +566,658 @@ proxy-groups:
       - 🇮🇳 印度1
       - 🇺🇸 美国NO.1
       - 🇻🇳 越南中转 01-1B
-  - name: 📲 电报消息
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 💬 Ai平台
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📹 油管视频
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🎥 奈飞视频
-    type: select
-    proxies:
-      - 🎥 奈飞节点
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📺 巴哈姆特
-    type: select
-    proxies:
-      - 🇨🇳 台湾节点
-      - 🚀 节点选择
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📺 哔哩哔哩
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 🌏 国内媒体
+      - 🎯 全球直连
+      - 🇭🇰 中国-香港-HY-001-1C
+      - XM-CSK
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
+      - 🇻🇳 越南01
+      - 🇰🇷 韩国 专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+      - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+      - 🇭🇰 中国-香港-001-1B
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港NO.2
+      - 🇺🇸 美国中转 02-1A
+      - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
+      - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
+  - name: 📲 电报信息
     type: select
     proxies:
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: Ⓜ️ 微软Bing
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: Ⓜ️ 微软云盘
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
+      - 🎯 全球直连
+      - 🇭🇰 中国-香港-HY-001-1C
+      - XM-CSK
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
+      - 🇻🇳 越南01
+      - 🇰🇷 韩国 专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+      - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+      - 🇭🇰 中国-香港-001-1B
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港NO.2
+      - 🇺🇸 美国中转 02-1A
+      - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
+      - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - DIRECT
+      - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
+      - 🇭🇰 中国-香港-HY-001-1C
+      - XM-CSK
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
+      - 🇻🇳 越南01
+      - 🇰🇷 韩国 专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+      - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+      - 🇭🇰 中国-香港-001-1B
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港NO.2
+      - 🇺🇸 美国中转 02-1A
+      - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
+      - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - DIRECT
       - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🎶 网易音乐
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 中国-香港-HY-001-1C
+      - XM-CSK
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
+      - 🇻🇳 越南01
+      - 🇰🇷 韩国 专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+      - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+      - 🇭🇰 中国-香港-001-1B
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港NO.2
+      - 🇺🇸 美国中转 02-1A
+      - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
+      - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
-  - name: 🛑 广告拦截
+  - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
@@ -763,158 +1231,164 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - 🎯 全球直连
       - ♻️ 自动选择
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🇭🇰 香港节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
       - 🇭🇰 中国-香港-HY-001-1C
+      - XM-CSK
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
       - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
       - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
       - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
+      - 🇻🇳 越南01
+      - 🇰🇷 韩国 专线NO1
+      - 🇯🇵 日本NO.1
+      - 🇦🇪 阿联酋中转 01-1B
       - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
       - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
       - 🇭🇰 香港01-1A
       - 🇭🇰 香港中转 03-1A
-      - 🇭🇰 香港03-1B
-      - 🇭🇰 香港中转 04-1A
-      - 🇭🇰 香港06-备用
-      - 🇭🇰 中国-香港-001-1C
-      - 🇭🇰 香港02专线
-      - 🇭🇰 中国-香港-001-1B
-      - 🇭🇰 香港NO.2
-      - 🇭🇰 香港
-      - 🇭🇰 香港02
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇭🇰 香港中转 04-1B
-      - 🇭🇰 香港04-备用
-      - 🇭🇰 香港中转 02-1B
-      - 🇭🇰 中国-香港-HY-001-1A
-      - 🇭🇰 香港中转 01-1A
-      - 🇭🇰 香港中转 03-1B
-      - 🇭🇰 中国-香港-001-1A
-      - 🇭🇰 香港03-1A
-  - name: 🇯🇵 日本节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇯🇵 日本中转 03-1B
-      - 🇯🇵 日本中转 04-1A
-      - 🇯🇵 日本04
-      - 🇯🇵 日本NO.1
-      - 🇯🇵 日本03
-      - 🇯🇵 日本中转 02-1B
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01-1A
-      - 🇯🇵 日本中转 03-1A
-      - 🇯🇵 日本中转 01-1A
-      - 🇯🇵 日本中转 05-1A
-      - 🇯🇵 日本中转 02-1A
-      - 🇯🇵 日本中转 04-1B
-      - 🇯🇵 日本中转 05-1B
-      - 🇯🇵 日本NO.2
-      - 🇯🇵 日本01-1B
-      - 🇯🇵 日本中转 01-1B
-  - name: 🇺🇲 美国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-    proxies:
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇺🇸 美国中转 01-1B
-      - 🇺🇸 美国 纽约01
+      - 🇦🇪 阿联酋中转 01-1A
       - 🇺🇸 美国中转 03-1A
       - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
       - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
       - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
       - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
       - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
       - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
       - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
       - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
       - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
       - 🇺🇸 美国-拉斯维加斯-002-1B
       - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇺🇸 美国中转 02-1A
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国 纽约2
-      - 🇺🇸 美国中转 02-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇺🇸 美国NO.2
-      - 🇺🇸 美国04
-      - 🇺🇸 美国NO.1
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇹🇼 台湾01专线
-      - 🇹🇼 台湾中转 03-1A
-      - 🇹🇼 台湾中转 02-1A
-      - 🇹🇼 台湾 1
-      - 🇹🇼 台湾中转 01-1A
-      - 🇹🇼 台湾2
-      - 🇹🇼 台湾中转 04-1B
-      - 🇹🇼 台湾1
-      - 🇹🇼 台湾中转 03-1B
       - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+      - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+      - 🇭🇰 中国-香港-001-1B
       - 🇹🇼 台湾中转 01-1B
       - 🇹🇼 台湾02-备用
-      - 🇹🇼 台湾03-备用
-      - 🇹🇼 台湾中转 05-1A
-      - 🇹🇼 台湾01
-      - 🇹🇼 台湾中转 04-1A
-      - 🇹🇼 台湾中转 05-1B
-      - 🇹🇼 台湾中转 02-1B
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇸🇬 新加坡中转 03-1B
-      - 🇸🇬 新加坡中转 04-1A
-      - 🇸🇬 新加坡中转 05-1A
-      - 🇸🇬 新加坡01专线
-      - 🇸🇬 新加坡中转 02-1A
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡NO.1
-      - 🇸🇬 新加坡NO.2
-      - 🇸🇬 新加坡中转 01-1B
-      - 🇸🇬 新加坡中转 05-1B
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
+      - 🇭🇰 香港NO.2
+      - 🇺🇸 美国中转 02-1A
+      - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
       - 🇸🇬 新加坡中转 03-1A
       - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
       - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
+      - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
       - 🇸🇬 新加坡中转 04-1B
-  - name: 🇰🇷 韩国节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇰🇷 韩国 专线NO2
-      - 🇰🇷 韩国 专线NO1
-  - name: 🎥 奈飞节点
-    type: select
-    proxies: []
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
 
 rule-providers:
   LocalAreaNetwork:
@@ -924,13 +1398,6 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/LocalAreaNetwork.list
-  UnBan:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/UnBan.list
   BanAD:
     type: http
     behavior: classical
@@ -945,13 +1412,6 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/BanProgramAD.list
-  GoogleFCM:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/GoogleFCM.list
   GoogleCN:
     type: http
     behavior: classical
@@ -966,20 +1426,6 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/SteamCN.list
-  Bing:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Bing.list
-  OneDrive:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/OneDrive.list
   Microsoft:
     type: http
     behavior: classical
@@ -994,111 +1440,6 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/Apple.list
-  Telegram:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Telegram.list
-  AI:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/AI.list
-  OpenAi:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/OpenAi.list
-  NetEaseMusic:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/NetEaseMusic.list
-  Epic:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Epic.list
-  Origin:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Origin.list
-  Sony:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Sony.list
-  Steam:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Steam.list
-  Nintendo:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Nintendo.list
-  YouTube:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/YouTube.list
-  Netflix:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Netflix.list
-  Bahamut:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Bahamut.list
-  BilibiliHMT:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/BilibiliHMT.list
-  Bilibili:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Bilibili.list
-  ChinaMedia:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/ChinaMedia.list
   ProxyMedia:
     type: http
     behavior: classical
@@ -1106,13 +1447,20 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/ProxyMedia.list
-  ProxyGFWlist:
+  Telegram:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
     format: text
     interval: 3600
-    path: ./ACL4SSR/ACL4SSR/ProxyGFWlist.list
+    path: ./ACL4SSR/ACL4SSR/Telegram.list
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/ProxyLite.list
   ChinaDomain:
     type: http
     behavior: classical
@@ -1127,49 +1475,23 @@ rule-providers:
     format: text
     interval: 3600
     path: ./ACL4SSR/ACL4SSR/ChinaCompanyIp.list
-  Download:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-    format: text
-    interval: 3600
-    path: ./ACL4SSR/ACL4SSR/Download.list
 rules:
   - RULE-SET,LocalAreaNetwork,🎯 全球直连
-  - RULE-SET,UnBan,🎯 全球直连
-  - RULE-SET,BanAD,🛑 广告拦截
+  - RULE-SET,BanAD,🛑 全球拦截
   - RULE-SET,BanProgramAD,🍃 应用净化
-  - RULE-SET,GoogleFCM,📢 谷歌FCM
   - RULE-SET,GoogleCN,🎯 全球直连
   - RULE-SET,SteamCN,🎯 全球直连
-  - RULE-SET,Bing,Ⓜ️ 微软Bing
-  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
   - RULE-SET,Microsoft,Ⓜ️ 微软服务
   - RULE-SET,Apple,🍎 苹果服务
-  - RULE-SET,Telegram,📲 电报消息
-  - RULE-SET,AI,💬 Ai平台
-  - RULE-SET,OpenAi,💬 Ai平台
-  - RULE-SET,NetEaseMusic,🎶 网易音乐
-  - RULE-SET,Epic,🎮 游戏平台
-  - RULE-SET,Origin,🎮 游戏平台
-  - RULE-SET,Sony,🎮 游戏平台
-  - RULE-SET,Steam,🎮 游戏平台
-  - RULE-SET,Nintendo,🎮 游戏平台
-  - RULE-SET,YouTube,📹 油管视频
-  - RULE-SET,Netflix,🎥 奈飞视频
-  - RULE-SET,Bahamut,📺 巴哈姆特
-  - RULE-SET,BilibiliHMT,📺 哔哩哔哩
-  - RULE-SET,Bilibili,📺 哔哩哔哩
-  - RULE-SET,ChinaMedia,🌏 国内媒体
   - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
 # 长风网站，自动注入
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
   - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
-  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ProxyLite,🚀 节点选择
   - RULE-SET,ChinaDomain,🎯 全球直连
   - RULE-SET,ChinaCompanyIp,🎯 全球直连
-  - RULE-SET,Download,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
