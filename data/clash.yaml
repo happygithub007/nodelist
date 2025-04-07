@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-04-06 16:43:36
+# 创建时间：2025-04-07 14:22:31
 # 使用模版：V2RaySE 默认模版
-# 节点数量：139
+# 节点数量：156
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,1012 +86,1131 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇭🇰 香港03","type":"ss","server":"gy.tangu.win","port":45635,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 台湾中转 01","type":"ss","server":"chiyu.myfczy169.top","port":50555,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 新加坡中转 03","type":"ss","server":"chiyu.myfczy169.top","port":37958,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-HY-001-1C","type":"hysteria2","server":"103.136.150.2","port":33000,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇺🇸 美国-纽约-F2-001-1C","type":"vmess","server":"207.90.237.179","port":22015,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵 日本中转 04","type":"ss","server":"chiyu2.myfczy169.top","port":39886,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1B","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇭🇰 中国-香港-HY-001-1B","type":"hysteria2","server":"103.136.150.2","port":33000,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇹🇼 台湾中转 03","type":"ss","server":"chiyu.myfczy169.top","port":41512,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-HY-F2-001-1A","type":"hysteria2","server":"212.192.12.73","port":32053,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇭🇰 香港中转 05","type":"ss","server":"chiyu2.myfczy169.top","port":19055,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 台湾中转 02","type":"ss","server":"chiyu.myfczy169.top","port":25710,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 台湾01专线","type":"ss","server":"iepl.ytxfx.xyz","port":45632,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45052,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇮🇳 印度中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21061,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1A","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇹🇼 台湾02-备用","type":"ss","server":"qqa813.198139.xyz","port":11125,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇪 阿联酋中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21059,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 香港中转 02","type":"ss","server":"chiyu.myfczy169.top","port":19946,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 日本中转 03","type":"ss","server":"chiyu.myfczy169.top","port":49821,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 新加坡中转 01","type":"ss","server":"chiyu.myfczy169.top","port":26867,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-纽约-HY-F2-001-1B","type":"hysteria2","server":"207.90.237.179","port":32051,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇹🇷 土耳其中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21048,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-F2-001-1C","type":"vmess","server":"212.192.12.73","port":22036,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1B","type":"vmess","server":"176.32.39.240","port":22000,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇲🇾 马来西亚专线NO1","type":"vmess","server":"haa.dashuai.cyou","port":45058,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇬🇧 英国中转 01","type":"ss","server":"chiyu.myfczy169.top","port":26480,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳 越南01","type":"ss","server":"gy.tangu.win","port":13642,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺 澳大利亚原生1","type":"vmess","server":"haa.dashuai.cyou","port":45062,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇧🇷 巴西4-IP6","type":"vmess","server":"2603:c021:c006:3fee:8575:5336:6f66:6900","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"br.vp1000.net","network":"ws","ws-opts":{"path":"/pulicpDisney","headers":{"host":"br.vp1000.net"}}}
-  - {"name":"🇺🇸 美国中转 03","type":"ss","server":"chiyu.myfczy169.top","port":50563,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 英国中转 02","type":"ss","server":"chiyu.myfczy169.top","port":19115,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1B","type":"hysteria2","server":"176.32.39.240","port":31000,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1C","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇺🇸 美国NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45053,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 中国-香港-F1-001-1B","type":"vmess","server":"212.192.12.56","port":21055,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸 美国6","type":"vmess","server":"us156.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cp100vp800kkkdsnx","headers":{"host":"us148.vp1000.net"}}}
-  - {"name":"🇹🇼 台湾2","type":"vmess","server":"xdd.dashuai.cyou","port":45077,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵 日本2","type":"vmess","server":"ip4-jp2.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpaylfastpDisney","headers":{"host":"ip4-jp2.vp1000.net"}}}
-  - {"name":"🇺🇸 美国5","type":"vmess","server":"us155.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cp100vp800kkkdsnx","headers":{"host":"us148.vp1000.net"}}}
-  - {"name":"🇭🇰 中国-香港-HY-F2-001-1C","type":"hysteria2","server":"212.192.12.73","port":32053,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇧🇷 巴西3","type":"vmess","server":"144.22.216.68","port":8443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"br3.vp1000.net","network":"ws","ws-opts":{"path":"/pulicpDisney","headers":{"host":"br3.vp1000.net"}}}
-  - {"name":"🇯🇵 日本3-IP6","type":"vmess","server":"ip6-jp1.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpaylfastpDisney","headers":{"host":"ip4-jp1.vp1000.net"}}}
-  - {"name":"🇺🇸 美国-纽约-HY-F2-001-1C","type":"hysteria2","server":"207.90.237.179","port":32051,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇬🇧 英国2","type":"vmess","server":"xdd.dashuai.cyou","port":45067,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 中国-香港-HY-F1-001-1B","type":"hysteria2","server":"212.192.12.56","port":31003,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇹🇭 泰国NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45061,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇦🇺 澳大利亚原生2","type":"vmess","server":"xdd.dashuai.cyou","port":45063,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬 新加坡NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45054,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇲🇾 马来西亚中转 01","type":"ss","server":"chiyu.myfczy169.top","port":20119,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-F2-001-1A","type":"vmess","server":"212.192.12.73","port":22036,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸 美国02","type":"ss","server":"gy.tangu.win","port":45628,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇾 马来西亚专线NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45059,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 美国4","type":"vmess","server":"us148.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cp100vp800kkkdsnx","headers":{"host":"us148.vp1000.net"}}}
-  - {"name":"🇮🇳 印度3-IP6","type":"vmess","server":"ip6-in3.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicfastpDisney","headers":{"host":"ip4-in4.vp1000.net"}}}
-  - {"name":"🇬🇧 英国中转 03","type":"ss","server":"chiyu.myfczy169.top","port":57329,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国04","type":"ss","server":"gy.tangu.win","port":38722,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-HY-F1-001-1A","type":"hysteria2","server":"212.192.12.56","port":31003,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇭🇰 香港中转 03","type":"ss","server":"chiyu.myfczy169.top","port":54804,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇳 印度2","type":"vmess","server":"xdd.dashuai.cyou","port":45073,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 美国-纽约-F2-001-1A","type":"vmess","server":"207.90.237.179","port":22015,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"哈撒哈斯坦中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21081,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-HY-F1-001-1C","type":"hysteria2","server":"212.192.12.56","port":31003,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇸🇬 新加坡中转 05","type":"ss","server":"chiyu2.myfczy169.top","port":57141,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-F1-001-1A","type":"vmess","server":"212.192.12.56","port":21055,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1C","type":"hysteria2","server":"176.32.39.240","port":31000,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇺🇸 美国-拉斯维加斯-002-1B","type":"vmess","server":"45.147.201.231","port":23061,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰 香港中转 01","type":"ss","server":"chiyu.myfczy169.top","port":54016,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 日本01","type":"ss","server":"gy.tangu.win","port":38726,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1C","type":"vmess","server":"176.32.39.240","port":22000,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇹🇼 台湾中转 05","type":"ss","server":"chiyu2.myfczy169.top","port":47695,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 日本NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45056,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇹🇭 泰国NO1","type":"vmess","server":"haa.dashuai.cyou","port":45060,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇦 加拿大2","type":"vmess","server":"xdd.dashuai.cyou","port":45065,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 中国-香港-F1-001-1C","type":"vmess","server":"212.192.12.56","port":21055,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰 香港02专线","type":"ss","server":"iepl.ytxfx.xyz","port":43580,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-001-1B","type":"vmess","server":"103.136.150.2","port":23000,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵 日本1","type":"vmess","server":"ip4-jp1.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpaylfastpDisney","headers":{"host":"ip4-jp1.vp1000.net"}}}
-  - {"name":"🇸🇬 新加坡02","type":"ss","server":"gy.tangu.win","port":45637,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 香港NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45051,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1A","type":"vmess","server":"176.32.39.240","port":22000,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵 日本中转 02","type":"ss","server":"chiyu.myfczy169.top","port":25578,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1C","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"0009478e-6e72-476c-a6b4-b91a885b2860","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇺🇸 美国中转 02","type":"ss","server":"chiyu.myfczy169.top","port":19161,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 英国01","type":"ss","server":"gy.tangu.win","port":45634,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1B","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1A","type":"hysteria2","server":"176.32.39.240","port":31000,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇯🇵 日本NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45057,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷 法国1","type":"vmess","server":"haa.dashuai.cyou","port":45072,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬 新加坡03","type":"ss","server":"gy.tangu.win","port":45627,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇷 巴西2","type":"vmess","server":"br.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpDisney","headers":{"host":"br.vp1000.net"}}}
-  - {"name":"🇭🇰 中国-香港-HY-F2-001-1B","type":"hysteria2","server":"212.192.12.73","port":32053,"password":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
-  - {"name":"🇭🇰 中国-香港-F2-001-1B","type":"vmess","server":"212.192.12.73","port":22036,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸 美国-拉斯维加斯-001-1B","type":"vmess","server":"45.147.201.231","port":20002,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇺🇸 美国-拉斯维加斯-002-1A","type":"vmess","server":"45.147.201.231","port":23061,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇮🇳 印度1","type":"vmess","server":"haa.dashuai.cyou","port":45074,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"下方为备用节点","type":"ss","server":"cainiao999.top","port":8888,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 新加坡01专线","type":"ss","server":"iepl.ytxfx.xyz","port":45636,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵 日本4-IP6","type":"vmess","server":"ip6-jp2.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpaylfastpDisney","headers":{"host":"ip4-jp2.vp1000.net"}}}
-  - {"name":"🇸🇬 新加坡中转 02","type":"ss","server":"chiyu.myfczy169.top","port":13127,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 台湾1","type":"vmess","server":"haa.dashuai.cyou","port":45078,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港","type":"vmess","server":"xg.dashuai.cyou","port":19901,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港中转 04","type":"ss","server":"chiyu2.myfczy169.top","port":50815,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 德国中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21091,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇷 巴西5-IP6","type":"vmess","server":"ip6-br5.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicpDisney","headers":{"host":"br.vp1000.net"}}}
-  - {"name":"🇮🇳 印度4","type":"vmess","server":"ip4-in4.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/pulicfastpDisney","headers":{"host":"ip4-in4.vp1000.net"}}}
-  - {"name":"🇺🇸 美国-拉斯维加斯-002-1C","type":"vmess","server":"45.147.201.231","port":23061,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇹🇼 台湾中转 04","type":"ss","server":"chiyu2.myfczy169.top","port":40780,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇻🇳 越南中转 01","type":"ss","server":"chiyu.myfczy169.top","port":21071,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国中转 01","type":"ss","server":"chiyu.myfczy169.top","port":13489,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 德国01-免费","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"cda4ab28-ac18-4cb9-92bf-657bb6ff3928","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.sh-cloudflare.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"de01.sh-cloudflare.sbs"}}}
-  - {"name":"🇺🇸 美国01-免费","type":"vmess","server":"us01.sh-cloudflare.sbs","port":8443,"cipher":"auto","uuid":"cda4ab28-ac18-4cb9-92bf-657bb6ff3928","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us01.sh-cloudflare.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"us01.sh-cloudflare.sbs"}}}
-  - {"name":"🇺🇸 美国01","type":"ss","server":"gy.tangu.win","port":45532,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1A","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇭🇰 中国-香港-001-1A","type":"vmess","server":"103.136.150.2","port":23000,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇫🇷 法国2","type":"vmess","server":"xdd.dashuai.cyou","port":45071,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港06-备用","type":"ss","server":"qqa813.198139.xyz","port":45640,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-纽约-F2-001-1B","type":"vmess","server":"207.90.237.179","port":22015,"cipher":"auto","uuid":"5557bd1f-0890-48c6-8e1a-dd664ffc8289","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇬 新加坡NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45055,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-001-1A","type":"vmess","server":"45.147.201.231","port":20002,"cipher":"auto","uuid":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇯🇵 日本中转 01","type":"ss","server":"chiyu.myfczy169.top","port":41473,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-纽约-HY-F2-001-1A","type":"hysteria2","server":"207.90.237.179","port":32051,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
-  - {"name":"🇹🇼 台湾04-备用","type":"ss","server":"qqa813.198139.xyz","port":11145,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇧🇷 巴西中转 01","type":"ss","server":"chiyu.myfczy169.top","port":20936,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 香港04-备用","type":"ss","server":"qqa813.198139.xyz","port":26641,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 美国-拉斯维加斯-001-1C","type":"vmess","server":"45.147.201.231","port":20002,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰 中国-香港-001-1C","type":"vmess","server":"103.136.150.2","port":23000,"cipher":"auto","uuid":"0009478e-6e72-476c-a6b4-b91a885b2860","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇦 加拿大1","type":"vmess","server":"haa.dashuai.cyou","port":45064,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰 香港01","type":"ss","server":"gy.tangu.win","port":45630,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇰🇷 韩国 专线NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45075,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 美国7","type":"vmess","server":"us159.vp1000.net","port":443,"cipher":"auto","uuid":"fef8ab91-9c96-4ec6-9aa9-fc0769895517","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cp100vp800kkkdsnx","headers":{"host":"us148.vp1000.net"}}}
-  - {"name":"🇰🇷 韩国 专线NO1","type":"vmess","server":"haa.dashuai.cyou","port":45076,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇬🇧 英国1","type":"vmess","server":"haa.dashuai.cyou","port":45066,"cipher":"auto","uuid":"6fc4d788-0da3-4a47-8610-0c578bbd0d9b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵 日本中转 05","type":"ss","server":"chiyu2.myfczy169.top","port":16542,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇭 泰国中转 01","type":"ss","server":"chiyu.myfczy169.top","port":20289,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 新加坡中转 04","type":"ss","server":"chiyu2.myfczy169.top","port":47639,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪 瑞典中转 01","type":"ss","server":"chiyu.myfczy169.top","port":22539,"password":"cf5de25b-378f-41ba-9654-6ddcae63971c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇼 台湾03-备用","type":"ss","server":"qqa813.198139.xyz","port":11135,"password":"e2d66d95-c498-4b02-ad12-bbbd0f3beeee","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 中国-香港-HY-001-1A","type":"hysteria2","server":"103.136.150.2","port":33000,"password":"91942ef1-401a-47a4-8da4-cba7af9b1c4e","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
+  - {"name":"🇭🇰 中国-香港-HY-001-1C","type":"hysteria2","server":"212.192.12.154","port":33001,"password":"dfcf271f-5db2-479b-970a-e705b3a03c6f","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
+  - {"name":"XM-CSK","type":"ss","server":"hk.kfsldflk.xyz","port":1200,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"aes-256-gcm"}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1B","type":"vmess","server":"195.58.49.84","port":22001,"cipher":"auto","uuid":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1A","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"629075c0-d06e-457c-8d8b-703e8c1bd33c","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇧🇷 巴西中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":20936,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国01","type":"ss","server":"gy.tangu.win","port":45532,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 韩国 专线NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45075,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇹🇼 台湾01专线","type":"ss","server":"iepl.ytxfx.xyz","port":45632,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":49821,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":37958,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":19115,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 04-1A","type":"ss","server":"chiyu2.myfczy169.top","port":47639,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-001-1A","type":"vmess","server":"45.147.201.231","port":20003,"cipher":"auto","uuid":"629075c0-d06e-457c-8d8b-703e8c1bd33c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵 日本中转 04-1A","type":"ss","server":"chiyu2.myfczy169.top","port":39886,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":41512,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港01-1B","type":"ss","server":"gy.666666222.shop","port":34338,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":57329,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":25710,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":19946,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":13489,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 05-1B","type":"ss","server":"chiyu2.myfczy169.top","port":19055,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本04","type":"ss","server":"gy.666666222.shop","port":20008,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇳 越南01","type":"ss","server":"gy.tangu.win","port":13642,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 韩国 专线NO1","type":"vmess","server":"haa.dashuai.cyou","port":45076,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇯🇵 日本NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45056,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇦🇪 阿联酋中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21059,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":54016,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾 1","type":"ss","server":"gy.666666222.shop","port":20032,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 纽约01","type":"ss","server":"gy.666666222.shop","port":20013,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 05-1A","type":"ss","server":"chiyu2.myfczy169.top","port":19055,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 05-1A","type":"ss","server":"chiyu2.myfczy169.top","port":57141,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港01-1A","type":"ss","server":"gy.tangu.win","port":45630,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":54804,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪 阿联酋中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21059,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":50563,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-002-1C","type":"vmess","server":"45.147.201.231","port":23062,"cipher":"auto","uuid":"dfcf271f-5db2-479b-970a-e705b3a03c6f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1A","type":"vmess","server":"195.58.49.84","port":22001,"cipher":"auto","uuid":"629075c0-d06e-457c-8d8b-703e8c1bd33c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇲🇾 马来西亚专线NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45059,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇬🇧 英国中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":19115,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本03","type":"ss","server":"gy.666666222.shop","port":20006,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港03-1B","type":"ss","server":"gy.666666222.shop","port":20052,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":26480,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 德国中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21091,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 04-1A","type":"ss","server":"chiyu2.myfczy169.top","port":50815,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":25578,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾 马来西亚中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":20119,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本02","type":"ss","server":"gy.666666222.shop","port":20004,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡01专线","type":"ss","server":"iepl.ytxfx.xyz","port":45636,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":13489,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本01-1A","type":"ss","server":"gy.tangu.win","port":38726,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国2","type":"vmess","server":"xdd.dashuai.cyou","port":45067,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇹🇼 台湾中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":50555,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇷 巴西中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":20936,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":49821,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":41473,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾2","type":"vmess","server":"xdd.dashuai.cyou","port":45077,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇦🇺 澳大利亚原生2","type":"vmess","server":"xdd.dashuai.cyou","port":45063,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇪 瑞典中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":22539,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":13127,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1B","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇮🇳 印度中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21061,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 土耳其中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21048,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 德国中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21091,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国02","type":"ss","server":"gy.tangu.win","port":45628,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 法国1","type":"vmess","server":"haa.dashuai.cyou","port":45072,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"哈撒哈斯坦中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21081,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国01-免费","type":"vmess","server":"us01.sh-cloudflare.sbs","port":8443,"cipher":"auto","uuid":"11b52a43-9bd1-4fd5-ba25-acb6d1e670ac","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us01.sh-cloudflare.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"us01.sh-cloudflare.sbs"}}}
+  - {"name":"🇭🇰 香港06-备用","type":"ss","server":"qqa813.198139.xyz","port":45640,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-002-1A","type":"vmess","server":"45.147.201.231","port":23062,"cipher":"auto","uuid":"629075c0-d06e-457c-8d8b-703e8c1bd33c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇬🇧 英国中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":26480,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡03","type":"ss","server":"gy.tangu.win","port":45627,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 04-1B","type":"ss","server":"chiyu2.myfczy169.top","port":40780,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45054,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-001-1C","type":"vmess","server":"45.147.201.231","port":20003,"cipher":"auto","uuid":"dfcf271f-5db2-479b-970a-e705b3a03c6f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1A","type":"hysteria2","server":"195.58.49.84","port":31000,"password":"629075c0-d06e-457c-8d8b-703e8c1bd33c","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇸🇬 新加坡NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45055,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 中国-香港-001-1C","type":"vmess","server":"212.192.12.154","port":23001,"cipher":"auto","uuid":"dfcf271f-5db2-479b-970a-e705b3a03c6f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇲🇾 马来西亚中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":20119,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇾 马来西亚专线NO1","type":"vmess","server":"haa.dashuai.cyou","port":45058,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇮🇳 印度2","type":"vmess","server":"xdd.dashuai.cyou","port":45073,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":50563,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 05-1A","type":"ss","server":"chiyu2.myfczy169.top","port":16542,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾1","type":"vmess","server":"haa.dashuai.cyou","port":45078,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-002-1C","type":"hysteria2","server":"45.147.201.231","port":33060,"password":"dfcf271f-5db2-479b-970a-e705b3a03c6f","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇹🇼 台湾中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":41512,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-002-1B","type":"vmess","server":"45.147.201.231","port":23062,"cipher":"auto","uuid":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸 美国-拉斯维加斯-001-1B","type":"vmess","server":"45.147.201.231","port":20003,"cipher":"auto","uuid":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇹🇼 台湾04-备用","type":"ss","server":"qqa813.198139.xyz","port":11145,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国1","type":"vmess","server":"haa.dashuai.cyou","port":45066,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬 新加坡中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":26867,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1B","type":"hysteria2","server":"195.58.49.84","port":31000,"password":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇭🇰 香港02专线","type":"ss","server":"iepl.ytxfx.xyz","port":43580,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 法国2","type":"vmess","server":"xdd.dashuai.cyou","port":45071,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬 新加坡中转 05-1B","type":"ss","server":"chiyu2.myfczy169.top","port":57141,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1B","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇭🇰 中国-香港-001-1B","type":"vmess","server":"212.192.12.154","port":23001,"cipher":"auto","uuid":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇹🇼 台湾中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":50555,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾02-备用","type":"ss","server":"qqa813.198139.xyz","port":11125,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":25578,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 土耳其中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21048,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡02","type":"ss","server":"gy.tangu.win","port":45637,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45051,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国中转 02-1A","type":"ss","server":"chiyu.myfczy169.top","port":19161,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾03-备用","type":"ss","server":"qqa813.198139.xyz","port":11135,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1C","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"dfcf271f-5db2-479b-970a-e705b3a03c6f","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇭🇰 香港","type":"vmess","server":"xg.dashuai.cyou","port":19901,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇮🇳 印度中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21061,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 泰国中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":20289,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本中转 04-1B","type":"ss","server":"chiyu2.myfczy169.top","port":39886,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 03-1A","type":"ss","server":"chiyu.myfczy169.top","port":37958,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":13127,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国 纽约2","type":"ss","server":"gy.666666222.shop","port":20016,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":26867,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 05-1A","type":"ss","server":"chiyu2.myfczy169.top","port":47695,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 加拿大1","type":"vmess","server":"haa.dashuai.cyou","port":45064,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 香港02","type":"ss","server":"gy.666666222.shop","port":20035,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 中国-香港-HY-001-1B","type":"hysteria2","server":"212.192.12.154","port":33001,"password":"853fd6d1-0e23-4219-a39d-4cf8dd4a602b","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
+  - {"name":"🇹🇼 台湾01","type":"ss","server":"gy.666666222.shop","port":47564,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-HY-001-1C","type":"hysteria2","server":"195.58.49.84","port":31000,"password":"dfcf271f-5db2-479b-970a-e705b3a03c6f","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"🇯🇵 日本中转 05-1B","type":"ss","server":"chiyu2.myfczy169.top","port":16542,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 04-1B","type":"ss","server":"chiyu2.myfczy169.top","port":50815,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港04-备用","type":"ss","server":"qqa813.198139.xyz","port":26641,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵 日本NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45057,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 香港中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":19946,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 中国-香港-HY-001-1A","type":"hysteria2","server":"212.192.12.154","port":33001,"password":"629075c0-d06e-457c-8d8b-703e8c1bd33c","skip-cert-verify":true,"obfs-password":"M2UyNTc5OWUwYjkyM2Q2OQ=="}
+  - {"name":"🇺🇸 美国中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":19161,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 瑞典中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":22539,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"下方为备用节点-1B","type":"ss","server":"cainiao999.top","port":8888,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇺 澳大利亚原生1","type":"vmess","server":"haa.dashuai.cyou","port":45062,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 香港中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":54016,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 04-1A","type":"ss","server":"chiyu2.myfczy169.top","port":40780,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇻🇳 越南中转 01-1A","type":"ss","server":"chiyu.myfczy169.top","port":21071,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 泰国中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":20289,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":54804,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国01","type":"ss","server":"gy.tangu.win","port":45634,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 新加坡中转 04-1B","type":"ss","server":"chiyu2.myfczy169.top","port":47639,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 英国中转 03-1B","type":"ss","server":"chiyu.myfczy169.top","port":57329,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 泰国NO2","type":"vmess","server":"xdd.dashuai.cyou","port":45061,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰 中国-香港-001-1A","type":"vmess","server":"212.192.12.154","port":23001,"cipher":"auto","uuid":"629075c0-d06e-457c-8d8b-703e8c1bd33c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇯🇵 日本01-1B","type":"ss","server":"gy.666666222.shop","port":20002,"password":"83efce9d-e9a2-4a65-88f3-615c5c954933","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国-拉斯维加斯-HY-001-1A","type":"hysteria2","server":"45.147.201.231","port":30000,"password":"629075c0-d06e-457c-8d8b-703e8c1bd33c","skip-cert-verify":true,"obfs-password":"NDhhNmY5YTY0MGYzOTgxYQ=="}
+  - {"name":"哈撒哈斯坦中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21081,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇼 台湾中转 05-1B","type":"ss","server":"chiyu2.myfczy169.top","port":47695,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"下方为备用节点-1A","type":"ss","server":"cainiao999.top","port":8888,"password":"254d952e-ca2d-4449-899e-b694aa50f440","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国NO.2","type":"vmess","server":"xdd.dashuai.cyou","port":45053,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇩🇪 德国01-免费","type":"vmess","server":"de01.sh-cloudflare.sbs","port":2096,"cipher":"auto","uuid":"11b52a43-9bd1-4fd5-ba25-acb6d1e670ac","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.sh-cloudflare.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"de01.sh-cloudflare.sbs"}}}
+  - {"name":"🇹🇼 台湾中转 02-1B","type":"ss","server":"chiyu.myfczy169.top","port":25710,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 香港03-1A","type":"ss","server":"gy.tangu.win","port":45635,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 美国04","type":"ss","server":"gy.tangu.win","port":38722,"password":"93663546-df5a-4353-b879-e0f1a462a50a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 加拿大2","type":"vmess","server":"xdd.dashuai.cyou","port":45065,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇯🇵 日本中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":41473,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇭 泰国NO1","type":"vmess","server":"haa.dashuai.cyou","port":45060,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇷🇺 俄罗斯-圣彼得堡-001-1C","type":"vmess","server":"195.58.49.84","port":22001,"cipher":"auto","uuid":"dfcf271f-5db2-479b-970a-e705b3a03c6f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇮🇳 印度1","type":"vmess","server":"haa.dashuai.cyou","port":45074,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 美国NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45052,"cipher":"auto","uuid":"95afbc3f-952e-4f00-965d-179ac313591a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇻🇳 越南中转 01-1B","type":"ss","server":"chiyu.myfczy169.top","port":21071,"password":"f62738c0-0ad4-4800-8ba6-936ac333fabb","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1114,145 +1233,162 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港03
-      - 🇹🇼 台湾中转 01
-      - 🇸🇬 新加坡中转 03
       - 🇭🇰 中国-香港-HY-001-1C
-      - 🇺🇸 美国-纽约-F2-001-1C
-      - 🇯🇵 日本中转 04
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-      - 🇭🇰 中国-香港-HY-001-1B
-      - 🇹🇼 台湾中转 03
-      - 🇭🇰 中国-香港-HY-F2-001-1A
-      - 🇭🇰 香港中转 05
-      - 🇹🇼 台湾中转 02
-      - 🇹🇼 台湾01专线
-      - 🇺🇸 美国NO.1
-      - 🇮🇳 印度中转 01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-      - 🇹🇼 台湾02-备用
-      - 🇦🇪 阿联酋中转 01
-      - 🇭🇰 香港中转 02
-      - 🇯🇵 日本中转 03
-      - 🇸🇬 新加坡中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1B
-      - 🇹🇷 土耳其中转 01
-      - 🇭🇰 中国-香港-F2-001-1C
+      - XM-CSK
       - 🇷🇺 俄罗斯-圣彼得堡-001-1B
-      - 🇲🇾 马来西亚专线NO1
-      - 🇬🇧 英国中转 01
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+      - 🇧🇷 巴西中转 01-1A
+      - 🇺🇸 美国01
+      - 🇰🇷 韩国 专线NO2
+      - 🇹🇼 台湾01专线
+      - 🇯🇵 日本中转 03-1B
+      - 🇸🇬 新加坡中转 03-1B
+      - 🇬🇧 英国中转 02-1B
+      - 🇸🇬 新加坡中转 04-1A
+      - 🇺🇸 美国-拉斯维加斯-001-1A
+      - 🇯🇵 日本中转 04-1A
+      - 🇹🇼 台湾中转 03-1A
+      - 🇭🇰 香港01-1B
+      - 🇬🇧 英国中转 03-1A
+      - 🇹🇼 台湾中转 02-1A
+      - 🇭🇰 香港中转 02-1A
+      - 🇺🇸 美国中转 01-1B
+      - 🇭🇰 香港中转 05-1B
+      - 🇯🇵 日本04
       - 🇻🇳 越南01
-      - 🇦🇺 澳大利亚原生1
-      - 🇧🇷 巴西4-IP6
-      - 🇺🇸 美国中转 03
-      - 🇬🇧 英国中转 02
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-      - 🇺🇸 美国NO.2
-      - 🇭🇰 中国-香港-F1-001-1B
-      - 🇺🇸 美国6
-      - 🇹🇼 台湾2
-      - 🇯🇵 日本2
-      - 🇺🇸 美国5
-      - 🇭🇰 中国-香港-HY-F2-001-1C
-      - 🇧🇷 巴西3
-      - 🇯🇵 日本3-IP6
-      - 🇺🇸 美国-纽约-HY-F2-001-1C
-      - 🇬🇧 英国2
-      - 🇭🇰 中国-香港-HY-F1-001-1B
-      - 🇹🇭 泰国NO2
-      - 🇦🇺 澳大利亚原生2
-      - 🇸🇬 新加坡NO.1
-      - 🇲🇾 马来西亚中转 01
-      - 🇭🇰 中国-香港-F2-001-1A
-      - 🇺🇸 美国02
-      - 🇲🇾 马来西亚专线NO2
-      - 🇺🇸 美国4
-      - 🇮🇳 印度3-IP6
-      - 🇬🇧 英国中转 03
-      - 🇺🇸 美国04
-      - 🇭🇰 中国-香港-HY-F1-001-1A
-      - 🇭🇰 香港中转 03
-      - 🇮🇳 印度2
-      - 🇺🇸 美国-纽约-F2-001-1A
-      - 哈撒哈斯坦中转 01
-      - 🇭🇰 中国-香港-HY-F1-001-1C
-      - 🇸🇬 新加坡中转 05
-      - 🇭🇰 中国-香港-F1-001-1A
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
-      - 🇺🇸 美国-拉斯维加斯-002-1B
-      - 🇭🇰 香港中转 01
-      - 🇯🇵 日本01
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
-      - 🇹🇼 台湾中转 05
+      - 🇰🇷 韩国 专线NO1
       - 🇯🇵 日本NO.1
-      - 🇹🇭 泰国NO1
-      - 🇨🇦 加拿大2
-      - 🇭🇰 中国-香港-F1-001-1C
+      - 🇦🇪 阿联酋中转 01-1B
+      - 🇭🇰 香港中转 01-1B
+      - 🇹🇼 台湾 1
+      - 🇺🇸 美国 纽约01
+      - 🇭🇰 香港中转 05-1A
+      - 🇸🇬 新加坡中转 05-1A
+      - 🇭🇰 香港01-1A
+      - 🇭🇰 香港中转 03-1A
+      - 🇦🇪 阿联酋中转 01-1A
+      - 🇺🇸 美国中转 03-1A
+      - 🇺🇸 美国-拉斯维加斯-002-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+      - 🇲🇾 马来西亚专线NO2
+      - 🇬🇧 英国中转 02-1A
+      - 🇯🇵 日本03
+      - 🇭🇰 香港03-1B
+      - 🇬🇧 英国中转 01-1B
+      - 🇩🇪 德国中转 01-1A
+      - 🇭🇰 香港中转 04-1A
+      - 🇯🇵 日本中转 02-1B
+      - 🇲🇾 马来西亚中转 01-1B
+      - 🇯🇵 日本02
+      - 🇸🇬 新加坡01专线
+      - 🇺🇸 美国中转 01-1A
+      - 🇯🇵 日本01-1A
+      - 🇬🇧 英国2
+      - 🇹🇼 台湾中转 01-1A
+      - 🇧🇷 巴西中转 01-1B
+      - 🇯🇵 日本中转 03-1A
+      - 🇯🇵 日本中转 01-1A
+      - 🇹🇼 台湾2
+      - 🇦🇺 澳大利亚原生2
+      - 🇸🇪 瑞典中转 01-1A
+      - 🇸🇬 新加坡中转 02-1A
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+      - 🇮🇳 印度中转 01-1B
+      - 🇹🇷 土耳其中转 01-1B
+      - 🇩🇪 德国中转 01-1B
+      - 🇺🇸 美国02
+      - 🇫🇷 法国1
+      - 哈撒哈斯坦中转 01-1A
+      - 🇺🇸 美国01-免费
+      - 🇭🇰 香港06-备用
+      - 🇺🇸 美国-拉斯维加斯-002-1A
+      - 🇬🇧 英国中转 01-1A
+      - 🇸🇬 新加坡03
+      - 🇹🇼 台湾中转 04-1B
+      - 🇸🇬 新加坡NO.1
+      - 🇺🇸 美国-拉斯维加斯-001-1C
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+      - 🇸🇬 新加坡NO.2
+      - 🇭🇰 中国-香港-001-1C
+      - 🇲🇾 马来西亚中转 01-1A
+      - 🇲🇾 马来西亚专线NO1
+      - 🇮🇳 印度2
+      - 🇺🇸 美国中转 03-1B
+      - 🇯🇵 日本中转 05-1A
+      - 🇹🇼 台湾1
+      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+      - 🇹🇼 台湾中转 03-1B
+      - 🇺🇸 美国-拉斯维加斯-002-1B
+      - 🇺🇸 美国-拉斯维加斯-001-1B
+      - 🇹🇼 台湾04-备用
+      - 🇬🇧 英国1
+      - 🇸🇬 新加坡中转 01-1B
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
       - 🇭🇰 香港02专线
+      - 🇫🇷 法国2
+      - 🇸🇬 新加坡中转 05-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
       - 🇭🇰 中国-香港-001-1B
-      - 🇯🇵 日本1
+      - 🇹🇼 台湾中转 01-1B
+      - 🇹🇼 台湾02-备用
+      - 🇯🇵 日本中转 02-1A
+      - 🇹🇷 土耳其中转 01-1A
       - 🇸🇬 新加坡02
       - 🇭🇰 香港NO.2
-      - 🇷🇺 俄罗斯-圣彼得堡-001-1A
-      - 🇯🇵 日本中转 02
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-      - 🇺🇸 美国中转 02
-      - 🇬🇧 英国01
-      - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
-      - 🇯🇵 日本NO.2
-      - 🇫🇷 法国1
-      - 🇸🇬 新加坡03
-      - 🇧🇷 巴西2
-      - 🇭🇰 中国-香港-HY-F2-001-1B
-      - 🇭🇰 中国-香港-F2-001-1B
-      - 🇺🇸 美国-拉斯维加斯-001-1B
-      - 🇺🇸 美国-拉斯维加斯-002-1A
-      - 🇮🇳 印度1
-      - 下方为备用节点
-      - 🇸🇬 新加坡01专线
-      - 🇯🇵 日本4-IP6
-      - 🇸🇬 新加坡中转 02
-      - 🇹🇼 台湾1
-      - 🇭🇰 香港
-      - 🇭🇰 香港中转 04
-      - 🇩🇪 德国中转 01
-      - 🇧🇷 巴西5-IP6
-      - 🇮🇳 印度4
-      - 🇺🇸 美国-拉斯维加斯-002-1C
-      - 🇹🇼 台湾中转 04
-      - 🇻🇳 越南中转 01
-      - 🇺🇸 美国中转 01
-      - 🇩🇪 德国01-免费
-      - 🇺🇸 美国01-免费
-      - 🇺🇸 美国01
-      - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-      - 🇭🇰 中国-香港-001-1A
-      - 🇫🇷 法国2
-      - 🇭🇰 香港06-备用
-      - 🇺🇸 美国-纽约-F2-001-1B
-      - 🇸🇬 新加坡NO.2
-      - 🇺🇸 美国-拉斯维加斯-001-1A
-      - 🇯🇵 日本中转 01
-      - 🇺🇸 美国-纽约-HY-F2-001-1A
-      - 🇹🇼 台湾04-备用
-      - 🇧🇷 巴西中转 01
-      - 🇭🇰 香港04-备用
-      - 🇺🇸 美国-拉斯维加斯-001-1C
-      - 🇭🇰 中国-香港-001-1C
-      - 🇨🇦 加拿大1
-      - 🇭🇰 香港01
-      - 🇰🇷 韩国 专线NO2
-      - 🇺🇸 美国7
-      - 🇰🇷 韩国 专线NO1
-      - 🇬🇧 英国1
-      - 🇯🇵 日本中转 05
-      - 🇹🇭 泰国中转 01
-      - 🇸🇬 新加坡中转 04
-      - 🇸🇪 瑞典中转 01
+      - 🇺🇸 美国中转 02-1A
       - 🇹🇼 台湾03-备用
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+      - 🇭🇰 香港
+      - 🇮🇳 印度中转 01-1A
+      - 🇹🇭 泰国中转 01-1A
+      - 🇯🇵 日本中转 04-1B
+      - 🇸🇬 新加坡中转 03-1A
+      - 🇸🇬 新加坡中转 02-1B
+      - 🇺🇸 美国 纽约2
+      - 🇸🇬 新加坡中转 01-1A
+      - 🇹🇼 台湾中转 05-1A
+      - 🇨🇦 加拿大1
+      - 🇭🇰 香港02
+      - 🇭🇰 中国-香港-HY-001-1B
+      - 🇹🇼 台湾01
+      - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+      - 🇯🇵 日本中转 05-1B
+      - 🇭🇰 香港中转 04-1B
+      - 🇭🇰 香港04-备用
+      - 🇯🇵 日本NO.2
+      - 🇭🇰 香港中转 02-1B
       - 🇭🇰 中国-香港-HY-001-1A
+      - 🇺🇸 美国中转 02-1B
+      - 🇸🇪 瑞典中转 01-1B
+      - 下方为备用节点-1B
+      - 🇦🇺 澳大利亚原生1
+      - 🇭🇰 香港中转 01-1A
+      - 🇹🇼 台湾中转 04-1A
+      - 🇻🇳 越南中转 01-1A
+      - 🇹🇭 泰国中转 01-1B
+      - 🇭🇰 香港中转 03-1B
+      - 🇬🇧 英国01
+      - 🇸🇬 新加坡中转 04-1B
+      - 🇬🇧 英国中转 03-1B
+      - 🇹🇭 泰国NO2
+      - 🇭🇰 中国-香港-001-1A
+      - 🇯🇵 日本01-1B
+      - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+      - 哈撒哈斯坦中转 01-1B
+      - 🇹🇼 台湾中转 05-1B
+      - 下方为备用节点-1A
+      - 🇺🇸 美国NO.2
+      - 🇩🇪 德国01-免费
+      - 🇹🇼 台湾中转 02-1B
+      - 🇭🇰 香港03-1A
+      - 🇺🇸 美国04
+      - 🇨🇦 加拿大2
+      - 🇯🇵 日本中转 01-1B
+      - 🇹🇭 泰国NO1
+      - 🇷🇺 俄罗斯-圣彼得堡-001-1C
+      - 🇮🇳 印度1
+      - 🇺🇸 美国NO.1
+      - 🇻🇳 越南中转 01-1B
 
 rules:
 # 本地/局域网地址
