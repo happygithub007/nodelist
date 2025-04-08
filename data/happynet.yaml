@@ -1,0 +1,665 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2025-04-08 14:01:43
+# 使用模版：V2RaySE 默认模版
+# 节点数量：52
+####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+proxies:
+  - {"name":"jp1129_1","type":"vless","server":"104.17.177.179","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220_1","type":"vless","server":"172.64.135.89","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2086_1","type":"vless","server":"172.64.135.89","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2082_1","type":"vless","server":"172.64.135.89","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2095_1","type":"vless","server":"172.64.135.89","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2052_1","type":"vless","server":"172.64.135.89","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-80_1","type":"vless","server":"172.64.135.89","port":80,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-8080_1","type":"vless","server":"172.64.135.89","port":8080,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-8880_1","type":"vless","server":"172.64.135.89","port":8880,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1129_2","type":"vless","server":"104.17.177.179","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220_2","type":"vless","server":"172.64.135.89","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happyne0-tls","type":"vless","server":"104.19.62.86","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet0-tls","type":"vless","server":"bestcf.onecf.eu.org","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"happynet1-tls","type":"vless","server":"104.17.161.100","port":443,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":true,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp01","type":"vless","server":"104.19.62.86","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp02","type":"vless","server":"104.18.239.10","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp03","type":"vless","server":"162.159.130.170","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp04","type":"vless","server":"104.18.178.40","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp05","type":"vless","server":"104.16.251.253","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp06","type":"vless","server":"162.159.133.41","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp07","type":"vless","server":"104.17.161.100","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp08","type":"vless","server":"104.19.223.54","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp09","type":"vless","server":"104.19.222.140","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp10_1","type":"vless","server":"104.25.254.168","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp10_2","type":"vless","server":"104.25.254.168","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1125_1","type":"vless","server":"104.22.29.55","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1125_2","type":"vless","server":"104.22.29.55","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1129_3","type":"vless","server":"104.17.177.179","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg01","type":"vless","server":"162.159.133.41","port":2082,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg02","type":"vless","server":"104.16.5.157","port":2052,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg03","type":"vless","server":"104.19.222.140","port":2086,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg1125_1","type":"vless","server":"104.22.29.55","port":2086,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg1125_2","type":"vless","server":"104.22.29.55","port":2052,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"sg1129","type":"vless","server":"104.17.177.179","port":2052,"uuid":"6b8bfbd3-75e3-4917-bd54-d57d428fbe5f","tls":false,"servername":"sgnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"sgnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us01","type":"vless","server":"162.159.133.41","port":2052,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us02","type":"vless","server":"104.19.222.140","port":2095,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us1125_1","type":"vless","server":"104.22.29.55","port":2086,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us1125_2","type":"vless","server":"104.22.29.55","port":2095,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"us1129","type":"vless","server":"104.17.177.179","port":2082,"uuid":"2475ec9a-b3da-43c0-afea-ecc341732949","tls":false,"servername":"usnet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usnet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2086_2","type":"vless","server":"172.64.135.89","port":2086,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2082_2","type":"vless","server":"172.64.135.89","port":2082,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2095_2","type":"vless","server":"172.64.135.89","port":2095,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-2052_2","type":"vless","server":"172.64.135.89","port":2052,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-80_2","type":"vless","server":"172.64.135.89","port":80,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-8080_2","type":"vless","server":"172.64.135.89","port":8080,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jp1220-8880_2","type":"vless","server":"172.64.135.89","port":8880,"uuid":"815842eb-ad06-494a-ba05-4b067a012b4e","tls":false,"servername":"happynet.fhe-5ney.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"happynet.fhe-5ney.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V8_usa.visa.com_443","type":"vless","server":"usa.visa.com","port":443,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V9_myanmar.visa.com_8443","type":"vless","server":"myanmar.visa.com","port":8443,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V10_www.visa.com.tw_2053","type":"vless","server":"www.visa.com.tw","port":2053,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V11_www.visaeurope.ch_2083","type":"vless","server":"www.visaeurope.ch","port":2083,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V12_www.visa.com.br_2087","type":"vless","server":"www.visa.com.br","port":2087,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+  - {"name":"CF_V13_www.visasoutheasteurope.com_2096","type":"vless","server":"www.visasoutheasteurope.com","port":2096,"uuid":"68abcd8f-de3c-4d31-a2e7-32b25e697537","tls":true,"servername":"a.reatorfttior.zone.id","network":"ws","ws-opts":{"path":"/?ed=2560","headers":{"host":"a.reatorfttior.zone.id"}},"client-fingerprint":"randomized"}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - jp1129_1
+      - jp1220_1
+      - jp1220-2086_1
+      - jp1220-2082_1
+      - jp1220-2095_1
+      - jp1220-2052_1
+      - jp1220-80_1
+      - jp1220-8080_1
+      - jp1220-8880_1
+      - jp1129_2
+      - jp1220_2
+      - happyne0-tls
+      - happynet0-tls
+      - happynet1-tls
+      - jp01
+      - jp02
+      - jp03
+      - jp04
+      - jp05
+      - jp06
+      - jp07
+      - jp08
+      - jp09
+      - jp10_1
+      - jp10_2
+      - jp1125_1
+      - jp1125_2
+      - jp1129_3
+      - sg01
+      - sg02
+      - sg03
+      - sg1125_1
+      - sg1125_2
+      - sg1129
+      - us01
+      - us02
+      - us1125_1
+      - us1125_2
+      - us1129
+      - jp1220-2086_2
+      - jp1220-2082_2
+      - jp1220-2095_2
+      - jp1220-2052_2
+      - jp1220-80_2
+      - jp1220-8080_2
+      - jp1220-8880_2
+      - CF_V8_usa.visa.com_443
+      - CF_V9_myanmar.visa.com_8443
+      - CF_V10_www.visa.com.tw_2053
+      - CF_V11_www.visaeurope.ch_2083
+      - CF_V12_www.visa.com.br_2087
+      - CF_V13_www.visasoutheasteurope.com_2096
+
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/LocalAreaNetwork.list
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/BanAD.list
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/BanProgramAD.list
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/GoogleCN.list
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/SteamCN.list
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/Microsoft.list
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/Apple.list
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/ProxyMedia.list
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/Telegram.list
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/ProxyLite.list
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/ChinaDomain.list
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    format: text
+    interval: 3600
+    path: ./ACL4SSR/ACL4SSR/ChinaCompanyIp.list
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
+# 长风网站，自动注入
+  - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
+  - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+  - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
